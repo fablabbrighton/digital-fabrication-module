@@ -1,3 +1,10 @@
+---
+layout: page
+title: My DIY Arduino notes
+permalink: /diy-arduino/
+---
+
+
 # My DIY Arduino notes
 
 ## Why do it?
