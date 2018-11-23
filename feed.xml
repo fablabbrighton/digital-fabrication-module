@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://andrewsleigh.com/learning/digital-fabrication-module/feed.xml" rel="self" type="application/atom+xml" /><link href="https://andrewsleigh.com/learning/digital-fabrication-module/" rel="alternate" type="text/html" /><updated>2018-11-23T22:24:45+01:00</updated><id>https://andrewsleigh.com/learning/digital-fabrication-module/</id><title type="html">Digital Fabrication Module</title><subtitle>Work-in-progress and draft course notes for a module in digital fabrication at University of Brighton, based on Fab Academy</subtitle><entry><title type="html">Week 3: Laser cutter: computer-controlled cutting (CNC)</title><link href="https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html" rel="alternate" type="text/html" title="Week 3: Laser cutter: computer-controlled cutting (CNC)" /><published>2018-11-23T00:00:00+01:00</published><updated>2018-11-23T00:00:00+01:00</updated><id>https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting</id><content type="html" xml:base="https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html">&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Course content derived from Fab Academy: &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/index.html&quot;&gt;http://academy.cba.mit.edu/classes/computer_cutting/index.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Neil’s lecture from 2018 (Fab-20180207D_Lesson03): &lt;a href=&quot;http://fab.academany.org/2018/lectures/fab-20180207.html&quot;&gt;Fab Academy 20180207 Recordings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assignment&quot;&gt;Assignment&lt;/h2&gt;
+
+&lt;h3 id=&quot;group-assignment&quot;&gt;Group assignment&lt;/h3&gt;
+
+&lt;p&gt;Characterise your lasercutter, making test part(s) that vary cutting settings and dimensions
+Make test cuts, vary power, speed and frequency for different materials. Document settings for different materials and thicknesses
+Make kerf tests to find good settings for different materials. Use these results for your own (parametric) design&lt;/p&gt;
+
+&lt;!-- Do we need a group assignment? Is it feasible to do? --&gt;
+
+&lt;h3 id=&quot;individual-assignment&quot;&gt;Individual assignment&lt;/h3&gt;
+
+&lt;p&gt;Design, lasercut, and document a parametric  &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html&quot;&gt;press-fit construction kit&lt;/a&gt;, accounting for the lasercutter kerf, which can be assembled in multiple ways&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;an-overview-of-cnc-cutting-tools&quot;&gt;An overview of CNC cutting tools&lt;/h2&gt;
+
+&lt;p&gt;In this module, we’re going to focus on the laser cutter (optionally also the vinyl cutter)&lt;/p&gt;
+
+&lt;h3 id=&quot;knife&quot;&gt;Knife&lt;/h3&gt;
+
+&lt;p&gt;Vinyl cutters - under-utilised tools in Fablabs. e.g.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rolanddga.com/products/vinyl-cutters&quot;&gt;Roland&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zund.com/&quot;&gt;Zund&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PG9lJOnNTzQ&quot;&gt;Othercutter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.honda-el.co.jp/en/industry&quot;&gt;ultrasonic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;laser&quot;&gt;Laser&lt;/h3&gt;
+&lt;p&gt;Most used machine in the lab&lt;br /&gt;
+Huge spectrum of capability:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lightcon.com/Product/PHAROS.html&quot;&gt;PHAROS&lt;/a&gt;  - “disassembles material on an atomic scale, lets you do laser cutting down to microns”  / $100k&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.epiloglaser.com/product_line.htm&quot;&gt;Epilog&lt;/a&gt;    - we have a Helix  / £10k&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fslaser.com/&quot;&gt;Full Spectrum&lt;/a&gt;  Hobbyist lasers / $1k&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plasma&quot;&gt;Plasma&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://forestscientific.com/cnc-plasma-cutters&quot;&gt;Forest Scientific&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://torchmate.com/&quot;&gt;Torchmate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;waterjet&quot;&gt;Waterjet&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.omax.com/&quot;&gt;OMAX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.flowwaterjet.com/&quot;&gt;Flow&lt;/a&gt; – Can cut anything / $100k / Uses consumables - you must add new garnet, and remove garnet sludge&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.wazer.com/&quot;&gt;WAZER&lt;/a&gt;   - a kickstarter project, becoming more accessible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hot-wire&quot;&gt;Hot wire&lt;/h3&gt;
+
+&lt;p&gt;Killer app: architectural decoration and special effects in foam.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.3dcutting.com/solutions/frogwire.html&quot;&gt;FROGWire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hotwiresystems.com/hot-wire-cnc-foam-cutters&quot;&gt;Hotwire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ng.cba.mit.edu/show/video/14.08.modular.mp4&quot;&gt;MTM&lt;/a&gt; Good candidate for a DIY project: just need two positional ends and a resistive wire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;computer-aided-design-cad-software&quot;&gt;Computer Aided Design (CAD) software&lt;/h2&gt;
+
+&lt;h3 id=&quot;we-use&quot;&gt;We use&lt;/h3&gt;
+
+&lt;p&gt;Mostly &lt;strong&gt;Fusion360, Rhino, Solidworks&lt;/strong&gt; for 3D; &lt;strong&gt;Illustrator or Inkscape&lt;/strong&gt; for 2D&lt;/p&gt;
+
+&lt;h3 id=&quot;others&quot;&gt;Others&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_design/inkscape.mp4&quot;&gt;video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.rhino3d.com/&quot;&gt;Rhino&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.grasshopper3d.com/&quot;&gt;Grasshopper&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=mZ_1jC2FrnY&amp;amp;t=2s&quot;&gt;video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blender.org/&quot;&gt;Blender&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nikitron.cc.ua/sverch/html/main.html&quot;&gt;Sverchok&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freecadweb.org/&quot;&gt;FreeCAD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freecadweb.org/wiki/Sketcher_Workbench&quot;&gt;Sketcher&lt;/a&gt; &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_design/freecadsketch.mp4&quot;&gt;video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.autodesk.com/products/fusion-360/overview&quot;&gt;Fusion 360&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.autodesk.com/FUSION/en/Detail/Index?id=8699194120463301363&amp;amp;os=Win64&amp;amp;appLang=en&quot;&gt;Slicer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.solidworks.com/&quot;&gt;SolidWorks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xdesign.solidworks.com/&quot;&gt;xDesign&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.onshape.com/&quot;&gt;Onshape&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://appstore.onshape.com/apps/CAM/EAAEWYIOMQKBENEMYW2N7MF253CT4WYL6SUJGEY=/description&quot;&gt;Kiri:Moto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mkeeter/antimony&quot;&gt;Antimony&lt;/a&gt;  &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_design/antimony.mp4&quot;&gt;video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tamasoft.co.jp/pepakura-en/&quot;&gt;Pepakura&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hci.rwth-aachen.de/visicut&quot;&gt;VisiCut&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flatfab.com/&quot;&gt;flatfab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.exactflat.com/&quot;&gt;ExactFlat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mods.cba.mit.edu/?program=programs/frep/gears&quot;&gt;mods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;parametric-design&quot;&gt;Parametric design&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cardboard comes in different thicknesses&lt;/li&gt;
+  &lt;li&gt;Lasers cut with different kerfs&lt;/li&gt;
+  &lt;li&gt;Human bodies come in different shapes and sizes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Inkscape is not parametric, Rhino and Fusion 360 are.&lt;/p&gt;
+
+&lt;h2 id=&quot;computer-aided-manufacturing-cam&quot;&gt;Computer Aided Manufacturing (&lt;a href=&quot;https://en.wikipedia.org/wiki/Computer-aided_manufacturing&quot;&gt;CAM&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;CAD is design, CAM translates a design file into a format the machine understands and communicates with the machine.&lt;/p&gt;
+
+&lt;p&gt;Typically through printer driver (accessible in Print dialog on your 2D CAD software)&lt;br /&gt;
+But we can also talk to the mchine at a lower level using &lt;a href=&quot;http://fabmodules.org&quot;&gt;Fab Modules&lt;/a&gt; or Mods&lt;/p&gt;
+
+&lt;h2 id=&quot;the-laser-cutter&quot;&gt;The Laser cutter&lt;/h2&gt;
+
+&lt;h3 id=&quot;applications&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cutting or marking/engraving by varying power&lt;/li&gt;
+  &lt;li&gt;Raster or &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/gray.jpg&quot;&gt;vector&lt;/a&gt; mode&lt;/li&gt;
+  &lt;li&gt;Screen printing, by making a &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/halftone.jpg&quot;&gt;halftone&lt;/a&gt; (See &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/holes.jpg&quot;&gt;holes&lt;/a&gt;, &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/halftone.png&quot;&gt;path&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Press-fit construction (example: &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/gik.jpg&quot;&gt;GIK&lt;/a&gt;, &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/gik.cad&quot;&gt;gik.cad&lt;/a&gt;, &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/gik.png&quot;&gt;gik.png&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;joints&quot;&gt;Joints&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/joints.jpg&quot;&gt;Examples&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Easy to design &amp;lt;–&amp;gt; Strongest properties&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Slot - simplest, hard to align&lt;/li&gt;
+  &lt;li&gt;Chamfer - rounded corners help align parts, and can compress materials into slots (eg corrugated cardboard). But still relies on sliding friction&lt;/li&gt;
+  &lt;li&gt;Bistable (bump and slot), behaves very differetly for different materials&lt;/li&gt;
+  &lt;li&gt;Flexure - design a bendable part with controllable flex&lt;/li&gt;
+  &lt;li&gt;Pinned - secure joint with an orthogonal constraint (see also &lt;a href=&quot;https://www.canadianwoodworking.com/tipstechniques/wedged-mortise-tenon&quot;&gt;wedged mortise and tenon&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tolerances&quot;&gt;Tolerances&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Slop vs security (range is about 0.1mm)&lt;/li&gt;
+  &lt;li&gt;Brittle material vs compressible material&lt;/li&gt;
+  &lt;li&gt;Parametric design is your friend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3d-shapes&quot;&gt;3D shapes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kerfing (incomplete cut)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/flexures.png&quot;&gt;Flexures, living hinges&lt;/a&gt; (enables twists and bends). See also &lt;a href=&quot;https://inkscape.org/~drphonon/★living-hinge-creator&quot;&gt;Inkscape living hinge extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Extreme example, a &lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/56836505.pdf&quot;&gt;moving platform&lt;/a&gt; without moving parts (gears, bearings)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lasers-light-amplification-by-stimulated-emission-of-radiation&quot;&gt;Lasers (&lt;em&gt;Light Amplification by Stimulated Emission of Radiation&lt;/em&gt;)&lt;/h3&gt;
+
+&lt;p&gt;See Neil’s lecture (@ 45 mins) for technical details&lt;br /&gt;
+CO&lt;sub&gt;2&lt;/sub&gt; laser: good for wood, card, acrylic, etc. Need a fiber laser to cut metal.&lt;/p&gt;
+
+&lt;h3 id=&quot;cutting-mechanisms&quot;&gt;Cutting mechanisms&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;burning&lt;/li&gt;
+  &lt;li&gt;melting&lt;/li&gt;
+  &lt;li&gt;evaporation&lt;/li&gt;
+  &lt;li&gt;ablation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The material has to go somewhere, …&lt;/p&gt;
+
+&lt;h3 id=&quot;airflow&quot;&gt;Airflow&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Exhaust - draws combustible material out. (Machine: Extractor)&lt;/li&gt;
+  &lt;li&gt;Assist - injects air at the cutting point. (Machine: Compressor)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If it’s not strong enough, that material stays around - Bad news&lt;br /&gt;
+You shouldn’t see smoke hanging around in laser cutting chamber&lt;br /&gt;
+Exhaust fumes are very bad news.&lt;br /&gt;
+Plastic will outgas for a minute after cutting. Leave the lid closed for a minute&lt;/p&gt;
+
+&lt;h3 id=&quot;kerf&quot;&gt;Kerf&lt;/h3&gt;
+
+&lt;p&gt;Some material is removed with the cut.&lt;br /&gt;
+Some drivers (e.g. mods) allow for this, with offsetting.&lt;br /&gt;
+Otherwise, you should allow for this in your design (parametrically!)&lt;/p&gt;
+
+&lt;h3 id=&quot;safety&quot;&gt;Safety&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg&quot;&gt;All laser cutters want to catch on fire&lt;/a&gt; &lt;br /&gt;
+Card, MDF, plywood and acrylic are all really close to combusting when cutting.&lt;br /&gt;
+Don’t step away from the machine. Always supervise.&lt;br /&gt;
+Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.
+&lt;strong&gt;check&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;materials&quot;&gt;Materials&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cardboard - the good stuff bows, not kinks. Use old boxes. Very forgiving for joints&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.towerhobbies.com/cgi-bin/wti0091p?&amp;amp;P=ML&amp;amp;C=RCC&amp;amp;V=RMX&amp;amp;D=Revell-Wood---Plywood&quot;&gt;Plywood&lt;/a&gt; - Real thickness != real thickness - use the callipers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mcmaster.com/#acrylic/=1bgkrkx&quot;&gt;PMMA/acrylic/plexiglass/perspex/lucite&lt;/a&gt;   &lt;a href=&quot;https://www.mcmaster.com/#standard-acrylic-glue/=1bgkitd&quot;&gt;glue&lt;/a&gt;   &lt;a href=&quot;https://makezine.com/2013/02/06/workshop-wednesday-heat-bending-acrylic-enclosures&quot;&gt;bend&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mcmaster.com/#acetal-homopolymer-sheets&quot;&gt;POM/delrin/acetal&lt;/a&gt; - more elastic than acrylic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;no-gos&quot;&gt;No-gos&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;No PVC - releases chlorine&lt;/li&gt;
+  &lt;li&gt;Never put a material into the cutter unless you know where it came from - no random plastic.&lt;/li&gt;
+  &lt;li&gt;Never put anything shiny into a CO&lt;sub&gt;2&lt;/sub&gt; laser (e.g. metal)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Laser optics need to be kept clean (by who?)&lt;/p&gt;
+
+&lt;h3 id=&quot;settings&quot;&gt;Settings&lt;/h3&gt;
+
+&lt;p&gt;(See laser printer driver dialog.)
+&lt;img src=&quot;/learning/digital-fabrication-module/assets/laser-printer-driver-dialog.jpg&quot; alt=&quot;laser-printer-driver-dialog.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Power - too much melts, too little doesn’t cut. Use multiple passes.&lt;/li&gt;
+  &lt;li&gt;Speed - too slow can cause combustion, too slow doesn’t cut&lt;/li&gt;
+  &lt;li&gt;Pulse rate/Frequency - too close can melt, too far apart can leave gaps&lt;/li&gt;
+  &lt;li&gt;Coordinate system, origin is top left&lt;/li&gt;
+  &lt;li&gt;Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Sources Course content derived from Fab Academy: http://academy.cba.mit.edu/classes/computer_cutting/index.html Neil’s lecture from 2018 (Fab-20180207D_Lesson03): Fab Academy 20180207 Recordings</summary></entry><entry><title type="html">Publishing this site</title><link href="https://andrewsleigh.com/learning/digital-fabrication-module/colophon/jekyll-setup.html" rel="alternate" type="text/html" title="Publishing this site" /><published>2018-11-17T00:00:00+01:00</published><updated>2018-11-17T00:00:00+01:00</updated><id>https://andrewsleigh.com/learning/digital-fabrication-module/colophon/jekyll-setup</id><content type="html" xml:base="https://andrewsleigh.com/learning/digital-fabrication-module/colophon/jekyll-setup.html">&lt;h2 id=&quot;options&quot;&gt;Options&lt;/h2&gt;
+&lt;h3 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.&lt;/a&gt;
+Mine: https://andrewsleigh.github.io/digital-fabrication-module/&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Easy, and works well with any code I keep in git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No way of linking pages without basically building a Jekyll site. I’e tried adding front matter to a test page, which seems to partially work. But adding _includes and _layouts doesn’t…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gitbook&quot;&gt;Gitbook&lt;/h3&gt;
+&lt;p&gt;Like this: &lt;a href=&quot;http://docs.academany.org/FabAcademy-Assessment/_book/principles_and_practices.html&quot;&gt;Principles and Practices · GitBook&lt;/a&gt;
+Mine: https://andrewsleigh.gitbook.io/digital-fabrication-module&lt;/p&gt;
+
+&lt;h3 id=&quot;my-own-site&quot;&gt;My own site&lt;/h3&gt;
+&lt;p&gt;Static .md files, converted to html, then published over FTP
+Like https://andrewsleigh.com/learning/processing/&lt;/p&gt;
+
+&lt;h2 id=&quot;workflow&quot;&gt;Workflow&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;If I’m not writing directly to the file system, there will need to be an export step, eg. From Bear to .md files.&lt;/li&gt;
+  &lt;li&gt;If I’m generating html locally, e.g. through Jekyll, a /render/ step&lt;/li&gt;
+  &lt;li&gt;Publish step (either pushing to remote git repo, or syncing folder over ftp)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;(1) is inefficient if I’m focused on maintaining docs, but useful if I want to keep a WIP journal, and only publish some of the content live
+(2) is a pain too but gives me more control over design, etc.
+(3) is way easier with &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; than syncing over ftp - but could that be automated?&lt;/p&gt;
+
+&lt;h2 id=&quot;file-structure&quot;&gt;File structure&lt;/h2&gt;
+&lt;h3 id=&quot;git-repo&quot;&gt;Git repo&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Root&lt;/em&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Digital Fabrication Module/&lt;/code&gt;
+Lives at https://github.com/andrewsleigh/digital-fabrication-module on GitHub&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Docs&lt;/em&gt; 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Digital Fabrication Module/docs&lt;/code&gt;
+Generate the static site to this folder using Jekyll and push to GitHub with other files, so they can be seen there too. This folder will be a mirror of https://andrewsleigh.com/learning/digital-fabrication-module&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Posts or Pages?&lt;/em&gt;
+e.g. my DIY Arduino notes. Should these be published as /posts/ in a blog format, e.g. 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;docs/_posts/2018-11-17-diyardiuno.md&lt;/code&gt;
+Or as root level /&lt;a href=&quot;https://jekyllrb.com/docs/pages/&quot;&gt;pages&lt;/a&gt;/ within the docs folder, e.g. 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;docs/diyardiuno.md&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;From https://jekyllrb.com/docs/pages/&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;If you have a lot of pages, you can organize them into subfolders. The same subfolders that are used to group your pages in our project’s source will exist in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder when your site builds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Project or assignment resources, e.g&lt;/em&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Digital Fabrication Module/DIYArduino&lt;/code&gt;
+Code or assets for specific assignments or projects&lt;/p&gt;
+
+&lt;p&gt;Or should these live inside &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt;?&lt;/p&gt;
+
+&lt;h2 id=&quot;trying-jekyll&quot;&gt;Trying Jekyll&lt;/h2&gt;
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;Go to folder
+&lt;code class=&quot;highlighter-rouge&quot;&gt;cd /Users/Andrew/Dropbox/Work/Digital\ Fabrication\ Methods/Website&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Create new Jekyll site, assuming it will live within a docs folder (This can be mirrored within a git repo):
+&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new docs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Go into that new folder:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;cd docs/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Run the Jekyll &lt;code class=&quot;highlighter-rouge&quot;&gt;serve&lt;/code&gt; command:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to the dev site:
+http://127.0.0.1:4000/&lt;/p&gt;
+
+&lt;p&gt;Try adding some sample content as pages inside folders&lt;/p&gt;
+
+&lt;p&gt;Think I need to add hierarchy using /collections/: https://jekyllrb.com/docs/collections/&lt;/p&gt;
+
+&lt;p&gt;Add this to _config.yml&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;collections:
+ - diy-arduino
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add my sample posts to the &lt;code class=&quot;highlighter-rouge&quot;&gt;diy-arduino/&lt;/code&gt; folder
+Rerun the serve command&lt;/p&gt;
+
+&lt;p&gt;Can’t get this to work, so also tried using a category setup, which also didn’t work (possibly because its set up for posts, not pages)&lt;/p&gt;
+
+&lt;p&gt;2 options:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Follow these instructions for collections: https://ben.balter.com/2015/02/20/jekyll-collections/&lt;/li&gt;
+  &lt;li&gt;Or these (Which I think I did for my podcast posts): https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Think 1 is the most logical way to go…&lt;/p&gt;
+
+&lt;p&gt;Nope - can’t get that to work. Alternative method:&lt;/p&gt;
+
+&lt;p&gt;Change permalinks for posts to remove dates:
+Add this line to config.yml:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:categories/:title:output_ext&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This removes dates from the default format, which is:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:categories/:year/:month/:day/:title:output_ext&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then implement category pages as per https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;OK, so final setup&lt;/p&gt;
+
+&lt;p&gt;Write all docs as dated posts, and store in the root level _posts/ folder&lt;br /&gt;
+Use the permalinks setting to remove dates from post URLs
+Assign categories to posts, so they can be grouped, as per the standard &lt;a href=&quot;https://jekyllrb.com/docs/posts/#categories-and-tags&quot;&gt;Jekyll docs for categories&lt;/a&gt;
+Add a category.html page in _layouts/ which will be the template for listing all posts within a category – an index template for a category&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h3&amp;gt;
+
+{% for page in site.categories[page.category]  %}
+    &amp;lt;h3&amp;gt;&amp;lt;a href=&quot;{{ page.url | relative_url }}&quot;&amp;gt;
+      {{ page.title }}
+    &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h3&amp;gt;
+     &amp;lt;p&amp;gt;{{ page.excerpt }} &amp;lt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endfor &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ul&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add a similar home.html page in _layouts/ which will override the default homepage template to list all posts by category:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% for &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;categories&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}
+  &amp;lt;h3&amp;gt;{{ category[0] }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h3&amp;gt;
+  &amp;lt;ul&amp;gt;
+    {% for post in category[1] %}
+      &amp;lt;li&amp;gt;&amp;lt;a href=&quot;{{ post.url }}&quot;&amp;gt;{{ post.title }}&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/li&amp;gt;
+    {% endfor %}
+  &amp;lt;/u&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endfor &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add a simple page for each category inside the category/ folder. These all have the same format:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: category
+title: DIY Arduino
+category: diy-arduino
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Don’t use collections, or pages, or store pages in special folders. Remove these from the site or any special commands from the config.yml file&lt;/p&gt;
+
+&lt;h2 id=&quot;a-few-notes-on-markdown-and-jekyll&quot;&gt;A few notes on Markdown (and Jekyll)&lt;/h2&gt;
+
+&lt;p&gt;Markdown is great, but it has a few quirks worth noting. These can be made more irksome when wrapping your Markdown in Jekyll’s ‘liquid’ syntax.&lt;/p&gt;
+
+&lt;h3 id=&quot;line-breaks&quot;&gt;Line breaks&lt;/h3&gt;
+&lt;p&gt;In these notes, I’m writing a lot of sentence fragments, so I need to use a lot of line break – as opposed to paragraphs. &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax#p&quot;&gt;These have a special syntax&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters which translate every line break character in a paragraph into a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; tag.
+When you &lt;em&gt;do&lt;/em&gt; want to insert a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; break tag using Markdown, you end a line with two or more spaces, then type return.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;spaces-in-category-names&quot;&gt;Spaces in category names&lt;/h3&gt;
+&lt;p&gt;If you want categories that have more than one word, you need to encapsulate them with [square brackets], like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;categories: [DIY Arduino]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Options GitHub Pages GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live. Mine: https://andrewsleigh.github.io/digital-fabrication-module/</summary></entry></feed>
