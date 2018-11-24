@@ -1,0 +1,6 @@
+
+# But also create some alternatives that can be substituted in when I build the site to deploy to my server
+
+url: "https://andrewsleigh.com" # the base hostname & protocol for your site, e.g.   
+baseurl: "/learning/digital-fabrication-module" # the subpath of your site, e.g. /blog
+
