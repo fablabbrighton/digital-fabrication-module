@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Week 3: Laser cutter: computer-controlled cutting (CNC) | Digital Fabrication Module</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Week 3: Laser cutter: computer-controlled cutting (CNC)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sources Course content derived from Fab Academy: http://academy.cba.mit.edu/classes/computer_cutting/index.html Neil’s lecture from 2018 (Fab-20180207D_Lesson03): Fab Academy 20180207 Recordings" />
+<meta property="og:description" content="Sources Course content derived from Fab Academy: http://academy.cba.mit.edu/classes/computer_cutting/index.html Neil’s lecture from 2018 (Fab-20180207D_Lesson03): Fab Academy 20180207 Recordings" />
+<link rel="canonical" href="https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html" />
+<meta property="og:url" content="https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html" />
+<meta property="og:site_name" content="Digital Fabrication Module" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-11-23T00:00:00+01:00" />
+<script type="application/ld+json">
+{"headline":"Week 3: Laser cutter: computer-controlled cutting (CNC)","dateModified":"2018-11-23T00:00:00+01:00","datePublished":"2018-11-23T00:00:00+01:00","url":"https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://andrewsleigh.com/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html"},"description":"Sources Course content derived from Fab Academy: http://academy.cba.mit.edu/classes/computer_cutting/index.html Neil’s lecture from 2018 (Fab-20180207D_Lesson03): Fab Academy 20180207 Recordings","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/learning/digital-fabrication-module/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Digital Fabrication Module" href="/learning/digital-fabrication-module/feed.xml">
+  
+  
+<!--  OVERRIDE FONTS  -->
+
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Serif+Pro" rel="stylesheet">  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Work+Sans:400,600,700" rel="stylesheet">
+
+<style type="text/css">
+
+body {
+	// font-family: 'Source Serif Pro', serif;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2 { 
+	font-weight: 600; 
+	}
+	
+	
+.post-content h3, h3 {
+	font-weight: 600; 
+	font-size: 1em;
+	/* text-transform: uppercase; */
+	}	
+
+pre, code {
+	font-family: 'Source Code Pro', monospace;
+/* 	background-color: #ffe; */
+
+/* Try using alpha transparency instead so it can layr on top of other things */
+	background-color: rgba(255, 255, 0, 0.05);
+}
+
+pre code {
+/* 	Override background colour when inside pre block so transparency is not cumulative */
+	background-color: rgba(255, 255, 255, 0);
+}
+
+p code {
+	/* background-color: #fffffc; */	
+	/* Try using alpha transparency instead so it can layr on top of other things */
+	background-color: rgba(255, 255, 0, 0.05);
+
+	
+	/* border: 1px solid #eec; */
+	/* border: 1px solid #eeeecc; */
+	border: rgba(90, 90, 0, 0.1) 1px solid;
+	/* 
+border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+ */
+	border-top: rgba(255, 255, 255, 0.3) 1px solid;
+	border-left: rgba(255, 255, 255, 0.3) 1px solid;
+}
+
+.highlighter-rouge pre.highlight,
+figure.highlight pre
+ {
+	background-color: #ffe;
+	border: 1px solid #eec;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+blockquote {
+	letter-spacing: 0px;
+	border-left: 0px none;
+	font-style: normal;
+	font-size: 1em;
+	background-color: #fff6f9;
+	padding: 15px;
+	color: #998088;
+	}
+
+hr {
+	margin: 40px 0px;
+	}
+
+</style>
+
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <h1><a class="site-title" rel="author" href="/learning/digital-fabrication-module/">Digital Fabrication Module</a></h1>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+            
+            <a class="page-link" href="/learning/digital-fabrication-module/about/">About</a>
+            
+            
+          
+            
+            
+            
+            <a class="page-link" href="/learning/digital-fabrication-module/category/diy-arduino.html">DIY Arduino</a>
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Week 3: Laser cutter: computer-controlled cutting (CNC)</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-11-23T00:00:00+01:00" itemprop="datePublished">Nov 23, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="sources">Sources</h2>
+<ul>
+  <li>Course content derived from Fab Academy: <a href="http://academy.cba.mit.edu/classes/computer_cutting/index.html">http://academy.cba.mit.edu/classes/computer_cutting/index.html</a></li>
+  <li>Neil’s lecture from 2018 (Fab-20180207D_Lesson03): <a href="http://fab.academany.org/2018/lectures/fab-20180207.html">Fab Academy 20180207 Recordings</a></li>
+</ul>
+
+<h2 id="assignment">Assignment</h2>
+
+<h3 id="group-assignment">Group assignment</h3>
+
+<p>Characterise your lasercutter, making test part(s) that vary cutting settings and dimensions
+Make test cuts, vary power, speed and frequency for different materials. Document settings for different materials and thicknesses
+Make kerf tests to find good settings for different materials. Use these results for your own (parametric) design</p>
+
+<!-- Do we need a group assignment? Is it feasible to do? -->
+
+<h3 id="individual-assignment">Individual assignment</h3>
+
+<p>Design, lasercut, and document a parametric  <a href="http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html">press-fit construction kit</a>, accounting for the lasercutter kerf, which can be assembled in multiple ways</p>
+
+<hr />
+
+<h2 id="an-overview-of-cnc-cutting-tools">An overview of CNC cutting tools</h2>
+
+<p>In this module, we’re going to focus on the laser cutter (optionally also the vinyl cutter)</p>
+
+<h3 id="knife">Knife</h3>
+
+<p>Vinyl cutters - under-utilised tools in Fablabs. e.g.</p>
+<ul>
+  <li><a href="https://www.rolanddga.com/products/vinyl-cutters">Roland</a></li>
+  <li><a href="https://www.zund.com/">Zund</a></li>
+  <li><a href="https://www.youtube.com/watch?v=PG9lJOnNTzQ">Othercutter</a></li>
+  <li><a href="https://www.honda-el.co.jp/en/industry">ultrasonic</a></li>
+</ul>
+
+<h3 id="laser">Laser</h3>
+<p>Most used machine in the lab<br />
+Huge spectrum of capability:</p>
+<ul>
+  <li><a href="http://www.lightcon.com/Product/PHAROS.html">PHAROS</a>  - “disassembles material on an atomic scale, lets you do laser cutting down to microns”  / $100k</li>
+  <li><a href="http://www.epiloglaser.com/product_line.htm">Epilog</a>    - we have a Helix  / £10k</li>
+  <li><a href="http://fslaser.com/">Full Spectrum</a>  Hobbyist lasers / $1k</li>
+</ul>
+
+<h3 id="plasma">Plasma</h3>
+
+<ul>
+  <li><a href="http://forestscientific.com/cnc-plasma-cutters">Forest Scientific</a></li>
+  <li><a href="https://torchmate.com/">Torchmate</a></li>
+</ul>
+
+<h3 id="waterjet">Waterjet</h3>
+
+<ul>
+  <li><a href="https://www.omax.com/">OMAX</a></li>
+  <li><a href="https://www.flowwaterjet.com/">Flow</a> – Can cut anything / $100k / Uses consumables - you must add new garnet, and remove garnet sludge</li>
+  <li><a href="https://www.wazer.com/">WAZER</a>   - a kickstarter project, becoming more accessible</li>
+</ul>
+
+<h3 id="hot-wire">Hot wire</h3>
+
+<p>Killer app: architectural decoration and special effects in foam.</p>
+
+<ul>
+  <li><a href="http://www.3dcutting.com/solutions/frogwire.html">FROGWire</a></li>
+  <li><a href="http://www.hotwiresystems.com/hot-wire-cnc-foam-cutters">Hotwire</a></li>
+  <li><a href="http://ng.cba.mit.edu/show/video/14.08.modular.mp4">MTM</a> Good candidate for a DIY project: just need two positional ends and a resistive wire</li>
+</ul>
+
+<h2 id="computer-aided-design-cad-software">Computer Aided Design (CAD) software</h2>
+
+<h3 id="we-use">We use</h3>
+
+<p>Mostly <strong>Fusion360, Rhino, Solidworks</strong> for 3D; <strong>Illustrator or Inkscape</strong> for 2D</p>
+
+<h3 id="others">Others</h3>
+
+<ul>
+  <li><a href="http://www.inkscape.org/">Inkscape</a> <a href="http://academy.cba.mit.edu/classes/computer_design/inkscape.mp4">video</a></li>
+  <li><a href="http://www.rhino3d.com/">Rhino</a></li>
+  <li><a href="http://www.grasshopper3d.com/">Grasshopper</a> <a href="https://www.youtube.com/watch?v=mZ_1jC2FrnY&amp;t=2s">video</a></li>
+  <li><a href="https://www.blender.org/">Blender</a></li>
+  <li><a href="http://nikitron.cc.ua/sverch/html/main.html">Sverchok</a></li>
+  <li><a href="https://www.freecadweb.org/">FreeCAD</a></li>
+  <li><a href="https://www.freecadweb.org/wiki/Sketcher_Workbench">Sketcher</a> <a href="http://academy.cba.mit.edu/classes/computer_design/freecadsketch.mp4">video</a></li>
+  <li><a href="http://www.autodesk.com/products/fusion-360/overview">Fusion 360</a></li>
+  <li><a href="https://apps.autodesk.com/FUSION/en/Detail/Index?id=8699194120463301363&amp;os=Win64&amp;appLang=en">Slicer</a></li>
+  <li><a href="http://www.solidworks.com/">SolidWorks</a></li>
+  <li><a href="https://xdesign.solidworks.com/">xDesign</a></li>
+  <li><a href="https://www.onshape.com/">Onshape</a></li>
+  <li><a href="https://appstore.onshape.com/apps/CAM/EAAEWYIOMQKBENEMYW2N7MF253CT4WYL6SUJGEY=/description">Kiri:Moto</a></li>
+  <li><a href="https://github.com/mkeeter/antimony">Antimony</a>  <a href="http://academy.cba.mit.edu/classes/computer_design/antimony.mp4">video</a></li>
+  <li><a href="http://www.tamasoft.co.jp/pepakura-en/">Pepakura</a></li>
+  <li><a href="http://hci.rwth-aachen.de/visicut">VisiCut</a></li>
+  <li><a href="http://flatfab.com/">flatfab</a></li>
+  <li><a href="https://www.exactflat.com/">ExactFlat</a></li>
+  <li><a href="http://mods.cba.mit.edu/?program=programs/frep/gears">mods</a></li>
+</ul>
+
+<h3 id="parametric-design">Parametric design</h3>
+
+<ul>
+  <li>Cardboard comes in different thicknesses</li>
+  <li>Lasers cut with different kerfs</li>
+  <li>Human bodies come in different shapes and sizes</li>
+</ul>
+
+<p>Inkscape is not parametric, Rhino and Fusion 360 are.</p>
+
+<h2 id="computer-aided-manufacturing-cam">Computer Aided Manufacturing (<a href="https://en.wikipedia.org/wiki/Computer-aided_manufacturing">CAM</a>)</h2>
+
+<p>CAD is design, CAM translates a design file into a format the machine understands and communicates with the machine.</p>
+
+<p>Typically through printer driver (accessible in Print dialog on your 2D CAD software)<br />
+But we can also talk to the mchine at a lower level using <a href="http://fabmodules.org">Fab Modules</a> or Mods</p>
+
+<h2 id="the-laser-cutter">The Laser cutter</h2>
+
+<h3 id="applications">Applications</h3>
+
+<ul>
+  <li>Cutting or marking/engraving by varying power</li>
+  <li>Raster or <a href="http://academy.cba.mit.edu/classes/computer_cutting/gray.jpg">vector</a> mode</li>
+  <li>Screen printing, by making a <a href="http://academy.cba.mit.edu/classes/computer_cutting/halftone.jpg">halftone</a> (See <a href="http://academy.cba.mit.edu/classes/computer_cutting/holes.jpg">holes</a>, <a href="http://academy.cba.mit.edu/classes/computer_cutting/halftone.png">path</a>)</li>
+  <li>Press-fit construction (example: <a href="http://academy.cba.mit.edu/classes/computer_cutting/gik.jpg">GIK</a>, <a href="http://academy.cba.mit.edu/classes/computer_cutting/gik.cad">gik.cad</a>, <a href="http://academy.cba.mit.edu/classes/computer_cutting/gik.png">gik.png</a>)</li>
+</ul>
+
+<h3 id="joints">Joints</h3>
+
+<p><a href="http://academy.cba.mit.edu/classes/computer_cutting/joints.jpg">Examples</a></p>
+
+<p>Easy to design &lt;–&gt; Strongest properties</p>
+
+<ul>
+  <li>Slot - simplest, hard to align</li>
+  <li>Chamfer - rounded corners help align parts, and can compress materials into slots (eg corrugated cardboard). But still relies on sliding friction</li>
+  <li>Bistable (bump and slot), behaves very differetly for different materials</li>
+  <li>Flexure - design a bendable part with controllable flex</li>
+  <li>Pinned - secure joint with an orthogonal constraint (see also <a href="https://www.canadianwoodworking.com/tipstechniques/wedged-mortise-tenon">wedged mortise and tenon</a>)</li>
+</ul>
+
+<h3 id="tolerances">Tolerances</h3>
+
+<ul>
+  <li>Slop vs security (range is about 0.1mm)</li>
+  <li>Brittle material vs compressible material</li>
+  <li>Parametric design is your friend</li>
+</ul>
+
+<h3 id="3d-shapes">3D shapes</h3>
+
+<ul>
+  <li>Kerfing (incomplete cut)</li>
+  <li><a href="http://academy.cba.mit.edu/classes/computer_cutting/flexures.png">Flexures, living hinges</a> (enables twists and bends). See also <a href="https://inkscape.org/~drphonon/★living-hinge-creator">Inkscape living hinge extension</a></li>
+  <li>Extreme example, a <a href="http://academy.cba.mit.edu/classes/computer_cutting/56836505.pdf">moving platform</a> without moving parts (gears, bearings)</li>
+</ul>
+
+<h3 id="lasers-light-amplification-by-stimulated-emission-of-radiation">Lasers (<em>Light Amplification by Stimulated Emission of Radiation</em>)</h3>
+
+<p>See Neil’s lecture (@ 45 mins) for technical details<br />
+CO<sub>2</sub> laser: good for wood, card, acrylic, etc. Need a fiber laser to cut metal.</p>
+
+<h3 id="cutting-mechanisms">Cutting mechanisms</h3>
+<ul>
+  <li>burning</li>
+  <li>melting</li>
+  <li>evaporation</li>
+  <li>ablation</li>
+</ul>
+
+<p>The material has to go somewhere, …</p>
+
+<h3 id="airflow">Airflow</h3>
+
+<ul>
+  <li>Exhaust - draws combustible material out. (Machine: Extractor)</li>
+  <li>Assist - injects air at the cutting point. (Machine: Compressor)</li>
+</ul>
+
+<p>If it’s not strong enough, that material stays around - Bad news<br />
+You shouldn’t see smoke hanging around in laser cutting chamber<br />
+Exhaust fumes are very bad news.<br />
+Plastic will outgas for a minute after cutting. Leave the lid closed for a minute</p>
+
+<h3 id="kerf">Kerf</h3>
+
+<p>Some material is removed with the cut.<br />
+Some drivers (e.g. mods) allow for this, with offsetting.<br />
+Otherwise, you should allow for this in your design (parametrically!)</p>
+
+<h3 id="safety">Safety</h3>
+<p><a href="http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg">All laser cutters want to catch on fire</a> <br />
+Card, MDF, plywood and acrylic are all really close to combusting when cutting.<br />
+Don’t step away from the machine. Always supervise.<br />
+Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.
+<strong>check</strong></p>
+
+<h3 id="materials">Materials</h3>
+
+<ul>
+  <li>Cardboard - the good stuff bows, not kinks. Use old boxes. Very forgiving for joints</li>
+  <li><a href="https://www.towerhobbies.com/cgi-bin/wti0091p?&amp;P=ML&amp;C=RCC&amp;V=RMX&amp;D=Revell-Wood---Plywood">Plywood</a> - Real thickness != real thickness - use the callipers.</li>
+  <li><a href="https://www.mcmaster.com/#acrylic/=1bgkrkx">PMMA/acrylic/plexiglass/perspex/lucite</a>   <a href="https://www.mcmaster.com/#standard-acrylic-glue/=1bgkitd">glue</a>   <a href="https://makezine.com/2013/02/06/workshop-wednesday-heat-bending-acrylic-enclosures">bend</a></li>
+  <li><a href="http://www.mcmaster.com/#acetal-homopolymer-sheets">POM/delrin/acetal</a> - more elastic than acrylic</li>
+</ul>
+
+<h3 id="no-gos">No-gos</h3>
+<ul>
+  <li>No PVC - releases chlorine</li>
+  <li>Never put a material into the cutter unless you know where it came from - no random plastic.</li>
+  <li>Never put anything shiny into a CO<sub>2</sub> laser (e.g. metal)</li>
+</ul>
+
+<p>Laser optics need to be kept clean (by who?)</p>
+
+<h3 id="settings">Settings</h3>
+
+<p>(See laser printer driver dialog.)
+<img src="/learning/digital-fabrication-module/assets/laser-printer-driver-dialog.jpg" alt="laser-printer-driver-dialog.jpg" /></p>
+
+<ul>
+  <li>Power - too much melts, too little doesn’t cut. Use multiple passes.</li>
+  <li>Speed - too slow can cause combustion, too slow doesn’t cut</li>
+  <li>Pulse rate/Frequency - too close can melt, too far apart can leave gaps</li>
+  <li>Coordinate system, origin is top left</li>
+  <li>Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)</li>
+</ul>
+
+
+  </div><a class="u-url" href="/learning/digital-fabrication-module/course/course-week-3-computer-controlled-cutting.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/learning/digital-fabrication-module/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Digital Fabrication Module</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Digital Fabrication Module</li><li><a class="u-email" href="mailto:andrew.sleigh@gmail.com">andrew.sleigh@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/andrewsleigh"><svg class="svg-icon"><use xlink:href="/learning/digital-fabrication-module/assets/minima-social-icons.svg#github"></use></svg> <span class="username">andrewsleigh</span></a></li><li><a href="https://www.twitter.com/andrewsleigh"><svg class="svg-icon"><use xlink:href="/learning/digital-fabrication-module/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">andrewsleigh</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Work-in-progress and draft course notes for a module in digital fabrication at University of Brighton, based on Fab Academy</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
