@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 # Setup default URLs to be for github and github pages, so they will render correctly without overrides  
   
-url: "https://andrewsleigh.github.io" # the base hostname & protocol for your site, e.g.   
+url: "https://andrewsleigh.github.io" # the base hostname & protocol for your site, e.g. http://example.com   
 baseurl: "/digital-fabrication-module" # the subpath of your site, e.g. /blog
 
 
@@ -31,7 +31,7 @@ ascom_url: "https://andrewsleigh.com" # the base hostname & protocol for your si
 ascom_baseurl: "/learning/digital-fabrication-module" # the subpath of your site, e.g. /blog
 
 
-http://example.com
+
 twitter_username: andrewsleigh
 github_username:  andrewsleigh
 
