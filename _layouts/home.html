@@ -3,7 +3,9 @@ layout: page
 
 ---
 
-
+{% if jekyll.environment == "localhost" %}
+  <h1>Localhost</h1>
+{% endif %}
 
 
 {% for category in site.categories %}
