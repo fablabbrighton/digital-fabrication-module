@@ -29,7 +29,7 @@ layout: page
 
 		{% for item in site[name] %}
 
-			<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+			<h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
 			<p>{{ item.excerpt }}</p>
 
 		{% endfor %}
