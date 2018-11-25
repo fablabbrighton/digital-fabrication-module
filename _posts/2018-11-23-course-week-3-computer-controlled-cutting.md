@@ -2,8 +2,12 @@
 layout: post
 title:  "Week 3: Laser cutter: computer-controlled cutting (CNC)"
 date:   2018-11-23
-categories: Course
+categories: course
 ---
+
+Introducing the laser cutter and 2D-3D assembly.
+
+<!--more-->
 
 
 ## Sources

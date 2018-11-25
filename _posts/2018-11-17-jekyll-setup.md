@@ -1,177 +1,125 @@
 ---
 layout: post
-title:  "Publishing this site"
+title:  "Jekyll configuration and customisation"
 date:   2018-11-17
-categories: Colophon
+categories: colophon
+
 ---
 
+Adapting Jekyll to make it work for this site.
 
-## Options
-### GitHub Pages
-[GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com)
-Mine: https://andrewsleigh.github.io/digital-fabrication-module/
-
-Pros:
-* Easy, and works well with any code I keep in git
-
-Cons
-* No way of linking pages without basically building a Jekyll site. I’e tried adding front matter to a test page, which seems to partially work. But adding _includes and _layouts doesn’t…
-
-### Gitbook
-Like this: [Principles and Practices · GitBook](http://docs.academany.org/FabAcademy-Assessment/_book/principles_and_practices.html)
-Mine: https://andrewsleigh.gitbook.io/digital-fabrication-module
-
-### My own site 
-Static .md files, converted to html, then published over FTP
-Like https://andrewsleigh.com/learning/processing/
+<!--more-->
 
 
-## Workflow
-1. If I’m not writing directly to the file system, there will need to be an export step, eg. From Bear to .md files.
-2. If I’m generating html locally, e.g. through Jekyll, a /render/ step
-3. Publish step (either pushing to remote git repo, or syncing folder over ftp)
+## Content structure
 
-(1) is inefficient if I’m focused on maintaining docs, but useful if I want to keep a WIP journal, and only publish some of the content live
-(2) is a pain too but gives me more control over design, etc.
-(3) is way easier with `git push` than syncing over ftp - but could that be automated?
+I tried a few ways to build a hierarchy of content within Jekyll, since this site doesn't really follow a (reverse-chronological) blog format. Specifically, writing all content as pages instead of posts, and using the Jekyll's concept of "[collections](https://jekyllrb.com/docs/collections/)". Neither of these worked, so I've ended up with the following approach.
 
+1. Write all content as posts. i.e. use the standard `date-name.md` file naming format, and store them in the `/_posts/` directory.
 
+2. Give all posts [categories](https://jekyllrb.com/docs/posts/#categories-and-tags), by including this in the frontmatter at the top of each post, like so:
 
-## File structure
-### Git repo
+	```
+	---
+	layout: post
+	title:  "Jekyll configuration and customisation"
+	date:   2018-11-17
+	categories: colophon
+	---
+	```
+	
+	Or:
+	```
+	categories: [colophon, course]
+	```
 
-*Root*
-`Digital Fabrication Module/`
-Lives at https://github.com/andrewsleigh/digital-fabrication-module on GitHub
+	<span class="wip">WIP:</span> Note that categories must be URL-friendly (lowercase, one-word, or hyphenated), as they are used in post slugs. This causes problems later on when you want to list category names in templates.
 
-*Docs* 
-`Digital Fabrication Module/docs`
-Generate the static site to this folder using Jekyll and push to GitHub with other files, so they can be seen there too. This folder will be a mirror of https://andrewsleigh.com/learning/digital-fabrication-module
+3. Override the default permalink settings to use categories as part of the URL slug, instead of dates (this makes the whole site a lot less _bloggy_.)
 
-*Posts or Pages?*
-e.g. my DIY Arduino notes. Should these be published as /posts/ in a blog format, e.g. 
-`docs/_posts/2018-11-17-diyardiuno.md`
-Or as root level /[pages](https://jekyllrb.com/docs/pages/)/ within the docs folder, e.g. 
-`docs/diyardiuno.md`
+	Add this line to `_config.yml`: 
+	```
+	permalink: /:categories/:title:output_ext
+	```
 
-From https://jekyllrb.com/docs/pages/
-> If you have a lot of pages, you can organize them into subfolders. The same subfolders that are used to group your pages in our project’s source will exist in the `_site` folder when your site builds.
-
-
-
-*Project or assignment resources, e.g*
-`Digital Fabrication Module/DIYArduino`
-Code or assets for specific assignments or projects
-
-Or should these live inside `docs`?
+	This removes dates from the default format, which is:
+	```
+	permalink: /:categories/:year/:month/:day/:title:output_ext
+	```
 
 
-## Trying Jekyll
-### Setup
+4. Create index pages for categories by adding a `category.html` page to `/_layouts/`. 
 
-Go to folder
-`cd /Users/Andrew/Dropbox/Work/Digital\ Fabrication\ Methods/Website` 
+	```ruby
+	{% raw %}---
+	layout: page
+	---
+	<h3>{{ category[0] }}</h3>
 
-Create new Jekyll site, assuming it will live within a docs folder (This can be mirrored within a git repo):
-`jekyll new docs`
+	{% for page in site.categories[page.category]  %}
+		<h3><a href="{{ page.url | relative_url }}">
+		  {{ page.title }}
+		</a></h3>
+		 <p>{{ page.excerpt }} </p>
+	{% endfor %}
+	</ul>
+	{% endraw %}```
 
-Go into that new folder:
-`cd docs/`
+5. [Override the default homepage template](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) by creating a similar `home.html` template in `/_layouts/` to list all posts by category. 
 
-Run the Jekyll `serve` command:
-`bundle exec jekyll serve`
+	```ruby{% raw %}
+	---
+	layout: page
+	---
+	{% for category in site.categories %}
+	  <h3>{{ category[0] }}</h3>
+	  <ul>
+		{% for post in category[1] %}
+		  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	  </ul>
+	{% endfor %}
+	{% endraw %}```
+	
+	<span class="wip">WIP:</span> This is where the category naming breaks down. I need to find a way to associate a properly formated category name with each machine-readable category lug to display on this page.
 
-Go to the dev site:
-http://127.0.0.1:4000/
 
-Try adding some sample content as pages inside folders
 
-Think I need to add hierarchy using /collections/: https://jekyllrb.com/docs/collections/
+6. Add a simple template for each category inside the `/category/` folder. These all have the same format:
+	```
+	---
+	layout: category
+	title: Course notes
+	category: course
+	---
+	```
+	
+	This step is derived from [a similar approach detailed here](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins).
 
-Add this to _config.yml
+This way, all posts appear listed by category on the homepage, and in the site nav, all categories are listed, linked through to their respective index pages
+
+
+
+## Overrides
+
+URL-based overrides are [detailed elsewhere]({{ site.baseurl }}{% post_url 2018-11-24-publishing-to-multiple-servers %})
+
+I've already talked about permalink settings.
+
+So far, my only other customisation is to explicitly state an excerpt separator, so that I can control how posts are displayed on index pages.
+
 ```
-collections:
- - diy-arduino
-```
-
-Add my sample posts to the `diy-arduino/` folder
-Rerun the serve command
-
-Can’t get this to work, so also tried using a category setup, which also didn’t work (possibly because its set up for posts, not pages)
-
-
-2 options:
-1. Follow these instructions for collections: https://ben.balter.com/2015/02/20/jekyll-collections/
-2. Or these (Which I think I did for my podcast posts): https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins 
-
-Think 1 is the most logical way to go…
-
-Nope - can’t get that to work. Alternative method:
-
-Change permalinks for posts to remove dates:
-Add this line to config.yml:
-
-`permalink: /:categories/:title:output_ext`
-
-This removes dates from the default format, which is:
-`permalink: /:categories/:year/:month/:day/:title:output_ext`
-
-Then implement category pages as per https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins 
-
-
----
-
-OK, so final setup 
-
-Write all docs as dated posts, and store in the root level _posts/ folder  
-Use the permalinks setting to remove dates from post URLs
-Assign categories to posts, so they can be grouped, as per the standard [Jekyll docs for categories](https://jekyllrb.com/docs/posts/#categories-and-tags)
-Add a category.html page in _layouts/ which will be the template for listing all posts within a category – an index template for a category
-```ruby
-{% raw %}---
-layout: page
----
-<h3>{{ category[0] }}</h3>
-
-{% for page in site.categories[page.category]  %}
-    <h3><a href="{{ page.url | relative_url }}">
-      {{ page.title }}
-    </a></h3>
-     <p>{{ page.excerpt }} </p>
-{% endfor %}
-</ul>
-{% endraw %}```
-
-
-Add a similar home.html page in _layouts/ which will override the default homepage template to list all posts by category:
-
-```ruby{% raw %}
----
-layout: page
----
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-{% endraw %}```
-
-
-
-Add a simple page for each category inside the category/ folder. These all have the same format:
-```
----
-layout: category
-title: DIY Arduino
-category: diy-arduino
----
+excerpt_separator: <!--more-->
 ```
 
+If a post has nothing above this separator, nothing is displayed as an except. However, all posts must have the separator, otherwise an indeterminate amount of text is considered by Jekyll to be the excerpt.
 
-Don’t use collections, or pages, or store pages in special folders. Remove these from the site or any special commands from the config.yml file
+### Permalinks
+
+
+## CSS
+
+I should try SASS!
 
 
 
@@ -182,7 +130,7 @@ Don’t use collections, or pages, or store pages in special folders. Remove the
 Markdown is great, but it has a few quirks worth noting. These can be made more irksome when wrapping your Markdown in Jekyll's 'liquid' syntax.
 
 ### Line breaks
-In these notes, I’m writing a lot of sentence fragments, so I need to use a lot of line break – as opposed to paragraphs. [These have a special syntax](https://daringfireball.net/projects/markdown/syntax#p):
+In these notes, I’m writing a lot of sentence fragments, so I need to use a lot of line breaks – as opposed to paragraphs. [These have a special syntax](https://daringfireball.net/projects/markdown/syntax#p):
 
 > The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters which translate every line break character in a paragraph into a `<br />` tag.
 > When you _do_ want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.

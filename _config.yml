@@ -23,14 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://andrewsleigh.github.io" # the base hostname & protocol for your site, e.g. http://example.com   
 baseurl: "/digital-fabrication-module" # the subpath of your site, e.g. /blog
 
-
-
-# But also create some alternatives that can be substituted in when I build the site to deploy to my server
-
-ascom_url: "https://andrewsleigh.com" # the base hostname & protocol for your site, e.g.   
-ascom_baseurl: "/learning/digital-fabrication-module" # the subpath of your site, e.g. /blog
-
-
+excerpt_separator: <!--more-->
 
 twitter_username: andrewsleigh
 github_username:  andrewsleigh

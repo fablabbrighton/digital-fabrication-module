@@ -2,9 +2,11 @@
 layout: post
 title:  "Publishing to multiple servers"
 date:   2018-11-24
-categories: Colophon
+categories: colophon
 ---
 
+Publishing this content to GitHub, GitHub Pages and my own server.
+<!--more-->
 
 I use quite a complex system to draft and publish these notes. This is an adaptation of [a system I first used for my Fab Academy documentation, detailed here](http://fab.academany.org/2018/labs/fablabbrighton/students/andrew-sleigh/assignments/2018/01/18/wk2-git-and-website.html). While fiddly to set up, it means I can write notes and share them with minimum friction, and maximum portability.
 
@@ -147,8 +149,3 @@ I use the [built-in GitHub Pages tool](https://pages.github.com) to publish thes
 
 I want to maintain a copy of the site at a  URL I control. I don’t have any syncing tools set up with my web host, so periodically, I just use SFTP to sync the `/_site-ascom` directory with the `/learning/digital-fabrication-module/` directory on my site.
 
-
-
-
-
-#Digital Fabrication Module/Colophon#
