@@ -28,7 +28,7 @@ I’m currently using Bear (a Mac/iOS Markdown editor) for drafting notes) becau
 Drafting in an app like this introduces a break in the process, which has the downside of introducing a divergence as soon as I export a note to a Markdown file. From this point on, I have to treat the Markdown file in my Jekyll directory as the canonical note.
 
 ## Exporting Markdown
-When an idea is solid enough to come a piece of content, I export the Bear note to a Markdown file in my Git repo. This repo is set up 
+When an idea is solid enough to become a piece of content, I export the Bear note to a Markdown file in my Git repo. 
 
 ## Jekyll configuration
 I set up the Jekyll `_config.yml` file to support publishing to GitHub Pages. I can’t control the Markdown-to-HTML conversion in this process, so it just needs to work by default. So I set up the URL variables like so:
@@ -43,6 +43,8 @@ Jekyll can support multiple config files, so I created a second one, detailed be
 ## Jekyll build and serve variants
 Make sure we’re in the right directory first!
 `cd /Users/Andrew/Documents/GitHub/digital-fabrication-module`
+
+Update: I decided to move the non-code content to a /docs folder, so I'm now serving Jekyll locally from `/Users/andrew/Documents/GitHub/digital-fabrication-module/docs`
 
 Then, depending on what I’m trying to do, I can use different versions of the Jekyll command to generate the site:
 

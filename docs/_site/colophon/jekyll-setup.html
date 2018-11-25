@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Jekyll configuration and customisation | Digital Fabrication Module</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Jekyll configuration and customisation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Adapting Jekyll to make it work for this site." />
+<meta property="og:description" content="Adapting Jekyll to make it work for this site." />
+<link rel="canonical" href="http://localhost:4000/colophon/jekyll-setup.html" />
+<meta property="og:url" content="http://localhost:4000/colophon/jekyll-setup.html" />
+<meta property="og:site_name" content="Digital Fabrication Module" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-11-17T00:00:00+01:00" />
+<script type="application/ld+json">
+{"headline":"Jekyll configuration and customisation","dateModified":"2018-11-17T00:00:00+01:00","datePublished":"2018-11-17T00:00:00+01:00","url":"http://localhost:4000/colophon/jekyll-setup.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/colophon/jekyll-setup.html"},"description":"Adapting Jekyll to make it work for this site.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Digital Fabrication Module" href="/feed.xml">
+  
+  
+<!--  OVERRIDE FONTS  -->
+
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Serif+Pro" rel="stylesheet">  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Work+Sans:400,600,700" rel="stylesheet">
+
+<style type="text/css">
+
+body {
+	// font-family: 'Source Serif Pro', serif;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2 { 
+	font-weight: 600; 
+	}
+	
+	
+.post-content h3, h3 {
+	font-weight: 600; 
+	font-size: 1em;
+	/* text-transform: uppercase; */
+	}	
+
+pre, code {
+	font-family: 'Source Code Pro', monospace;
+/* 	background-color: #ffe; */
+
+/* Try using alpha transparency instead so it can layr on top of other things */
+	background-color: rgba(255, 255, 0, 0.03);
+}
+
+pre code {
+/* 	Override background colour when inside pre block so transparency is not cumulative */
+	background-color: rgba(255, 255, 255, 0);
+}
+
+p code {
+	/* background-color: #fffffc; */	
+	/* Try using alpha transparency instead so it can layr on top of other things */
+	background-color: rgba(255, 255, 0, 0.03);
+
+	
+	/* border: 1px solid #eec; */
+	/* border: 1px solid #eeeecc; */
+	border: rgba(90, 90, 0, 0.05) 1px solid;
+	/* 
+border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+ */
+	border-top: rgba(255, 255, 255, 0.3) 1px solid;
+	border-left: rgba(255, 255, 255, 0.3) 1px solid;
+}
+
+.highlighter-rouge pre.highlight,
+figure.highlight pre
+ {
+	background-color: #ffe;
+	border: 1px solid #eec;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+blockquote {
+	letter-spacing: 0px;
+	border-left: 0px none;
+	font-style: normal;
+	font-size: 1em;
+	background-color: #fff6f9;
+	padding: 15px;
+	color: #998088;
+	}
+
+hr {
+	margin: 40px 0px;
+	}
+	
+	
+span.wip {
+	background-color: rgba(0, 255, 0, 0.3);
+	border: rgba(0, 90, 0, 0.3) 1px solid;
+	border-top: rgba(255, 255, 255, 0.3) 1px solid;
+	border-left: rgba(255, 255, 255, 0.3) 1px solid;
+	padding: 0px 4px;
+	border-radius: 2px;
+	
+}	
+
+</style>
+
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <h1><a class="site-title" rel="author" href="/">Digital Fabrication Module</a></h1>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+            
+            <a class="page-link" href="/category/colophon.html">Colophon</a>
+            
+            
+          
+            
+            
+            
+            <a class="page-link" href="/category/course.html">Course Notes</a>
+            
+            
+          
+            
+            
+            
+            <a class="page-link" href="/category/diy-arduino.html">DIY Arduino</a>
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Jekyll configuration and customisation</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-11-17T00:00:00+01:00" itemprop="datePublished">Nov 17, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Adapting Jekyll to make it work for this site.</p>
+
+<!--more-->
+
+<h2 id="content-structure">Content structure</h2>
+
+<p>I tried a few ways to build a hierarchy of content within Jekyll, since this site doesn’t really follow a (reverse-chronological) blog format. Specifically, writing all content as pages instead of posts, and using the Jekyll’s concept of “<a href="https://jekyllrb.com/docs/collections/">collections</a>”. Neither of these worked, so I’ve ended up with the following approach.</p>
+
+<ol>
+  <li>
+    <p>Write all content as posts. i.e. use the standard <code class="highlighter-rouge">date-name.md</code> file naming format, and store them in the <code class="highlighter-rouge">/_posts/</code> directory.</p>
+  </li>
+  <li>
+    <p>Give all posts <a href="https://jekyllrb.com/docs/posts/#categories-and-tags">categories</a>, by including this in the frontmatter at the top of each post, like so:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: post
+ title:  "Jekyll configuration and customisation"
+ date:   2018-11-17
+ categories: colophon
+ ---
+</code></pre></div>    </div>
+
+    <p>Or:</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> categories: [colophon, course]
+</code></pre></div>    </div>
+
+    <p><span class="wip">WIP:</span> Note that categories must be URL-friendly (lowercase, one-word, or hyphenated), as they are used in post slugs. This causes problems later on when you want to list category names in templates.</p>
+  </li>
+  <li>
+    <p>Override the default permalink settings to use categories as part of the URL slug, instead of dates (this makes the whole site a lot less <em>bloggy</em>.)</p>
+
+    <p>Add this line to <code class="highlighter-rouge">_config.yml</code>:</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> permalink: /:categories/:title:output_ext
+</code></pre></div>    </div>
+
+    <p>This removes dates from the default format, which is:</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> permalink: /:categories/:year/:month/:day/:title:output_ext
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Create index pages for categories by adding a <code class="highlighter-rouge">category.html</code> page to <code class="highlighter-rouge">/_layouts/</code>.</p>
+
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="o">---</span>
+ <span class="ss">layout: </span><span class="n">page</span>
+ <span class="o">---</span>
+ <span class="o">&lt;</span><span class="n">h3</span><span class="o">&gt;</span><span class="p">{{</span> <span class="n">category</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">}}</span><span class="o">&lt;</span><span class="sr">/h3&gt;
+
+ {% for page in site.categories[page.category]  %}
+     &lt;h3&gt;&lt;a href="{{ page.url | relative_url }}"&gt;
+       {{ page.title }}
+     &lt;/</span><span class="n">a</span><span class="o">&gt;&lt;</span><span class="sr">/h3&gt;
+      &lt;p&gt;{{ page.excerpt }} &lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+ <span class="p">{</span><span class="sx">% endfor </span><span class="o">%</span><span class="p">}</span>
+ <span class="o">&lt;</span><span class="sr">/ul&gt;
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://jekyllrb.com/docs/themes/#overriding-theme-defaults">Override the default homepage template</a> by creating a similar <code class="highlighter-rouge">home.html</code> template in <code class="highlighter-rouge">/_layouts/</code> to list all posts by category.</p>
+
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="o">---</span>
+ <span class="ss">layout: </span><span class="n">page</span>
+ <span class="o">---</span>
+ <span class="p">{</span><span class="sx">% for </span><span class="n">category</span> <span class="k">in</span> <span class="n">site</span><span class="p">.</span><span class="nf">categories</span> <span class="sx">%}
+   &lt;h3&gt;{{ category[0] }</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/h3&gt;
+   &lt;ul&gt;
+     {% for post in category[1] %}
+       &lt;li&gt;&lt;a href="{{ post.url }}"&gt;{{ post.title }}&lt;/</span><span class="n">a</span><span class="o">&gt;&lt;</span><span class="sr">/li&gt;
+     {% endfor %}
+   &lt;/u</span><span class="n">l</span><span class="o">&gt;</span>
+ <span class="p">{</span><span class="sx">% endfor </span><span class="o">%</span><span class="p">}</span>
+</code></pre></div>    </div>
+
+    <p><span class="wip">WIP:</span> This is where the category naming breaks down. I need to find a way to associate a properly formated category name with each machine-readable category lug to display on this page.</p>
+  </li>
+  <li>
+    <p>Add a simple template for each category inside the <code class="highlighter-rouge">/category/</code> folder. These all have the same format:</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: category
+ title: Course notes
+ category: course
+ ---
+</code></pre></div>    </div>
+
+    <p>This step is derived from <a href="https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins">a similar approach detailed here</a>.</p>
+  </li>
+</ol>
+
+<p>This way, all posts appear listed by category on the homepage, and in the site nav, all categories are listed, linked through to their respective index pages</p>
+
+<h2 id="overrides">Overrides</h2>
+
+<p>URL-based overrides are <a href="/colophon/publishing-to-multiple-servers.html">detailed elsewhere</a></p>
+
+<p>I’ve already talked about permalink settings.</p>
+
+<p>So far, my only other customisation is to explicitly state an excerpt separator, so that I can control how posts are displayed on index pages.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>excerpt_separator: &lt;!--more--&gt;
+</code></pre></div></div>
+
+<p>If a post has nothing above this separator, nothing is displayed as an except. However, all posts must have the separator, otherwise an indeterminate amount of text is considered by Jekyll to be the excerpt.</p>
+
+<h3 id="permalinks">Permalinks</h3>
+
+<h2 id="css">CSS</h2>
+
+<p>I should try SASS!</p>
+
+<h2 id="a-few-notes-on-markdown-and-jekyll">A few notes on Markdown (and Jekyll)</h2>
+
+<p>Markdown is great, but it has a few quirks worth noting. These can be made more irksome when wrapping your Markdown in Jekyll’s ‘liquid’ syntax.</p>
+
+<h3 id="line-breaks">Line breaks</h3>
+<p>In these notes, I’m writing a lot of sentence fragments, so I need to use a lot of line breaks – as opposed to paragraphs. <a href="https://daringfireball.net/projects/markdown/syntax#p">These have a special syntax</a>:</p>
+
+<blockquote>
+  <p>The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters which translate every line break character in a paragraph into a <code class="highlighter-rouge">&lt;br /&gt;</code> tag.
+When you <em>do</em> want to insert a <code class="highlighter-rouge">&lt;br /&gt;</code> break tag using Markdown, you end a line with two or more spaces, then type return.</p>
+</blockquote>
+
+<h3 id="spaces-in-category-names">Spaces in category names</h3>
+<p>If you want categories that have more than one word, you need to encapsulate them with [square brackets], like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>categories: [DIY Arduino]
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/colophon/jekyll-setup.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Digital Fabrication Module</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Digital Fabrication Module</li><li><a class="u-email" href="mailto:andrew.sleigh@gmail.com">andrew.sleigh@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/andrewsleigh"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">andrewsleigh</span></a></li><li><a href="https://www.twitter.com/andrewsleigh"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">andrewsleigh</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Work-in-progress and draft course notes for a module in digital fabrication at University of Brighton, based on Fab Academy</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
