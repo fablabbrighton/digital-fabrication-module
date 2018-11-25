@@ -25,6 +25,25 @@ baseurl: "/digital-fabrication-module" # the subpath of your site, e.g. /blog
 
 excerpt_separator: <!--more-->
 
+
+collections: 
+
+  course-notes:
+    prettylabel: "Course Notes" 
+    permalink: /:collection/:name
+    output: true  
+
+  colophon:
+    prettylabel: "Colophon"
+    permalink: /:collection/:name
+    output: true
+  
+  diy-arduino:
+    prettylabel: "DIY Arduino"
+    permalink: /:collection/:name
+    output: true
+
+
 twitter_username: andrewsleigh
 github_username:  andrewsleigh
 
@@ -47,4 +66,4 @@ plugins:
 #   - vendor/ruby/
 
 
-permalink: /:categories/:title:output_ext
+# permalink: /:categories/:title:output_ext

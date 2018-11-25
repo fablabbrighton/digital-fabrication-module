@@ -3,10 +3,8 @@ layout: page
 
 ---
 
-{% if jekyll.environment == "localhost" %}
-  <h1>Localhost</h1>
-{% endif %}
 
+<!-- 
 
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
@@ -16,4 +14,24 @@ layout: page
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+{% endfor %}
+
+ -->
+
+
+
+{% for collection in site.collections %}
+	{% if collection.label != "posts" %}
+
+		{% assign name = collection.label %}
+		{% assign pretty_name = collection.prettylabel %}
+		<h2>{{ pretty_name }}</h2>
+
+		{% for item in site[name] %}
+
+			<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+			<p>{{ item.excerpt }}</p>
+
+		{% endfor %}
+	{% endif %}
 {% endfor %}

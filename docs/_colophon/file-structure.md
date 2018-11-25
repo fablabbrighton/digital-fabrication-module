@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: page
 title:  "File structure"
 date:   2018-11-24
-categories: colophon
+
 ---
 How are the files in this project organised?
 
@@ -17,6 +17,8 @@ Everything is inside a Git repository on my local computer. It syncs with a remo
 
 GitHub URL: <https://github.com/andrewsleigh/digital-fabrication-module>
 
+Also includes the `Gemfiles` for Jekyll. 
+
 ## Docs
 
 `Digital Fabrication Module/docs`
@@ -27,6 +29,7 @@ GitHub URL: <https://github.com/andrewsleigh/digital-fabrication-module/docs>
 GitHub Pages URL: <https://andrewsleigh.github.io/digital-fabrication-module>  
 URL on my site: <https://andrewsleigh.com/learning/digital-fabrication-module>
 
+Includes Jekyll's `_config.yml` files.
 
 
 ## Code examples and design files
