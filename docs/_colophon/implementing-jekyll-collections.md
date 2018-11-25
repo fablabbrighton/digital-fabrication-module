@@ -75,7 +75,7 @@ This code lists all the collections and within each one, all the pages from that
 
 		{% for item in site[name] %}
 
-			<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+			<h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
 			<p>{{ item.excerpt }}</p>
 
 		{% endfor %}
@@ -99,7 +99,7 @@ permalink: "/colophon/"
 <ul>
   {% for item in site.colophon %}
     <li>
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
       - {{ item.excerpt }}
     </li>
   {% endfor %}

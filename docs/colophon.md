@@ -10,7 +10,7 @@ How this site is made
 <ul>
   {% for item in site.colophon %}
     <li>
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
       - {{ item.excerpt }}
     </li>
   {% endfor %}
