@@ -4,12 +4,15 @@ title:  "File structure"
 date:   2018-11-24
 categories: colophon
 ---
-
+How are the files in this project organised?
 
 <!--more-->
 
 
 ### Git repo
+
+Everything is inside a Git repository on my local computer. It syncs with a remote repo on GitHub, here:
+<https://github.com/andrewsleigh/digital-fabrication-module>
 
 *Root*
 `Digital Fabrication Module/`
