@@ -126,7 +126,7 @@ git push origin master
 This worked, so I added a few more entries to hide some other superfluous files from the public repo:
 
 ```
-/Gemfile
+/Gemfile        // Update: See warning below
 /Gemfile.lock
 **/.DS_Store
 /.sass-cache
@@ -135,6 +135,8 @@ This worked, so I added a few more entries to hide some other superfluous files 
 `**/.DS_Store` should match macOS’s `.DS_Store` files whichever directory they’re in.
 
 And then I followed the same procedure to remove these already-committed files from the repo.
+
+**Update:** of course you can't remove the `Gemfile` and perhaps not `Gemfile.lock` or `.sass-cache`, or Jekyll won't run locally, so I ended up putting these back in the repo, and removing these lines from .`gitignore` 
 
 
 ### 2. GitHub Pages
