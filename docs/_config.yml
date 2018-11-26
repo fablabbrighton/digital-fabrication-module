@@ -30,17 +30,17 @@ collections:
 
   course-notes:
     prettylabel: "Course Notes" 
-    permalink: /:collection/:name
+    permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
     output: true  
 
   colophon:
     prettylabel: "Colophon"
-    permalink: /:collection/:name
+    permalink: /:collection/:name:output_ext
     output: true
   
   diy-arduino:
     prettylabel: "DIY Arduino"
-    permalink: /:collection/:name
+    permalink: /:collection/:name:output_ext
     output: true
 
 
