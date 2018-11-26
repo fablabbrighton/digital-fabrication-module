@@ -16,7 +16,7 @@
 title: Digital Fabrication Module
 email: andrew.sleigh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Work-in-progress and draft course notes for a module in digital fabrication at University of Brighton, based on Fab Academy
+  Course notes, reference material and code for a module in digital fabrication at the  University of Brighton.
   
 # Setup default URLs to be for github and github pages, so they will render correctly without overrides  
   
@@ -46,6 +46,7 @@ collections:
 
 twitter_username: andrewsleigh
 github_username:  andrewsleigh
+author: Andrew Sleigh
 
 # Build settings
 markdown: kramdown

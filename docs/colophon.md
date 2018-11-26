@@ -5,13 +5,13 @@ permalink: "/colophon/"
 ---
 
 
-How this site is made
+_How this site is made._
 
-<ul>
+----
+
+
   {% for item in site.colophon %}
-    <li>
-      <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-      - {{ item.excerpt }}
-    </li>
+<h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+<p>{{ item.excerpt }}</p>
+    
   {% endfor %}
-</ul>

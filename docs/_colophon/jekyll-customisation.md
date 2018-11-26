@@ -14,7 +14,7 @@ Adapting Jekyll to make it work for this site.
 [See this page]({{ site.baseurl }}{% link _colophon/implementing-jekyll-collections.md %}) on how I implemented the site hierarchy using collections
 
 
-## Overrides
+## Config Overrides
 
 [See here for detail on URL overrides]({{ site.baseurl }}{% link _colophon/publishing-to-multiple-servers.md %}) in `_config.yml`.
 
@@ -30,6 +30,12 @@ If a post has nothing above this separator, nothing is displayed as an except. H
 ## CSS
 
 I should try SASS, which is what Jekyll uses, but at the moment, I'm just overriding the default CSS for theme I'm using (minima) with CSS declarations in `_includes/head.html`
+
+## Modifying Theme Templates 
+
+CSS aside, I'm pretty much just using the default [minima theme](https://github.com/jekyll/minima). In order to add CSS to the header, or change the footer, I copy the relevant [includes](https://github.com/jekyll/minima/tree/master/_includes) to an `_includes` folder in my Jekyll site root (`/docs/`) and make the changes there.
+
+
 
 ## A few notes on Markdown (and Jekyll)
 
