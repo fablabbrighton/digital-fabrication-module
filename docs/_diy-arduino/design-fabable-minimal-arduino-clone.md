@@ -325,7 +325,7 @@ This would be a nice thing to have on the board. It would also need a current-li
 
 ## Next steps
 
-I designed a board along these lines in Eagle to see how all these ideas work within the physical constraints of a board layout. That is documented separately.
+[I designed a board along these lines in Eagle]({{ site.baseurl }}version-0p1-eagle) to see how all these ideas work within the physical constraints of a board layout. That is documented separately.
 
 I don't currently have access to a lab to fabricate a test board, but that is also on the list.
 
