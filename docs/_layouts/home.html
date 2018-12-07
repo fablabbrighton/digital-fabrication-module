@@ -4,16 +4,17 @@ layout: page
 
 {% for collection in site.collections %}
 	{% if collection.label != "posts" %}
+  	{% if collection.label != "colophon" %}
+      {% assign name = collection.label %}
+      {% assign pretty_name = collection.prettylabel %}
+      <h2>{{ pretty_name }}</h2>
 
-		{% assign name = collection.label %}
-		{% assign pretty_name = collection.prettylabel %}
-		<h2>{{ pretty_name }}</h2>
+      {% for item in site[name] %}
 
-		{% for item in site[name] %}
+        <h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
+        <p>{{ item.excerpt }}</p>
 
-			<h3><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h3>
-			<p>{{ item.excerpt }}</p>
-
-		{% endfor %}
+      {% endfor %}
+			{% endif %}
 	{% endif %}
 {% endfor %}
