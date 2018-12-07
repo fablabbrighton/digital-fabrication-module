@@ -4,29 +4,30 @@ title:  "Week 3: Laser cutter: computer-controlled cutting (CNC)"
 date:   2018-11-23
 ---
 
+
+
+
+<span class="wip">WIP</span>Review my notes and assignment writeup - can I add more detail here.
+
+
+
 Introducing the laser cutter and 2D-3D assembly.
 
 <!--more-->
 
+## Prep for this week's class
 
-## Sources
-* Course content derived from Fab Academy: <http://academy.cba.mit.edu/classes/computer_cutting/index.html>  
-* Neil’s lecture from 2018 (Fab-20180207D_Lesson03): [Fab Academy 20180207 Recordings](http://fab.academany.org/2018/lectures/fab-20180207.html)
+Watch the corresponding Fab Academy lecture. We'll be covering part of this content. 
 
-## Assignment
+* Fab Academy lecture notes: <http://academy.cba.mit.edu/classes/computer_cutting/index.html>  
+* Lecture from 2018 (Fab-20180207D_Lesson03, the second video on the page): [Fab Academy 20180207 Recordings](http://fab.academany.org/2018/lectures/fab-20180207.html)
 
-### Group assignment
+## Baseline 
 
-Characterise your lasercutter, making test part(s) that vary cutting settings and dimensions
-Make test cuts, vary power, speed and frequency for different materials. Document settings for different materials and thicknesses
-Make kerf tests to find good settings for different materials. Use these results for your own (parametric) design 
+Who has:
+* Used 2D design software like Illustrator? 
+* Cut something on a laser cutter?
 
-<!-- Do we need a group assignment? Is it feasible to do? -->
-
-### Individual assignment
-
-
-Design, lasercut, and document a parametric  [press-fit construction kit](http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html), accounting for the lasercutter kerf, which can be assembled in multiple ways
 
 ----
 
@@ -34,19 +35,14 @@ Design, lasercut, and document a parametric  [press-fit construction kit](http:/
 
 In this module, we’re going to focus on the laser cutter (optionally also the vinyl cutter)
 
-### Knife
+### Vinyl cutters
 
-Vinyl cutters - under-utilised tools in Fablabs. e.g.
-* [Roland](https://www.rolanddga.com/products/vinyl-cutters)
-* [Zund](https://www.zund.com/)
-* [Othercutter](https://www.youtube.com/watch?v=PG9lJOnNTzQ)
-* [ultrasonic](https://www.honda-el.co.jp/en/industry)
+We have a [Roland CAMM-1 GS-24](https://www.rolanddg.co.uk/products/vinyl-cutters/camm-1-gs-24-desktop-vinyl-cutter)
 
 ### Laser
-Most used machine in the lab  
-Huge spectrum of capability:  
+
+We have an [Epilog Helix 24](https://www.epiloglaser.com/laser-machines/legend-laser-series.htm) (40 Watts, CO2, 24x18" bed, approx £10k). But there's a huge spectrum of capability:  
 * [PHAROS](http://www.lightcon.com/Product/PHAROS.html)  - “disassembles material on an atomic scale, lets you do laser cutting down to microns”  / $100k  
-* [Epilog](http://www.epiloglaser.com/product_line.htm)    - we have a Helix  / £10k  
 * [Full Spectrum](http://fslaser.com/)  Hobbyist lasers / $1k
 
 
@@ -57,13 +53,11 @@ Huge spectrum of capability:
 
 ### Waterjet
 
-* [OMAX](https://www.omax.com/)
+
 * [Flow](https://www.flowwaterjet.com/) – Can cut anything / $100k / Uses consumables - you must add new garnet, and remove garnet sludge
 * [WAZER](https://www.wazer.com/)   - a kickstarter project, becoming more accessible
 
 ### Hot wire
-
-Killer app: architectural decoration and special effects in foam.
 
 * [FROGWire](http://www.3dcutting.com/solutions/frogwire.html)
 * [Hotwire](http://www.hotwiresystems.com/hot-wire-cnc-foam-cutters)   
@@ -72,11 +66,9 @@ Killer app: architectural decoration and special effects in foam.
 
 ## Computer Aided Design (CAD) software
 
-### We use
 
-Mostly **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape** for 2D
+We mostly use **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape** for 2D
 
-### Others
 
 * [Inkscape](http://www.inkscape.org/) [video](http://academy.cba.mit.edu/classes/computer_design/inkscape.mp4) 
 * [Rhino](http://www.rhino3d.com/)
@@ -99,6 +91,8 @@ Mostly **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape** for 
 * [mods](http://mods.cba.mit.edu/?program=programs/frep/gears) 
 
 
+<span class="wip">WIP</span> Maybe show an example of generating a file for cutting. Considerations, measuring, kerf, copying, etc.
+
 
 ### Parametric design
 
@@ -108,13 +102,15 @@ Mostly **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape** for 
 
 Inkscape is not parametric, Rhino and Fusion 360 are.
 
+<span class="wip">WIP</span> Show an example of parametric design in Fusion360
+
 
 ## Computer Aided Manufacturing ([CAM](https://en.wikipedia.org/wiki/Computer-aided_manufacturing))
 
 CAD is design, CAM translates a design file into a format the machine understands and communicates with the machine.
 
 Typically through printer driver (accessible in Print dialog on your 2D CAD software)  
-But we can also talk to the mchine at a lower level using [Fab Modules](http://fabmodules.org) or Mods
+But we can also talk to the mchine at a lower level using [Fab Modules](http://fabmodules.org) or [Mods](http://mods.cba.mit.edu)
 
 
 ## The Laser cutter
@@ -213,4 +209,27 @@ Laser optics need to be kept clean (by who?)
 * Pulse rate/Frequency - too close can melt, too far apart can leave gaps
 * Coordinate system, origin is top left
 * Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)
+
+<span class="wip">WIP</span> Show example workflow
+
+----
+
+## Assignment
+
+### Group assignment
+
+Characterise your lasercutter, making test part(s) that vary cutting settings and dimensions.  
+Make test cuts, vary power, speed and frequency for different materials. Document settings for different materials and thicknesses.  
+Make kerf tests to find good settings for different materials. Use these results for your own (parametric) design. 
+
+<span class="wip">WIP</span> Do we need a group assignment? Is it feasible?
+
+### Individual assignment
+
+Design, lasercut, and document a parametric  [press-fit construction kit](http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html), accounting for the lasercutter kerf, which can be assembled in multiple ways.
+
+Use cardboard: forgiving, cheap, recyclable. But beware fire risk.  
+Use a parametric design tool to account for cardboard thickness, kerf testing and joint stability.
+
+
 
