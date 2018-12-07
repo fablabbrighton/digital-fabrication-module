@@ -12,7 +12,7 @@ https://andrewsleigh.com/learning/digital-fabrication-module/
 It is also mirrored at:
 https://andrewsleigh.github.io/digital-fabrication-module/
 
-If you'd like to contribute, or use the content, most of these files are located in the [`/docs/_posts`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/docs/_posts) folder.
+If you'd like to contribute, or use the content, most of these files are located in the [`/docs`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/doc) folder.
 
-Design files and code examples will be stored in their own folders at the root level.
+Design files and code examples are in their own folders at the root level: [`/3d-models`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/3d-models), [`/arduino-code`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/3d-models), [`/board-designs`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/board-designs), etc.
 
