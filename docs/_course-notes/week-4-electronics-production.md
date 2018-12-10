@@ -305,26 +305,28 @@ Fumes  - an issue if you’re soldering for several hours
 Leaded solder - Wash your hands!
 
 
-
+---
 
 
 ## Assignment
 
 <span class="wip">WIP</span> Not sure which is best here: to make a progammer (1) or a simple microcontroller board (2).
 
-1. Mill and stuff a board a DIY version of a [commercial Atmel programmer](https://www.digikey.com/product-detail/en/microchip-technology/ATATMEL-ICE-BASIC/ATATMEL-ICE-BASIC-ND)
+(1) Mill and stuff a board a DIY version of a [commercial Atmel programmer](https://www.digikey.com/product-detail/en/microchip-technology/ATATMEL-ICE-BASIC/ATATMEL-ICE-BASIC-ND)
 
 * Brian’s: [Building the FabTinyISP](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html) Tiny45
 * Ali’s: [FabISP_Demystified](http://fab.cba.mit.edu/classes/863.16/doc/tutorials/FabISP/FabISP_Demystified.html) TIny44
 
 Or
 
-2. Mill and stuff the Hello World board (then next week we can modify it)
+(2) Mill and stuff the Hello World board (then next week we can modify it)
 
 
 ### What do I need to do to pass?
 
 Mill and stuff a board that passes a visual inspection (good traces, viable solder joints, correct components in the right places).
+
+**Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.**
 
 
 ### Extra credit
@@ -334,15 +336,7 @@ Mill and stuff a board that passes a visual inspection (good traces, viable sold
 3. Test that the board really works by verifying it does what it’s supposed to do (i.e. run a program)
 
 
-### Failsafe for next week
-
-Make some working programmers so students can use them to program their boards
-
-
-
 - - - -
-
-
 
 ## Materials we need this week
 
@@ -359,4 +353,9 @@ Plan B:
 * Some pre-milled boards
 * Working programmers (if we’re not making them)
 
+---
+
+### Failsafe for next week
+
+Make some working programmers so students can use them to program their boards
 
