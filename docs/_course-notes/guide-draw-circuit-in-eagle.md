@@ -11,7 +11,7 @@ Workflow and tips for drawing circuits in Eagle
 
 ## Libraries
 
-![eagle-library.png]({{ site.baseurl }}{{ "/assets/eagle-library.png" | relative_url }})
+![eagle-library.png]({{ "/assets/eagle-library.png" | relative_url }})
 
 * Part: e.g. a 10k resistor
 * Package: surface mount or through hole, size, etc.
@@ -26,12 +26,12 @@ There is an [Eagle library of standard parts from the Fablab inventory](https://
 4. Open the Eagle Control Panel (under `Window` menu)
 5. Find library you added, right click and select `Use`
 
-![eagle-add-lib.png]({{ site.baseurl }}{{ "/assets/eagle-add-lib.png" | relative_url }})
+![eagle-add-lib.png]({{ "/assets/eagle-add-lib.png" | relative_url }})
 
 
 Open a schematic, add a part (which opens the Library window), and you should be able to select parts from the fab library:
 
-![eagle-part-in-fab-library.png]({{ site.baseurl }}{{ "/assets/eagle-part-in-fab-library.png" | relative_url }})
+![eagle-part-in-fab-library.png]({{ "/assets/eagle-part-in-fab-library.png" | relative_url }})
 
 
 ## Schematic
@@ -39,7 +39,7 @@ Logical structure of a circuit.
 How are the components connected.  
 Abstract, not a visual representation.
 
-![eagle-schematic.png]({{ site.baseurl }}{{ "/assets/eagle-schematic.png" | relative_url }})
+![eagle-schematic.png]({{ "/assets/eagle-schematic.png" | relative_url }})
 
 My schematic for Hello World board.  
 Green lines show connections between parts.  
@@ -58,7 +58,7 @@ Layers: we’ll only make single layer boards.
 Use `SCH/BRD` button on toolbar to switch between Schematic and Board layout views.
 
 
-![eagle-board-layout-airwires.png]({{ site.baseurl }}{{ "/assets/eagle-board-layout-airwires.png" | relative_url }})
+![eagle-board-layout-airwires.png]({{ "/assets/eagle-board-layout-airwires.png" | relative_url }})
 
 Yellow lines are “Airwires”.   
 Your job here is to convert the airwires into traces. 
@@ -68,7 +68,7 @@ Art: place parts well, process of trying placement and routing, ripping it up, t
 Tricks: rotating parts, or running traces underneath.
 
 
-![eagle-board-layout.png]({{ site.baseurl }}{{ "/assets/eagle-board-layout.png" | relative_url }})
+![eagle-board-layout.png]({{ "/assets/eagle-board-layout.png" | relative_url }})
 
 
 Red lines are traces.
@@ -76,7 +76,7 @@ Red lines are traces.
 <!-- 
 ### Common tools
 
-![eagle-brd-toolbar-labelled-alpha.png]({{ site.baseurl }}{{ "/assets/eagle-brd-toolbar-labelled-alpha.png" | relative_url }})
+![eagle-brd-toolbar-labelled-alpha.png]({{ "/assets/eagle-brd-toolbar-labelled-alpha.png" | relative_url }})
 
  -->
 
@@ -84,7 +84,7 @@ Red lines are traces.
 
 | Schematic | Board |
 | :-------: | :---: |
-|     ![eagle-sch-toolbar-labelled-alpha.png]({{ site.baseurl }}{{ "/assets/eagle-sch-toolbar-labelled-alpha.png" | relative_url }})     |   ![eagle-brd-toolbar-labelled-alpha.png]({{ site.baseurl }}{{ "/assets/eagle-brd-toolbar-labelled-alpha.png" | relative_url }})   |
+|     ![eagle-sch-toolbar-labelled-alpha.png]({{ "/assets/eagle-sch-toolbar-labelled-alpha.png" | relative_url }})     |   ![eagle-brd-toolbar-labelled-alpha.png]({{ "/assets/eagle-brd-toolbar-labelled-alpha.png" | relative_url }})   |
 
 
 
@@ -92,9 +92,9 @@ Red lines are traces.
 
 View menu > Grid...
 
-<!-- ![eagle-units.png]({{ site.baseurl }}{{ "/assets/eagle-units.png" | relative_url }}) -->
+<!-- ![eagle-units.png]({{ "/assets/eagle-units.png" | relative_url }}) -->
 
-![eagle-grid-2.png]({{ site.baseurl }}{{ "/assets/eagle-grid-2.png" | relative_url }})
+![eagle-grid-2.png]({{ "/assets/eagle-grid-2.png" | relative_url }})
 
 **Beware: 'mils' != 'mm'**
 
@@ -108,12 +108,12 @@ A standard pitch (ie the distance between the center of two holes or pins on a c
 
 Tools menu > DRC...
 
-![eagle-drc.png]({{ site.baseurl }}{{ "/assets/eagle-drc.png" | relative_url }})
+![eagle-drc.png]({{ "/assets/eagle-drc.png" | relative_url }})
 
 Lets you check for clearances between pads and traces. If our milling bit is 0.3mm, we need at least this much space beween all traces.  
 Adjust for different bit sizes. 
 
-![eagle-drc-error.png]({{ site.baseurl }}{{ "/assets/eagle-drc-error.png" | relative_url }})
+![eagle-drc-error.png]({{ "/assets/eagle-drc-error.png" | relative_url }})
 
 You can fix some of these problems after exporting a PNG in an image editor - e.g. make a pad a little smaller (but don't change the pitch of pads)
 
@@ -123,7 +123,7 @@ You can fix some of these problems after exporting a PNG in an image editor - e.
 
 Allows you to set all your traces to one size, all at once.
 
-![eagle-ulp-trace-widths.png]({{ site.baseurl }}{{ "/assets/eagle-ulp-trace-widths2.png" | relative_url }})
+![eagle-ulp-trace-widths.png]({{ "/assets/eagle-ulp-trace-widths2.png" | relative_url }})
 
 Toolbar: `ULP` button  
 Select `cmd-change-brd-width` from the list   
@@ -173,7 +173,7 @@ Add any vector art or labels.
 
 Create a white canvas, with a black line around the outside. The traces should fit comfortably inside this black line.
 
-![eagle-to-png2.png]({{ site.baseurl }}{{ "/assets/eagle-to-png3.png" | relative_url }})
+![eagle-to-png2.png]({{ "/assets/eagle-to-png3.png" | relative_url }})
 
 **Important:** Your traces PNG and your outline PNG must be the same size. 
 
@@ -194,11 +194,11 @@ Print out your PNG at 100% and place some components on the printout.
 Do they fit?
 Are there overhangs that interfere, or bits you need to access that you can’t reach (e.g. a USB or power socket)? 
 
-![IMG_0235.jpg]({{ site.baseurl }}{{ "/assets/IMG_0235.jpg" | relative_url }})
+![IMG_0235.jpg]({{ "/assets/IMG_0235.jpg" | relative_url }})
 
 Try generating a tool path in Fab Modules. Is there enough clearance between traces/pads?
 
-![niggly-cam-problems3.png]({{ site.baseurl }}{{ "/assets/niggly-cam-problems3.png" | relative_url }})
+![niggly-cam-problems3.png]({{ "/assets/niggly-cam-problems3.png" | relative_url }})
 
 
 

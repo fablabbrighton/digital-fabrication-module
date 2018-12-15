@@ -175,7 +175,7 @@ Package: surface mount or through hole, size, etc.
 Specs: current it can handle, accuracy, etc.  
 Libraries handle all this for you.
 
-![eagle-library.png]({{ site.baseurl }}{{ "/assets/eagle-library.png" | relative_url }})
+![eagle-library.png]({{ "/assets/eagle-library.png" | relative_url }})
 
 
 #### Schematic
@@ -183,7 +183,7 @@ Logical structure of a circuit.
 How are the components connected.  
 Abstract, not a visual representation.
 
-![eagle-schematic.png]({{ site.baseurl }}{{ "/assets/eagle-schematic.png" | relative_url }})
+![eagle-schematic.png]({{ "/assets/eagle-schematic.png" | relative_url }})
 
 My schematic for Hello World board.  
 Green lines show connections between parts.  
@@ -197,7 +197,7 @@ Where the components go on the board, and how to route traces (connections betwe
 How to satisfy the requirements of the schematic, within the constraints of the fab process (aka design rules).  
 Mainly: how thin can traces be, how close together can they be.  
 
-![eagle-board-layout.png]({{ site.baseurl }}{{ "/assets/eagle-board-layout.png" | relative_url }})
+![eagle-board-layout.png]({{ "/assets/eagle-board-layout.png" | relative_url }})
 
 
 This *is* a visual representation. 
@@ -210,7 +210,9 @@ Eagle can generate a layered vector file of traced, pads, labels, and board outl
 Use your preferred tools to convert these into 2 PNG files for milling.
 
 
-![eagle-to-png2.png]({{ site.baseurl }}{{ "/assets/eagle-to-png3.png" | relative_url }})
+![eagle-to-png2.png]({{ "/assets/eagle-to-png3.png" | relative_url }})
+
+
 
 #### Verify
 
@@ -221,7 +223,7 @@ Use your preferred tools to convert these into 2 PNG files for milling.
 * Access to ports
 
 
-![IMG_0235.jpg]({{ site.baseurl }}{{ "/assets/IMG_0235.jpg" | relative_url }})
+![IMG_0235.jpg]({{ "/assets/IMG_0235.jpg" | relative_url }})
 
 You will make mistakes.  
 Start again.
@@ -244,7 +246,7 @@ Start again.
 
 ### 1) Redraw the Hello World board, starting with [Neil’s circuit](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.png):
 
-![hello.ftdi.44.png]({{ site.baseurl }}{{ "/assets/hello.ftdi.44.png" | relative_url }})
+![hello.ftdi.44.png]({{ "/assets/hello.ftdi.44.png" | relative_url }})
 
 * Use a library in Eagle to get all these parts (look at the part bins here to see what we have).  
 * Draw a schematic and board layout.  
