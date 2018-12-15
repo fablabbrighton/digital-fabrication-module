@@ -317,6 +317,16 @@ Leaded solder - Wash your hands!
 * Brian’s: [Building the FabTinyISP](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html) Tiny45
 * Ali’s: [FabISP_Demystified](http://fab.cba.mit.edu/classes/863.16/doc/tutorials/FabISP/FabISP_Demystified.html) TIny44
 
+* Load the board with the programming software
+
+<!-- CrossPack is a development environment for Atmel’s AVR® microcontrollers running on Apple’s Mac OS X, similar to AVR Studio on Windows. It consists of the GNU compiler suite, a C library for the AVR, the AVRDUDE uploader and several other useful tools. -->
+
+<!-- 
+
+USB-3
+There have been reports of problems with certain USB-3 ports due to the stricter timing USB-3 requires, from what I've understood all FabISPs seem to be suffering from this. The workaround is to try another USB port or even an USB-2 (or lower) hub. As I don't have any USB-3 ports (yet), I cannot really test this myself.
+ -->
+
 Or
 
 (2) Mill and stuff the Hello World board (then next week we can modify it)
@@ -334,6 +344,12 @@ Mill and stuff a board that passes a visual inspection (good traces, viable sold
 1. Mill a board and teach someone else how to operate the machine
 2. Test the board you make with oscilloscope or the multimeter and document what you find
 3. Test that the board really works by verifying it does what it’s supposed to do (i.e. run a program)
+
+---
+
+### For next week
+
+<span class="wip">WIP</span> Add in prep they need to do in advance of next week.
 
 
 - - - -
