@@ -354,6 +354,7 @@ Customise the board and then draw your custom version.
 
 e.g. Add a button and an LED (with current-limiting resistor) to PB2 and PB7. (Both of these go from the pin on the chip (which is high voltage, aka VCC) to GND.)
 
+
 Whether you've customised the board or not, mill and test the board by uploading a program.
 
 

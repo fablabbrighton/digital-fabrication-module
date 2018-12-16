@@ -242,7 +242,7 @@ Start again.
 
 <span class="wip">WIP: explanation of each component (about 1m06s in video)</span>
 
-<span class="wip">WIP: Do we need the FTDI header? Probably only for serial testing with FTDI cable</span>
+<span class="wip">WIP: maybe redraw this with additional components added already</span>
 
 ### 1) Redraw the Hello World board, starting with [Neil’s circuit](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.png):
 
@@ -260,9 +260,10 @@ _Do this if at all possible!_
 
 ### 3) Upload a pre-written program to the board to test that it works
 
+<span class="wip">WIP: It might be easier to leave this til next week. And do a whole week on programming</span>
+
 * See the [board programming guide]({{ site.baseurl }}guide-board-programming).
-* If you’ve added a button and LED, you can try the standard Arduino blink sketch
-* Otherwise try [Neil’s serial test](http://academy.cba.mit.edu/classes/electronics_design/index.html) using RX and TX pins on the FTDI header ([code](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c)).
+* If you’ve added a button and LED, you can try the standard Arduino blink sketch <span class="wip">WIP: see notes about testing</span>
 
 
 ### What do I need to do to pass?
@@ -275,7 +276,17 @@ Document all your work on your student blog, with photos and videos to show what
 
 Customise the board and then draw your custom version. e.g. Add a button and an LED (with current-limiting resistor) to PB2 and PB7. (Both of these go from the pin on the chip (which is high voltage, aka VCC) to GND.)
 
+<span class="wip">WIP: may need to make this compulsory - or create a starter board with these comonents on, as it will be difficult to test otherwise</span>
+
 Whether you've customised the board or not, mill and test the board by uploading a program.
+
+Try uploading a C program to the board using command line tools 
+  * See the Echo Hello World secion in the [board programming guide]({{ site.baseurl }}guide-board-programming)
+  * [Neil’s serial test](http://academy.cba.mit.edu/classes/electronics_design/index.html)
+  * [C code](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c)
+
+
+
 
 
 ## Source material / further reading/watching
