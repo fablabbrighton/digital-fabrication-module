@@ -317,6 +317,14 @@ Leaded solder - Wash your hands!
 * Brian’s: [Building the FabTinyISP](http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html) Tiny45
 * Ali’s: [FabISP_Demystified](http://fab.cba.mit.edu/classes/863.16/doc/tutorials/FabISP/FabISP_Demystified.html) TIny44
 
+
+<span class="wip">WIP</span>: I suggest we make the ATtiny45-based board (look like a USB key)
+* Don't need a resonator, which is difficult to solder
+* Don't need a USB port, also difficult to solder
+* Only 1 connection to break after programming
+
+
+
 * Load the board with the programming software
 
 <!-- CrossPack is a development environment for Atmel’s AVR® microcontrollers running on Apple’s Mac OS X, similar to AVR Studio on Windows. It consists of the GNU compiler suite, a C library for the AVR, the AVRDUDE uploader and several other useful tools. -->
