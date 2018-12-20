@@ -4,7 +4,7 @@ title:  "Guide: Programming an ATtiny board with a FabISP"
 date:   2018-12-15
 ---
 
-<span class="wip">WIP</span> Uploading a program to a DIY ATtiny microcontroller board through the ICSP header.
+Uploading a program to a DIY ATtiny microcontroller board through the ICSP header.
 
 <!--more-->
 
@@ -15,7 +15,7 @@ Original source material:
 * [Hi-low tech](http://highlowtech.org/?p=1695) 
 
 ## Requirements
-* A functioning target *Echo Hello World* board
+* A functioning target *Echo Hello World Plus* board
 * Power
 * A hardware functioning programmer
 	* FabISP
@@ -23,19 +23,17 @@ Original source material:
 	* Arduino as ISP <span class="wip">WIP</span>
 * Software on your computer to upload a program via your programmer
 	* Arduino IDE installed on your computer, set up to support ATtiny chips
-	* Or follow Neils *Echo Hello World* example <span class="wip">WIP</span>
+	* Or follow Neils *Echo Hello World* example 
 * An Arduino (or C) program to run
 
 
 These instructions mostly assume you're going to use a FabISP as your programmer, the Arduino IDE (and its bundled tools) as software on the host computer, and an Arduino program to run on your target.
 
 
-## A functioning target *Echo Hello World* board
+## A functioning target *Echo Hello World Plus* board
 
 Your target board: 
-The Fab Academy ATtiny44-based *Echo Hello World* board
-<http://academy.cba.mit.edu/classes/embedded_programming/index.html#echo>
-
+The ATtiny44-based [*Echo Hello World Plus* board]({{ site.baseurl }}week-5-electronics-design)
 
 ## Power
 Your target board needs 5V DC power to run.
@@ -119,7 +117,7 @@ If it doesn’t work, check your circuit (visually, and with a multimeter):
 
 If it does work, upload a program.
 
-### Blink or Button Sketch
+### Option 1: Blink or Button Sketch via Arduino IDE
 If you have modified the board to include a Button and LED, you can try either of these example Arduino Sketches:
 
 Blink: <https://www.arduino.cc/en/Tutorial/Blink>.   
@@ -152,13 +150,7 @@ You can do this in the Arduino IDE by using the `pinMode()` function.
 [Arduino - DigitalPins](https://www.arduino.cc/en/Tutorial/DigitalPins)
 
 
-<span class="wip">WIP: are there other sketches that could be run with an unmodified board? e.g. serial comms. See [this](https://www.hackster.io/porrey/easy-serial-on-the-attiny-2676e6)</span>
-
-
-
-### <a name="c-direct-upload" />Echo Hello World
-
-<span class="wip">WIP</span>
+### <a name="c-direct-upload" />Option 2: Echo Hello World using command line tools
 
 Arduino packages up a set of tools (e.g. [AVRDUDE](http://www.nongnu.org/avrdude/)) and libraries make it easy to program these AVR chips. But the language you’re writing is still just C. 
 
@@ -174,7 +166,7 @@ If your FabISP programmer isn’t working, you can also use a commercial Arduino
 
 <span class="wip">WIP: untested</span>
 
-Docs here: [High-Low Tech  –  Arduino board as ATtiny programmer](http://highlowtech.org/?p=1706)
+Docs here: [High-Low Tech  –  Arduino board as ATtiny programmer](http://highlowtech.org/?p=1706)  
 Also: 
 [Programming ATtiny ICs with Arduino Uno and the Arduino IDE 1.6.4 or above |](http://42bots.com/tutorials/programming-attiny-ics-with-arduino-uno-and-the-arduino-ide-1-6-4-or-above/) 
 

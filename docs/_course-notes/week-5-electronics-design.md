@@ -144,11 +144,11 @@ A whole circuit inside one package: a computer, analogy to digital convertors, c
 
 We’ll mostly use ones from Atmel: 
 
-* ATtiny 44/45, 84/85
+* ATtiny [44](https://www.microchip.com/wwwproducts/en/ATtiny44)/45, 84/85
 * ATmega 328p (Arduino Uno)
 * ATmega 32u4 (Arduino Leonardo, USB)
 
-Datasheets - learn to love them! 
+[Datasheets](http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf) - learn to love them! 
 
 
 And many more ...
@@ -204,17 +204,29 @@ Use your preferred tools to convert these into 2 PNG files for milling.
 
 ## Assignment
 
-<span class="wip">WIP: explanation of each component (about 1m06s in video)</span>
 
-<span class="wip">WIP: maybe redraw this with additional components added already</span>
 
-### 1) Redraw the Hello World board, starting with [Neil’s circuit](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.png):
+### 1) Redraw the Echo Hello World Plus board, starting with this finished circuit:
 
-![hello.ftdi.44.png]({{ "/assets/hello.ftdi.44.png" | relative_url }})
+![echo-hello-world-plus-0p3-guide.png]({{ "/assets/echo-hello-world-plus-0p3-guide.png" | relative_url }})
 
-* Use a library in Eagle to get all these parts (look at the part bins here to see what we have).  
-* Draw a schematic and board layout.  
-* Export a millable png file of the traces and outline.
+#### The parts and what they do
+
+|    IC1    |   Microcontroller   |                          ATtiny44                          |
+|    R1     |      Resistor       |                  Holds PB3/Reset pin high                  |
+|    C1     |      Capacitor      |             Smooths out noise on VCC/GND line              |
+|    J1     |     FTDI header     |                Serial comms with a computer                |
+|    J2     |     ICSP header     |                 Programming with a FabISP                  |
+|    D1     |         LED         | A simple output device you can test with. Brings happiness |
+|    R2     |      Resistor       |                   Limits current to LED                    |
+| Resonator |      Resonator      |               External clock source for chip               |
+|    S2     |       Button        |          A simple input device you can test with           |
+
+* Use a library in Eagle to get all these parts
+  * Look at the part bins here to see what we have
+  * Make sure the parts you select are the right size
+* Draw a schematic and board layout  
+* Export a millable png file of the traces and outline
 * How compact can you make it? ( = less waste, less milling time)
 
 ### 2) Make the board
@@ -224,33 +236,21 @@ _Do this if at all possible!_
 
 ### 3) Upload a pre-written program to the board to test that it works
 
-<span class="wip">WIP: It might be easier to leave this til next week. And do a whole week on programming</span>
+See the [board programming guide]({{ site.baseurl }}guide-board-programming).
 
-* See the [board programming guide]({{ site.baseurl }}guide-board-programming).
-* If you’ve added a button and LED, you can try the standard Arduino blink sketch <span class="wip">WIP: see notes about testing</span>
 
 
 ### What do I need to do to pass?
 
-Redraw the board without any additional components in Eagle and generate a PNG file suitable for milling.
+Redraw the board in Eagle and generate a PNG file suitable for milling.
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else’s work.
 
 ### Extra credit 
 
-Customise the board and then draw your custom version. e.g. Add a button and an LED (with current-limiting resistor) to PB2 and PB7. (Both of these go from the pin on the chip (which is high voltage, aka VCC) to GND.)
+Mill, stuff and test the board by uploading a program. Make the button work reliably (figure out how and why to use a pull-up resistor).
 
-<span class="wip">WIP: may need to make this compulsory - or create a starter board with these comonents on, as it will be difficult to test otherwise</span>
-
-Whether you've customised the board or not, mill and test the board by uploading a program.
-
-Try uploading a C program to the board using command line tools 
-  * See the Echo Hello World secion in the [board programming guide]({{ site.baseurl }}guide-board-programming)
-  * [Neil’s serial test](http://academy.cba.mit.edu/classes/electronics_design/index.html)
-  * [C code](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c)
-
-
-
+See the [board programming guide]({{ site.baseurl }}guide-board-programming).
 
 
 ## Source material / further reading/watching
@@ -268,11 +268,10 @@ Try uploading a C program to the board using command line tools
 
 * All components for board we make
 * Atmel programmer or working FabISPs
+* Some pre-made boards for stuffing
 * <span class="wip">WIP</span> …?
-
-
 
 ### Failsafe for next week
 
-Commercial Arduinos we can program.
-
+* Commercial Arduinos we can program
+* We can continue to mill and stuff boards next week
