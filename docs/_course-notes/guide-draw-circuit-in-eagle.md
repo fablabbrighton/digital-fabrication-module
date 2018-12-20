@@ -46,6 +46,8 @@ Green lines show connections between parts.
 Parts are in red - notice chip doesn’t look like that.   
 Once you’ve got used to Eagle, its easier to connect points by names instead of lines.
 
+![eagle-sch-names.png]({{ "/assets/eagle-sch-names.png" | relative_url }})
+
 
 ## Board layout
 
@@ -201,7 +203,14 @@ Try generating a tool path in Fab Modules. Is there enough clearance between tra
 ![niggly-cam-problems3.png]({{ "/assets/niggly-cam-problems3.png" | relative_url }})
 
 
+### 6. Testing a finished board
+
+* Multimeter - check for continuity or shorts.  
+* Oscilloscope - measure voltage over time, see what signals pins are sending.
+* Try to program.
+
 
 ## Further reading
 
-Eagle manual - installed with Eagle.
+Eagle manual - installed with Eagle.  
+[Sparkfun Eagle tutorials](https://learn.sparkfun.com/tutorials/tags/eagle)

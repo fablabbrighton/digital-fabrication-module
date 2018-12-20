@@ -30,7 +30,7 @@ It's a simple solution, but has a few downsides:
 
 * Adds to the size
 * These are female headers, which have through-hole pins underneath. That would mean drilling (or maybe milling) 28 holes for these pins. Very time-consuming
-* The simplest place to locate them is inline with the chip, but this pushes the decoupling capacitors (highlighted in yellow) away from the chip. Really they should be as close as possible. 
+* The simplest place to locate them is inline with the chip, but this pushes the decoupling capacitors (highlighted in blue) away from the chip. Really they should be as close as possible. 
 
 Tried to make it as compact as possible, but this is still about 8 x 9cm, which would take a long time to mill, so it would be good to get this down:
 

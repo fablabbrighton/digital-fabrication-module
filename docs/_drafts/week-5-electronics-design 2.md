@@ -170,25 +170,41 @@ Good hobbyist starting point: [Charles Platt’s Electronics Pages: Books Availa
 
 
 #### Libraries of parts
+Part: e.g. a 10k resistor  
+Package: surface mount or through hole, size, etc.  
+Specs: current it can handle, accuracy, etc.  
+Libraries handle all this for you.
 
 ![eagle-library.png]({{ "/assets/eagle-library.png" | relative_url }})
 
 
 #### Schematic
 Logical structure of a circuit.  
+How are the components connected.  
+Abstract, not a visual representation.
 
 ![eagle-schematic.png]({{ "/assets/eagle-schematic.png" | relative_url }})
 
+My schematic for Hello World board.  
+Green lines show connections between parts.  
+Parts are in red - notice chip doesn’t look like that.   
+Once you’ve got used to Eagle, its easier to connect points by names instead of lines.
 
 
 #### Board layout
 
-Where the components go on the board, and how to route traces (connections between parts) between them. 
+Where the components go on the board, and how to route traces (connections between parts) between them.  
+How to satisfy the requirements of the schematic, within the constraints of the fab process (aka design rules).  
+Mainly: how thin can traces be, how close together can they be.  
 
 ![eagle-board-layout.png]({{ "/assets/eagle-board-layout.png" | relative_url }})
 
 
-#### Export and verify
+This *is* a visual representation. 
+
+
+
+#### Export traces and outline
 
 Eagle can generate a layered vector file of traced, pads, labels, and board outline.
 Use your preferred tools to convert these into 2 PNG files for milling.
@@ -197,8 +213,28 @@ Use your preferred tools to convert these into 2 PNG files for milling.
 ![eagle-to-png2.png]({{ "/assets/eagle-to-png3.png" | relative_url }})
 
 
+
+#### Verify
+
+* Total size of board
+* Pitch of pins on parts
+* Interference between parts
+* Scaling mistakes
+* Access to ports
+
+
+![IMG_0235.jpg]({{ "/assets/IMG_0235.jpg" | relative_url }})
+
+You will make mistakes.  
+Start again.
+
 **See the [Detailed guide]({{ site.baseurl }}guide-draw-circuit-in-eagle) for more Eagle tips.**
 
+## Testing
+
+* Multimeter - check for continuity or shorts.  
+* Oscilloscope - measure voltage over time, see what signals pins are sending.
+* Try to program.
 
 - - - -
 
