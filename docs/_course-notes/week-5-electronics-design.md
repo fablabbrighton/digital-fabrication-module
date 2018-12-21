@@ -44,14 +44,14 @@ This week:
 
 ## Components
 ### Wire
-Ribbon cable used for ISP headers - and post-milling board edits – [picture]({{ site.baseurl }}../assets/ribbon-wire.jpg)  
+Ribbon cable used for ISP headers - and post-milling board edits – [picture]({{ site.baseurl }}/assets/ribbon-wire.jpg)  
 Also, headers (mechanical convenience)
 
 ### Buttons
 
-Surface mount versions for circuits – [picture]({{ site.baseurl }}../assets/button.jpg)  
+Surface mount versions for circuits – [picture]({{ site.baseurl }}/assets/button.jpg)  
 Momentary buttons - “N.O.” make a circuit when pressed (example use: connect a chip's reset pin to GND)  
-You might want to use [cool buttons](http://blog.presentandcorrect.com/27986-2) for UI elements – [picture]({{ site.baseurl }}../assets/68426c45c8b5.jpg)
+You might want to use [cool buttons](http://blog.presentandcorrect.com/27986-2) for UI elements – [picture]({{ site.baseurl }}/assets/68426c45c8b5.jpg)
 
 ### Resistors
 
@@ -59,12 +59,11 @@ You might want to use [cool buttons](http://blog.presentandcorrect.com/27986-2) 
 * Limit the flow of current
 * Ohm’s law: I = V/R
 
-[Symbol]({{ site.baseurl }}../assets/resistor-symbol.png)
+[Symbol]({{ site.baseurl }}/assets/resistor-symbol.png)
 
-[picture]({{ site.baseurl }}/assets/resistor-symbol.png)
 
 Uses often include:
-* Regulate current to LEDs – [picture]({{ site.baseurl }}../assets/resistor-circuit.PNG)
+* Regulate current to LEDs – [picture]({{ site.baseurl }}/assets/resistor-circuit.PNG)
 * Keep pins high or low (pull-up/pull-down) without current flowing
 
 Sizes: 
@@ -80,7 +79,7 @@ Store charge, and release it when the voltage across the cap reaches a specific 
 Q (charge stored) = C (capacitance) x V (voltage across plates)  
 Value of capacitance (amount of charge it can store): Farad (F, nF, pF, uF, etc.)
 
-[Symbol]({{ site.baseurl }}../assets/capacitors.png)
+[Symbol]({{ site.baseurl }}/assets/capacitors.png)
 
 Uses:
 * Filtering high-frequency noise from ICs (“decoupling” or “bypass” capacitors)
@@ -108,7 +107,7 @@ Uses:
 Conducts only in one direction (as shown in circuit symbol)  
 Current flows from anode (+) to cathode (-) (alphabetical)
 
-[Symbol]({{ site.baseurl }}../assets/diode.PNG)
+[Symbol]({{ site.baseurl }}/assets/diode.PNG)
 
 
 Uses: 
