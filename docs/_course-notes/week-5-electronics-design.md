@@ -61,6 +61,8 @@ You might want to use [cool buttons](http://blog.presentandcorrect.com/27986-2) 
 
 [Symbol]({{ site.baseurl }}../assets/resistor-symbol.png)
 
+[picture]({{ site.baseurl }}/assets/resistor-symbol.png)
+
 Uses often include:
 * Regulate current to LEDs – [picture]({{ site.baseurl }}../assets/resistor-circuit.PNG)
 * Keep pins high or low (pull-up/pull-down) without current flowing
