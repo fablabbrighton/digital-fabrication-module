@@ -167,7 +167,7 @@ Good hobbyist starting point: [Charles Platt’s Electronics Pages: Books Availa
 ## Drawing circuits
 ### Overview of Eagle
 
-**See the [Detailed guide]({{ site.baseurl }}../guides/guide-draw-circuit-in-eagle) for more Eagle tips.**
+**See the [Detailed guide]({{ site.baseurl }}/guides/guide-draw-circuit-in-eagle) for more Eagle tips.**
 
 
 #### Libraries of parts
