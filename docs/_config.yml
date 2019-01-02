@@ -33,6 +33,11 @@ collections:
     permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
     output: true  
 
+  guides:
+    prettylabel: "Guides" 
+    permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
+    output: true  
+
   colophon:
     prettylabel: "Colophon"
     permalink: /:collection/:name:output_ext

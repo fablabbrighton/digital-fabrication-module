@@ -281,7 +281,7 @@ Videos:
 
 
 ### Recognising a bad joint
-[Common Soldering Problems | Adafruit Guide To Excellent Soldering | Adafruit Learning System](https://learn.adafruit.com/adafruit-guide-excellent-soldering/common-problems)
+[Common Soldering Problems - Adafruit Guide To Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/common-problems)
 
 [Picture]({{ site.baseurl }}../assets/solder-joints.jpg)
 

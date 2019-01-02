@@ -25,12 +25,14 @@ Watch the corresponding Fab Academy lecture. We'll be covering part of this cont
 ## Baseline 
 
 Who has:
-* Used 2D design software like Illustrator? 
-* Cut something on a laser cutter?
+* Used 2D design software like Illustrator
+* Learned the basics of a 3D tool like Fusion 360
+* Cut something on a laser cutter
 
 
 ----
 
+<!-- 
 ## An overview of CNC cutting tools
 
 In this module, we’re going to focus on the laser cutter (optionally also the vinyl cutter)
@@ -63,6 +65,7 @@ We have an [Epilog Helix 24](https://www.epiloglaser.com/laser-machines/legend-l
 * [Hotwire](http://www.hotwiresystems.com/hot-wire-cnc-foam-cutters)   
 * [MTM](http://ng.cba.mit.edu/show/video/14.08.modular.mp4) Good candidate for a DIY project: just need two positional ends and a resistive wire
  
+ -->
 
 ## Computer Aided Design (CAD) software
 
@@ -91,9 +94,6 @@ We mostly use **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape
 * [mods](http://mods.cba.mit.edu/?program=programs/frep/gears) 
 
 
-<span class="wip">WIP</span> Maybe show an example of generating a file for cutting. Considerations, measuring, kerf, copying, etc.
-
-
 ### Parametric design
 
 * Cardboard comes in different thicknesses
@@ -102,7 +102,11 @@ We mostly use **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape
 
 Inkscape is not parametric, Rhino and Fusion 360 are.
 
-<span class="wip">WIP</span> Show an example of parametric design in Fusion360
+Example in Fusion 360: [minimal-parametric-laser-cutter-demo](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/3d-models/minimal-parametric-laser-cutter-demo)
+
+![minimal-parametric-laser-cutter-demo-screenshot.png]({{ "/assets/minimal-parametric-laser-cutter-demo-screenshot.png" | relative_url }})
+
+
 
 
 ## Computer Aided Manufacturing ([CAM](https://en.wikipedia.org/wiki/Computer-aided_manufacturing))
@@ -110,10 +114,10 @@ Inkscape is not parametric, Rhino and Fusion 360 are.
 CAD is design, CAM translates a design file into a format the machine understands and communicates with the machine.
 
 Typically through printer driver (accessible in Print dialog on your 2D CAD software)  
-But we can also talk to the mchine at a lower level using [Fab Modules](http://fabmodules.org) or [Mods](http://mods.cba.mit.edu)
+But we can also talk to the machine at a lower level using [Fab Modules](http://fabmodules.org) or [Mods](http://mods.cba.mit.edu)
 
 
-## The Laser cutter
+## The laser cutter
 
 ### Applications
 
@@ -167,7 +171,7 @@ The material has to go somewhere, ...
 
 If it's not strong enough, that material stays around - Bad news  
 You shouldn't see smoke hanging around in laser cutting chamber  
-Exhaust fumes are very bad news.  
+Exhaust fumes are very bad news  
 Plastic will outgas for a minute after cutting. Leave the lid closed for a minute
 
 
@@ -181,8 +185,10 @@ Otherwise, you should allow for this in your design (parametrically!)
 [All laser cutters want to catch on fire](http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg)   
 Card, MDF, plywood and acrylic are all really close to combusting when cutting.  
 Don't step away from the machine. Always supervise.  
-Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.
-**check**
+Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.  
+Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke)
+
+<span class="wip">WIP</span>: Check safety procedures
 
 
 ### Materials
@@ -195,13 +201,12 @@ Initial combustion: open the lid. Otherwise, smother or use the fire extinguishe
 ### No-gos
 * No PVC - releases chlorine
 * Never put a material into the cutter unless you know where it came from - no random plastic.
-* Never put anything shiny into a CO<sub>2</sub> laser (e.g. metal)
+* Never put anything shiny (e.g. metal) into a CO<sub>2</sub> laser 
 
-Laser optics need to be kept clean (by who?)
 
 ### Settings
 
-(See laser printer driver dialog.)
+
 ![laser-printer-driver-dialog.jpg]({{ "/assets/laser-printer-driver-dialog.jpg" | relative_url }})
 
 * Power - too much melts, too little doesn't cut. Use multiple passes. 
@@ -210,26 +215,28 @@ Laser optics need to be kept clean (by who?)
 * Coordinate system, origin is top left
 * Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)
 
-<span class="wip">WIP</span> Show example workflow
 
-----
 
 ## Assignment
 
-### Group assignment
+Design, lasercut, and document a (parametric)  [press-fit construction kit](http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html), accounting for the lasercutter kerf, which can be assembled in multiple ways.
 
-Characterise your lasercutter, making test part(s) that vary cutting settings and dimensions.  
-Make test cuts, vary power, speed and frequency for different materials. Document settings for different materials and thicknesses.  
-Make kerf tests to find good settings for different materials. Use these results for your own (parametric) design. 
+* Use cardboard: forgiving, cheap, recyclable. But beware fire risk.
+* Make test cuts, vary power, speed and frequency – Document your results.  
+* Make kerf tests to find good settings. Use these results for your own (parametric) design. 
 
-<span class="wip">WIP</span> Do we need a group assignment? Is it feasible?
+### What do I need to do to pass?
 
-### Individual assignment
+* Design, cut and assemble a 3D card model using the laser cutter.
+* Demonstrate an ability to work safely.
+* Demonstrate a process of experimentation and iteration to improve your results.
 
-Design, lasercut, and document a parametric  [press-fit construction kit](http://fab.cba.mit.edu/classes/863.12/people/salzberg/week2.html), accounting for the lasercutter kerf, which can be assembled in multiple ways.
-
-Use cardboard: forgiving, cheap, recyclable. But beware fire risk.  
-Use a parametric design tool to account for cardboard thickness, kerf testing and joint stability.
+Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else’s work.
 
 
+### Extra credit 
+
+* Use a parametric design tool to account for cardboard thickness, kerf testing and joint stability.
+* Make a model that uses more advanced joint techniques.
+* Make a model that doesn't just consist of flat panels assembled together
 

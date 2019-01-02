@@ -38,7 +38,7 @@ collections:
     
 ```
 
-So each collection is defined with a name (in a URL-friendly format), then underneat that, indented by spaces, not tabs:
+So each collection is defined with a name (in a URL-friendly format), then underneath that, indented by spaces, not tabs:
 * A human-readable label, enclosed in double quotes (Don't forget the double quotes!)
 * A permalink format for each item in the collection
 * A boolean to tell Jekyll that each object in the collection should be rendered as it's own page
@@ -112,7 +112,7 @@ This page is saved at the root level as `colophon.md`. You have to create an ind
 
 ## Human-readable collection names
 
-Bizarrely, they don't seem to consider that you might want to give your collections names with spaces or capital letter, or other things tha don't work in URL slugs. 
+Bizarrely, they don't seem to consider that you might want to give your collections names with spaces or capital letters, or other things that don't work in URL slugs. 
 
 So I created a bit of data for each collection called `prettylabel` that I can access through `collection.prettylabel`, which is a human-readable version of that collection name. It took a bit of fiddling to discover that this data needs to be enclosed in "double quotes".
 
