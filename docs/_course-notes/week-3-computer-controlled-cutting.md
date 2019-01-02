@@ -6,11 +6,6 @@ date:   2018-11-23
 
 
 
-
-<span class="wip">WIP</span> Review my notes and assignment writeup - can I add more detail here...
-
-
-
 Introducing the laser cutter and 2D-3D assembly.
 
 <!--more-->
