@@ -81,7 +81,7 @@ Same development tools work for all:
 
 ## Programming a microcontroller
 
-More detail in the guide: [Guide: Programming an ATtiny board with a FabISP]({{ site.baseurl }}../guides/guide-board-programming)
+More detail in the guide: [Guide: Programming an ATtiny board with a FabISP]({{ site.baseurl }}/guides/guide-board-programming)
 
 Overview:
 
@@ -180,13 +180,13 @@ Terms like `digitalWrite` refer to Arduino libraries.
 
 Arduino IDE needs to be customised to work with ATTiny boards - not standard. See:
 [High-Low Tech  –  Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695).  
-Or our programming guide: [Guide: Programming an ATtiny board with a FabISP]({{ site.baseurl }}../guides/guide-board-programming)
+Or our programming guide: [Guide: Programming an ATtiny board with a FabISP]({{ site.baseurl }}/guides/guide-board-programming)
 
 
 ## Assignment
 
 Program your board to do something.  
-See [board programming guide]({{ site.baseurl }}../guides/guide-board-programming) for details on how to get a program onto your board
+See [board programming guide]({{ site.baseurl }}/guides/guide-board-programming) for details on how to get a program onto your board
 
 Flexible: 
 1. Upload an Arduino Blink sketch

@@ -198,7 +198,7 @@ Use your preferred tools to convert these into 2 PNG files for milling.
 ![eagle-to-png2.png]({{ "/assets/eagle-to-png3.png" | relative_url }})
 
 
-**See the [Detailed guide]({{ site.baseurl }}../guides/guide-draw-circuit-in-eagle) for more Eagle tips.**
+**See the [Detailed guide]({{ site.baseurl }}/guides/guide-draw-circuit-in-eagle) for more Eagle tips.**
 
 
 - - - -
@@ -237,7 +237,7 @@ _Do this if at all possible!_
 
 ### 3) Upload a pre-written program to the board to test that it works
 
-See the [board programming guide]({{ site.baseurl }}../guides/guide-board-programming).
+See the [board programming guide]({{ site.baseurl }}/guides/guide-board-programming).
 
 
 
@@ -251,7 +251,7 @@ Document all your work on your student blog, with photos and videos to show what
 
 Mill, stuff and test the board by uploading a program. Make the button work reliably (figure out how and why to use a pull-up resistor).
 
-See the [board programming guide]({{ site.baseurl }}../guides/guide-board-programming).
+See the [board programming guide]({{ site.baseurl }}/guides/guide-board-programming).
 
 
 ## Source material / further reading/watching
