@@ -133,7 +133,7 @@ You will need to change the pin numbering in the sketches depending on where you
 
 ![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }})
 
-[Hi-res PDF version]({{ site.baseurl }}../assets/file/attiny-pinout.pdf)
+[Hi-res PDF version]({{ site.baseurl }}/assets/file/attiny-pinout.pdf)
 
 #### Enabling the internal pull-up resistor for a button
 
