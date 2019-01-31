@@ -6,7 +6,7 @@ This project contains course notes, code and design files for a module in digita
 
 A live version of this content is published at: **https://fablabbrighton.github.io/digital-fabrication-module/**
 
-This is published using Github Pages from the source markdown files in the [/docs](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs) folder of this repo.
+This is published using Github Pages from the source markdown files in the [`/docs`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs) folder of this repo.
 
 ## How to contribute
 
@@ -61,7 +61,6 @@ Links to external pages use the standard markdown syntax (`[link text](http://ex
 ```
 [board programming guide]({{ site.baseurl }}/guides/guide-board-programming)
 [DIY Arduino notes]({{ site.baseurl }}diy-arduino)
-
 ```
 
 
@@ -69,10 +68,10 @@ Links to external pages use the standard markdown syntax (`[link text](http://ex
 
 Hopefully you are keeping things like [arduino code](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/arduino-code), [board designs](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs) and [3D files](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/3d-models) in this repo!
 
-If so, you can link to them easily just like any other external URL ('external' bbecasue they are outside of the `/docs` folder). e.g. 
+If so, you can link to them easily just like any other external URL ('external' because they are outside of the `/docs` folder). e.g. 
 
 ```
-
+[Files on Github: `/board-designs/diy-arduino-0.1`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs/diy-arduino-0.1)
 ```
 
 
