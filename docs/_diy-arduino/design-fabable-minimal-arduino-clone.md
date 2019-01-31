@@ -2,6 +2,7 @@
 layout: page
 title:  "Designing a fab-able minimal Arduino clone"
 date:   2018-12-05
+author: Andrew Sleigh
 ---
 
 I'm trying to design an Arduino-style board in the tradition of the [Bueno board,](http://luizbueno.fabcloud.io/me/electronics01.html) but based on the simpler Arduino Uno (ATmega328p) architecture.

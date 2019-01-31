@@ -2,7 +2,7 @@
 layout: page
 title:  "Publishing to multiple servers"
 date:   2018-11-24
-
+author: Andrew Sleigh
 ---
 
 Publishing this content to GitHub, GitHub Pages and my own server.

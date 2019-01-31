@@ -2,6 +2,7 @@
 layout: page
 title:  "Week 6: Embedded Programming"
 date:   2019-01-01
+author: Andrew Sleigh
 ---
 
 Programming microcontroller boards

@@ -2,6 +2,7 @@
 layout: page
 title:  "Guide: Programming an ATtiny board with a FabISP"
 date:   2018-12-15
+author: Andrew Sleigh
 ---
 
 Uploading a program to a DIY ATtiny microcontroller board through the ICSP header.

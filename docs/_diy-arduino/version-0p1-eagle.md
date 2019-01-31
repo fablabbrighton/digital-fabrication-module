@@ -2,6 +2,7 @@
 layout: page
 title:  "Designing a v0.1 board in Eagle"
 date:   2018-12-05
+author: Andrew Sleigh
 ---
 
 A first draft at a board layout for the fab-able Arduino.
@@ -10,7 +11,7 @@ A first draft at a board layout for the fab-able Arduino.
 
 I have covered the [design process]({{ site.baseurl }}design-fabable-minimal-arduino-clone) for this board already. IBut I wanted to try creating a schematic in Eagle, and laying out a board to see how it works in practice
 
-**[Files on Github: `/board-designs/diy-arduino-0.1`](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/board-designs/diy-arduino-0.1)**
+**[Files on Github: `/board-designs/diy-arduino-0.1`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs/diy-arduino-0.1)**
 
 ![fabable-board-5c-simple-markup.png]({{ "/assets/fabable-board-5c-simple-markup.png" | relative_url }})
 

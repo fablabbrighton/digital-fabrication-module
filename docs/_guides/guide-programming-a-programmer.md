@@ -2,6 +2,7 @@
 layout: page
 title:  "Guide: Programming a new FabISP Programmer "
 date:   2018-12-17
+author: Andrew Sleigh
 ---
 
 How do you program a new FabISP Programmer board?

@@ -2,6 +2,7 @@
 layout: page
 title:  "Week 5: Electronics design"
 date:   2018-12-14
+author: Andrew Sleigh
 ---
 
 Designing, building and testing a circuit

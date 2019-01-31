@@ -2,6 +2,7 @@
 layout: page
 title:  "Guide: Drawing a circuit in Eagle"
 date:   2018-12-15
+author: Andrew Sleigh
 ---
 
 Workflow and tips for drawing circuits in Eagle

@@ -2,7 +2,7 @@
 layout: page
 title:  "File structure"
 date:   2018-11-24
-
+author: Andrew Sleigh
 ---
 How are the files in this project organised?
 

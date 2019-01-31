@@ -2,7 +2,7 @@
 layout: page
 title:  "Implementing Jekyll Collections"
 date:   2018-11-25
-
+author: Andrew Sleigh
 ---
 
 How did I set up the content structure for this site?

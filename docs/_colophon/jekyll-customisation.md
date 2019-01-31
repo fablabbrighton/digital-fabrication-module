@@ -2,6 +2,7 @@
 layout: page
 title:  "Jekyll configuration and customisation"
 date:   2018-11-17
+author: Andrew Sleigh
 ---
 
 Adapting Jekyll to make it work for this site.
