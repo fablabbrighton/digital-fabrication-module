@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% if page.author %}
+      <p class="post-author">By {{ page.author | escape }}{% if page.date %}, on {{ page.date | date: '%B %d, %Y' }}{% endif %}
+     </p>
+    {% endif %}
+    <hr/>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -2,6 +2,7 @@
 layout: page
 title:  "Week 3: Laser cutter: computer-controlled cutting (CNC)"
 date:   2018-11-23
+author: Andrew Sleigh
 ---
 
 

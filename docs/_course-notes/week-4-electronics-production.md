@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "Week 4: Electronics production"
-date:   2018-12-07
+
+author: Andrew Sleigh
 ---
 
 Making our first circuit board. 
