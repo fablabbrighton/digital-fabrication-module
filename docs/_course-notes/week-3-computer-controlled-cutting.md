@@ -98,7 +98,7 @@ We mostly use **Fusion360, Rhino, Solidworks** for 3D; **Illustrator or Inkscape
 
 Inkscape is not parametric, Rhino and Fusion 360 are.
 
-Example in Fusion 360: [minimal-parametric-laser-cutter-demo](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/3d-models/minimal-parametric-laser-cutter-demo)
+Example in Fusion 360: [minimal-parametric-laser-cutter-demo](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/3d-models/minimal-parametric-laser-cutter-demo)
 
 ![minimal-parametric-laser-cutter-demo-screenshot.png]({{ "/assets/minimal-parametric-laser-cutter-demo-screenshot.png" | relative_url }})
 

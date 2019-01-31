@@ -34,7 +34,7 @@ When an idea is solid enough to become a piece of content, I export the Bear not
 I set up the Jekyll `_config.yml` file to support publishing to GitHub Pages. I can’t control the Markdown-to-HTML conversion in this process, so it just needs to work by default. So I set up the URL variables like so:
 
 ```
-url: “https://andrewsleigh.github.io” # the base hostname & protocol for your site
+url: “https://fablabbrighton.github.io” # the base hostname & protocol for your site
 baseurl: “/digital-fabrication-module” # the subpath of your site
 ```
 
@@ -90,7 +90,7 @@ On my live site, when building with `--config _config.yml,_config-ascom.yml`:
 This Jekyll directory is a Git repo on my own development machine. Jekyll can build the site and serve it locally from  <http://127.0.0.1:4000>. I can also publish it to my three public destinations:
 
 ### 1. GitHub
-<https://github.com/andrewsleigh/digital-fabrication-module>
+<https://github.com/fablabbrighton/digital-fabrication-module>
 This is the home for Markdown files and other assets I would like others to contribute to or adapt themselves.
 I can just push changes to the GitHub repo to share them publicly. 
 
@@ -141,7 +141,7 @@ And then I followed the same procedure to remove these already-committed files f
 
 ### 2. GitHub Pages
 
-<https://andrewsleigh.github.io/digital-fabrication-module>
+<https://fablabbrighton.github.io/digital-fabrication-module>
 
 I use the [built-in GitHub Pages tool](https://pages.github.com) to publish these Markdown files to a normal HTML website, also using Jekyll. You can do this without setting your repo as a Jekyll instance, but as I want to create an HTML site myself anyway, [this is a lot easier](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), and I can control the design of the site using the same config settings and templates.
 
