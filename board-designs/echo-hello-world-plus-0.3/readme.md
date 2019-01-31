@@ -6,4 +6,4 @@ It has an additional LED (with current-limiting resistor) and button, to enable 
 
 The button needs a pull-up resistor (on the pin, or added externally) to work.
 
-This board is used in our [electronics design week](https://github.com/andrewsleigh/digital-fabrication-module/tree/master/docs/_course-notes/week-5-electronics-design.md).
+This board is used in our [electronics design week](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes/week-5-electronics-design.md).

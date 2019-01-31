@@ -8,14 +8,17 @@ How are the files in this project organised?
 
 <!--more-->
 
+Update 2019-01-31: I've changed this to reflect the transfer to Fablab Brighton
+
+
 Everything is inside a Git repository on my local computer. It syncs with a remote repo on GitHub, here:
-<https://github.com/andrewsleigh/digital-fabrication-module>
+<https://github.com/fablabbrighton/digital-fabrication-module>
 
 ## Root
 
 `Digital Fabrication Module/`
 
-GitHub URL: <https://github.com/andrewsleigh/digital-fabrication-module>
+GitHub URL: <https://github.com/fablabbrighton/digital-fabrication-module>
 
 Also includes the `Gemfiles` for Jekyll. 
 
@@ -25,9 +28,9 @@ Also includes the `Gemfiles` for Jekyll.
 
 Course notes and other non-code content.
 
-GitHub URL: <https://github.com/andrewsleigh/digital-fabrication-module/docs>  
-GitHub Pages URL: <https://andrewsleigh.github.io/digital-fabrication-module>  
-URL on my site: <https://andrewsleigh.com/learning/digital-fabrication-module>
+GitHub URL: <https://github.com/fablabbrighton/digital-fabrication-module/docs>  
+GitHub Pages URL: <https://fablabbrighton.github.io/digital-fabrication-module>  
+URL on my site: <https://fablabbrighton.com/learning/digital-fabrication-module>
 
 Includes Jekyll's `_config.yml` files.
 
