@@ -2,9 +2,12 @@
 layout: page
 title:  "Week 2: Computer-Aided Design"
 date:   2018-2-5
+author: Derek Covill
 ---
 
 Introducing parametric modelling.
+
+<!--more-->
 
 ## Prep for this week's class
 
@@ -22,6 +25,7 @@ Who has:
 * Produced 2D drawings
 
 # Solidworks (PC only)
+
 is...
 1. Parametric: everything is driven by numbers (length, diameter, thickness, colour, etc). 
 2. Feature-based: geometry is created with features
