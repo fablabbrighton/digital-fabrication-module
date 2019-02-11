@@ -41,6 +41,7 @@ Start with these.....
 - [part 2: lid component and assembly](https://www.youtube.com/watch?v=HXRMzJWo0-Q)
 - [part 3: complex lid detail + McMaster Carr-toolbox](https://www.youtube.com/watch?v=zS8dYA_Iluc)
 - [part 4: drawings](https://www.youtube.com/watch?v=uinJ2I_SgKI)
+- [part 5: adding colour to bodies/surfaces](https://www.youtube.com/watch?v=oD0d3lAiMC4)
 
 ## Other resources:
 - [another good introductory video](https://www.youtube.com/watch?v=VbSkwvZyU_0)
@@ -126,6 +127,8 @@ Intermediate features:
 - all details must be dimensioned fully
 - approach this in different ways, aim to do it as fast as you can
 - record < 1min, excellent < 5min, ok < 15min
+
+- [here's an example completed component](https://a360.co/2Gm9naL)
 
 ## Useful tools:
 - [toolbox (nuts, bolts, gears etc)](http://help.solidworks.com/2018/english/solidworks/toolbox/t_toolbox_activating_add_ins.htm)
