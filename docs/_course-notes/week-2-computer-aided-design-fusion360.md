@@ -2,9 +2,13 @@
 layout: page
 title:  "Week 2: Computer-Aided Design"
 date:   2018-2-5
+author: Derek Covill
 ---
 
 Introducing parametric modelling.
+
+<!--more-->
+
 
 ## Prep for this week's class
 
