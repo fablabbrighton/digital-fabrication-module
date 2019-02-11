@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Week 2: Computer-Aided Design"
+title:  "Week 2: Computer-Aided Design (Fusion 360)"
 date:   2018-2-5
 author: Derek Covill
 ---
