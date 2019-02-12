@@ -127,6 +127,7 @@ Intermediate features:
 - all details must be dimensioned fully
 - approach this in different ways, aim to do it as fast as you can
 - record < 1min, excellent < 5min, ok < 15min
+- [2019 leaderboard](https://docs.google.com/document/d/1-FwDeOOHf4sGzqut6M7kvIdFJoBKI5EFxtkPCBo_XeE/edit?usp=sharing)
 
 - [here's an example completed component](https://a360.co/2Gm9naL)
 
