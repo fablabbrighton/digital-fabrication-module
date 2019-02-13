@@ -25,6 +25,14 @@ Who has:
 * Used parametric software
 * Produced 2D drawings
 
+# Outline for XE404
+1. Admin: Register, bring laptops
+2. Call up each week
+3. Repository of websites - let's review
+4. Go see fablab + meet Kelly + Andrew
+5. 16.67 hours per week 
+6. CAD + Fusion 360...
+
 # Fusion 360 (PC+Mac compatible, cloud based)
 is...
 1. Parametric: everything is driven by numbers (length, diameter, thickness, colour, etc). 
@@ -140,14 +148,17 @@ Intermediate features:
 
 ## Assignment
 
-Design a 100x100mm tile part (SW or Fusion), colour it, and assemble 9 of them as a pattern of 3x3. Create a drawing (A4 or A3) of your tile part with sufficient detail for it to be manufactured by someone else. 
+Design a 100x100mm tile part (SW or Fusion), colour it. 
 
 ### What do I need to do to pass?
 
 * Use parametric CAD software to design a tile part that is dimensioned correctly
-* Create a simple 2D drawing of your tile with key dimensions and also include part details in the title block
 * Document all your work on your student blog, with photos/screengrabs and videos to show what you did, what went wrong, and how you fixed it. Make sure you include a final hero shot of the final outcomes. Cite external sources where you have used someone else’s work.
 
 ### Extra credit 
+
+Assemble 9 of them as a pattern of 3x3 then create a drawing (A4 or A3) of your tile part with sufficient detail for it to be manufactured by someone else. 
+
+### For the super keen (or those with previous parametric experience)
 
 Design a male mould tool to make female mould tool, show as exploded assembly of the 3 parts (male mould tool + female mould tool + part)
