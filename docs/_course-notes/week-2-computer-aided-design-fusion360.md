@@ -69,7 +69,7 @@ Start with these.....
 ## Layout:
 - [user interface](http://help.autodesk.com/view/fusion360/ENU/?guid=GUID-E647CA56-7187-406A-ACE4-EAC59914FAE4&utm_medium=email&utm_source=invite&utm_campaign=amer-edu-aex-fusion-360-nurture-stream-edms&utm_id=672747&mktvar002=672747)
 
-Units: see bottom right hand corner (use millimeters!)
+Units: see document settings in the feature tree, use millimeters!
 
 ## Navigation:
 Use mouse shortcuts to zoom in and out, pan, and orbit the view of the model.
