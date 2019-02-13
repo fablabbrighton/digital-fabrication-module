@@ -26,7 +26,8 @@ Who has:
 * Produced 2D drawings
 
 # Outline for XE404
-1. Admin: Register, bring laptops, continuous assessment page on website
+0. Admin: Register, bring laptops
+1. Continuous assessment page on website (green/amber/red weekly table)
 2. Call up each week
 3. Repository of websites - let's review
 4. Go see fablab + meet Kelly + Andrew
