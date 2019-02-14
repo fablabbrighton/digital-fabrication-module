@@ -36,6 +36,12 @@ Follow the instructions to name and create your site. Note that this will be a [
 
 Note also the publication settings (internal or external, searchable or not, etc).
 
+## Inspirational examples:
+- [Hannah Perner-wilson's site](http://www.plusea.at/?page_id=5690)
+- [Andrew Sleigh's fabacademy site](http://fab.academany.org/2018/labs/fablabbrighton/students/andrew-sleigh/)
+- [Matt Keeter's website](https://www.mattkeeter.com/projects/)
+- [Michael Edward's fabacademy site](http://fab.academany.org/2019/labs/brighton/students/michael-edwards/index.html)
+
 ## Resources:
 - [edublocks userguide](https://help.edublogs.org/user-guide/)
 - [image formatting](https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web)
