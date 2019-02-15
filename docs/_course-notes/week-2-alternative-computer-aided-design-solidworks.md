@@ -122,13 +122,18 @@ Intermediate features:
 - [toolbox (nuts, bolts, gears etc)](http://help.solidworks.com/2018/english/solidworks/toolbox/t_toolbox_activating_add_ins.htm)
 - [Traceparts CAD models](https://www.traceparts.com/en)
 - also Grabcad/Thingyverse/etc
-- [solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
-- [1st or 3rd angle projection?](https://youtu.be/_wDpN6Zi1hE)
 
 ## Assemblies
-- [tutor1+2 part files with assembly file.zip]
-- [ 
+- [tutor1+2 part files with assembly file.zip](https://drive.google.com/file/d/1oaL8U4Sb--CpLDMmL2JXY45wOh4JSLY8/view?usp=sharing)
+- standard mates
+- advanced mates
+- mechanical mates
+- exploded and collapsed views
+- animation
 
-Drawings
+## Drawings
+- note differences between parts and assemblies (see above for fuller description)
 - [good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
+- [solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
+- [1st or 3rd angle projection?](https://youtu.be/_wDpN6Zi1hE)
 
