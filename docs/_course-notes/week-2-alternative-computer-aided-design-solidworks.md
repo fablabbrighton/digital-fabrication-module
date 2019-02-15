@@ -38,9 +38,9 @@ Student licences- £6 for a USB from computer store, 1st Floor Watts Building. R
 [Certification exams:](https://www.solidworks.com/sw/support/mcad-certification-programs.htm) we will provide these: TBA
 
 ## Resources:
-- Start with these.....Help menu > tutorials (Lesson1: parts, Lesson2: Assembles, Lesson3: drawings) - these are excellent, make notes, observe everything and master them.
-- [lesson 1: parts video](https://www.youtube.com/watch?v=HKSo99hGDd4)
-- [lesson 2: assemblies video](https://www.youtube.com/watch?v=yGvZ3Jly1mI)
+- Start with these.....Help menu > tutorials (Lesson1: parts, Lesson2: Assembles, Lesson3: drawings) - these are excellent, make notes, observe everything and master them. 
+- [lesson 1: parts video](https://www.youtube.com/watch?v=HKSo99hGDd4), and [here is the part to download](https://drive.google.com/file/d/12AT58ieVu98Ri9V_XwIrEPaPela-h4lc/view?usp=sharing)
+- [lesson 2: assemblies video](https://www.youtube.com/watch?v=yGvZ3Jly1mI), and [here is a .zip file with the assembly to download](https://drive.google.com/file/d/1oaL8U4Sb--CpLDMmL2JXY45wOh4JSLY8/view?usp=sharing)
 - [lesson 3: drawings video](https://www.youtube.com/watch?v=lX85kgun8sE)
 - use the help (online also)
 - Grabcad/Thingyverse/etc (filter for Solidworks models). 
@@ -60,10 +60,12 @@ MIDDLE DOES EVERYTHING!
 - rotate: hold middle 
 - pan: hold middle + CTRL
 
-## File types: (IMAGE OF EACH)
-1. [Parts: as it would be manufactured](https://i.ytimg.com/vi/zNDwvsU5Dko/maxresdefault.jpg)
-2. [Assemblies: a collection of parts (and/or of other sub-assemblies)](https://www.javelin-tech.com/blog/wp-content/uploads/2017/07/solidworks-rigid-subassembly-780x417.jpg)
-3. Drawings: orthographic of [parts (with dimensions)](https://i.ytimg.com/vi/k_45Xr3wHtk/maxresdefault.jpg) and [assemblies (with NO dimensions, with balloons + bill of materials (BOM))](https://ayoqq.org/images/assembly-drawing-engineering-2.png)....or [both](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg)
+## File types:
+1. [Parts: as it would be manufactured](https://i.ytimg.com/vi/zNDwvsU5Dko/maxresdefault.jpg), and [here is an example part to download](https://drive.google.com/open?id=1cqLD5eFEoibOEE9s5JtzpHosdMc1vfPv)
+2. [Assemblies: a collection of parts (and/or of other sub-assemblies)](https://www.javelin-tech.com/blog/wp-content/uploads/2017/07/solidworks-rigid-subassembly-780x417.jpg), and [here is a .zip file with parts and an assembly file](https://drive.google.com/open?id=149qhKK8XwrYCRW4EAZ82ja-q1--MNDmP)
+3. Drawings: orthographic of [parts (with dimensions)](https://drive.google.com/file/d/1_gLnEhN6V9yIvXOtrcoiv1nagzX694tu/view?usp=sharing) and [assemblies (with NO dimensions, with balloons + bill of materials (BOM))](https://drive.google.com/file/d/1x1ZnpyDDDSDOvsiO_MYekYaAqF7jx3gg/view?usp=sharing)....or [both](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg). 
+
+[difference between Fusion 360 and Solidworks](https://all3dp.com/2/fusion-360-vs-solidworks-cad-software-compared-side-by-side/)
 
 ## Basic part modelling process:
 1. Create new sketch
@@ -113,6 +115,8 @@ Intermediate features:
 - all details must be dimensioned fully
 - approach this in different ways, aim to do it as fast as you can
 - record < 1min, excellent < 5min, ok < 15min
+- [2019 leaderboard](https://docs.google.com/document/d/1r5j0Bj-RQjewX0iajl6O0TMxy5sYbaCDed5bEuyTX-0/edit?usp=sharing)
+- [example die part file to download](https://drive.google.com/open?id=1zCTDj-7bnFJ6TkA2ZZHRS2rKuS0ElQmB)
 
 ## Useful tools:
 - [toolbox (nuts, bolts, gears etc)](http://help.solidworks.com/2018/english/solidworks/toolbox/t_toolbox_activating_add_ins.htm)
@@ -121,16 +125,10 @@ Intermediate features:
 - [solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
 - [1st or 3rd angle projection?](https://youtu.be/_wDpN6Zi1hE)
 
-## Assignment
+## Assemblies
+- [tutor1+2 part files with assembly file.zip]
+- [ 
 
-Design a 100x100mm tile part (SW or Fusion), colour it, and assemble 9 of them as a pattern of 3x3. Create a drawing (A4 or A3) of your tile part with sufficient detail for it to be manufactured by someone else. 
+Drawings
+- [good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
 
-### What do I need to do to pass?
-
-* Use parametric CAD software to design a tile part that is dimensioned correctly
-* Create a simple 2D drawing of your tile with key dimensions and also include part details in the title block
-* Document all your work on your student blog, with photos/screengrabs and videos to show what you did, what went wrong, and how you fixed it. Make sure you include a final hero shot of the final outcomes. Cite external sources where you have used someone else’s work.
-
-### Extra credit 
-
-Design a male mould tool to make female mould tool, show as exploded assembly of the 3 parts (male mould tool + female mould tool + part)
