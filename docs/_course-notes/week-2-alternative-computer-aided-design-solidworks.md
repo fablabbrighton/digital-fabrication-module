@@ -46,8 +46,8 @@ Student licences- £6 for a USB from computer store, 1st Floor Watts Building. R
 - Grabcad/Thingyverse/etc (filter for Solidworks models). 
 - any existing models to reverse engineer
 - Lynda.com (for UoB: www.brighton.ac.uk/lynda) - Solidworks 20XX essentials. 
-- sketching exercises
-- part modelling exercises
+- [sketching exercises](https://drive.google.com/open?id=1kcsn3ghW-dgm7xf_htp9wL9p7MROS2PX)
+- [part modelling exercises](https://drive.google.com/open?id=1fmFIsjV-P9DPdEKxaB_PEqnUaqnMnYti)
 
 ## Layout:
 - [user interface](http://help.solidworks.com/2018/english/SolidWorks/sldworks/c_user_interface_overview.htm?id=3142cd59ed8f4abd874df330c405866b#Pg0)
