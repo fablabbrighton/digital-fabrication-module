@@ -199,11 +199,11 @@ Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke
 * Never put a material into the cutter unless you know where it came from - no random plastic.
 * Never put anything shiny (e.g. metal) into a CO<sub>2</sub> laser 
 
-### How to use the laser cutter
+## How to use the laser cutter
 
 See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt-zmAJwxszw0Gd61VXqHKnizv6hg/edit>
 
-## Place material
+### Place material
 * Consider airflow
 * Alignment against the rulers
 * Support to distance the material from the bed
@@ -211,14 +211,14 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 
 
 
-## Set origins and focus
+### Set origins and focus
 
 * Use laser pointer
 * Set x and y origins
 * Use focus tool to set z-origin
 
 
-## Settings
+### Settings
 
 
 ![laser-printer-driver-dialog.jpg]({{ "/assets/laser-printer-driver-dialog.jpg" | relative_url }})
@@ -229,15 +229,15 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 * Coordinate system, origin is top left
 * Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)
 
-## Extraction
+### Extraction
 
 * Turn on the BOFA extractor (speed approx 330m3h)
 * Turn on the air compressor
 
-## Whilst it's cutting
+### Whilst it's cutting
 * Always observe the cutting closely
 
-## After the cut
+### After the cut
 * Leave the lid closed with the extractor on for 30 seconds
 * If you mess up the bed, clean it up - take it to the sink and carefully clean it without bending the sheet
 
