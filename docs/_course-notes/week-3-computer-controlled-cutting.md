@@ -204,15 +204,18 @@ Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke
 See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt-zmAJwxszw0Gd61VXqHKnizv6hg/edit>
 
 ## Place material
-Consider airflow
-Alignment against the rulers
-Support to distance the material from the bed
-
+* Consider airflow
+* Alignment against the rulers
+* Support to distance the material from the bed
+* Flat surface - consistent z-height
 
 
 
 ## Set origins and focus
 
+* Use laser pointer
+* Set x and y origins
+* Use focus tool to set z-origin
 
 
 ## Settings
@@ -228,22 +231,15 @@ Support to distance the material from the bed
 
 ## Extraction
 
-Turn on the BOFA extractor (speed approx 330m3h)
-Turn on the air compressor
+* Turn on the BOFA extractor (speed approx 330m3h)
+* Turn on the air compressor
 
-
-
-
-## Whilst its cutting
-Always observe the cutting closely.
-
-
+## Whilst it's cutting
+* Always observe the cutting closely
 
 ## After the cut
-Leave the lid closed with the extractor on for 30 seconds
-If you mess up the bed, clean it up - take it to the sink and carefully clean it without bending the sheet
-
-
+* Leave the lid closed with the extractor on for 30 seconds
+* If you mess up the bed, clean it up - take it to the sink and carefully clean it without bending the sheet
 
 
 ## Assignment
