@@ -199,6 +199,16 @@ Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke
 * Never put a material into the cutter unless you know where it came from - no random plastic.
 * Never put anything shiny (e.g. metal) into a CO<sub>2</sub> laser 
 
+
+## Preparing artwork (for vector cutting)
+
+* 2D vector file (EPS or DXF)
+* Make the format as simple as possible
+* All shapes no fill, nd 0.001mm stroke
+* Laser origin is top left
+
+
+
 ## How to use the laser cutter
 
 See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt-zmAJwxszw0Gd61VXqHKnizv6hg/edit>
