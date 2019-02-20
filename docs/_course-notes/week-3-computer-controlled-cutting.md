@@ -268,10 +268,19 @@ Design, lasercut, and document a (parametric)  [press-fit construction kit](http
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else’s work.
 
+Update 2019-02-20:
+* Specifically, document how you established a good fit for the parts:
+* e.g. If they’re designed to stick together, how did you make them loose enough that you can assemble the pieces, but tight enough that the structure is stable.
+* Suggestion: make some test pieces that calibrates your laser kerf, and how much space you need to leave between mating parts
+
 
 ### Extra credit 
 
 * Use a parametric design tool to account for cardboard thickness, kerf testing and joint stability.
 * Make a model that uses more advanced joint techniques.
 * Make a model that doesn't just consist of flat panels assembled together
+
+Update 2019-02-20:
+* Make the same kit in a less forgiving material (e.g. MDF, or acrylic)
+* Make a kit of assembled parts in a non-rigid material - e.g. acrylic felt
 
