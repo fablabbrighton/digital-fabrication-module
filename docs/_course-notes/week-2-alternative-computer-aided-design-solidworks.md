@@ -123,10 +123,7 @@ Intermediate features:
 - this is an exercise in understanding how to use your reference geometry (planes) well - it is quite a spacial awareness challenge!
 - [here is a completed version with all the trimmings](https://drive.google.com/open?id=1bkDZ35xufDL4OiQX7E2IOrJp5gVmQZP0)
 - start with the three basic cylinders, then add details after.
-![here are the dimensions of the stem](https://github.com/fablabbrighton/digital-fabrication-module/blob/master/docs/assets/stem-dimensions.jpg)
-
-![test]({{ site.baseurl }}/assets/stem-dimensions.jpg)
-
+![here are the dimensions of the stem]({{ site.baseurl }}/assets/stem-dimensions.jpg)
 - for an extra challenge, angle the head tube (vertical tube) by 7 degrees to the horizontal
 
 ## Useful tools:
