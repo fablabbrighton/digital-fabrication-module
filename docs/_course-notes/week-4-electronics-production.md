@@ -271,16 +271,22 @@ Guide: [Adafruit Guide To Excellent Soldering](https://learn.adafruit.com/adafru
 Videos:  
 [SMD Soldering - the easy way - YouTube](https://www.youtube.com/watch?v=wEBrvfWwzuQ) (Arthur Guy)  
 [EEVblog #186 - Soldering Tutorial Part 3 - Surface Mount](https://www.youtube.com/watch?v=b9FC9fAlfQE) (enthusiastic Aussie, unavoidable)
+[Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s&index=1&list=PL926EC0F1F93C1837) (excellent retro series, especially this video on materials: copper, solder and flux and how they work: e.g. [clean copper]({{ site.baseurl }}/assets/clean-copper.png), 
+[thermal mass]({{ site.baseurl }}/assets/thermal-mass.png)) 
 
 ### Remember:
-* You want shiny, smooth joints
+
+* Clean your board to remove copper oxide and finger oils
 * Keep soldering iron tip shiny and clean
+  * Switch the iron off when you're not using it
+  * Don't be tempted to use too high a temperature (that is not why your solder isn't melting)
 * Melting solder wets the joints
 * Heat both parts of the joint with the iron
 * Feed in small amount of solder - helps conduct heat
-* Wait
+* Wait – learn to see the signs of a good flow and joint forming
 * Once parts are at the right temperature, more solder will flow up and down parts
 * Wait, then remove iron
+* Check your work – you want shiny, smooth joints
 
 
 ### Recognising a bad joint
