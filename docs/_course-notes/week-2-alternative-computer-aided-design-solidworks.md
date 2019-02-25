@@ -132,12 +132,14 @@ Intermediate features:
 - also Grabcad/Thingyverse/etc
 
 ## Assemblies
-- [tutor1+2 part files with assembly file.zip](https://drive.google.com/file/d/1oaL8U4Sb--CpLDMmL2JXY45wOh4JSLY8/view?usp=sharing)
-- standard mates
-- advanced mates
-- mechanical mates
-- exploded and collapsed views
-- animation
+- can mate: vertices, lines/centrelines, faces, planes
+- coincident, offset, parallel, concentric etc
+- [standard mates](https://drive.google.com/file/d/1oaL8U4Sb--CpLDMmL2JXY45wOh4JSLY8/view?usp=sharing)
+- [mechanical mate: gears](https://drive.google.com/file/d/1c7oQpajB9dheMjG9hkhUYjp4p7x_FOl0/view?usp=sharing)
+- [mechanical mate: cams](https://drive.google.com/file/d/1Sp_5bv6eGnu9nS76_qbfgF9vce-a7foc/view?usp=sharing)
+- [mechanical mate: belt+pully](https://drive.google.com/file/d/1mSaCNOARRRefY3WBKz_m-PttF0iSjpmX/view?usp=sharing)
+- [exploded and collapsed views](https://mediastream.brighton.ac.uk/Play/17761)
+- [animations: rotate, explode, collapse](https://mediastream.brighton.ac.uk/Play/17763)
 
 ## Drawings
 - note differences between parts and assemblies (see above for fuller description)
