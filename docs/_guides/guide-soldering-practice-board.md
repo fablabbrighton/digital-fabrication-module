@@ -30,24 +30,24 @@ The pads are spaced and sized in gradations of difficulty to allow for improveme
 
 Values are calculated on the basis of a 5V DC supply.
 
-5 x Red 1206 SMD LEDs
-5 x Green 1206 SMD LEDs
-5 x 100 Ohm 1206 SMD Resistors
+* 5 x Red 1206 SMD LEDs
+* 5 x Green 1206 SMD LEDs
+* 5 x 100 Ohm 1206 SMD Resistors
 
 (Actually, 75 Ohm resistors would be more appropriate, but 100 Ohm resistors are commonly available in Fablabs, and are close enough for this job)
 
 
 ## Milled board
 
-<span class="wip">WIP</span>
+![IMG_1018.jpg]({{ "/assets/IMG_1018.jpg" | relative_url }})
 
 ## Stuffed board
 
-<span class="wip">WIP</span>
+![IMG_1027.jpg]({{ "/assets/IMG_1027.jpg" | relative_url }})
 
 ## Powered board
 
-<span class="wip">WIP</span>
+![IMG_1028.jpg]({{ "/assets/IMG_1028.jpg" | relative_url }})
 
 
 ## Improvements
