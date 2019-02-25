@@ -62,8 +62,6 @@ A greater variety of components would also allow for some learning of basic prin
 
 ## Files
 
-<span class="wip">WIP</span>
-
-Eagle files
-PNGs for milling (inc batch milling layup)
+* [Eagle files](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs/hello-soldering-0.3/eagle)
+* PNGs for milling ([1-up](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs/hello-soldering-0.3/pngs-1up) / [6-up](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/board-designs/hello-soldering-0.3/pngs-6up))
 
