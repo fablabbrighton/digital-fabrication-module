@@ -262,7 +262,7 @@ Often used by hobbyists - not us. Becoming obsolete.
 [Chip scale](https://octopart.com/attiny44a-mu-microchip-77762199?r=sp&s=IoZaPY0RRHqdTN2UABj1MA) - [picture]({{ site.baseurl }}/assets/chipscale.png)
 
 
-See the [components guide for the FabTinyISP Programmer](({{ site.baseurl }}guide-stuff-isp))
+See the [components guide for the FabTinyISP Programmer]({{ site.baseurl }}guide-stuff-isp)
 
 
 ## Soldering
