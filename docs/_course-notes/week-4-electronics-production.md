@@ -264,6 +264,8 @@ Often used by hobbyists - not us. Becoming obsolete.
 
 See the [components guide for the FabTinyISP Programmer]({{ site.baseurl }}guide-stuff-isp)
 
+**See the [Detailed guide]({{ site.baseurl }}/guides/guide-draw-circuit-in-eagle) for more Eagle tips.**
+
 
 ## Soldering
 
