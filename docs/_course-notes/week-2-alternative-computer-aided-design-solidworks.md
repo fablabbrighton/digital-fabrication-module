@@ -27,7 +27,7 @@ Who has:
 # Solidworks (PC only)
 
 is...
-1. Parametric: everything is driven by numbers (length, diameter, thickness, colour, etc). 
+1. Parametric: everything is driven/adjusted by numbers (length, diameter, thickness, colour, etc). 
 2. Feature-based: geometry is created with features
 3. Associative: parts, assembles, drawings are linked - a change in one will filter to all
 
