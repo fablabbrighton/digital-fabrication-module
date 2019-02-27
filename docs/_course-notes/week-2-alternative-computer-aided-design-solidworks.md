@@ -110,7 +110,7 @@ Intermediate features:
 - pattern
 - mirror
 
-## Early challenge:
+## Early part challenge:
 - create a 6-sided die (10x10x10mm, R1mm fillets on all faces, D2mm holes 0.5mm deep (opposing sides add up to 7)
 - all details must be dimensioned fully
 - approach this in different ways, aim to do it as fast as you can
@@ -118,7 +118,7 @@ Intermediate features:
 - [2019 leaderboard](https://docs.google.com/document/d/1r5j0Bj-RQjewX0iajl6O0TMxy5sYbaCDed5bEuyTX-0/edit?usp=sharing)
 - [example die part file to download](https://drive.google.com/open?id=1zCTDj-7bnFJ6TkA2ZZHRS2rKuS0ElQmB)
 
-## Second challenge:
+## Second part challenge:
 - create a bicycle stem using extrude/cut, fillets. You don't need to create extra planes, but you can if you wish.
 - this is an exercise in understanding how to use your reference geometry (planes) well - it is quite a spacial awareness challenge!
 - [here is a completed version with all the trimmings](https://drive.google.com/open?id=1bkDZ35xufDL4OiQX7E2IOrJp5gVmQZP0)
@@ -141,6 +141,14 @@ Intermediate features:
 - [mechanical mate: belt+pully](https://drive.google.com/file/d/1mSaCNOARRRefY3WBKz_m-PttF0iSjpmX/view?usp=sharing)
 - [exploded and collapsed views](https://mediastream.brighton.ac.uk/Play/17761)
 - [animations: rotate, explode, collapse](https://mediastream.brighton.ac.uk/Play/17763)
+
+## Assembly challenge
+- [download this .zip folder and unzip it](https://drive.google.com/file/d/1jH7XwE33P4RMQmV67FFxBVaTm9ZSLlcs/view?usp=sharing)
+- open the "plunger.asm" assembly file
+- look at how the parts move
+- [here is an assembly drawing to act as a guide](https://drive.google.com/file/d/112c3L1f3jn8uLBRjYEZWmU9sTZMI33C_/view?usp=sharing)
+- the challenge: recreate this assembly in a new assembly file. Create an exploded view and animate the explode/collapse.
+- bonus: position the link plunger so that it is 15degrees to the horizontal. This will lock the assembly so it won't move. 
 
 ## Drawings
 - note differences between parts and assemblies (see above for fuller description)
