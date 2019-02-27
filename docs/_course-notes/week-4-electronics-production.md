@@ -97,7 +97,7 @@ Consider the machine, tools, materials and process when designing your circuit (
 
 ## Our process
 
-See the [board milling guide]({{ site.baseurl }}/guides/guide-milling-board.md)
+See the [board milling guide]({{ site.baseurl }}/guides/guide-milling-board)
 
 ----
 
