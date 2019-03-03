@@ -157,7 +157,7 @@ Intermediate features:
 - orthographic drawings of parts (with dimensions)
 ![simple part drw]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
 and assemblies (with NO dimensions, with balloons + bill of materials (BOM))
-![simple assembly drw]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
+![simple assembly drw]({{ site.baseurl }}/assets/simple-assembly-drw.jpg)
 ....or both![both-part-assembly-drw-combined](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg). 
 - [introduction to technical drawing](https://ocw.mit.edu/courses/mechanical-engineering/2-007-design-and-manufacturing-i-spring-2009/related-resources/drawing_and_sketching/)
 - [types of views](https://knowledge.autodesk.com/support/inventor-products/getting-started/caas/CloudHelp/cloudhelp/2019/ENU/Inventor-Help/files/GUID-C53DAB48-BA5F-4377-842D-BB8F3E5962A0-htm.html)
