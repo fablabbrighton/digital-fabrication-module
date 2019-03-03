@@ -154,17 +154,17 @@ Intermediate features:
 - Help menu > tutorials (Lesson3: drawings)
 - [lesson 3: drawings video](https://www.youtube.com/watch?v=lX85kgun8sE)
 - advanced tutorials: - Help menu > tutorials (all) > Advanced drawings (a.Drawing views, b. Detailing, c. Assembly Drawing views)
-- orthographic drawings of parts (with dimensions)
+- orthographic drawings of parts (with dimensions). Note that there should be sufficient detail and dimensions for the part to be manufactured. Drawings should be checked by others. 
 ![simple part drw]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
 
-- and assemblies (with NO dimensions, with balloons + bill of materials (BOM))
+- assembly drawings have NO dimensions, but they do have balloons and include bill of materials (BOM)
 ![simple assembly drw]({{ site.baseurl }}/assets/simple-assembly-drw.jpg)
 
-....or both![both-part-assembly-drw-combined](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg). 
+- you can also combine both types of drawings into a single drawing, but this is not advised. [both-part-assembly-drw-combined](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg). 
 - [introduction to technical drawing](https://ocw.mit.edu/courses/mechanical-engineering/2-007-design-and-manufacturing-i-spring-2009/related-resources/drawing_and_sketching/)
 - [types of views](https://knowledge.autodesk.com/support/inventor-products/getting-started/caas/CloudHelp/cloudhelp/2019/ENU/Inventor-Help/files/GUID-C53DAB48-BA5F-4377-842D-BB8F3E5962A0-htm.html)
 - [BS 8888:2017 –Technical product documentation and specification](https://www.bsigroup.com/en-GB/about-bsi/media-centre/press-releases/2017/february/UKs-national-standard-for-engineering-drawings-revised/)
-- include appropriate tolerances[simple tolerances drw]({{ site.baseurl }}/assets/Pololu-Stepper-Motor-drawing-tolerance.jpg)
+- include appropriate tolerances [simple tolerances drw]({{ site.baseurl }}/assets/Pololu-Stepper-Motor-drawing-tolerance.jpg)
 - base tolerances on [manufacturing capability charts](http://capitadiscovery.co.uk/brighton-ac/items/1377842)
 - [limits and fits tolerances for holes and shafts](({{ site.baseurl }}/assets/iso-fits-hole.jpg)
 - [use the solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
