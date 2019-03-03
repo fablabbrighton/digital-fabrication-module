@@ -9,7 +9,7 @@ Introducing parametric modelling.
 
 <!--more-->
 
-## Prep for this week's class
+## Background information on CAD
 
 Watch the corresponding Fab Academy lecture. We'll be covering part of this content. 
 
@@ -151,8 +151,24 @@ Intermediate features:
 - bonus: position the link plunger so that it is 15degrees to the horizontal. This will lock the assembly so it won't move. 
 
 ## Drawings
-- note differences between parts and assemblies (see above for fuller description)
-- [good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
-- [solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
-- [1st or 3rd angle projection?](https://youtu.be/_wDpN6Zi1hE)
+- Help menu > tutorials (Lesson3: drawings)
+- [lesson 3: drawings video](https://www.youtube.com/watch?v=lX85kgun8sE)
+- advanced tutorials: - Help menu > tutorials (all) > Advanced drawings (a.Drawing views, b. Detailing, c. Assembly Drawing views)
+- orthographic drawings of [parts (with dimensions)]
+![]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
 
+and ![]assemblies (with NO dimensions, with balloons + bill of materials (BOM))
+![]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
+....or both![](https://ayoqq.org/images/solidworks-drawing-solidworks-assembly-13.jpg). 
+
+- [include appropriate tolerances]({{ site.baseurl }}/assets/Pololu-Stepper-Motor-drawing-tolerance.jpg)
+- [here are some good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
+- [use the solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
+- [1st (roll) or 3rd (slide) angle projection video](https://youtu.be/_wDpN6Zi1hE)
+
+
+## Part drawing challenge
+- [here are some good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
+
+
+## Assembly drawing challenge
