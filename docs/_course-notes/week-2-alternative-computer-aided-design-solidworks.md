@@ -154,8 +154,8 @@ Intermediate features:
 - Help menu > tutorials (Lesson3: drawings)
 - [lesson 3: drawings video](https://www.youtube.com/watch?v=lX85kgun8sE)
 - advanced tutorials: - Help menu > tutorials (all) > Advanced drawings (a.Drawing views, b. Detailing, c. Assembly Drawing views)
-- orthographic drawings of [parts (with dimensions)]
-![]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
+- orthographic drawings of parts (with dimensions)
+({{ site.baseurl }}/assets/simple-2d-drw.jpg)
 
 and ![]assemblies (with NO dimensions, with balloons + bill of materials (BOM))
 ![]({{ site.baseurl }}/assets/simple-2d-drw.jpg)
