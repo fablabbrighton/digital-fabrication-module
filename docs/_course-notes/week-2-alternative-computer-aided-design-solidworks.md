@@ -151,6 +151,18 @@ Intermediate features:
 - bonus: position the link plunger so that it is 15degrees to the horizontal. This will lock the assembly so it won't move. 
 
 ## Drawings
+### Rules
+- make it clear!
+- use only enough views as are necessary
+- don't duplicate dimensions
+- make dimensions measurable (using ruler, calipers, micrometer etc)
+- don't cross dimensions
+- space dimensions consistently
+- don't place dimensions on a part
+- make sure the title block is complete
+- use sans serif fonts only (ideally use CAPS)
+
+### Tutorial
 - Help menu > tutorials (Lesson3: drawings)
 - [lesson 3: drawings video](https://www.youtube.com/watch?v=lX85kgun8sE)
 - advanced tutorials: - Help menu > tutorials (all) > Advanced drawings (a.Drawing views, b. Detailing, c. Assembly Drawing views)
