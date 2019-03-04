@@ -166,7 +166,7 @@ Intermediate features:
 - [BS 8888:2017 –Technical product documentation and specification](https://www.bsigroup.com/en-GB/about-bsi/media-centre/press-releases/2017/february/UKs-national-standard-for-engineering-drawings-revised/)
 - include appropriate tolerances [simple tolerances drw]({{ site.baseurl }}/assets/Pololu-Stepper-Motor-drawing-tolerance.jpg)
 - base tolerances on [manufacturing capability charts](http://capitadiscovery.co.uk/brighton-ac/items/1377842)
-- [limits and fits tolerances for holes and shafts](({{ site.baseurl }}/assets/iso-fits-hole.jpg)
+- [limits and fits tolerances for holes and shafts]({{ site.baseurl }}/assets/iso-fits-hole.jpg)
 - [use the solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
 - [1st (roll) or 3rd (slide) angle projection video](https://youtu.be/_wDpN6Zi1hE)
 
