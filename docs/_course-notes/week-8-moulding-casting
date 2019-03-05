@@ -1,0 +1,55 @@
+---
+layout: page
+title:  "Week 8: moulding and casting"
+date:   2018-3-5
+author: Derek Covill
+---
+
+Introducing moulding and casting.
+
+<!--more-->
+
+
+## Prep for this week's class
+
+Watch the corresponding Fab Academy lecture. We'll be covering part of this content. 
+
+* Fab Academy lecture notes: <http://academy.cba.mit.edu/classes/molding_casting/index.html>  
+* [Lecture from 2018](http://fab.academany.org/2018/lectures/fab-20180321.html)
+
+## Baseline 
+
+Who has:
+
+* a
+* b
+* 
+
+# 
+can be...
+1. 
+2.
+3.
+
+## Resources
+
+# 
+
+## Resources
+
+## Assignment ???
+- laser cut a 30x30x5 mini tile part, then laser cut a trace to stick on top
+- vacuum form a mould tool from your mini tile part
+- cast in a molten liquid (e.g. chocolate!) into your mould tool to create a solid part
+
+## Advanced Assignment
+- create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block 50x50x20 using a 3mm flat end mill (ensure > 3deg of draft on all vertical surfaces)
+- cut the tile from the solid block using a CNC milling machine
+- cast an elastic material (e.g. silicone) into the cavity and wait for this to set
+- remove the new elastic mould tool
+- cast a molten liquid (e.g. chocolate) into your mould tool to create a solid part
+
+### What do I need to do to pass?
+- create the cad model of your tile and generate the toolpath. OR...
+???- vacuum form over a small part to create a mould, and cast something into the mould
+
