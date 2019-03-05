@@ -185,6 +185,7 @@ Intermediate features:
 ## Part drawing challenge
 - [here are some good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
 - pick one of these, create the part then create a complete drawing for this part (assume one square = 10mm)
+- use the template provided above
 - include all dimensions required to make the part
 - include a complete title block
 - assume that it is machined using a CNC milling machine and then specify the appropriate tolerances using the manufacturing process capability charts above
@@ -193,13 +194,16 @@ Intermediate features:
 - find an interesting assembly in GrabCAD (make sure it's a Solidworks assembly!) and download it
 - unzip the folder with all the files
 - make a complete assembly drawing of the main assembly
+- use the template provided above
 - include a complete title block
 - include baloons for all parts
 - include a complete/appropriate BOM (note that you may need to make adjustments to part names or other details)
 
 ## Advanced part drawing challenge for homework
 - Lego part challenge: download the [lego solidworks part here]({{ site.baseurl }}/assets/lego.SLDPRT)
+![lego solidworks part]({{ site.baseurl }}/assets/lego.jpg)
 - create a part drawing of this lego brick
+- use the template provided above
 - include all dimensions required to make the part
 - include a complete title block
 - note the requirements for this to be a 
