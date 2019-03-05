@@ -198,11 +198,11 @@ Intermediate features:
 - include a complete/appropriate BOM (note that you may need to make adjustments to part names or other details)
 
 ## Advanced part drawing challenge for homework
-- Lego part challenge: download the [lego solidworks part here]({{ site.baseurl }}/assets/lego.sldprt)
+- Lego part challenge: download the [lego solidworks part here]({{ site.baseurl }}/assets/lego.SLDPRT)
 - create a part drawing of this lego brick
 - include all dimensions required to make the part
 - include a complete title block
 - note the requirements for this to be a 
 - assume that it is injection moulded from ABS and then specify the appropriate tolerances using the manufacturing process capability charts above
-- assume that the bosses of the lego brick need to be a 'press fit' with the underside of the next brick, using a [H7/p6 tolerance] (https://en.wikipedia.org/wiki/Engineering_fit) which assumes H7 (hole) tolerance range = +0.000 mm to +0.025 mm, and p6 (shaft) tolerance range = +0.042 mm to +0.026 mm
+- assume that the bosses of the lego brick need to be a 'press fit' with the underside of the next brick, using a [H7/p6 tolerance](https://en.wikipedia.org/wiki/Engineering_fit) which assumes H7 (hole) tolerance range = +0.000 mm to +0.025 mm, and p6 (shaft) tolerance range = +0.042 mm to +0.026 mm
 - note...this is challenging :0)
