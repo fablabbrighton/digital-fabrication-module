@@ -182,12 +182,27 @@ Intermediate features:
 - [use the solidworks A4 drawing template](https://drive.google.com/open?id=1oSnJt-BSTECa_LRzgIEuoPoB3L85mbhN)
 - [1st (roll) or 3rd (slide) angle projection video](https://youtu.be/_wDpN6Zi1hE)
 
-## Part drawing challenge 1
+## Part drawing challenge
 - [here are some good exercises to help understand technical drawings](https://drive.google.com/open?id=1MHMAI9HZpqp_m3xgFLtKBn179Hc6kqDi)
-- pick one of these, create the part then create the drawing for this part
-
-## Part drawing challenge 2
-- Lego part challenge
+- pick one of these, create the part then create a complete drawing for this part (assume one square = 10mm)
+- include all dimensions required to make the part
+- include a complete title block
+- assume that it is machined using a CNC milling machine and then specify the appropriate tolerances using the manufacturing process capability charts above
 
 ## Assembly drawing challenge
-- GrabCAD assembly
+- find an interesting assembly in GrabCAD (make sure it's a Solidworks assembly!) and download it
+- unzip the folder with all the files
+- make a complete assembly drawing of the main assembly
+- include a complete title block
+- include baloons for all parts
+- include a complete/appropriate BOM (note that you may need to make adjustments to part names or other details)
+
+## Advanced part drawing challenge for homework
+- Lego part challenge: download the [lego solidworks part here]({{ site.baseurl }}/assets/lego.sldprt)
+- create a part drawing of this lego brick
+- include all dimensions required to make the part
+- include a complete title block
+- note the requirements for this to be a 
+- assume that it is injection moulded from ABS and then specify the appropriate tolerances using the manufacturing process capability charts above
+- assume that the bosses of the lego brick need to be a 'press fit' with the underside of the next brick, using a [H7/p6 tolerance] (https://en.wikipedia.org/wiki/Engineering_fit) which assumes H7 (hole) tolerance range = +0.000 mm to +0.025 mm, and p6 (shaft) tolerance range = +0.042 mm to +0.026 mm
+- note...this is challenging :0)
