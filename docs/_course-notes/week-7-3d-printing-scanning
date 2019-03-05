@@ -1,0 +1,54 @@
+---
+layout: page
+title:  "Week 7: 3D printing and scanning"
+date:   2018-3-5
+author: Derek Covill
+---
+
+Introducing 3D printing and scanning.
+
+<!--more-->
+
+
+## Prep for this week's class
+
+Watch the corresponding Fab Academy lecture. We'll be covering part of this content. 
+
+* Fab Academy lecture notes: <http://academy.cba.mit.edu/classes/computer_design/index.html>  
+* [Lecture from 2019](https://vimeo.com/314594035)
+
+## Baseline 
+
+Who has:
+
+* a
+* b
+* 
+
+# 3D scanning
+can be...
+1. 
+2.
+3.
+
+## Resources
+
+# 3D printing
+
+## Resources
+
+## Assignment
+- create a cad model of a 100x100mm tile (max height 20mm)  and save it as .stl file (with appropriate resolution based on 0.1mm layer height)
+
+### What do I need to do to pass?
+- submit a .stl file of a tile (or other small part) that you have designed
+
+### Extra credit 
+- scan a physical object (e.g. computer mouse)
+- tidy up the scanned mesh in meshmixer
+- use a cad package (e.g. Rhino, Fusion) to project curves onto the scanned mesh to create tidy cad geometry
+- save as .stl file and submit
+
+### For the super keen
+- create a cad model of a part that can not made using any other single technology (subtractive, casting, moulding)
+- submit this .stl file for printing
