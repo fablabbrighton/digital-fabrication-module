@@ -211,8 +211,8 @@ Intermediate features:
 - assume that the bosses of the lego brick need to be a 'press fit' with the underside of the next brick, using a [H7/p6 tolerance](https://en.wikipedia.org/wiki/Engineering_fit) which assumes H7 (hole) tolerance range = +0.000 mm to +0.025 mm, and p6 (shaft) tolerance range = +0.042 mm to +0.026 mm
 - note...this is challenging :0)
 
-## Advanced part drawing challenge for homework
+## More features in Solidworks
 - features: extrude, hole wizard, mirror, pattern, shell, fillet, revolve, sweep, loft, split
 ![reamer solidworks part]({{ site.baseurl }}/assets/reamer.JPG)
 - [reamer part with many features]({{ site.baseurl }}/assets/reamer.SLDPRT)
-
+- Help menu > tutorials (All) > Revolves and Sweeps, Lofts, Patterns, Fillets)
