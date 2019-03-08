@@ -213,6 +213,6 @@ Intermediate features:
 
 ## Advanced part drawing challenge for homework
 - features: extrude, hole wizard, mirror, pattern, shell, fillet, revolve, sweep, loft, split
-![reamer solidworks part]({{ site.baseurl }}/assets/reamer.jpg)
+![reamer solidworks part]({{ site.baseurl }}/assets/reamer.JPG)
 - [reamer part with many features]({{ site.baseurl }}/assets/reamer.SLDPRT)
 
