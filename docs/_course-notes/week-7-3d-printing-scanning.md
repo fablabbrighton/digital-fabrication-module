@@ -26,11 +26,16 @@ Who has:
 
 [**3D printing**](http://academy.cba.mit.edu/classes/scanning_printing/index.html "3d printing")
 
-*   our 3DP centre
+*   is an exciting new area, but the hype is too much
+*   is additive manufacturing
+*   requires support material
+*   creates inherent weaknesses between layers of parts
+*   the challenge is creating/using [design tools](http://eprints.brighton.ac.uk/14489/1/template_CGIconf_CameraReadyFINAL.pdf) to support the geometric freedom 3DP affords - there are no straight lines in nature!
+*   our 3DP centre in AEB
 *   our machines: <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[raise3d n2 plus](https://technologyoutlet.co.uk/collections/raise-3d/products/raise3d-pro2-plus-3d-printer), </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[bigbuilder](https://www.3dhubs.com/3d-printers/big-builder-dual-feed-extruder), </span>[Fusion3](https://www.fusion3design.com/), <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Form2,](https://formlabs.com/3d-printers/form-2/) </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Fortus 250mc](https://www.3dhubs.com/3d-printers/fortus-250mc), </span>[Wanhao](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU)<span style="color: #1f497d; font-family: Calibri, sans-serif; font-size: 11pt;"> [duplicator 5s](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU), </span>[<span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">Makerbots replicator 2x</span>](https://www.tritech3d.co.uk/manufacturer/makerbot-3d-printers/?gclid=CjwKCAiAo8jgBRAVEiwAJUXKqMIWVOSolkJdXcF9ep0apS4pJ1p-BghMfgEbxOuL71y4QoMzO1tq3BoCzTIQAvD_BwE)
 *  fablab machine: [creality CR-10](https://all3dp.com/1/creality-cr-10-3d-printer-review-worth-the-hype/)
 
-*   software: [simplify3d](https://www.simplify3d.com/) to slice the stls <span style="font-size: 13px;">and</span> create <span style="font-size: 13px;">the</span> gcode<span style="font-size: 13px;">.</span>
+*   good software: [simplify3d](https://www.simplify3d.com/) to slice the stls <span style="font-size: 13px;">and</span> create <span style="font-size: 13px;">the</span> gcode<span style="font-size: 13px;">.</span>
 *  free software to generate toolpath for 3D printers (can animate in layer view): [Ultimaker Cura](https://ultimaker.com/en/resources/51943-installation-ultimaker-cura)
 
 *   [design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)
@@ -55,11 +60,9 @@ Who has:
 *   [meshlab](http://www.meshlab.net/ "meshlab")
     *   [remeshing and meshlab - butterfly subdivision](https://youtu.be/LeuX963jpn8 "remeshing and meshlab")
 
-# 3D printing
-
 ## Assignment
 - design 50x50x5mm tile in CAD (max height 20mm) making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
-- load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play!). Record this using a screen recorder or on your phone and embed the video onto your blog. 
+- load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play!). Record an accelerated version of this (or just a short period of it) using a screen recorder or on your phone and embed the video onto your blog. 
 
 ### What do I need to do to pass?
 - submit a .stl file of a tile (or other small part) that you have designed and include this into your blog. 
