@@ -26,7 +26,7 @@ Who has:
 
 [**3D printing**](http://academy.cba.mit.edu/classes/scanning_printing/index.html "3d printing")
 
-*   is an exciting new area, but the hype is too much!
+*   is an exciting new area [making lots of interesting things](https://www.google.com/search?q=3d+printing+examples&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfxeWJwf3gAhU0XRUIHVC1BgsQ_AUIDigB&biw=1420&bih=697) but the hype is too much!
 *   is additive manufacturing, like lego!
 *   requires support material (in most cases)
 *   creates inherent weaknesses [or variable properties](https://www.ncbi.nlm.nih.gov/pubmed/29904165) between layers of parts
