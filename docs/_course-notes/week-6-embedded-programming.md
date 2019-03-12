@@ -190,7 +190,7 @@ Program your board to do something.
 See [board programming guide]({{ site.baseurl }}/guides/guide-board-programming) for details on how to get a program onto your board
 
 Flexible: 
-1. Upload an Arduino Blink sketch
+1. Upload an Arduino Blink sketch (in [simulation](https://www.tinkercad.com) if you cannot access or make a physical board)
 2. Communicate with your board over a serial connection
 3. Connect two boards together over SPI
 4. Communicate with another program on your computer, e.g. Processing.
@@ -206,6 +206,8 @@ Flexible:
 Upload an existing program to your board, (e.g. an Arduino Blink or Button sketch) with the minimal customisation needed to get it to work on your board. Verify that it works.
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else’s work.
+
+If you are unable to use a phyoscial board, a simulation is an acceptable subsitute: Try <https://www.tinkercad.com>
 
 ### Extra credit 
 
