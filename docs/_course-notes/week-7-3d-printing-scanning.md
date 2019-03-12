@@ -42,10 +42,6 @@ Who has:
 *   [.stl files](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
 *   [finishing 3dp parts](https://www.fictiv.com/hwg/fabricate/ultimate-guide-to-finishing-3d-printed-parts)
 
-*   assignment
-    *   individual: 3d print your mouse from scan, or scan+CAD. Submit file by Friday 14th 5pm into XE404 > Assessments > Mouse STL file submission area. Note: if you don't get it finished, we can print it after xmas break. 
-    *   group: make the [documentation](https://docs.google.com/document/d/15gcyV69IcsJk2qgAGhEzvlpLC0jyFJMrBUhrpJumlW8/edit?usp=sharing) awesome
-
 **laser scanning**
 
 *   [photogrammetry vs 3D scanning](https://peel-3d.com/blogs/news/7-things-you-should-know-about-photogrammetry-vs-3d-scanning "photo G vs 3D scanning")
