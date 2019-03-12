@@ -28,7 +28,7 @@ Who has:
 
 *   is an exciting new area [making lots of interesting things](https://www.google.com/search?q=3d+printing+examples&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfxeWJwf3gAhU0XRUIHVC1BgsQ_AUIDigB&biw=1420&bih=697) but the hype is too much!
 *   is additive manufacturing, like lego!
-*   requires support material (in most cases)
+*   requires [support material (in most cases)](https://www.google.com/search?biw=1420&bih=697&tbm=isch&sa=1&ei=ah-IXIzqFoPRrgTwx6mwCA&q=3d+printing+support+material&oq=3d+printing+support+material&gs_l=img.3..0j0i24l3.74515.76108..76253...0.0..0.189.1550.13j4......1....1..gws-wiz-img.......0i67j0i8i30j0i30.7EnP8jt2LP4)
 *   creates inherent weaknesses [or variable properties](https://www.ncbi.nlm.nih.gov/pubmed/29904165) between layers of parts
 *   the challenge is creating/using [design tools](http://eprints.brighton.ac.uk/14489/1/template_CGIconf_CameraReadyFINAL.pdf) to support the geometric freedom 3DP affords - there are no straight lines in nature!
 *   our 3DP centre in AEB mostly prints in ABS/PLA/flexible
