@@ -1,0 +1,105 @@
+---
+layout: page
+title:  "Week 8: computer-controlled machining + moulding and casting"
+date:   2018-3-5
+author: Derek Covill
+---
+
+Introducing computer-controlled machining + moulding and casting.
+
+<!--more-->
+
+
+## Prep for this week's class
+
+Watch the corresponding Fab Academy lecture. We'll be covering part of this content. 
+
+* Fab Academy lecture notes (computer-controlled machining): <http://academy.cba.mit.edu/classes/computer_machining/index.html>  
+* Fab Academy lecture notes (moulding&casting): <http://academy.cba.mit.edu/classes/molding_casting/index.html>  
+* [Lecture from 2018 - computer-controlled machining](http://fab.academany.org/2018/lectures/fab-20180307.html)
+* [Lecture from 2018 - moulding&casting](http://fab.academany.org/2018/lectures/fab-20180321.html)
+
+## Baseline 
+
+Who has:
+
+* done any workshop machining or CNC machining?
+* made a mould?
+* done any casting?
+
+## Resources (computer-controlled machining)
+- [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
+- [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
+- 
+
+## Computer-controlled machining
+
+### Our machines
+- office (Des): 1610 3-axis router, 160x100x45mm (XYZ)
+- E28 (Gary/Jon): Imes-Icore M40 3-axis router, 1000x900x250mm (XYZ)
+- EM13 (Des): Roland MX-50 milling machine, 400x350x150mm (XYZ)
+- E19 (Adam Cable): Herco VM10UI 5-axis milling machine, 400x400x400mm (XYZ)
+- plasma 
+
+
+### CAM software
+- Solidworks CAM
+- SolidCAM , demo , tutorials,  machine building (see simulation below)
+- Fusion 360
+- SRP player (Roland MX-50)
+- fabmodules.org
+- fabmods (http://mods.cba.mit.edu/)
+
+### software to run CNC
+- GRBL control (1610)
+- ??? (Imes-Icore M40)
+- swift cut (plasma)
+- VPanel (Roland MX-50)
+- Winmax (Herco VM10UI)
+
+- VCarvePro (AXYZ)
+- Marlin 
+- Mach3
+
+### hardware to run CNC
+- pololu
+- arduino
+
+### tooling
+- drill bits vs router bits vs end mills
+- flutes
+- coatings
+- center-cutting
+- up/down cut
+- flat/ball end
+   
+- milling bit types: ball-nose, flat-end mills
+
+### speeds n feeds
+- chip load: ~ 0.001-0.010"
+- feed rate (inches per minute) / (RPM x number of flutes) 
+- cut depth: ~ tool diameter
+- step-over: ~ tool diameter/2
+
+### process
+- CAD > CAM: generate toolpath + export G-code > load into machine software > run machine
+
+## CNC rules
+1. Vertical walls should have [draft angles](https://www.dynacast.com/stuff/contentmgr/files/0/97f5240f1f1a61eac4d6f431cbd0b2d4/files/diecasting_design_tips_01.jpg)
+2. There should be no [undercuts](http://www.acomold.com/image/molding-undercuts.jpg)
+
+## Resources (moulding&casting)
+
+## Assignment
+- create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block 50x50x10mm using a 3mm flat end mill (ensure > 3deg of draft angle on all vertical surfaces)
+
+## Extra credit
+- cut the tile from the solid block of 50x50x10mm foam or wax using a CNC milling machine
+- cast an elastic material (e.g. silicone or jelly) into the cavity and wait for this to set
+- remove the new elastic mould tool
+- cast a molten liquid (e.g. resin or chocolate) into your mould tool to create a solid part
+
+### What do I need to do to pass?
+- create the cad model of your tile and generate the toolpath.
+???- vacuum form over a small part to create a mould, and cast something into the mould
+
