@@ -30,11 +30,43 @@ Who has:
 ## Resources (computer-controlled machining)
 - [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
 - [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
-- 
 
 ## Computer-controlled machining
+[**computer-controlled machining**](http://academy.cba.mit.edu/classes/computer_machining/index.html "computer controlled machining")
 
-### Our machines
+*   our machines
+    *   office (Des): [1610 3-axis router](https://www.ebay.co.uk/itm/CNC-Wood-Router-1610-Mini-Milling-Carving-Engraving-Machine-GRBL-Control-3-Axis/162556175066?epid=10003409492&hash=item25d91a62da:g:TDwAAOSwHUhZ~~zy), 160x100x45mm (XYZ)
+    *   E28 (Gary/Jon): [Imes-Icore M40 3-axis](https://www.imes-icore.de/eng/flatcom-cnc-milling-machine-series.html) router, 1000x900x250mm (XYZ)
+    *   EM13 (Des): [Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
+    *   E19 (Adam Cable): [Herco VM10UI 5-axis](http://www.hurco.com/en-gb/machine-tools/machining-centres/5-axis-vertical/pages/trunnion-table.aspx) milling machine, 400x400x400mm (XYZ)
+*   software
+    *   [Solidworks CAM](https://www.youtube.com/watch?v=pPxH-JGTCK4)
+    *   [SolidCAM](https://www.solidcam.com/professor/solidcam-modules-overview/) , [demo](https://youtu.be/di-VxpxAUGQ) , [tutorials](https://www.solidcam.com/professor/solidcam-jumpstart/),  [machine building](https://youtu.be/R3pW8RenKZk) (see simulation below)
+    *   [Fusion 360](https://www.autodesk.com/products/fusion-360/blog/getting-started-introduction-to-cam-and-toolpaths/)
+    *   GRBL
+    *   [arduino](https://www.arduino.cc/)
+*   hardware
+    *   [pololu](https://www.pololu.com/)
+    *   [arduino](https://www.arduino.cc/)
+*   [milling bit types](http://mindworks.shoutwiki.com/wiki/Cutter_Types_(Mill)): ball-nose, flat-end mills
+*   good cutters:
+    *   [0.4mm single flute](https://www.damencnc.com/en/mini-end-mills-one-flute-0-40mm-818/a1132?c=203) (DamenCNC)
+    *   [0.4mm single flute](https://www.sorotec.de/shop/End-Mill-Single-Flute--0-4mm.html "Sorotec single flute 0.4mm") (Sorotec)
+
+*   [speeds n feeds](https://en.wikipedia.org/wiki/Speeds_and_feeds)
+*   [cnc training guides](https://www.cnccookbook.com/online-cnc-training-courses-guides-help/?utm_source=ActiveCampaign&utm_medium=email&utm_content=Jump+start+your+CNC+New+Year&utm_campaign=10FreeCNCCourses)
+*   process: CAD > CAM: generate toolpath + export G-code > load into machine software > run machine
+*   [documentation](https://docs.google.com/document/d/1R7PvT-j3l-Mz94qoynsk3z2aP2Ewtweq85q_kYWCGpI/edit?usp=sharing)
+*   assignment
+    *   individual: create simulation toolpath using SolidCAM, SolidworksCAM, Fusion 360, or other software using either a 3mm ball-nose or flat-end milling bit. Later we will arrange to mill these. 
+    *   group: make the [documentation](https://docs.google.com/document/d/1R7PvT-j3l-Mz94qoynsk3z2aP2Ewtweq85q_kYWCGpI/edit?usp=sharing) awesome
+
+
+
+
+
+
+### Our machines REDONE
 - office (Des): 1610 3-axis router, 160x100x45mm (XYZ)
 - E28 (Gary/Jon): Imes-Icore M40 3-axis router, 1000x900x250mm (XYZ)
 - EM13 (Des): Roland MX-50 milling machine, 400x350x150mm (XYZ)
