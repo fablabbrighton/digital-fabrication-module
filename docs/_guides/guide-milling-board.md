@@ -59,7 +59,7 @@ zjog (mm):  2  (a safe height above board)
 
 xhome (mm):  0  
 yhome (mm):  0  
-zhome (mm):  0  
+zhome (mm):  10  <- IMPORTANT: Make sure this is more than 0mm
 
 cut depth (mm): 0.1mm (can adjust this)   
 
