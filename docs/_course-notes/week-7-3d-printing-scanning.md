@@ -21,20 +21,22 @@ Watch the corresponding Fab Academy lecture. We'll be covering part of this cont
 
 Who has:
 
-* 
-* b
-* 
+* 3d printed something?
+* laser scanned something?
 
 [**3D printing**](http://academy.cba.mit.edu/classes/scanning_printing/index.html "3d printing")
 
 *   our 3DP centre
 *   our machines: <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[raise3d n2 plus](https://technologyoutlet.co.uk/collections/raise-3d/products/raise3d-pro2-plus-3d-printer), </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[bigbuilder](https://www.3dhubs.com/3d-printers/big-builder-dual-feed-extruder), </span>[Fusion3](https://www.fusion3design.com/), <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Form2,](https://formlabs.com/3d-printers/form-2/) </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Fortus 250mc](https://www.3dhubs.com/3d-printers/fortus-250mc), </span>[Wanhao](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU)<span style="color: #1f497d; font-family: Calibri, sans-serif; font-size: 11pt;"> [duplicator 5s](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU), </span>[<span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">Makerbots replicator 2x</span>](https://www.tritech3d.co.uk/manufacturer/makerbot-3d-printers/?gclid=CjwKCAiAo8jgBRAVEiwAJUXKqMIWVOSolkJdXcF9ep0apS4pJ1p-BghMfgEbxOuL71y4QoMzO1tq3BoCzTIQAvD_BwE)
+*  fablab machine: [creality CR-10](https://all3dp.com/1/creality-cr-10-3d-printer-review-worth-the-hype/)
+
 *   software: [simplify3d](https://www.simplify3d.com/) to slice the stls <span style="font-size: 13px;">and</span> create <span style="font-size: 13px;">the</span> gcode<span style="font-size: 13px;">.</span>
-*   [documentation](https://docs.google.com/document/d/15gcyV69IcsJk2qgAGhEzvlpLC0jyFJMrBUhrpJumlW8/edit?usp=sharing)
-*   Dan Bro<span style="color: #000000;">okes</span><span style="color: #000000;">: <span style="font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">D.T.Brooks@brighton.ac.uk (room 101 in AEB)</span></span>
+*  free software to generate toolpath for 3D printers (can animate in layer view): [Ultimaker Cura](https://ultimaker.com/en/resources/51943-installation-ultimaker-cura)
+
 *   [design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)
 *   [.stl files](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
 *   [finishing 3dp parts](https://www.fictiv.com/hwg/fabricate/ultimate-guide-to-finishing-3d-printed-parts)
+
 *   assignment
     *   individual: 3d print your mouse from scan, or scan+CAD. Submit file by Friday 14th 5pm into XE404 > Assessments > Mouse STL file submission area. Note: if you don't get it finished, we can print it after xmas break. 
     *   group: make the [documentation](https://docs.google.com/document/d/15gcyV69IcsJk2qgAGhEzvlpLC0jyFJMrBUhrpJumlW8/edit?usp=sharing) awesome
@@ -53,23 +55,14 @@ Who has:
 *   [meshlab](http://www.meshlab.net/ "meshlab")
     *   [remeshing and meshlab - butterfly subdivision](https://youtu.be/LeuX963jpn8 "remeshing and meshlab")
 
-# 3D scanning
-can be...
-1. 
-2.
-3.
-
-## Resources
-
 # 3D printing
 
-## Resources
-
 ## Assignment
-- create a cad model of a 100x100mm tile (max height 20mm)  and save it as .stl file (with appropriate resolution based on 0.1mm layer height)
+- design 50x50x5mm tile in CAD (max height 20mm) making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
+- load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play!). Record this using a screen recorder or on your phone and embed the video onto your blog. 
 
 ### What do I need to do to pass?
-- submit a .stl file of a tile (or other small part) that you have designed
+- submit a .stl file of a tile (or other small part) that you have designed and include this into your blog. 
 
 ### Extra credit 
 - scan a physical object (e.g. computer mouse)
@@ -78,5 +71,5 @@ can be...
 - save as .stl file and submit
 
 ### For the super keen
-- create a cad model of a part that can not made using any other single technology (subtractive, casting, moulding)
+- create a cad model of a part that can not made using any other single technology (subtractive, casting, moulding). OR create a design of an object that can be cleverly made/assembled without support material. 
 - submit this .stl file for printing
