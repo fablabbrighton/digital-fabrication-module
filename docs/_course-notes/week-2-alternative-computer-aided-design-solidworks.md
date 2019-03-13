@@ -216,3 +216,13 @@ Intermediate features:
 ![reamer solidworks part]({{ site.baseurl }}/assets/reamer.JPG)
 - [reamer part with many features]({{ site.baseurl }}/assets/reamer.SLDPRT)
 - Help menu > tutorials (All) > Revolves and Sweeps, Lofts, Patterns, Fillets)
+
+## Solidworks part features exam! (1 hour)
+1.	Make a donut (overall diameter 100mm, section diameter 20mm) using a revolve (10 marks)
+2.	Put a M5 countersunk hole through the donut (in axial direction) (5 marks)
+3.	Pattern this hole so that there are 5 of them spaced around the donut (5 marks) 
+4.	Take a measurement of the cross sectional area of one cut through the donut where an M5 hole is (5 marks)
+5.	In the same part make the same donut (no holes this time) again using a sweep (position it next to the existing feature) (10 marks)
+6. Now make it using a loft! Again, position it next to the existing parts (15 marks)
+- Score out of 50? (Pass >= 25, merit >=35, distinction >= 45)
+
