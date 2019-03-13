@@ -225,4 +225,5 @@ Intermediate features:
 5.	In the same part make the same donut (no holes this time) again using a sweep (position it next to the existing feature) (10 marks)
 6. Now make it using a loft! Again, position it next to the existing parts (15 marks)
 - Score out of 50? (Pass >= 25, merit >=35, distinction >= 45)
-
+###  [here's the finished part with the donuts!](({{ site.baseurl }}/assets/donuts-yum.SLDPRT)
+###  [here's the section view results](({{ site.baseurl }}/assets/section-properties-donut.PNG)
