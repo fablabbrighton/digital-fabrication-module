@@ -5,7 +5,8 @@ date:   2018-3-5
 author: Derek Covill
 ---
 
-Introducing 3D printing and scanning.
+Part 1: Introducing 3D printing with tour of facilities and demo of AEB.
+Part 2: Introducting laser scanning with demo activity.
 
 <!--more-->
 
