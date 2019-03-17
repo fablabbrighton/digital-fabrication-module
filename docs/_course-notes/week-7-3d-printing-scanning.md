@@ -56,9 +56,9 @@ Who has:
     *   [design](http://www.meshmixer.com/design.html "meshmixer design")
 *   [meshlab](http://www.meshlab.net/ "meshlab")
     *   [remeshing and meshlab - butterfly subdivision](https://youtu.be/LeuX963jpn8 "remeshing and meshlab")
-
+## For the assignment this week you have a choice! pick option 1 or 2 (or both!) from below...
 ## Assignment option 1
-- design 50x50x5mm tile in CAD (max height 20mm) making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
+- design 30x30x5mm tile in CAD making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
 - load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play or [here's a tutorial video](https://www.youtube.com/watch?v=gvUmeJ3r58A) showing how to view the layers and toopath in cura. ). Record an accelerated version of this (or just a short period of it) using a screen recorder or on your phone and embed the video onto your blog.
 
 ## Assignment option 2
