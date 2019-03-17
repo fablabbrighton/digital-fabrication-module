@@ -227,3 +227,10 @@ Intermediate features:
 - Score out of 50? (Pass >= 25, merit >=35, distinction >= 45)
 - [here's the finished part with the donuts!]({{ site.baseurl }}/assets/donuts-yum.SLDPRT)
 - [here's the section view results]({{ site.baseurl }}/assets/section-properties-donut.PNG)
+
+## 3D sketching in solidworks
+- until now we've avoided 3D sketches because they can limit the ability to do features (e.g. revolve, loft)
+- but they can also open up new ways to create geometry
+- they work by creating a sketch that moves between sketching planes (e.g xy, yz, xz and any planes parallel to them) - and this is done by pressing TAB
+- you can then draw lines in and out of these planes as we'll see in this example
+- [3d-sketched-rack-part](https://drive.google.com/file/d/1TfvRNJ6R4RgUsAJ-7HKiaMVOm0jbPXOc/view?usp=sharing)
