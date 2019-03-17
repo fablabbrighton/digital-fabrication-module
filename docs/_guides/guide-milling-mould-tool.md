@@ -1,6 +1,6 @@
 # How to make an open mould tool on the 1610 GRBL milling machine
 
-This guide takes you through the process of creating a simple open mould tool. 
+This guide takes you through the process of creating a simple open mould tool.  
 [![](https://blogs.brighton.ac.uk/covill/files/2019/03/1610-cnc-blue-wax-mould-tool-tlp171-300x225.jpeg)](https://blogs.brighton.ac.uk/covill/files/2019/03/1610-cnc-blue-wax-mould-tool-tlp171.jpeg)[  ![](https://blogs.brighton.ac.uk/covill/files/2019/03/1610-cnc-foam-mould-tools-2cfrdwy-300x225.jpeg)](https://blogs.brighton.ac.uk/covill/files/2019/03/1610-cnc-foam-mould-tools-2cfrdwy.jpeg)The idea here is that you don't actually have to design the tool. Instead, by cleverly positioning your part inside the stock material, you can machine it in a way that when you cast silicone resin into it, it will create a female mould tool that is ready to make your solid parts.  In this guide I have used the example of making a small chocolate tile. I've designed the tile part in Fusion, then machined it out of a piece of stock (50 x 50 x 3 mm) which left a cavity that becomes my actual mould tool. I then cast food safe silicone resin into the mould tool and left it to set for a day or two. Once set, I then cast in my chocolate, set it in the fridge, and gave it to my daughter who gobbled it up! Some key definitions:
 
 *   CAM: computer-aided manufacture
