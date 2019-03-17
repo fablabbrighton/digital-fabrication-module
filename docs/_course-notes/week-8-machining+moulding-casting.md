@@ -29,6 +29,7 @@ Who has:
 * done any casting?
 
 ## Resources (computer-controlled machining)
+- [guide to CNC machining a mould tool using the 1610 mini CNC machine](https://github.com/fablabbrighton/digital-fabrication-module/blob/master/docs/_guides/guide-milling-mould-tool.md)
 - [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
 - [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
 
@@ -84,7 +85,7 @@ Who has:
 ## Assignment
 - create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block (50x50x10mm) using a 3mm flat or ball-nose end mill (ideally include 3deg of draft angle on all vertical surfaces). It's best to be oriented with the front view being the top of your part. All stepdowns should be 1mm and stepovers should be 1.5mm. Document all this on your blog. Set up your stock as indicated below.
 ![stock-dimensions]({{ site.baseurl }}/assets/30x30x5-Part-from50x50x10-stock.jpg)
-- here's a full guide showing how to setup the CAM for this. The guide also shows how to setup the machine, cut out the stock material and then to cast silicone into it also, although these steps are not required for this assignment - they're optional - see below). 
+- [here's a full guide](https://github.com/fablabbrighton/digital-fabrication-module/blob/master/docs/_guides/guide-milling-mould-tool.md) showing how to setup the CAM for this. The guide also shows how to setup the machine, cut out the stock material and then to cast silicone into it also, although these steps are not required for this assignment - they're optional - see below). 
 
 ## Extra credit
 - cut the tile from the solid block of 50x50x10mm foam or wax using a CNC milling machine
