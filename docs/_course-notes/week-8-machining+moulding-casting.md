@@ -79,11 +79,12 @@ Who has:
 
 ## rules for making simple mould tools
 1. Vertical walls should have [draft angles](https://www.dynacast.com/stuff/contentmgr/files/0/97f5240f1f1a61eac4d6f431cbd0b2d4/files/diecasting_design_tips_01.jpg)
-2. There should be no [undercuts](http://www.acomold.com/image/molding-undercuts.jpg)
+2. There should be no [undercuts](http://www.acomold.com/image/molding-undercuts.jpg), you should be able to cut it all from above.
 
 ## Assignment
-- create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block 50x50x10mm using a 3mm flat or ball-nose end mill (ideally include 3deg of draft angle on all vertical surfaces). It's best to be oriented with the front view being the top of your part. All stepdowns should be 1mm and stepovers should be 1.5mm. Document all this on your blog. Set up your stock as indicated below.
+- create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block (50x50x10mm) using a 3mm flat or ball-nose end mill (ideally include 3deg of draft angle on all vertical surfaces). It's best to be oriented with the front view being the top of your part. All stepdowns should be 1mm and stepovers should be 1.5mm. Document all this on your blog. Set up your stock as indicated below.
 ![stock-dimensions]({{ site.baseurl }}/assets/30x30x5-Part-from50x50x10-stock.jpg)
+- here's a full guide showing how to setup the CAM for this. The guide also shows how to setup the machine, cut out the stock material and then to cast silicone into it also, although these steps are not required for this assignment - they're optional - see below). 
 
 ## Extra credit
 - cut the tile from the solid block of 50x50x10mm foam or wax using a CNC milling machine
@@ -92,5 +93,5 @@ Who has:
 - cast a molten liquid (e.g. resin or chocolate) into your mould tool to create a solid part
 
 ### What do I need to do to pass?
-- create the cad model of your tile and generate the toolpath and document this on your blog.
+- create the cad model of your tile and generate the toolpath and document this on your blog, ideally including an animation of the toolpath (like the one provided on the guide). 
 
