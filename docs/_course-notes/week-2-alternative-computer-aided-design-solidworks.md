@@ -237,3 +237,8 @@ Intermediate features:
 - you can then draw lines in and out of these planes as we'll see in this example
 - [3d-sketched-rack-part](https://drive.google.com/file/d/1TfvRNJ6R4RgUsAJ-7HKiaMVOm0jbPXOc/view?usp=sharing)
 - this example is also done as part of the tutorial in Help menu > tutorials > 3d sketching
+
+## Certified SOLIDWORKS Associate (CSWA) exam
+- let's look at the [Certified SOLIDWORKS Associate (CSWA) exam](https://www.solidworks.com/sw/support/mcad-certification-programs.htm)
+- and [here is the sample exam - note it takes 3 hours](https://www.solidworks.com/sw/docs/CSWASampleExam.ZIP)
+- let's have a go!
