@@ -229,8 +229,10 @@ Intermediate features:
 - [here's the section view results]({{ site.baseurl }}/assets/section-properties-donut.PNG)
 
 ## 3D sketching in solidworks
+- first a little warmup! let's make this [2D sketch](https://drive.google.com/file/d/1ajGt5Q1zw7DI038VV2AqcWIN0Atd1zLh/view?usp=sharing), and then make [this solid part](https://drive.google.com/open?id=1ajGt5Q1zw7DI038VV2AqcWIN0Atd1zLh)
 - until now we've avoided 3D sketches because they can limit the ability to do features (e.g. revolve, loft)
 - but they can also open up new ways to create geometry
 - they work by creating a sketch that moves between sketching planes (e.g xy, yz, xz and any planes parallel to them) - and this is done by pressing TAB
 - you can then draw lines in and out of these planes as we'll see in this example
 - [3d-sketched-rack-part](https://drive.google.com/file/d/1TfvRNJ6R4RgUsAJ-7HKiaMVOm0jbPXOc/view?usp=sharing)
+- this example is also done as part of the tutorial in Help menu > tutorials > 3d sketching
