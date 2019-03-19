@@ -5,7 +5,7 @@ date:   2019-03-19
 author: Andrew Sleigh
 ---
 
-I've arrived at a viable design, based heavily on Daniele Ingrassia's _Satshakit_ board
+I've arrived at a viable design, based heavily on Daniele Ingrassia's Satshakit board.
 
 
 <!--more-->
