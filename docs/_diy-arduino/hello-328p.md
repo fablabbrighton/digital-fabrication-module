@@ -12,9 +12,11 @@ I've arrived at a viable design, based heavily on Daniele Ingrassia's _Satshakit
 
 
 
-![Hello 328p board]({{ "/assets/hello328p-milledandstuffed.jpg" | relative_url }})
 
 **Hello 328p** is designed to be a 100% Arduino Uno-compatible board, that can be easily fabricated by students in a fablab. It uses the ATmega328P microcontroller and is very heavily based on [Daniele Ingrassia's Satshakit board](https://github.com/satshakit/satshakit), which also serves the same purpose. The main changes to this design are to provide a simpler way to connect things to the board through more convenient headers and labelling on the board itself.
+
+
+![Hello 328p board]({{ "/assets/hello328p-milledandstuffed.jpg" | relative_url }})
 
 ## Git repo
 
