@@ -227,3 +227,19 @@ Intermediate features:
 - Score out of 50? (Pass >= 25, merit >=35, distinction >= 45)
 - [here's the finished part with the donuts!]({{ site.baseurl }}/assets/donuts-yum.SLDPRT)
 - [here's the section view results]({{ site.baseurl }}/assets/section-properties-donut.PNG)
+
+## 3D sketching in solidworks
+- first a little warmup! let's make this [2D sketch](https://drive.google.com/file/d/1ajGt5Q1zw7DI038VV2AqcWIN0Atd1zLh/view?usp=sharing), and then make [this solid part](https://drive.google.com/open?id=1Ke5bJkanrOG-HjR7hoECaNf1iZaSUutg)
+- if you like that sketching exercise, [here is 99 more!](https://drive.google.com/open?id=1kcsn3ghW-dgm7xf_htp9wL9p7MROS2PX)
+- until now we've avoided 3D sketches because they can limit the ability to do features (e.g. revolve, loft)
+- but they can also open up new ways to create geometry
+- they work by creating a sketch that moves between sketching planes (e.g xy, yz, xz and any planes parallel to them) - and this is done by pressing TAB
+- you can then draw lines in and out of these planes as we'll see in this example
+- [3d-sketched-rack-part](https://drive.google.com/file/d/1TfvRNJ6R4RgUsAJ-7HKiaMVOm0jbPXOc/view?usp=sharing)
+- this example is also done as part of the tutorial in Help menu > tutorials > 3d sketching
+
+## Certified SOLIDWORKS Associate (CSWA) exam
+- let's look at the [Certified SOLIDWORKS Associate (CSWA) exam](https://www.solidworks.com/sw/support/mcad-certification-programs.htm)
+- and [here is the sample exam - note it takes 3 hours](https://www.solidworks.com/sw/docs/CSWASampleExam.ZIP)
+- let's have a go!
+- [preparing for the CSWA exam](https://www.youtube.com/watch?v=6cAx0KCXSYo&list=PLE5C6B3135D7D277F)

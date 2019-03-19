@@ -5,7 +5,8 @@ date:   2018-3-5
 author: Derek Covill
 ---
 
-Introducing 3D printing and scanning.
+Part 1: Introducing 3D printing with tour of facilities and demo of AEB.
+Part 2: Introducting laser scanning with demo activity.
 
 <!--more-->
 
@@ -36,7 +37,7 @@ Who has:
 *  fablab machine: [creality CR-10](https://all3dp.com/1/creality-cr-10-3d-printer-review-worth-the-hype/)
 
 *   good software: [simplify3d](https://www.simplify3d.com/) to slice the stls <span style="font-size: 13px;">and</span> create <span style="font-size: 13px;">the</span> gcode<span style="font-size: 13px;">.</span>
-*  free software to generate toolpath for 3D printers (can animate in layer view): [Ultimaker Cura](https://ultimaker.com/en/resources/51943-installation-ultimaker-cura)
+*  free software to generate toolpath for 3D printers (can animate in layer view): [Ultimaker Cura](https://ultimaker.com/en/resources/51943-installation-ultimaker-cura). And [here's a video](https://www.youtube.com/watch?v=gvUmeJ3r58A) showing how to view the layers and toopath in cura. 
 
 *   [design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)
 *   [.stl files](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
@@ -47,7 +48,7 @@ Who has:
 *   [photogrammetry vs 3D scanning](https://peel-3d.com/blogs/news/7-things-you-should-know-about-photogrammetry-vs-3d-scanning "photo G vs 3D scanning")
 *   [our scanner](https://structure.io/ "Occipital Structure Scanner"), and [how it works](https://support.canvas.io/article/7-how-does-structure-sensor-work)
 *   [meshmixer](http://www.meshmixer.com/ "meshmixer")
-    *   typical process: edit>transform(rotate), close cracks, analysis>inspector,smooth, plane-cut, edit>make solid. Have a play!
+    *   typical process: edit>transform(rotate), close cracks, analysis>inspector, smooth, plane-cut, edit>make solid. Have a play!
     *   note: can also bring mesh into Rhino, use 'project curves' to create profile curves on the mesh, then use these to create Rhino surfaces that are better quality than the smoothed mesh. You can also add CAD into the mesh (e.g. scroll wheel) to add extra detail. Have a play!
     *   [tutorial from my aussie friend](https://www.youtube.com/watch?v=C9VDKb3W4qA "meshmi tutorial 1")
     *   [tutorial 2](https://all3dp.com/meshmixer-tutorial/ "meshmixer tutorial2")
@@ -55,18 +56,18 @@ Who has:
     *   [design](http://www.meshmixer.com/design.html "meshmixer design")
 *   [meshlab](http://www.meshlab.net/ "meshlab")
     *   [remeshing and meshlab - butterfly subdivision](https://youtu.be/LeuX963jpn8 "remeshing and meshlab")
-
+## For the assignment this week you have a choice! pick option 1 or 2 (or both!) from below...
 ## Assignment option 1
-- design 50x50x5mm tile in CAD (max height 20mm) making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
-- load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play!). Record an accelerated version of this (or just a short period of it) using a screen recorder or on your phone and embed the video onto your blog. 
+- design 30x30x5mm tile in CAD making sure you apply appropriate design rules. Save your model as .stl file (with appropriate resolution based on 0.1mm layer height). Submit your .stl file to the assessment area in this module on Studentcentral by 5pm on Friday 29th March and we will print this over easter. 
+- load your .stl file into the Ultimaker Cura software and animate the printing process (layer view, press play or [here's a tutorial video](https://www.youtube.com/watch?v=gvUmeJ3r58A) showing how to view the layers and toopath in cura. ). Record an accelerated version of this (or just a short period of it) using a screen recorder or on your phone and embed the video onto your blog.
 
 ## Assignment option 2
-- laser scan a small (e.g. hairdryer sized) object. Load the scan into meshmixer 
+- laser scan a small (e.g. hairdryer sized) object. Load the scan into meshmixer and repair/tidy/knit it and document this on your blog.
 
 ### What do I need to do to pass?
 - create an .stl file of a small tile (or other small part) that you have designed and document this on your blog 
 - OR...
-- laser scan (or use photogrammetry) an object, open the scan in meshmixer and repair/tidy/knit it and document this on your blog
+- laser scan (or use photogrammetry) an object, open the scan in meshmixer and repair/tidy/knit it and document this on your blog.
 
 ### Extra credit for the 3D printing assignment
 - create a cad model of a part that can not made using any other single technology (subtractive, casting, moulding). OR create a design of an object that can be cleverly made/assembled without support material. 
