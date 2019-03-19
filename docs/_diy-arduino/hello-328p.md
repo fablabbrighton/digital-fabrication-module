@@ -10,17 +10,18 @@ I've arrived at a viable design, based heavily on Daniele Ingrassia's _Satshakit
 
 <!--more-->
 
-## Git repo
-
-Full details for this board, including Eagle files are in the git repo: 
-<https://github.com/fablabbrighton/hello328p>
 
 
 ![Hello 328p board]({{ "/assets/hello328p-milledandstuffed.jpg" | relative_url }})
 
 **Hello 328p** is designed to be a 100% Arduino Uno-compatible board, that can be easily fabricated by students in a fablab. It uses the ATmega328P microcontroller and is very heavily based on [Daniele Ingrassia's Satshakit board](https://github.com/satshakit/satshakit), which also serves the same purpose. The main changes to this design are to provide a simpler way to connect things to the board through more convenient headers and labelling on the board itself.
 
-Please read [Daniele's documentation](https://github.com/satshakit/satshakit) for full details on this board. These docs will only address the changes made.
+## Git repo
+
+Full details for this board, including Eagle files are in the git repo: 
+<https://github.com/fablabbrighton/hello328p>
+
+Please read [Daniele's documentation](https://github.com/satshakit/satshakit) for full details on his original board. My docs will only address the changes made.
 
 ## Background
 
