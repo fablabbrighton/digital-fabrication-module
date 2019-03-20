@@ -243,3 +243,4 @@ Intermediate features:
 - and [here is the sample exam - note it takes 3 hours](https://www.solidworks.com/sw/docs/CSWASampleExam.ZIP)
 - let's have a go!
 - [preparing for the CSWA exam](https://www.youtube.com/watch?v=6cAx0KCXSYo&list=PLE5C6B3135D7D277F)
+- [Q3-sample-exam-answer-part](https://drive.google.com/file/d/1ME0vQXX9qqYZGTJVDBT1684ww1vSxfbI/view?usp=sharing)
