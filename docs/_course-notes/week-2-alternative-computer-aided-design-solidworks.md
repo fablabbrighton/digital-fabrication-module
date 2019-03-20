@@ -244,3 +244,4 @@ Intermediate features:
 - let's have a go!
 - [preparing for the CSWA exam](https://www.youtube.com/watch?v=6cAx0KCXSYo&list=PLE5C6B3135D7D277F)
 - [Q3-sample-exam-answer-part](https://drive.google.com/file/d/1ME0vQXX9qqYZGTJVDBT1684ww1vSxfbI/view?usp=sharing)
+- [Q7-sample-exam-partial-answer-assembly](https://drive.google.com/file/d/1XQIkZ6ZvrbmI68ASbxJFHmIXSffiRXH4/view?usp=sharing)
