@@ -39,7 +39,7 @@ Who has:
 *   our machines
     *   office (Des): [1610 3-axis router](https://www.ebay.co.uk/itm/CNC-Wood-Router-1610-Mini-Milling-Carving-Engraving-Machine-GRBL-Control-3-Axis/162556175066?epid=10003409492&hash=item25d91a62da:g:TDwAAOSwHUhZ~~zy), 160x100x45mm (XYZ)
     *   E28 (Gary/Jon): [Imes-Icore M40 3-axis](https://www.imes-icore.de/eng/flatcom-cnc-milling-machine-series.html) router, 1000x900x250mm (XYZ)
-    *   EM13 (Des): [Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
+    *   EM13 (Des/Andrew): [Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
     *   E19 (Adam Cable): [Herco VM10UI 5-axis](http://www.hurco.com/en-gb/machine-tools/machining-centres/5-axis-vertical/pages/trunnion-table.aspx) milling machine, 400x400x400mm (XYZ)
 *   software
     *   [Solidworks CAM](https://www.youtube.com/watch?v=pPxH-JGTCK4)
@@ -75,8 +75,24 @@ Who has:
 - cut depth: ~ tool diameter
 - step-over: ~ tool diameter/2
 
-### process
+### process for CNC machining
 - CAD > CAM: generate toolpath + export G-code > load into machine software > run machine
+
+### [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
+- [injection moulding: sprue, gate, runner, vent, parting line, flashing](http://custom-injection-molding.net/wp-content/uploads/2014/03/D1-03.gif)
+- [mould tools with registration](http://academy.cba.mit.edu/classes/molding_casting/tippy.png)
+- [flexible parts](http://fab.cba.mit.edu/classes/863.13/people/crreed/weekly/week6.html)
+
+### process for making mould tools
+- mixing: by weight or volume
+- pouring: starting, filling, vent location
+- bubbles: stirring, pouring, vibrating, painting, vacuum, pressure, time
+- curing: polymerization, cross-linking, hydration, endothermic, exothermic
+- demolding: draft angle, release agents (dilute dish soap, vaseline, talc, other), deformation
+
+### other notes
+- storage and shelf life
+- safety: read the SDS!, ventilation, personal protective equipment (PPE), disposal
 
 ## rules for making simple mould tools
 1. Vertical walls should have [draft angles](https://www.dynacast.com/stuff/contentmgr/files/0/97f5240f1f1a61eac4d6f431cbd0b2d4/files/diecasting_design_tips_01.jpg)
