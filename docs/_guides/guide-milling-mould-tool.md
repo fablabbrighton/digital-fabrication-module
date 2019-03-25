@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Guide: Making a mould tool using a CNC machineP"
+title:  "Guide: Making a mould tool using a CNC machine"
 date:   2019-03-14
 author: Derek COvill
 ---
