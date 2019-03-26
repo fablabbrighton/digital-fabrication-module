@@ -46,8 +46,8 @@ Who has:
     *   [SolidCAM](https://www.solidcam.com/professor/solidcam-modules-overview/) , [demo](https://youtu.be/di-VxpxAUGQ) , [tutorials](https://www.solidcam.com/professor/solidcam-jumpstart/),  [machine building](https://youtu.be/R3pW8RenKZk) (see simulation below)
     *   [Fusion 360](https://www.autodesk.com/products/fusion-360/blog/getting-started-introduction-to-cam-and-toolpaths/)
 *   SRP player (Roland MX-50)
-*   [fabmodules](http://fabmodules.org)
-*   [fabmods](http://mods.cba.mit.edu/)
+*   [fabmodules](http://fabmodules.org), and [here's the documentation](https://github.com/FabModules/fabmodules-html5)
+*   [fabmods](http://mods.cba.mit.edu/), and [here's the documentation](https://gitlab.cba.mit.edu/pub/mods)
 
 ### software to run CNC machines
 - [GRBL (standard)](https://github.com/gnea/grbl)
