@@ -80,6 +80,8 @@ Who has:
 
 ### [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
 - [injection moulding: sprue, gate, runner, vent, parting line, flashing](http://custom-injection-molding.net/wp-content/uploads/2014/03/D1-03.gif)
+- [+'ve solid tool > -'ve flexible tool > +'ve solid part]({{ site.baseurl }}/assets/positive-negative-positive-moulding.JPG)
+- [-'ve solid tool > +'ve flexible part]({{ site.baseurl }}/assets/pu-copper-ducks-in-mould.jpg)
 - [mould tools with registration](http://academy.cba.mit.edu/classes/molding_casting/tippy.png)
 - [flexible parts](http://fab.cba.mit.edu/classes/863.13/people/crreed/weekly/week6.html)
 
