@@ -27,26 +27,26 @@ _Lecture: 4 February 2020_
 
 _Lecture: 11 February 2020_
 
-[2D Fabrication: Laser Cutter](2d-laser.md)
+[2D Fabrication: Laser Cutter](2d-laser)
 
 
 ### Week 3
 
 _Lecture: 18 February 2020_
 
-[2D Design: Software](2d-software.md)
+[2D Design: Software](2d-software)
 
 ### Week 4
 
 _Lecture: 25 February 2020_
 
-[3D Fabrication: 3D Printer](3d-machines.md)
+[3D Fabrication: 3D Printer](3d-machines)
 
 ### Week 5
 
 _Lecture: 3 March 2020_
 
-[3D Design: Software](3d-software.md)
+[3D Design: Software](3d-software)
 
 ### Week 6
 
@@ -81,7 +81,7 @@ _Lecture: 31 March 2020_
 
 _Lectures: 28 April, 5 May, 12 May, 19 May 2020_
 
-[Project development](project.md)
+[Project development](project)
 
 Teaching in these weeks will be tailored to yur interests and projects. Subjects could include:
 
@@ -133,7 +133,7 @@ Tailored session and project help
 
 ### Week 14
 
-[Summative Assessment](assessment.md)
+[Summative Assessment](assessment)
 
 Submission deadline: TBC (25 May, 4pm?)
 
