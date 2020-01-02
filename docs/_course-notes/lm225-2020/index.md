@@ -60,6 +60,10 @@ Lecture: 31 March 2020
 
 ### Project Weeks (10-13)
 
+Lectures: 28 April, 5 May, 12 May, 19 May 2020
+
+[Project development](project.md)
+
 Teaching in these weeks will be tailored to yur interests and projects. Subjects could include:
 
 * Project photography: WiP shots, time lapses, pack shots, in-situ shots
@@ -70,7 +74,7 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 
 
 
-
+<!--
 
 ### Week 10
 
@@ -104,6 +108,8 @@ Lecture: 19 May 2020
 [Project development](project.md)
 
 Tailored session and project help
+
+-->
 
 ### Week 14
 
