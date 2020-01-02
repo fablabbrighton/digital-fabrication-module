@@ -17,22 +17,24 @@ You can use time in these weeks to complete assignments, but you will also need 
 
 ## Assignment
 
-
-
-### What do I need to do to pass? (40%)
-
 Develop, plan and execute a final project that integrates skills, tools and processes from across the module.
 
-Your project should be a physical thing that shows off your skills using digital fabrication methods, including:
+Document all your work on your student blog, showing your progress each week (1 week per page for 4 weeks minumum).
+
+
+### What do I need to do to pass? (40%) :construction:
+
+
+
+Your project should be a physical thing that shows off your skills using digital fabrication methods, including any of:
 * 2D and 3D design software
 * 2D fabrication tools such as the laser cutter or milling machine
 * 3D fabrication tools such as the 3D printer or milling machine
 * Interactive technology or electronics such as lights, sensors, Arduinos or microcontrollers.
 
-Document all your work on your student blog, showing your progress each week (1 week per page for 4 weeks minumum).
+Include a page on your original project proposal including sketches, diagrams, mood boards or examples of similar work.
 
-Include your original project proposal including sketches, diagrams, mood boards or examples of similar work.
-
+Include a page on the end result with photographs of the final project, a description of what it is/does and a reflection on how it could be improved.
 
 
 
@@ -41,5 +43,11 @@ Include your original project proposal including sketches, diagrams, mood boards
 
 with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.
 
-### Extra credit (50-100%)
+### Extra credit (50-100%) :construction:
+
+Integrate more technologies to a greater degree of sophistication
+
+Show how prototyping has helped you develop a better final project
+
+Include videos, timelapses or other rich media to show off your final project or its development
 

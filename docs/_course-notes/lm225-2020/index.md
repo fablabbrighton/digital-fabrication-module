@@ -58,7 +58,7 @@ Lecture: 31 March 2020
 
 ### Easter Break
 
-### Project Weeks (10-13)
+### Weeks 10-13
 
 Lectures: 28 April, 5 May, 12 May, 19 May 2020
 
@@ -113,7 +113,7 @@ Tailored session and project help
 
 ### Week 14
 
-Summative Assessment
+[Summative Assessment](assessment.md)
 
 Submission deadline: TBC (25 May, 4pm?)
 
