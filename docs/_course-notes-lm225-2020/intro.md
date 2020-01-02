@@ -47,7 +47,7 @@ This is how you can apply this:
  - see FA archives for textiles projects (or fabricademy)	
 
 
-## The course
+### The course
 
 Aims
 Difficulty
@@ -56,14 +56,25 @@ Time/Project management
 Co-ordinating between yourselves, time in the lab (can take a machine 2 hours to do something)
 Catch-up weeks
 
+### The lab
+
+Tour!
+Machines
+Materials
+What you can make
+
+### Content overview
+
+:construction:
 
 
-## Introductions
+## Introductions :construction:
 
 Inc me!
 
 
 ## Assessment
+:construction:
 
 Philosophy of documentation
 "Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else’s work."
@@ -79,8 +90,10 @@ Questions?
 
 ---
 
+## Documenting your work
+:construction:
 
-Website architectures
+### Website architectures
 
 CMS
 Self-hosting: domains
@@ -110,4 +123,29 @@ Compression
 ## Assignment
 Build a website for the module
 Include a page about yourself that covers the material of your presentation
-Include a photo of yourself and the ting you made
+Include a photo of yourself and the thing you've already made
+Add a page for this week and cover what you've learned about publishing on the web: show what you did, what went wrong, and how you fixed it.
+
+Submit the URL to Student Central
+
+:construction:
+
+
+### What do I need to do to pass? (40%)
+
+* A working website with: 
+  * An 'about' page 
+  * A page for this week
+
+
+### Extra credit (50-100%)
+
+* If you're using Edublogs, customise the site design
+* Review and test alternative platforms: document how you choose a platofrm to use
+* Use an external hosting service that will serve you throughout your studies and into professional life
+* Register a domain and point it to your site
+
+
+## For next week
+
+:construction:
