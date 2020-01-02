@@ -13,60 +13,65 @@ Everything you need to know about LM225, 2020
 
 ### Week 0
 
-[Preparing for the module](prep.md)
+Ensure you have [prepared for the module](prep) before week 1. You will be presenting!
 
 
 ### Week 1
 
-[Introduction](intro.md)
+_Lecture: 4 February 2020_
 
-Lecture: 4 February 2020
+[Introduction](intro)
 
 
 ### Week 2
 
-Lecture: 11 February 2020
-
+_Lecture: 11 February 2020_
 
 [2D Fabrication: Laser Cutter](2d-laser.md)
 
 
 ### Week 3
 
-Lecture: 18 February 2020
+_Lecture: 18 February 2020_
 
 [2D Design: Software](2d-software.md)
 
 ### Week 4
 
-Lecture: 25 February 2020
+_Lecture: 25 February 2020_
 
 [3D Fabrication: 3D Printer](3d-machines.md)
 
 ### Week 5
-Lecture: 3 March 2020
+
+_Lecture: 3 March 2020_
 
 [3D Design: Software](3d-software.md)
 
 ### Week 6
 
-Lecture: 10 March 2020
+_Lecture: 10 March 2020_
+
+:construction:
 
 ### Week 7
 
-Lecture: 17 March 2020
+_Lecture: 17 March 2020_
+
+:construction:
 
 ### Week 8
 
-Lecture: 24 March 2020
+_Lecture: 24 March 2020_
 
-### Week 9
-
-Lecture: 31 March 2020
-
+:construction:
 
 Also, prepare for [formative assessment](formative-assessment) next week.
 
+
+### Week 9
+
+_Lecture: 31 March 2020_
 
 [Formative assessment](formative-assessment)
 
@@ -74,7 +79,7 @@ Also, prepare for [formative assessment](formative-assessment) next week.
 
 ### Weeks 10-13
 
-Lectures: 28 April, 5 May, 12 May, 19 May 2020
+_Lectures: 28 April, 5 May, 12 May, 19 May 2020_
 
 [Project development](project.md)
 
@@ -84,6 +89,7 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 * Electronics design with Tinkercad or Eagle
 * Soldering and electronics
 * Interactive devices with Arduino
+* :construction:
 * ...
 
 
