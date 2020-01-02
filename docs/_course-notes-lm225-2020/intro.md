@@ -1,7 +1,37 @@
+---
+layout: page
+title:  "Introduction to LM225 Digital Fabrication Methods"
+date:   2020-01-02
+author: Andrew Sleigh
+---
+
+About this course, what we'll cover, how we'll learn, and how it will be assessed. 
+
+:construction:
+
+<!--more-->
+
 ## Prep for this week
 
-Your presentation
-Your computer with software
+### Your presentation
+
+
+
+### Your computer with software
+
+It will be very helpful to have a **laptop** you can bring to the class. There are some desktop PCs available, but you will find it a lot more difficult to work. 
+
+We will be using a lot of new software. **You must install and verify software before coming to the lectures.** Some software requires a free educational licence, which may take some time to be provided. Minimum requirements:
+
+* 2D: Inkscape, Adobe Illustrator
+* 3D: Autodesk Fusion 360, Ultimaker Cura
+* Web publishing: :construction:
+
+Helpful: 
+* Image editor: Adobe Photoshop
+* Video editor (Premiere, iMovie, Final Cut Pro, etc.)
+* Photo editor that offers compression settings (Apple Photos, Adobe Photoshop)
+
 
 
 ## Digital Fabrication
@@ -80,4 +110,4 @@ Compression
 ## Assignment
 Build a website for the module
 Include a page about yourself that covers the material of your presentation
-INclude a photo of yourself and the ting you made
+Include a photo of yourself and the ting you made
