@@ -2,10 +2,9 @@
 
 ## Schedule
 
-
 ### Week 0
 
-[Prep](prep.md)
+[Preparing for the module](prep.md)
 
 
 ### Week 1
@@ -20,7 +19,7 @@ Lecture: 4 February 2020
 Lecture: 11 February 2020
 
 
-[2D Fabrication: Laser Cutter](laser.md)
+[2D Fabrication: Laser Cutter](2d-laser.md)
 
 
 ### Week 3
@@ -59,29 +58,58 @@ Lecture: 31 March 2020
 
 ### Easter Break
 
+### Project Weeks (10-13)
+
+Teaching in these weeks will be tailored to yur interests and projects. Subjects could include:
+
+* Project photography: WiP shots, time lapses, pack shots, in-situ shots
+* Electronics design with Tinkercad or Eagle
+* Soldering and electronics
+* Interactive devices with Arduino
+* ...
+
+
+
+
 
 ### Week 10
 
 Lecture: 28 April 2020
 
+[Project development](project.md)
+
+Tailored session and project help
+
 ### Week 11
 
 Lecture: 5 May 2020
 
+[Project development](project.md)
+
+Tailored session and project help
+
 ### Week 12
 
 Lecture: 12 May 2020
+
+[Project development](project.md)
+
+Tailored session and project help
 
 
 ### Week 13
 
 Lecture: 19 May 2020
 
+[Project development](project.md)
+
+Tailored session and project help
+
 ### Week 14
 
 Summative Assessment
 
-Submission deadline: TBC
+Submission deadline: TBC (25 May, 4pm?)
 
 ### Week 15
 
