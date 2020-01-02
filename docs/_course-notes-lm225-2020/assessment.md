@@ -1,3 +1,14 @@
+---
+layout: page
+title:  "Assessment"
+date:   2020-01-02
+author: Andrew Sleigh
+---
+
+How the course is assessed; what you need to submit
+
+<!--more-->
+
 :construction:
 
 ## Deliverables

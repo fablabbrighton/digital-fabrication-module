@@ -1,4 +1,13 @@
-# Preparing for the Module
+---
+layout: page
+title:  "Preparing for the Module"
+date:   2020-01-02
+author: Andrew Sleigh
+---
+
+WHat you need to do before the first lecture.
+
+<!--more-->
 
 
 ## What you need

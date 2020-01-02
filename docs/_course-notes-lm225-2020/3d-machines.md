@@ -1,3 +1,16 @@
+---
+layout: page
+title:  "3D Fabrication: Machines"
+date:   2020-01-02
+author: Andrew Sleigh
+---
+
+
+:construction: Should be split into pages for each machine.
+
+
+<!--more-->
+
 ## 3D Printer
 
 Materials
