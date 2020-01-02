@@ -5,7 +5,7 @@ permalink: "/course-notes-lm225-2020/"
 ---
 
 
-_All the course reference material, and weekly notes for the LM225 module in 2020._
+_All the course reference material for the LM225 module in 2020._
 
 ----
 
