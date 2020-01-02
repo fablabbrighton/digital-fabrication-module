@@ -1,3 +1,5 @@
+# Template page for course notes
+
 ---
 layout: page
 title:  "Week 4: Electronics production"
