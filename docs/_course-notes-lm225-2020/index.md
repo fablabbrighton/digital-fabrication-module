@@ -64,6 +64,10 @@ Lecture: 24 March 2020
 
 Lecture: 31 March 2020
 
+
+Also, prepare for [formative assessment](formative-assessment) next week.
+
+
 [Formative assessment](formative-assessment)
 
 ### Easter Break
