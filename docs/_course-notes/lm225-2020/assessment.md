@@ -8,7 +8,7 @@
 ### Portfolio
 
 
-## How to submit
+## How to submit
 
 Submission deadline: TBC (25 May, 4pm?)
 
