@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Formative assessment"
-date:   2018-12-07
+date:   2020-01-02
 author: Andrew Sleigh
 ---
 
@@ -21,21 +21,21 @@ Make an initial plan for a project you'd like to work on, that you can share wit
 * How might you make it?
 * What are you unsure about; what do you think you might need help with?
 
-From http://howtocrit.com: 
+From <http://howtocrit.com>: 
 
 > As the person getting a crit, you have a lot of responsibility for making the process valuable. Make sure that you are prepared to ask pointed, specific questions about your work — know what you want answers to, and be able to clearly ask questions that will get you those answers. Think about what you want to get out of the crit, and have a written list of questions with you. Generic questions like “what do you think?” are not very useful.
 
 
-## Recap on final (summative) assessment
+## Recap on final (summative) assessment
 
 [Assessment guidelines](assessment)
 
 
-## This week
+## This week
 
 Everyone presents their work to the class for review and critique.
 
-See: http://howtocrit.com
+See: <http://howtocrit.com>
 
 
 
