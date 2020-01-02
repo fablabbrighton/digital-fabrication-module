@@ -33,6 +33,11 @@ collections:
     permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
     output: true  
 
+  course-notes-lm225-2020:
+    prettylabel: "LM225 Course Notes (2020)" 
+    permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
+    output: true  
+
   guides:
     prettylabel: "Guides" 
     permalink: /:collection/:name:output_ext  # need to include extension as my websost needs them
