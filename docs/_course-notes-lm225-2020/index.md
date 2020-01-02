@@ -1,4 +1,13 @@
-# LM225 Digital Fabrication Methods
+---
+layout: page
+title:  "LM225 Digital Fabrication Methods"
+date:   2020-01-02
+author: Andrew Sleigh
+---
+
+Everything you need to know about LM225, 2020
+
+<!--more-->
 
 ## Schedule
 

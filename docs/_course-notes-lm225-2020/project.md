@@ -5,7 +5,7 @@ date:   2020-01-02
 author: Andrew Sleigh
 ---
 
-Brining everything together into a final project
+Bringing everything together into a final project
 
 <!--more-->
 
