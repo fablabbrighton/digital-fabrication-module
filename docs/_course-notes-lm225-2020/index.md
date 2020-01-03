@@ -14,7 +14,7 @@ Everything you need to know about LM225, 2020
 ### Week 0
 
 Ensure you have [prepared for the module](prep) before week 1. You will be presenting to the class! 
-`[prep.md](prep.md)`
+[`prep.md`](prep.md)
 
 ### Week 1
 
