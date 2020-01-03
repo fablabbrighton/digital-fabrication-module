@@ -7,9 +7,11 @@ permalink: "/course-notes-lm225-2020/"
 
 _All the course reference material for the LM225 module in 2020._
 
-----
 
-<h3><a href="{{ site.baseurl }}readme">Course homepage</a></h3>
+
+<h2><a href="{{ site.baseurl }}/readme">Course homepage</a></h2>
+
+----
 
 
 <h3>Page index</h3>
