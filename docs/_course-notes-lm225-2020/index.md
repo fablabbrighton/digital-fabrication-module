@@ -73,19 +73,21 @@ _Class: 24 March 2020_
 Also, prepare for [formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) next week.
 
 
-### Week 9
+### Week 9: [Formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
 
 _Class: 31 March 2020_
 
-[Formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
+:pencil2: [`formative-assessment.md`](formative-assessment.md)
 
 ### Easter Break
 
-### Weeks 10-13
+Research and develop your [project](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project).
 
-_Classs: 28 April, 5 May, 12 May, 19 May 2020_
+### Weeks 10-13: [Project development](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project)
 
-[Project development](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project)
+_Class: 28 April, 5 May, 12 May, 19 May 2020_
+
+:pencil2: [`project.md`](project.md)
 
 Teaching in these weeks will be tailored to yur interests and projects. Subjects could include:
 
@@ -135,11 +137,11 @@ Tailored session and project help
 
 -->
 
-### Week 14
-
-[Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
+### Week 14: [Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
 Submission deadline: TBC (25 May, 4pm?)
+
+:pencil2: [`assessment.md`](assessment.md)
 
 ### Week 15
 
