@@ -28,7 +28,7 @@ From <http://howtocrit.com>:
 
 ## This week
 
-Recap on final (summative) [assessment](assessment)
+Recap on final (summative) [assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
 
 Everyone presents their work to the class for review and critique.
