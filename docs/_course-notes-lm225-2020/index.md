@@ -13,14 +13,15 @@ Everything you need to know about LM225, 2020
 
 ### Week 0
 
-Ensure you have [prepared for the module](prep) before week 1. You will be presenting to the class! 
-[`prep.md`](prep.md)
+Ensure you have [prepared for the module](prep) before week 1. You will be presenting to the class!
 
-### Week 1
+[:page_facing_up: `prep.md`](prep.md)
+
+### Week 1: [Introduction](intro)
 
 _Lecture: 4 February 2020_
 
-[Introduction](intro)
+[`:page_facing_up: intro.md`](intro.md)
 
 
 ### Week 2
