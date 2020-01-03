@@ -7,6 +7,8 @@ author: Andrew Sleigh
 
 Everything you need to know about LM225, 2020
 
+:pencil2: [`readme.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/readme.md)
+
 <!--more-->
 
 ## Schedule
