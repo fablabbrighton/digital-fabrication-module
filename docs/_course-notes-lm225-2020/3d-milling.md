@@ -1,29 +1,16 @@
 ---
 layout: page
-title:  "3D Fabrication: Machines"
+title:  "3D Fabrication: Milling Machine"
 date:   2020-01-02
 author: Andrew Sleigh
 ---
 
 
-:construction: Should be split into pages for each machine.
-
+:construction: How to do something feasible in the time available
 
 <!--more-->
 
-## 3D Printer
 
-Materials
-Constraints
-Workflow
-Community: models, learning
-Future
-
-
-### Software
-
-(Fusion 360)
-Cura
 
 ## Milling machine
 
@@ -37,7 +24,7 @@ Maybe this is too much for one session....
 
 ## Assignment
 
-Make a 3D object using either machine
+Make a 3D object 
 Consider time to fabricate
 
 ## Prep for next week

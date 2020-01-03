@@ -38,35 +38,37 @@ _Class: 18 February 2020_
 :pencil2: [`2d-software.md`](2d-software.md)
 
 
-### Week 4: [3D Fabrication – 3D Printer](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-machines)
+### Week 4: [3D Fabrication – 3D Printer](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-printer)
 
 _Class: 25 February 2020_
 
-:pencil2: [`3d-machines.md`](3d-machines.md)
+:pencil2: [`3d-printer.md`](3d-printer.md)
 
-### Week 5
+### Week 5: [3D Design – Software](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-software)
 
 _Class: 3 March 2020_
 
-[3D Design: Software](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-software)
+:pencil2: [`3d-software.md`](3d-software.md)
 
-### Week 6
+
+### Week 6: [3D Fabrication – Milling Machine](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-milling)
 
 _Class: 10 March 2020_
 
-:construction:
+:pencil2: [`3d-milling.md`](3d-milling.md)
 
-### Week 7
+
+### Week 7: [Interactivity – Microbit](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/microbit)
 
 _Class: 17 March 2020_
 
-:construction:
+:pencil2: [`microbit.md`](microbit.md)
 
-### Week 8
+### Week 8: [Interactivity – Introduction to electronics](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/electronics)
 
 _Class: 24 March 2020_
 
-:construction:
+:pencil2: [`electronics.md`](electronics.md)
 
 Also, prepare for [formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) next week.
 
