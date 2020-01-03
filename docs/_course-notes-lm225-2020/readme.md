@@ -108,6 +108,6 @@ Submission deadline: TBC (25 May, 4pm?)
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 
-### Week 15
+### Week 15: Feedback
 
-Feedback
+
