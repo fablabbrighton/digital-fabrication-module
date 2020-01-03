@@ -17,72 +17,73 @@ Ensure you have [prepared for the module](https://fablabbrighton.github.io/digit
 
 :pencil2: [`prep.md`](prep.md)
 
-### Week 1: [Introduction](intro)
+### Week 1: [Introduction](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/intro)
 
-_Lecture: 4 February 2020_
+_Class: 4 February 2020_
 
 :pencil2: [`intro.md`](intro.md)
 
 
-### Week 2
+### Week 2: [2D Fabrication – Laser Cutter](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/2d-laser)
 
-_Lecture: 11 February 2020_
+_Class: 11 February 2020_
 
-[2D Fabrication: Laser Cutter](2d-laser)
+:pencil2: [`2d-laser.md`](2d-laser.md)
 
 
-### Week 3
+### Week 3: [2D Design – Software](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/2d-software)
 
-_Lecture: 18 February 2020_
+_Class: 18 February 2020_
 
-[2D Design: Software](2d-software)
+:pencil2: [`2d-software.md`](2d-software.md)
 
-### Week 4
 
-_Lecture: 25 February 2020_
+### Week 4: [3D Fabrication – 3D Printer](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-machines)
 
-[3D Fabrication: 3D Printer](3d-machines)
+_Class: 25 February 2020_
+
+:pencil2: [`3d-machines.md`](3d-machines.md)
 
 ### Week 5
 
-_Lecture: 3 March 2020_
+_Class: 3 March 2020_
 
-[3D Design: Software](3d-software)
+[3D Design: Software](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/3d-software)
 
 ### Week 6
 
-_Lecture: 10 March 2020_
+_Class: 10 March 2020_
 
 :construction:
 
 ### Week 7
 
-_Lecture: 17 March 2020_
+_Class: 17 March 2020_
 
 :construction:
 
 ### Week 8
 
-_Lecture: 24 March 2020_
+_Class: 24 March 2020_
 
 :construction:
 
-Also, prepare for [formative assessment](formative-assessment) next week.
+Also, prepare for [formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) next week.
 
 
 ### Week 9
 
-_Lecture: 31 March 2020_
+_Class: 31 March 2020_
 
-[Formative assessment](formative-assessment)
+[Formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
 
 ### Easter Break
 
 ### Weeks 10-13
 
-_Lectures: 28 April, 5 May, 12 May, 19 May 2020_
+_Classs: 28 April, 5 May, 12 May, 19 May 2020_
 
-[Project development](project)
+[Project development](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project)
 
 Teaching in these weeks will be tailored to yur interests and projects. Subjects could include:
 
@@ -134,7 +135,7 @@ Tailored session and project help
 
 ### Week 14
 
-[Summative Assessment](assessment)
+[Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
 Submission deadline: TBC (25 May, 4pm?)
 
