@@ -9,7 +9,7 @@ _All the course reference material for the LM225 module in 2020._
 
 
 
-<h2><a href="{{ site.baseurl }}/readme">Course homepage</a></h2>
+<h2><a href="{{ site.baseurl }}/course-notes-lm225-2020/readme">Course homepage</a></h2>
 
 ----
 
