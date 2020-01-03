@@ -26,12 +26,10 @@ From <http://howtocrit.com>:
 > As the person getting a crit, you have a lot of responsibility for making the process valuable. Make sure that you are prepared to ask pointed, specific questions about your work — know what you want answers to, and be able to clearly ask questions that will get you those answers. Think about what you want to get out of the crit, and have a written list of questions with you. Generic questions like “what do you think?” are not very useful.
 
 
-## Recap on final (summative) assessment
-
-[Assessment guidelines](assessment)
-
-
 ## This week
+
+Recap on final (summative) [assessment](assessment)
+
 
 Everyone presents their work to the class for review and critique.
 
