@@ -45,6 +45,24 @@ https://python.microbit.org/v/2.0
 
 ## Assignment
 
+
+See: 
+
+4 beginner @microbit_edu lessons with @simonmonk2 & @adafruit 
+1. https://t.co/3rW5WVHHCt
+2. https://t.co/KWUdjPYD5l
+3. https://t.co/cQiRTOpOle
+4. https://t.co/dyvL6qYEmW#microbit #makered #adafruitlearningsystem pic.twitter.com/gFxtTiBpKI
+— maker.io (@MakerIO) January 3, 2020
+
+https://learn.adafruit.com/micro-bit-lesson-1-using-the-built-in-sensors
+https://learn.adafruit.com/micro-bit-lesson-2-controlling-leds-on-breadboard
+https://learn.adafruit.com/micro-bit-lesson-3-neopixels-with-micro-bit
+https://learn.adafruit.com/micro-bit-lesson-4-sensing-light-and-temperature
+
+
+
+
 ### What do I need to do to pass? (40%)
 
 
