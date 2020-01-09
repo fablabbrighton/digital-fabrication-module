@@ -13,8 +13,19 @@ Precise cutting of thin sheet materials
 
 ## Baseline 
 
+No knowledge of laser cutters or software assumed.
 
 ## Assignment
+
+Cut a series of test pieces to measure kerf and effect of different settings:
+* Kerf
+* Engraving effects
+* Fit of assembled parts
+* Scoring, folding
+* Damage, edge qualities
+
+Make (start) a reference doc of different settings 
+
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.
 

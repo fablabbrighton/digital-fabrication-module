@@ -72,12 +72,13 @@ _Class: 24 March 2020_
 
 :pencil2: [`electronics.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/electronics.md)
 
-Also, prepare for [formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) next week.
+Also, prepare for [formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) next week. The deadline for formative assessment is: 10am, Monday 30 March
 
 
 ### Week 9: [Formative assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
 
 _Class: 31 March 2020_
+
 
 :pencil2: [`formative-assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/formative-assessment.md)
 
@@ -104,7 +105,7 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 
 ### Week 14: [Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
-Submission deadline: TBC (25 May, 4pm?)
+Submission deadline: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The followig weekend is a bank hooliday and no IT support staff will be available to help you if you're late.)
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 

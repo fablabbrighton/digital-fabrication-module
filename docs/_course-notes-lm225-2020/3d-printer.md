@@ -29,7 +29,7 @@ Cura
 
 ## Assignment
 
-Make a pre-designed 3D object 
+Print a pre-designed 3D object 
 Consider time to fabricate
 
 ## Prep for next week

@@ -171,6 +171,12 @@ Cite external sources where you have used someone else's work.
 
 Show your research and include reflection on the process, and other resources you have found. 
 
+
+## Formative Assessment is next week
+
+The deadline for formative assessment is: 10am, Monday 30 March
+[Formative assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
+
 ---
 
 ## Materials we need this week

@@ -88,6 +88,13 @@ Lab notes, not a report for me (a bit artificial) but I try to align what you ne
 
 Questions?
 
+
+
+## Equipment and software
+
+See handbook
+Maybe recap on their access - do they have comuting labs at GP they can use?
+
 ---
 
 ## Documenting your work

@@ -11,6 +11,8 @@ Reviewing progress so far.
 
 ## Prep for this week's class
 
+**The deadline for formative assessment is: 10am, Monday 30 March**
+
 Ensure your assigments for prior weeks are complete and published to your blog
 Come prepared to present your work to the class
 

@@ -42,6 +42,13 @@ Slots and tabs (post-couture)
 
 Illustrator
 
+https://www.adobe.com/uk/creativecloud/buy/students.html
+£16-20/month
+
+Affinity Designer
+
+Bez?
+
 
 Inkscape
 
@@ -49,6 +56,9 @@ Inkscape
 
 
 Rhino / Fusion 360
+
+https://www.autodesk.co.uk/products/fusion-360/students-teachers-educators
+https://www.autodesk.com/campaigns/fusion-360-for-hobbyists
 
 Parametric design
 
@@ -62,6 +72,8 @@ Parametric design
 
 Design your own assembly mechanism for making 3D objects out of a 2D material.
 
+Design your parts in software, then test to see how they work by cutting them.
+Iterate.
 
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.

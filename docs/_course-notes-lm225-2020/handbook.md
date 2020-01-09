@@ -70,7 +70,7 @@ As much as possible, the assessment criteria are aligned with what you need to d
 Each week, we cover a new topic. 
 
 ### Ready, fire, aim
-The weeks generally come in pairs. In the first, we approach something new, and try to make something. In the second, we take what we've learned and design somethign better. We lead with our hands, not our heads.
+The weeks generally come in pairs. In the first, we approach something new, and try to make something. In the second, we take what we've learned and design something better. We lead with our hands, not our heads.
 
 ### Flexible after Easter
 After the break you'll be supported in your [final projects](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project). There will still be lectures, but these will be tailored to tools and techniques that are most relevant.
@@ -168,7 +168,7 @@ That same content is published here: <https://fablabbrighton.github.io/digital-f
 
 Don't know what Github is? Find out here: <https://www.youtube.com/watch?v=w3jLJU7DT5E>
 
-(Github is typical of the sort of tools we'll be using throughout the module: based on open source tools that anyone can use or modify; built by and for its users; part of a globally connected comminity of people making tools to make things.)
+(Github is typical of the sort of tools we'll be using throughout the module: based on open source tools that anyone can use or modify, and part of a globally connected community of people making tools to make things.)
 
 ### Other useful resources
 
