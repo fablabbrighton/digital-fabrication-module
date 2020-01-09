@@ -35,28 +35,22 @@ The module uses a blended learning approach, including hands-on activities with 
 ## Approach and background
 
 
-A Fab Lab, or digital fabrication laboratory, is a place to play, to create, to mentor and to invent: a place for learning and innovation.
-Fab Labs provide access to the environment, the skills, the materials and the advanced technology to allow anyone anywhere to make (almost) anything.
+A Fab Lab, or digital fabrication laboratory, is a place to play, to create, to mentor and to invent: a place for learning and innovation. Fab Labs provide access to the environment, the skills, the materials and the advanced technology to allow anyone anywhere to make (almost) anything.
 
+It is a workshop space, but it is also a [global network of labs](https://www.fablabs.io/labs/map) and a community of people working together to learn, explore and make.
 
+It is a working practice based on the free sharing of information, collaborative making of tools, and building on each others work. Most of the tools and teaching materials we will be using have come from this ethos, and this module aims not just ot teach technical skills but a fablab way of working and making.
 
+### A note on dificulty
 
+Some of the material we cover will be very new and difficult. One of the aims of the course is to help you develop a mindset and tools to help you successfully approach difficult topics. 
 
-Overcoming difficulties
-How to get over technical problems - that’s 50% of DFM!
+It's tempting to think that digital machines work at the push of a button, like sci-fi replicators. This is far from the case! They are frequently stubborn, enigmatic and require lots of messy hands-on work to get from the thing you see on screen to a thing you can hold in your hands.
 
+Reflecting on the things you find difficult, and the steps you take to overcome obstacles will be at the core of your documentation.
 
-Expectation that digital things just work even the name 3d printer is misleading
-Don’t come in with the expectation that things will just work
-It is as messy and and hands-on as any craft process
+It will make your life easier if you prepare for seeions by watching/reading some of the introductory material. Not least, this will introduce you to some of the new language you will need to understand, so you're not hearing it for the first time on Tuesday afternoons. By the end of the course, you will be able to talk about kerf, z-hop, chip-forming and draft angles with confidence :wink:
 
-
-
-Preparing for sessions
-Reading/watching videos
-Time expectations
-Student helper time in lab
-Coming in Tuesday mornings
 
 ### Documentation and assessment
 
@@ -64,9 +58,9 @@ You will be assessed on what you document in your portfolio, not what you make. 
 
 As much as possible, the assessment criteria are aligned with what you need to do to document your work well – for yourself. This will be a skill that serves you throughout any creative career.
 
-### 
 
-## Overall course structure
+
+## Overall course structure
 
 * Teaching time: Tuesdays 2-5pm – 1 hour lecture + 2 hours guided making and tutorials
 * Lab access: Tuesdays 9am-1pm – Come into lab and work on your assignments (subject to student helper resource to be present) 
@@ -96,6 +90,12 @@ The course spans 15 weeks (including assessment and feedback) = 13-14 hours/week
 There are 3 hours of teaching time per week, so you should plan to spend about **10 hours/week** studying independently.
 
 In order to get the most from each week's teaching session, you will be expected to prepare in advance, for example, by installing and testing software, watching instructional videos, and preparing the groundwork to learn new topics. The course notes for each week include instructions on any prep you must do, and suggestions for resources you can review.
+
+
+## Where is it taught?
+
+Room EM13: Fablab – in the Heavy Engineering Building, Moulsecoomb campus, Lewes Road
+Map: <https://www.brighton.ac.uk/about-us/contact-us/maps/brighton-maps/moulsecoomb-campus.aspx>
 
 
 ## Assessment 
@@ -131,11 +131,6 @@ We'll be reviewing your progress each week, so you should aim to keep up with th
 The deadline for formative assessment is: 10am, Monday 30 March
  
 The deadline for summative assessment is: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The following weekend is a bank holiday and no IT support staff will be available to help you if you're late.)
-
-## Where is it taught
-
-Room EM13: Fablab – in the Heavy Engineering Building, Moulsecoomb campus, Lewes Road
-Map: <https://www.brighton.ac.uk/about-us/contact-us/maps/brighton-maps/moulsecoomb-campus.aspx>
 
 ## Things you will need
 
@@ -173,17 +168,16 @@ That same content is published here: <https://fablabbrighton.github.io/digital-f
 
 Don't know what Github is? Find out here: <https://www.youtube.com/watch?v=w3jLJU7DT5E>
 
-Github is typical of the sort of tools we'll be using throughout the module: based on open source tools that anyone can use or modify; built by and for its users; part of a globally connected comminity of people making tools to make things.
+(Github is typical of the sort of tools we'll be using throughout the module: based on open source tools that anyone can use or modify; built by and for its users; part of a globally connected comminity of people making tools to make things.)
 
 ### Other useful resources
 
 #### Fablabs 
 
-MIT professor Neil Gershenfeld introduces Fab Labs:  
+* MIT professor Neil Gershenfeld introduces Fab Labs:  
 <https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab?language=en>
-
-About fab labs: <https://fabfoundation.org/getting-started/>
-The fab lab network: <https://www.fablabs.io>
+* About fab labs: <https://fabfoundation.org/getting-started/>
+* The fab lab network: <https://www.fablabs.io>
 
 #### Learning technical skills
 
