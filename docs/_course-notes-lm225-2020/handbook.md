@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Module Handbook"
-date:   2018-12-00
+date:   2018-12-09
 author: Andrew Sleigh
 ---
 
@@ -24,7 +24,7 @@ This module aims to provide students with a practical, hands-on introduction to 
 * LO3: Plan and critically evaluate projects using appropriate project management tools.
 * LO4: Document technical design projects through a coherent digital portfolio of evidence.
 
-## Teaching and learning activities
+## Teaching and learning activities
 
 Students will be supported during a series of short, hands-on, practical design projects, through a series of weekly sessions which will include lectures, demonstrations, tutorials and workshops. Formative feedback will be delivered through peer and tutor evaluation after selected exercises.
 
@@ -58,20 +58,31 @@ Time expectations
 Student helper time in lab
 Coming in Tuesday mornings
 
+### Documentation and assessment
+
+You will be assessed on what you document in your portfolio, not what you make. While it will be more rewarding and fun if you succeed in all the tasks, you don't need to do this to get a great mark. The aim of the documentation is to help you develop a useful skill in technical practice: doing experiments, trying techniques, recording the process: what works, what could be improved and how you have succeeded or failed at each stage. If you consider all of your experiments failures, but you record the process well, you can get a great mark. If you breeze through and find all the techniques easy, you will have to challenge yourself to find new limits in order to have somethng to document.
+
+As much as possible, the assessment criteria are aligned with what you need to do to document your work well – for yourself. This will be a skill that serves you throughout any creative career.
+
+### 
+
 ## Overall course structure
 
+* Teaching time: Tuesdays 2-5pm – 1 hour lecture + 2 hours guided making and tutorials
+* Lab access: Tuesdays 9am-1pm – Come into lab and work on your assignments (subject to student helper resource to be present) 
+* Rest of the week: Independent study
 
-General format
+### Weekly topics
+Each week, we cover a new topic. 
 
-Tuesday am
-Come into lab and work on your assignments - with student helper
+### Ready, fire, aim
+The weeks generally come in pairs. In the first, we approach something new, and try to make something. In the second, we take what we've learned and design somethign better. We lead with our hands, not our heads.
 
-Tuesday pm
-1 hour lecture
-2 hours guided making / tutorials
+### Flexible after Easter
+After the break you'll be supported in your [final projects](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/project). There will still be lectures, but these will be tailored to tools and techniques that are most relevant.
 
-Rest of the week
-Independent study
+### Continuous formative assessment
+While there is a scheduled [formative assessment session in week 9](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment), we'll be reviewing your progress and documentation every week. 
 
 
 
@@ -89,9 +100,9 @@ In order to get the most from each week's teaching session, you will be expected
 
 ## Assessment 
 
-Students will compile a digital portfolio to evidence the learning that takes place during these projects.
+Students will compile a digital portfolio to evidence the learning that takes place during these projects. This portfolio is the documentation of your assignments and experiments throughout the course.
 
-There are two types of assessment you need to be aware of – Formative and Summative
+There are two types of assessment you need to be aware of – formative and summative
  
 **Formative Assessment**: takes place throughout the module through discussion and feedback from peers and your tutor on your work-in-progress. It does not contribute to the final mark of the module but instead supports the development of learning and prepares for summative assessment. Formative assessment will help you to identify what is good in your work and how to improve your work. Formative assessment is typically but not exclusively linked to the learning outcomes of the module.
  
@@ -108,17 +119,23 @@ There are two types of assessment you need to be aware of – Formative and Summ
 
 ### How do I submit?
 
+In the first week, you'll create blog using the [Edublogs service](http://blogs.brighton.ac.uk) and submit the URL of your blog to Student Central. This blog is what will be assessed. 
+
+In addition, to provide a static record of your blog at the submission deadline, you will [submit a PDF of your blog](http://blogs.brighton.ac.uk/elearningteam/assessment-guidance-for-blogs/). 
 
 
 ### What is the deadline?
 
+We'll be reviewing your progress each week, so you should aim to keep up with the weekly assignments as we do them.
 
-
+The deadline for formative assessment is: 10am, Monday 30 March
+ 
+The deadline for summative assessment is: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The following weekend is a bank holiday and no IT support staff will be available to help you if you're late.)
 
 ## Where is it taught
 
-EM13: Fablab in the Heavy Engineering Building, Mouslecoomb
-
+Room EM13: Fablab – in the Heavy Engineering Building, Moulsecoomb campus, Lewes Road
+Map: <https://www.brighton.ac.uk/about-us/contact-us/maps/brighton-maps/moulsecoomb-campus.aspx>
 
 ## Things you will need
 
