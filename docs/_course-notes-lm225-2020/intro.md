@@ -59,18 +59,46 @@ Catch-up weeks
 ### The lab
 
 Tour!
-Machines
-Materials
-What you can make
+
+* Machines
+* Materials
+* What you can make
 
 ### Content overview
 
-:construction:
-
+See: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#overall-course-structure>
+And: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/readme>
 
 ## Introductions :construction:
 
+Max 3 mins each
+
+* Tell us who you are, and what you're interested in making (in this module or more broadly)
+* Show something you've made (on your course, or not), and talk about how and why you made it
+
+
 Inc me!
+
+
+## Skills baseline
+
+Place yourselves on a specrtrum for all the core skills
+
+(Never heard of it — Beginner — Some experience — Expert!)
+
+* Documentation – Project photography
+* Documentation – Blogs, CMSs
+* 2D Fabrication – Laser Cutter
+* 2D Design – Software (e.g. Illustrator)
+* 3D Fabrication – 3D Printer
+* 3D Design – Software (e.g. Sketchup, Fusion, Solidworks)
+* 3D Fabrication – Milling Machine
+* Interactivity/Programming – Microbit
+* Electronics
+* Electronics design – e.g. Tinkercad or Eagle
+* Interactivity - Soldering and electronics
+* Interactivity/Programming – Arduino
+
 
 
 ## Assessment
@@ -139,6 +167,8 @@ Submit the URL to Student Central
 
 
 ### What do I need to do to pass? (40%)
+
+:speech_balloon: Explain these grade boundaries
 
 * A working website with: 
   * An 'about' page 
