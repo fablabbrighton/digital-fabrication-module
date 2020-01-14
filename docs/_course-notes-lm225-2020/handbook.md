@@ -58,10 +58,7 @@ You will be assessed on what you document in your portfolio, not what you make. 
 
 As much as possible, the assessment criteria are aligned with what you need to do to document your work well – for yourself. This will be a skill that serves you throughout any creative career.
 
-
-:construction: Reflective statement 
-
-[Assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
+Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 
@@ -69,7 +66,7 @@ As much as possible, the assessment criteria are aligned with what you need to d
 ## Overall course structure
 
 * Teaching time: Tuesdays 2-5pm – 1 hour lecture + 2 hours guided making and tutorials
-* Lab access: Tuesdays 9am-1pm – Come into lab and work on your assignments (subject to student helper resource to be present) 
+* Lab access: Tuesdays 9am-1pm – Come into lab and work on your assignments (TBC subject to availble student helper resource) 
 * Rest of the week: Independent study
 
 ### Weekly topics
@@ -113,8 +110,8 @@ There are two types of assessment you need to be aware of – formative and summ
 **Formative Assessment**: takes place throughout the module through discussion and feedback from peers and your tutor on your work-in-progress. It does not contribute to the final mark of the module but instead supports the development of learning and prepares for summative assessment. Formative assessment will help you to identify what is good in your work and how to improve your work. Formative assessment is typically but not exclusively linked to the learning outcomes of the module.
  
  
-**Summative Assessment**: takes place at the end of the module. During summative assessment your tutor will formally assess the work you have submited. 
- 
+**Summative Assessment**: takes place at the end of the module. During summative assessment your tutor will formally assess the work you have submitted. 
+
 
 ### Tasks
  
@@ -134,13 +131,19 @@ In addition, to provide a static record of your blog at the submission deadline,
 
 We'll be reviewing your progress each week, so you should aim to keep up with the weekly assignments as we do them.
 
-The deadline for formative assessment is: 10am, Monday 30 March
+The deadline for formative assessment is: 10am, Monday 30 March.
  
-The deadline for summative assessment is: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The following weekend is a bank holiday and no IT support staff will be available to help you if you're late.)
+The deadline for summative assessment is: 4pm, Wednesday 20th May.
+
+
+Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
+
+:pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
+ 
 
 ## Things you will need
 
-### A laptop capable of running design software. 
+### A laptop capable of running design software 
 
 A netbook or tablet may be fine for taking notes and working on your documentation, but most of the tasks involve software which will only run on 'real' computer. For reference, my 2013 MacBook works fine – you don't need anything high-end.
 
