@@ -53,18 +53,18 @@ This is not the place to make a case for how good your work is! The assessors wa
 
 ## How to submit
 
-1. Submit the URL of your blog to Student Central
+### 1. Submit the URL of your blog to Student Central
 
 :construction: Details on where
 
 
-2. Upload a PDF of your blog to Student Central
+### 2. Upload a PDF of your blog to Student Central
 
 This is to provide a static record of your blog at the submission deadline: <http://blogs.brighton.ac.uk/elearningteam/assessment-guidance-for-blogs/> 
 
 :construction: Details on where
 
-## Submission deadline: 20 May, 4pm
+## Submission deadline: 20 May, 4pm
 
 It is your job to ensure you are able to submit before the deadline. 
 
