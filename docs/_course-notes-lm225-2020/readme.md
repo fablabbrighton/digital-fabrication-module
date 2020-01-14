@@ -98,14 +98,13 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 * Electronics design with Tinkercad or Eagle
 * Soldering and electronics
 * Interactive devices with Arduino
-* :construction:
-* ...
+* More TBC :construction:
 
 
 
 ### Week 14: [Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
-Submission deadline: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The following weekend is a bank holiday and no IT support staff will be available to help you if you're late.)
+Submission deadline: Wednesday 20th May, 4pm.
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 
