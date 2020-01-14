@@ -59,6 +59,12 @@ You will be assessed on what you document in your portfolio, not what you make. 
 As much as possible, the assessment criteria are aligned with what you need to do to document your work well – for yourself. This will be a skill that serves you throughout any creative career.
 
 
+:construction: Reflective statement 
+
+[Assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
+
+:pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
+
 
 ## Overall course structure
 
@@ -174,8 +180,7 @@ Don't know what Github is? Find out here: <https://www.youtube.com/watch?v=w3jLJ
 
 #### Fablabs 
 
-* MIT professor Neil Gershenfeld introduces Fab Labs:  
-<https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab?language=en>
+* MIT professor Neil Gershenfeld introduces Fab Labs: <https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab?language=en>
 * About fab labs: <https://fabfoundation.org/getting-started/>
 * The fab lab network: <https://www.fablabs.io>
 

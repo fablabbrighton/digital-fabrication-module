@@ -105,10 +105,10 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 
 ### Week 14: [Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
-Submission deadline: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The followig weekend is a bank hooliday and no IT support staff will be available to help you if you're late.)
+Submission deadline: 4pm, Friday 22nd May (Ensure you are able to submit well before the deadline. The following weekend is a bank holiday and no IT support staff will be available to help you if you're late.)
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 
 ### Week 15: Feedback
 
-
+Written feedback will be provided within 21 days of the assessment deadline via Student Central.
