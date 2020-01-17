@@ -5,11 +5,23 @@ date:   2020-01-02
 author: Andrew Sleigh
 ---
 
-Everything you need to know about LM225, 2020
+Everything you need to know about LM225
+
+<!--more-->
 
 :pencil2: [`readme.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/readme.md)
 
-<!--more-->
+
+
+## Handbook
+
+You can find the handbook on Student Central, but the most recent working copy is always here in the Github repository: [Handbook](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook)
+
+
+
+:pencil2: [`handbook.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/handbook.md)
+
+
 
 ## Schedule
 
