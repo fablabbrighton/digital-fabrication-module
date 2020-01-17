@@ -42,6 +42,14 @@ What kinds of things can you make in a fab lab?
 ![](/digital-fabrication-module/assets/archisuits2.jpg)
 
 
+### Self-forming structures
+<https://n-e-r-v-o-u-s.com/blog/?p=8011>
+
+> The main idea here is that we can make fabric take a specific 3-dimensional shape by printing different patterns of plastic onto it while stretched. The printed plastic inhibits the contraction of the surface, guiding it to take a shape upon release. 
+
+![](/digital-fabrication-module/assets/self-forming-structures.jpg)
+
+
 ## Prototyping process
 
 A common working method with design and craft practice.
