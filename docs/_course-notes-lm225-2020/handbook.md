@@ -41,7 +41,7 @@ It is a workshop space, but it is also a [global network of labs](https://www.fa
 
 It is a working practice based on the free sharing of information, collaborative making of tools, and building on each others work. Most of the tools and teaching materials we will be using have come from this ethos, and this module aims not just ot teach technical skills but a fablab way of working and making.
 
-### A note on dificulty
+### A note on difficulty
 
 Some of the material we cover will be very new and difficult. One of the aims of the course is to help you develop a mindset and tools to help you successfully approach difficult topics. 
 
@@ -49,12 +49,12 @@ It's tempting to think that digital machines work at the push of a button, like 
 
 Reflecting on the things you find difficult, and the steps you take to overcome obstacles will be at the core of your documentation.
 
-It will make your life easier if you prepare for seeions by watching/reading some of the introductory material. Not least, this will introduce you to some of the new language you will need to understand, so you're not hearing it for the first time on Tuesday afternoons. By the end of the course, you will be able to talk about kerf, z-hop, chip-forming and draft angles with confidence :wink:
+It will make your life easier if you prepare for sessions by watching/reading some of the introductory material. Not least, this will introduce you to some of the new language you will need to understand, so you're not hearing it for the first time on Tuesday afternoons. By the end of the course, you will be able to talk about kerf, z-hop, chip-forming and draft angles with confidence :wink:
 
 
 ### Documentation and assessment
 
-You will be assessed on what you document in your portfolio, not what you make. While it will be more rewarding and fun if you succeed in all the tasks, you don't need to do this to get a great mark. The aim of the documentation is to help you develop a useful skill in technical practice: doing experiments, trying techniques, recording the process: what works, what could be improved and how you have succeeded or failed at each stage. If you consider all of your experiments failures, but you record the process well, you can get a great mark. If you breeze through and find all the techniques easy, you will have to challenge yourself to find new limits in order to have somethng to document.
+You will be assessed on what you document in your portfolio, not what you make. While it will be more rewarding and fun if you succeed in all the tasks, you don't need to do this to get a great mark. The aim of the documentation is to help you develop a useful skill in technical practice: doing experiments, trying techniques, recording the process: what works, what could be improved and how you have succeeded or failed at each stage. If you consider all of your experiments failures, but you record the process well, you can get a great mark. If you breeze through and find all the techniques easy, you will have to challenge yourself to find new limits in order to have something to document.
 
 As much as possible, the assessment criteria are aligned with what you need to do to document your work well – for yourself. This will be a skill that serves you throughout any creative career.
 
@@ -66,7 +66,7 @@ Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-m
 ## Overall course structure
 
 * Teaching time: 10am-1pm – 1 hour lecture + 2 hours guided making and tutorials
-* Lab access: Tuesdays 2-5pm – Come into lab and work on your assignments (subject to availble student helper resource) 
+* Lab access: Tuesdays 2-5pm – Come into lab and work on your assignments (subject to available student helper resource) 
 * Rest of the week: Independent study (we are currently investigating the possibility of opening up the lab later in the week)
 
 ### Weekly topics
@@ -85,7 +85,7 @@ While there is a scheduled [formative assessment session in week 9](https://fabl
 
 ## Study hours
 
-This is a 20 credit module. You are expected to spend about 200 hours studying on this course. This includes the time that you will spend copiling your portfolio for assessment, which is a continuous process throughout the course. 
+This is a 20 credit module. You are expected to spend about 200 hours studying on this course. This includes the time that you will spend compiling your portfolio for assessment, which is a continuous process throughout the course. 
 
 All students are expected to undertake guided independent study, which includes wider reading/practice, follow-up work, the completion of assessment tasks, and revisions. 
 
@@ -153,14 +153,14 @@ There are some computers in the lab, but access is limited, so you will find it 
 ### Software
 
 * Adobe [Illustrator](https://www.adobe.com/uk/creativecloud/buy/students.html) (student discount) or Inkscape (free, open-source) (or other 2D vector software such as Affinity Designer)
-* Adobe [Photoshop](https://www.adobe.com/uk/creativecloud/buy/students.html) (student discount) or [GIMP](https://www.gimp.org) (free, open-source) (or other image editor: e.g. Pixelmater, Acorn on Mac, many more on Windows)
+* Adobe [Photoshop](https://www.adobe.com/uk/creativecloud/buy/students.html) (student discount) or [GIMP](https://www.gimp.org) (free, open-source) (or other image editor: e.g. Pixelmator, Acorn on Mac, many more on Windows)
 * Simple photo editing software – e.g. Apple/Windows Photos (free)
 * Simple video editing software – e.g. Free: iMovie, Windows Movie Maker. Paid: Final Cut Pro,  Adobe Lightroom
 * [Autodesk Fusion 360](https://www.autodesk.co.uk/products/fusion-360/students-teachers-educators) (free for education use)
 * [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) (free)
 * Google Chrome or Safari for running web-based tools
 * An app for taking notes: Apple Notes, Evernote, Microsoft OneNote, or many others (Try a few out, and find one that suits your working style. You will need to take notes quickly and easily, so get comfortable with this tool.)
-* Screenshot / screencapture tool (these are built into macOS and Windows. Find out how to use them.)
+* Screenshot / screen-capture tool (these are built into macOS and Windows. Find out how to use them.)
 
 ### Equipment
 
