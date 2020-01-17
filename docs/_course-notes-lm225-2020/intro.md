@@ -32,13 +32,13 @@ There are some more suggestions on reading/watching here: <https://fablabbrighto
 ## Digital Fabrication
 
 What is it
-Interesting examples / possible outcomes
+Interesting examples / possible outcomes :construction:
 
  - 3d fabrics that bend with water or 3D printed parts
  - defensive clothing that inflates etc
  - see FA archives for textiles projects (or fabricademy)	
 
- :construction:
+ 
 
 ## The lab
 
@@ -49,9 +49,10 @@ Tour!
 * What you can make
 
 
-## Introductions :construction:
+## Introductions 
 
-Max 3 mins each
+Max 3 mins each.  
+:speech_balloon: Timer
 
 * Tell us who you are, and what you're interested in making (in this module or more broadly)
 * Show something you've made (on your course, or not), and talk about how and why you made it
@@ -76,13 +77,13 @@ Questions?
 
 ### Content overview
 
-See: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#overall-course-structure>
+See: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#overall-course-structure>  
 And: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/readme>
 
 
 ## Skills baseline
 
-Place yourselves on a specrtrum for all the core skills
+Place yourselves on a spectrum for all the core skills
 
 (Never heard of it — Beginner — Some experience — Expert!)
 
@@ -127,7 +128,7 @@ An overview to documentation and websites, and where to find out more
 * Online tools (e.g. image compression)
 
 
-### A/V media
+### A/V media
 
 Product photography
 Compression / formats
@@ -138,7 +139,7 @@ Video / hosting
 
 :construction:
 
-## Assignment
+## Assignment
 
 Build a website for the module using Edublogs or another platform of your choice.
 
