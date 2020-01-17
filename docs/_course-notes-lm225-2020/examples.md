@@ -29,7 +29,17 @@ What kinds of things can you make in a fab lab?
 * Laser cut wool felt rug
 * 2D vector file
 * Cut on the machine, but lots of hand finishing required
+* High volume production uneconomical
 
+
+### Archisuits
+
+<https://ablersite.org/2014/03/20/wearable-workarounds-for-defensive-architecture/>
+
+> Artist and researcher Sarah Ross’s Archisuits are a hilarious and pointed look at soft bodies in hard spaces—all the ways the built environment is a mismatch for human needs.
+
+![](/digital-fabrication-module/assets/archisuits.jpg)
+![](/digital-fabrication-module/assets/archisuits2.jpg)
 
 
 ## Prototyping process
