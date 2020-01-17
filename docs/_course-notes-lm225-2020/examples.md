@@ -82,6 +82,14 @@ Nice project docs too:
 > After graduation Alex began building his robot, teaching himself mechanical engineering as he went. Without prototyping tools of his own, he became a regular at TechShop, the late lamented chain of open-access DIY fabrication workshops — but this required brutal 800-mile round trips on Interstate 5.
 
 ￼
+## 3D Printing concrete
+
+<https://www.instagram.com/p/B7LwJPdpJvZ/>
+
+Same principle as a 3D printer, adapted to a different material and scale.
+
+￼![](/digital-fabrication-module/assets/3d-print-concrete.jpg)
+
 
 ## Find out more
 
