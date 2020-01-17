@@ -82,7 +82,7 @@ See: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-l
 And: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/readme>
 
 
-## Skills baseline
+## Skills baseline
 
 Place yourselves on a spectrum for all the core skills
 
@@ -113,6 +113,28 @@ An overview to documentation and websites, and where to find out more:
 
 :construction:
 
+[Craft is a science](https://faberfutures.com/projects/the-ginkgo-creative-residency/) 
+
+* Got to keep notes (when you do it, and when you come back to repeat it)		
+* Offload your brain – you will forget
+
+Helps you learn (Lifelong Kindergarten [Creative Learning Spiral](https://medium.com/@mres/ten-tips-for-cultivating-creativity-fe79e7ebb83e))
+
+* Shows how learners construct knowledge through making
+* Sharing is an important part of that spiral
+  * forces you to look at it from another angle - someone else
+  * verifies that you actually understand it and helps you identify the bits you don’t
+	* Feynman: “If you can’t explain it simply…”
+
+Get noticed ([Laura Kampf](https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw/featured))
+
+* Other people use your work, building on it
+* Projects with good documentation get take-up from others	
+* Projects that invite people in help cultivate a community around your work
+* (And if you’re daunted by these successful people, look at their early work.)
+
+
+
 ## How?
 
 ### Website architectures
@@ -141,8 +163,8 @@ An overview to documentation and websites, and where to find out more:
 
 ## Find out more
 
-[Edublogs guide](http://blogs.brighton.ac.uk)
-[Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+* [Edublogs guide](http://blogs.brighton.ac.uk)
+* [Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
 
 
 ## Assignment
