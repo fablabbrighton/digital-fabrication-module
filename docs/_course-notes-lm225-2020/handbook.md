@@ -5,10 +5,10 @@ date:   2018-12-09
 author: Andrew Sleigh
 ---
 
-Digital Fabrication Methods: LM225
-Level 5
-Credits: 20
-Module leader: Andrew Sleigh a.s.sleigh@brighton.ac.uk
+Digital Fabrication Methods: LM225  
+Level 5  
+Credits: 20  
+Module leader: Andrew Sleigh <a.s.sleigh@brighton.ac.uk>  
 
 
 <!--more-->
@@ -65,9 +65,9 @@ Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-m
 
 ## Overall course structure
 
-* Teaching time: Tuesdays 2-5pm – 1 hour lecture + 2 hours guided making and tutorials
-* Lab access: Tuesdays 9am-1pm – Come into lab and work on your assignments (TBC subject to availble student helper resource) 
-* Rest of the week: Independent study
+* Teaching time: 10am-1pm – 1 hour lecture + 2 hours guided making and tutorials
+* Lab access: Tuesdays 2-5pm – Come into lab and work on your assignments (subject to availble student helper resource) 
+* Rest of the week: Independent study (we are currently investigating the possibility of opening up the lab later in the week)
 
 ### Weekly topics
 Each week, we cover a new topic. 
