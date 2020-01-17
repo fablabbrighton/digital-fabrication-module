@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title:  "Digital Fabrication Examples"
@@ -19,7 +18,7 @@ https://www.davidtrubridge.com/collection/lighting/kina/
 * Used Rhino/Grasshopper
 * Originally a lighting deisgn, now adapted for lightweight structures
 
-## Prototyping process
+## Prototyping process
 
 A common working method with design and craft practice.
 
