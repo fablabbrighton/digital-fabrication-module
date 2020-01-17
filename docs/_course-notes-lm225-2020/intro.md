@@ -31,14 +31,15 @@ There are some more suggestions on reading/watching here: <https://fablabbrighto
 
 ## Digital Fabrication
 
-What is it
-Interesting examples / possible outcomes :construction:
+What is it?
 
- - 3d fabrics that bend with water or 3D printed parts
- - defensive clothing that inflates etc
- - see FA archives for textiles projects (or fabricademy)	
+* Small batch production
+* Rapid prototyping
+* Customisation
+* Distributed manufacturing
 
- 
+Examples: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/examples>
+
 
 ## The lab
 
@@ -106,38 +107,43 @@ Place yourselves on a spectrum for all the core skills
 
 ## This week: Documenting your work
 
+An overview to documentation and websites, and where to find out more:
 
-An overview to documentation and websites, and where to find out more
+## Why?
 
 :construction:
 
+## How?
+
 ### Website architectures
 
-* CMS
-* Self-hosting: domains
-* HTML
-* Flat file sites
-* Platforms / embedding media
-* The open web / owning your stuff
+* CMS: [Wordpress](https://wordpress.com), [Edublogs](http://blogs.brighton.ac.uk)
+* Self-hosting: [domains](https://www.tsohost.com/domain-names), [hosting](https://www.tsohost.com/web-hosting), [Wordpress.org](https://wordpress.org), [FTP](https://www.wired.com/2010/02/ftp_for_beginners/)
+* HTML: view-source, [tutorials](https://www.w3.org/MarkUp/Guide/) 
+* Flat file sites: Jekyll, [Github Pages](https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages)
+* Platforms / embedding media: YouTube, [STL](https://github.com/lorennorman/octocat-3d/blob/master/stl/octocat_head.stl), Codepen 
+* [The open web vs walled gardens](https://techcrunch.com/2016/04/10/1301496/) / owning your stuff (self-hosting vs domain pointing)
 
 ### Software
 
-* Text editor
-* CMS
-* Image editor
-* Online tools (e.g. image compression)
+* Text editor: Atom (not Word!)
+* CMS: [Edublogs](http://blogs.brighton.ac.uk)
+* Image editor ([handbook](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#things-you-will-need))
+* Online tools (e.g. [image compression](https://compressor.io))
 
 
 ### A/V media
 
-Product photography
-Compression / formats
-Video / hosting
+* Product photography
+* Compression / formats
+* Video / hosting
 
 
-## Reading/Watching
+## Find out more
 
-:construction:
+[Edublogs guide](http://blogs.brighton.ac.uk)
+[Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+
 
 ## Assignment
 
@@ -167,4 +173,8 @@ Submit the URL to Student Central :construction:
 
 ## For next week
 
-:construction:
+We'll be using the laser cutter.
+
+* Read the [course notes](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/2d-laser)
+* Install and try out some 2D vector software ([handbook](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#things-you-will-need))
+* Learn about vectors vs pixels and bezier curves (no links provided!)
