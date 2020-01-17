@@ -23,11 +23,11 @@ Summary information will also be uploaded to Student Central, but be sure to che
 
 ## Preparing for the first class
 
-Course material for the first class is here: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/intro>. This page tells you **what you need to bring**. 
+Course material for the first class is here: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/intro>. This page also tells you **[what you need to bring](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#things-you-will-need)**. FOr week 1, the most important thing to bring is a computer. 
 
 
 ### 1. Prepare a presentation
-To help us get to know one another, and to help me tailor content on the course to your interests, I would like each of you to **make a short (2-3 minute) presentation about yourselves**.
+To help us get to know one another, and to help me tailor content on the course to your interests, I would like each of you to **prepare a short (2-3 minute) presentation about yourselves**.
 
 * Tell us who you are, and what you're interested in making (in this module or more broadly)
 * Bring something you've made (on your course, or not), and talk about how and why you made it
@@ -37,12 +37,12 @@ You don't need to make slides or show anything on screen.
 
 ### 2. Find out something about digital fabrication or fab labs 
 
-This course will all make a lot more sense if you know something about *fab labs* Start by watching this video:
+This course will all make a lot more sense if you know something about *fab labs*. Start by watching this video:
+<https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab>
 
 If the first bit is too bewildering, you could start at about 6 minutes in: <https://www.ted.com/talks/neil_gershenfeld_unleash_your_creativity_in_a_fab_lab/transcript?language=en#t-351107> Don't worry, we will not be "functionalizing nanoclusters"!
 
 There are some more suggestions on reading/watching here: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#other-useful-resources>
-
 
 
 ## What you need for the course
