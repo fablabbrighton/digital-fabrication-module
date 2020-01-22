@@ -35,11 +35,11 @@ The module uses a blended learning approach, including hands-on activities with 
 ## Approach and background
 
 
-A Fab Lab, or digital fabrication laboratory, is a place to play, to create, to mentor and to invent: a place for learning and innovation. Fab Labs provide access to the environment, the skills, the materials and the advanced technology to allow anyone anywhere to make (almost) anything.
+A Fab lab, or digital fabrication laboratory, is a place to play, to create, to mentor and to invent: a place for learning and innovation. Fab labs provide access to the environment, the skills, the materials and the advanced technology to allow anyone anywhere to make (almost) anything.
 
 It is a workshop space, but it is also a [global network of labs](https://www.fablabs.io/labs/map) and a community of people working together to learn, explore and make.
 
-It is a working practice based on the free sharing of information, collaborative making of tools, and building on each others work. Most of the tools and teaching materials we will be using have come from this ethos, and this module aims not just ot teach technical skills but a fablab way of working and making.
+It is a working practice based on the free sharing of information, collaborative making of tools, and building on each others' work. Most of the tools and teaching materials we will be using have come from this ethos, and this module aims not just to teach technical skills but a *fab lab* way of working and making.
 
 ### A note on difficulty
 
@@ -49,7 +49,7 @@ It's tempting to think that digital machines work at the push of a button, like 
 
 Reflecting on the things you find difficult, and the steps you take to overcome obstacles will be at the core of your documentation.
 
-It will make your life easier if you prepare for sessions by watching/reading some of the introductory material. Not least, this will introduce you to some of the new language you will need to understand, so you're not hearing it for the first time on Tuesday afternoons. By the end of the course, you will be able to talk about kerf, z-hop, chip-forming and draft angles with confidence :wink:
+It will make your life easier if you prepare for sessions by watching/reading some of the introductory material. Not least, this will introduce you to some of the new language you will need to understand, so you're not hearing it for the first time on Tuesday mornings. By the end of the course, you will be able to talk about kerf, z-hop, chip-forming and draft angles with confidence :wink:
 
 
 ### Documentation and assessment
