@@ -55,14 +55,24 @@ This is not the place to make a case for how good your work is! The assessors wa
 
 ### 1. Submit the URL of your blog to Student Central
 
-:construction: Details on where
+:arrow_right: Turnitin Assignments: "Blog URL"
 
 
 ### 2. Upload a PDF of your blog to Student Central
 
 This is to provide a static record of your blog at the submission deadline: <http://blogs.brighton.ac.uk/elearningteam/assessment-guidance-for-blogs/> 
 
-:construction: Details on where
+Use your browser's "Print to PDF" or "Export as PDF" function to save a copy of each page of your blog in PDF format. You should then merge these PDFs into one file. There are many tools which will do this, such as Adobe Acrobat, Apple Preview, or online tools (Search for "merge pdf")
+
+:arrow_right: Turnitin Assignments: "Blog PDF"
+
+
+### Add your reflective statement
+
+(I advise you to write this in a text editor and then copy/paste it into Turnitin._
+
+:arrow_right: Turnitin Assignments: "Reflective Statement (500 words)"
+
 
 ## Submission deadline: 20 May, 4pm
 
