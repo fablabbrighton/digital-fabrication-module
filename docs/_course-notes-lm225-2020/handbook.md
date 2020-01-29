@@ -114,6 +114,9 @@ There are two types of assessment you need to be aware of – formative and summ
  
 **Summative Assessment**: takes place at the end of the module. During summative assessment your tutor will formally assess the work you have submitted. 
 
+In keeping with university regulation, written feedback on summative assessment is provided within 21 days of the submission date. As well as commentary on what you have done well and ways to improve your learning, you will also receive an indicative grade which will be submitted to the June Exam Board for ratification. Afterwhich,  the chair of the exam board will write to you regarding your progression into the next stage of learning (level 6) and your transcript on student central will be updated.
+ 
+
 
 ### Tasks
  
@@ -136,6 +139,9 @@ We'll be reviewing your progress each week, so you should aim to keep up with th
 The deadline for formative assessment is: 10am, Monday 30 March.
  
 The deadline for summative assessment is: 4pm, Wednesday 20th May.
+
+ 
+Late Submission: Students may submit work up to 10 days after the submission date. In such instances the assessment is capped at the pass mark of 40%.  If you think you need to submit late, please contact your tutor. 
 
 
 Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)

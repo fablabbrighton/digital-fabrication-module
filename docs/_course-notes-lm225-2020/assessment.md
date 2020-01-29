@@ -82,6 +82,10 @@ Finalising your work, checking for technical errors such as missing images, and 
 
 Any technical questions with Edublogs should be directed to IT support; make sure you allow enough time for any issues to be resolved.
 
+ 
+Late Submission: Students may submit work up to 10 days after the submission date. In such instances the assessment is capped at the pass mark of 40%.  If you think you need to submit late, please contact your tutor. 
+
+
 
 ### Extensions
 
@@ -92,4 +96,4 @@ You can contact the options module administrator, Ro Thomas (R.O.Thomas@brighton
 
 ## Feedback
 
-Written feedback will be provided within 21 days of the assessment deadline via Student Central.
+In keeping with university regulation, written feedback on summative assessment is provided within 21 days of the submission date. As well as commentary on what you have done well and ways to improve your learning, you will also receive an indicative grade which will be submitted to the June Exam Board for ratification. Afterwhich,  the chair of the exam board will write to you regarding your progression into the next stage of learning (level 6) and your transcript on student central will be updated.
