@@ -11,59 +11,110 @@ An introduction to making interactive devices
 
 ## Prep for this week's class
 
-Microbit intro videos
-
-https://microbit.org/guide/quick/
-
-https://makecode.microbit.org
+* Watch the Microbit intro videos: <https://microbit.org/guide/quick/>
+* Read this introduction: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all>
+* Familiarise yourself with the online programming environment: <https://makecode.microbit.org>
 
 ## Baseline 
 
-We assume no prior knowledge of microconroller, the MIcrobit, or programming. However, you will find it **much** easier if you have looed at the materials in the Prep section, and played around with the [online programming environment](https://makecode.microbit.org).
+We assume no prior knowledge of microconroller, the MIcrobit, or programming. However, you will find it **much** easier if you have looked at the materials in the Prep section, and played around with the [online programming environment](https://makecode.microbit.org).
 
-## Microcontrollers
 
-Arduino
+## Making interactive devices
 
-AVR family
+"Making stuff do stuff"
+
+Should go into big picture stuff here, cos assignment is simple
+
+Spectrum:
+Learning - Prototyping – Small-scale manufacturing – Large scale
 
 Microbit
+Arduino
+AVRs
+Commercial ICs
+Blob ICs
+
+## "Embedded programming" and microcontrollers
+
+### What is a microcontroller?
+
+Microcontroller vs Microprocessor  
+Simpler computer  
+Has lots of ‘peripherals’ inside - see block diagram  
+Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
+
+#### What’s inside a microcontroller?
+See [Megaprocessor](http://www.megaprocessor.com)
+
+Or look at a datasheet:
+
+![ATtiny-Block-Diagram.png]({{ "/assets/ATtiny-Block-Diagram.png" | relative_url }})
+
+Capabilities:
+* Tell time / keep time
+* Remember data
+* Read analogue signals from the outside world
+* Talk to other microcontrollers
+* Send and control power out to other devices
+
+
+### How can we access these capabilities?
+
+![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }})
 
 
 
+## The Microbit
 
-## Writing programs
+Tour of the hardware:<https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#take-a-tour>
 
-Arduino IDE
 
-Microbit options
+
+## Writing programs for the Microbit
+
+
 
 [online programming environment](https://makecode.microbit.org).
 https://python.microbit.org/v/2.0
 
+Tour of the interface
+
+Basic blocks
+
+`on start`
+`forever`
+
+My buton test: https://makecode.microbit.org/_RL0igj2Hiivk
+
+
+Intro: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#lets-code>
+
 [Mobile or Tablet](https://microbit.org/guide/mobile/)
 
+Uploading programs via USB or Bluetooth
+
+Good USB data cable
+
+
+
 ## Assignment
+
+Should get them to play as far as they can go.
+If we get far, we can do more arduino next week
 
 
 See: 
 
-4 beginner @microbit_edu lessons with @simonmonk2 & @adafruit 
-1. https://t.co/3rW5WVHHCt
-2. https://t.co/KWUdjPYD5l
-3. https://t.co/cQiRTOpOle
-4. https://t.co/dyvL6qYEmW#microbit #makered #adafruitlearningsystem pic.twitter.com/gFxtTiBpKI
-— maker.io (@MakerIO) January 3, 2020
-
-https://learn.adafruit.com/micro-bit-lesson-1-using-the-built-in-sensors
-https://learn.adafruit.com/micro-bit-lesson-2-controlling-leds-on-breadboard
-https://learn.adafruit.com/micro-bit-lesson-3-neopixels-with-micro-bit
-https://learn.adafruit.com/micro-bit-lesson-4-sensing-light-and-temperature
 
 
 
 
 ### What do I need to do to pass? (40%)
+
+Write a program using the code blocks editor that uses the buttons or sensors on the Microbit to display somethign on the LED display.
+
+Experiment with the different sensors. What kinds of data can you get out of them? How are they imperfect? (How can they be misleading, or unreliable, and what can you do to 
 
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. 
@@ -72,10 +123,31 @@ Cite external sources where you have used someone else's work.
 
 ### Extra credit (50-100%)
 
+Write several programs to demonstrate how the different sensors work.
+
+Explore the different blocks availble in the code editor. Describe what they do, and how you could use them. 
+
+Try to implement the same program using the MIcroPython editor. What are the differences?
+Can you make the microbit communicate with your computer - e.g. to send messages back.
+Can you include logic in the program to make it communicate in a more 'human' way?
+
+Try to make a game that ues the buttons or sensors for input, where the player has to respond to images on the LED display (e.g. Simon Says, Tetris, a driving game).
+
 ---
 
-## Materials we need this week
+## Further reading / watching
+
+* <https://learn.adafruit.com/micro-bit-lesson-1-using-the-built-in-sensors>
+* <https://learn.adafruit.com/micro-bit-lesson-2-controlling-leds-on-breadboard>
+* <https://learn.adafruit.com/micro-bit-lesson-3-neopixels-with-micro-bit>
+* <https://learn.adafruit.com/micro-bit-lesson-4-sensing-light-and-temperature>
+
+
 
 ## For next week
 
-### Failsafe for next week
+Do some research about basic electronics:
+
+* How circuits work
+* Inputs and Outputs
+

@@ -110,6 +110,7 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 * Electronics design with Tinkercad or Eagle
 * Soldering and electronics
 * Interactive devices with Arduino
+* Vinyl cutter
 * More TBC :construction:
 
 

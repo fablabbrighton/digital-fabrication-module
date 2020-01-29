@@ -175,12 +175,12 @@ Build a website for the module using Edublogs or another platform of your choice
 * Include a photo of yourself and the thing you've already made
 * Add a page for this week and cover what you've learned about publishing on the web: show what you did, what went wrong, and how you fixed it.
 
-Submit the URL to Student Central :construction:
+Submit the URL to Student Central through Turnitin.
 
 
 ### What do I need to do to pass? (40%)
 
-:speech_balloon: Explain these grade boundaries
+:speech_balloon: Explain these grade boundaries.
 
 * A working website with: 
   * An 'about' page 

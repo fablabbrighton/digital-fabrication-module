@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Module Handbook"
-date:   2018-12-09
+date:   2020-01-29
 author: Andrew Sleigh
 ---
 
@@ -92,6 +92,8 @@ All students are expected to undertake guided independent study, which includes 
 The course spans 15 weeks (including assessment and feedback) = 13-14 hours/week study time.  
 There are 3 hours of teaching time per week, so you should plan to spend about **10 hours/week** studying independently.
 
+There will be a student helper in the lab from 1-5pm every Tuesday, so you can carry on your work after the teaching session.
+
 In order to get the most from each week's teaching session, you will be expected to prepare in advance, for example, by installing and testing software, watching instructional videos, and preparing the groundwork to learn new topics. The course notes for each week include instructions on any prep you must do, and suggestions for resources you can review.
 
 
@@ -143,14 +145,16 @@ Full [Assessment details](https://fablabbrighton.github.io/digital-fabrication-m
 
 ## Things you will need
 
-### A laptop capable of running design software 
+<!-- ### A laptop capable of running design software 
 
 A netbook or tablet may be fine for taking notes and working on your documentation, but most of the tasks involve software which will only run on 'real' computer. For reference, my 2013 MacBook works fine – you don't need anything high-end.
 
 There are some computers in the lab, but access is limited, so you will find it much easier if you bring your own computer.
 
 
-### Software
+### Software we'll be using -->
+
+I recommend you have a look at this software, much of which is available in the lab or at other university computing facilities.
 
 * Adobe [Illustrator](https://www.adobe.com/uk/creativecloud/buy/students.html) (student discount) or Inkscape (free, open-source) (or other 2D vector software such as Affinity Designer)
 * Adobe [Photoshop](https://www.adobe.com/uk/creativecloud/buy/students.html) (student discount) or [GIMP](https://www.gimp.org) (free, open-source) (or other image editor: e.g. Pixelmator, Acorn on Mac, many more on Windows)
