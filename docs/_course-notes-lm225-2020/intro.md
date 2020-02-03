@@ -155,6 +155,8 @@ Project documentation sites:
 * [Instructables](https://www.instructables.com) (search for antything)
 * [Fab Academy](http://fabacademy.org/archive/)
 
+(We'll review weekly)
+
 
 
 ### Website architectures
