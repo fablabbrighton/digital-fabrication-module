@@ -29,6 +29,11 @@ If the first bit is too bewildering, you could start at about 6 minutes in: <htt
 
 There are some more suggestions on reading/watching here: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#other-useful-resources>
 
+
+## Setup
+
+:speech_balloon: Register, name badges
+
 ## Digital Fabrication
 
 What is it?
@@ -48,6 +53,7 @@ Tour!
 * Machines
 * Materials
 * What you can make
+* Safety
 
 
 ## Introductions 
@@ -68,8 +74,8 @@ Notes:
 
 * Difficulty
 * Time/Project management
-* Philosophy of documentation
-* Machine time (slow!)
+* Assessment vs documentation (more later)
+* Machine time (slow, not magic)
 * Catch-up weeks
 * Your access - do you have computing labs at GP you can use?
 
@@ -84,7 +90,7 @@ And: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-l
 
 ## Skills baseline
 
-Place yourselves on a spectrum for all the core skills
+Exercise: Place yourselves on a spectrum for all the core skills
 
 (Never heard of it — Beginner — Some experience — Expert!)
 
@@ -114,7 +120,6 @@ An overview to documentation and websites, and where to find out more:
 :construction:
 
 [Craft is a science](https://faberfutures.com/projects/the-ginkgo-creative-residency/) 
-
 * Got to keep notes (when you do it, and when you come back to repeat it)		
 * Offload your brain – you will forget
 
@@ -189,7 +194,7 @@ Submit the URL to Student Central through Turnitin.
 ### Extra credit (50-100%)
 
 * If you're using Edublogs, customise the site design
-* Review and test alternative platforms: document how you choose a platform to use
+* Review and test alternative platforms/architectures: document how you choose a platform to use
 * Use an external hosting service that will serve you throughout your studies (and perhaps into professional life)
 * Register a domain and point it to your site
 
