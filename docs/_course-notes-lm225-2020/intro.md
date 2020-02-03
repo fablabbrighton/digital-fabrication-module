@@ -30,7 +30,7 @@ If the first bit is too bewildering, you could start at about 6 minutes in: <htt
 There are some more suggestions on reading/watching here: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#other-useful-resources>
 
 
-## Setup
+## Setup
 
 :speech_balloon: Register, name badges
 
@@ -68,6 +68,9 @@ Max 3 mins each.
 
 ## The course
 
+:speech_balloon: These docs and how to use them
+
+
 Review the handbook: <https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook>
 
 Notes:
@@ -95,14 +98,13 @@ Exercise: Place yourselves on a spectrum for all the core skills
 (Never heard of it — Beginner — Some experience — Expert!)
 
 * Documentation – Project photography
-* Documentation – Blogs, CMSs
-* 2D Fabrication – Laser Cutter
+* Documentation – Blogs, CMSs (Wix, Wordpress)
+* 2D Fabrication – Laser cutter
 * 2D Design – Software (e.g. Illustrator)
 * 3D Fabrication – 3D Printer
 * 3D Design – Software (e.g. Sketchup, Fusion, Solidworks)
 * 3D Fabrication – Milling Machine
 * Interactivity/Programming – Microbit
-* Electronics
 * Electronics design – e.g. Tinkercad or Eagle
 * Interactivity - Soldering and electronics
 * Interactivity/Programming – Arduino
@@ -119,19 +121,19 @@ An overview to documentation and websites, and where to find out more:
 
 :construction:
 
-[Craft is a science](https://faberfutures.com/projects/the-ginkgo-creative-residency/) 
+**[Craft is a science](https://faberfutures.com/projects/the-ginkgo-creative-residency/)**
 * Got to keep notes (when you do it, and when you come back to repeat it)		
 * Offload your brain – you will forget
 
-Helps you learn (Lifelong Kindergarten [Creative Learning Spiral](https://medium.com/@mres/ten-tips-for-cultivating-creativity-fe79e7ebb83e))
+**Helps you learn (Lifelong Kindergarten [Creative Learning Spiral](https://medium.com/@mres/ten-tips-for-cultivating-creativity-fe79e7ebb83e))**
 
 * Shows how learners construct knowledge through making
 * Sharing is an important part of that spiral
   * forces you to look at it from another angle - someone else
   * verifies that you actually understand it and helps you identify the bits you don’t
-	* Feynman: “If you can’t explain it simply…”
+  * Feynman: “If you can’t explain it simply…”
 
-Get noticed ([Laura Kampf](https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw/featured))
+**Get noticed ([Laura Kampf](https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw/featured))**
 
 * Other people use your work, building on it
 * Projects with good documentation get take-up from others	
@@ -141,6 +143,19 @@ Get noticed ([Laura Kampf](https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561e
 
 
 ## How?
+
+
+### Good documentation
+
+Examples:
+* Steps taken, reference to go back to, issues and fixes: <http://blogs.brighton.ac.uk/xe404lakelly/2019/03/28/week-8-fusion-360-cam-for-mould-making-and-casting/>
+* Diagrams, WiP, videos: <http://www.jacobstanton.com/3d-printed-hand-screw-clamp/>
+
+Project documentation sites:
+* [Instructables](https://www.instructables.com) (search for antything)
+* [Fab Academy](http://fabacademy.org/archive/)
+
+
 
 ### Website architectures
 
