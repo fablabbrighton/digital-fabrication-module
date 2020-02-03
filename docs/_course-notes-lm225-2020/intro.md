@@ -115,11 +115,9 @@ Exercise: Place yourselves on a spectrum for all the core skills
 
 ## This week: Documenting your work
 
-An overview to documentation and websites, and where to find out more:
+An overview to documentation and websites, and where to find out more.
 
 ## Why?
-
-:construction:
 
 **[Craft is a science](https://faberfutures.com/projects/the-ginkgo-creative-residency/)**
 * Got to keep notes (when you do it, and when you come back to repeat it)		
@@ -170,7 +168,7 @@ Project documentation sites:
 
 ### Software
 
-* Text editor: Atom (not Word!)
+* Text editors: e.g. Atom, Brackets, Visual Studio, BBEdit, Sublime (not Word!)
 * CMS: [Edublogs](http://blogs.brighton.ac.uk)
 * Image editor ([handbook](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/handbook#things-you-will-need))
 * Online tools (e.g. [image compression](https://compressor.io))
@@ -206,7 +204,7 @@ Submit the URL to Student Central through Turnitin.
 
 * A working website with: 
   * An 'about' page 
-  * A page for this week
+  * A page for this week covering how you made your site, problems you encountered and how you overcame them
 
 ### Extra credit (50-100%)
 
