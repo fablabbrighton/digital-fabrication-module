@@ -150,7 +150,7 @@ Examples:
 * Diagrams, WiP, videos: <http://www.jacobstanton.com/3d-printed-hand-screw-clamp/>
 
 Project documentation sites:
-* [Instructables](https://www.instructables.com) (search for antything)
+* [Instructables](https://www.instructables.com) (search for anything)
 * [Fab Academy](http://fabacademy.org/archive/)
 
 (We'll review weekly)
@@ -189,8 +189,9 @@ Project documentation sites:
 
 ## Assignment
 
-Build a website for the module using Edublogs or another platform of your choice.
+Build a website for the module using Edublogs or another platform of your choice
 
+* Make sure the name of the site and URL includes your name – so we know who's site is who's (e.g. don't call it lm225!)
 * Include a page about yourself that covers the material of your presentation
 * Include a photo of yourself and the thing you've already made
 * Add a page for this week and cover what you've learned about publishing on the web: show what you did, what went wrong, and how you fixed it.
