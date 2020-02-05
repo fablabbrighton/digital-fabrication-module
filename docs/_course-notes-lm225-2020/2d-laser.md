@@ -37,7 +37,9 @@ Other options:
 
 <!-- NOTE TO SELF: FOCUS ON GETTING STARTED WITH MACHINE, COVER DETAIL NEXT WEEK -->
 
-What you can do
+## Laser cutting
+
+What you can do 
 * Raster engraving
 * Vector cutting
 
@@ -97,7 +99,9 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 * Leave the lid closed with the extractor on for 30 seconds
 * Clean the bed - take it to the sink and carefully clean it without bending the sheet
 
+## Advanced laser cutter use
 
+See [next week's notes](2d-software)
 
 
 
@@ -114,51 +118,8 @@ Typically through printer driver (accessible in Print dialog on your 2D CAD soft
 But we can also talk to the machine at a lower level using [Fab Modules](http://fabmodules.org) or [Mods](http://mods.cba.mit.edu) -->
 
 
-## The laser cutter
-
-### Applications
-
-* Cutting or marking/engraving by varying power  
-* Raster or [vector](http://academy.cba.mit.edu/classes/computer_cutting/gray.jpg) mode
-* Screen printing, by making a [halftone](http://academy.cba.mit.edu/classes/computer_cutting/halftone.jpg) (See [holes](http://academy.cba.mit.edu/classes/computer_cutting/holes.jpg), [path](http://academy.cba.mit.edu/classes/computer_cutting/halftone.png)) 
-* Press-fit construction (example: [GIK](http://academy.cba.mit.edu/classes/computer_cutting/gik.jpg), [gik.cad](http://academy.cba.mit.edu/classes/computer_cutting/gik.cad), [gik.png](http://academy.cba.mit.edu/classes/computer_cutting/gik.png))
-
-### Joints
-
-[Examples](http://academy.cba.mit.edu/classes/computer_cutting/joints.jpg)
-
-Easy to design \<--> Strongest properties
-
-* Slot - simplest, hard to align
-* Chamfer - rounded corners help align parts, and can compress materials into slots (eg corrugated cardboard). But still relies on sliding friction
-* Bistable (bump and slot), behaves very differetly for different materials
-* Flexure - design a bendable part with controllable flex
-* Pinned - secure joint with an orthogonal constraint (see also [wedged mortise and tenon](https://www.canadianwoodworking.com/tipstechniques/wedged-mortise-tenon))
-
-### Tolerances 
-
-* Slop vs security (range is about 0.1mm)
-* Brittle material vs compressible material
-* Parametric design is your friend
-
-### 3D shapes
-
-* Kerfing (incomplete cut)
-* [Flexures, living hinges](http://academy.cba.mit.edu/classes/computer_cutting/flexures.png) (enables twists and bends). See also [Inkscape living hinge extension](https://inkscape.org/~drphonon/★living-hinge-creator)
-* Extreme example, a [moving platform](http://academy.cba.mit.edu/classes/computer_cutting/56836505.pdf) without moving parts (gears, bearings)
 
 
-### Parametric design
-
-* Cardboard comes in different thicknesses
-* Lasers cut with different kerfs
-* Human bodies come in different shapes and sizes
-
-Inkscape is not parametric, Rhino and Fusion 360 are.
-
-Example in Fusion 360: [minimal-parametric-laser-cutter-demo](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/3d-models/minimal-parametric-laser-cutter-demo)
-
-![minimal-parametric-laser-cutter-demo-screenshot.png]({{ "/assets/minimal-parametric-laser-cutter-demo-screenshot.png" | relative_url }})
 
 <!-- 
 ### Lasers (_Light Amplification by Stimulated Emission of Radiation_)
@@ -175,20 +136,12 @@ CO<sub>2</sub> laser: good for wood, card, acrylic, etc. Need a fiber laser to c
 
 
 
-### Kerf
-
-Some material is removed with the cut.  
-Some drivers (e.g. mods) allow for this, with offsetting.  
-Otherwise, you should allow for this in your design (parametrically!)
-
 ### Safety
 [All laser cutters want to catch on fire](http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg)   
 Card, MDF, plywood and acrylic are all really close to combusting when cutting.  
 Don't step away from the machine. Always supervise.  
 Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.  
 Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke)
-
-<span class="wip">WIP</span>: Check safety procedures
 
 ### Airflow
 
@@ -223,15 +176,10 @@ Plastic will outgas for a minute after cutting. Leave the lid closed for a minut
 
 <!-- end of FA notes -->
 
-## 3D assembly and forming shapes
+<!-- ## 3D assembly and forming shapes
 
-Maybe go into this in more detail next week?
+Maybe go into this in more detail next week? -->
 
-## Calibration pieces
-
-Purpose
-Types
-See FA docs?
 
 ## Assignment
 
@@ -249,11 +197,6 @@ Check with me before using any material on the machine other than:
 * Acyrlic
 
 Use small pieces of scrap wherever possible. Cardboard is the best material to test with.
-
-
-
-Make (start) a reference doc of different settings 
-
 
 Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.
 
