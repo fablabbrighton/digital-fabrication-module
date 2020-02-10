@@ -37,7 +37,61 @@ Other options:
 
 <!-- NOTE TO SELF: FOCUS ON GETTING STARTED WITH MACHINE, COVER DETAIL NEXT WEEK -->
 
+
+## Safety
+
+:warning: Review the [Standard Operating Procedure](https://docs.google.com/document/d/1a7fPb03Yvj_fLb-xI-ul4tnfYW5J9LlUnCbxTCdIJgU/edit?usp=sharing)
+
+### Rules
+
+* Don't step away from the machine. Always supervise.  
+* Don't put any materials in the machine that iy don't know to be safe: Paper, card, acyrlic, MDF and laser-grade plywood shoul dbe OK. For other materials (including other plywood), check first.
+* Always use the extractor when cutting
+
+### Fire
+
+[All laser cutters want to catch on fire](http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg)   
+
+Card, MDF, plywood and acrylic are all really close to combusting when cutting. 
+
+
+* Initial combustion: press the pause button, or open the lid a crack to switch off the laser.
+* Larger flame (more than a candle): turn off the extractor to stop airflow,  smother the material or 
+* Last resort: use the fire extinguisher if trained.
+
+Cutting card:
+* Use single ply corrugated card
+* Orient corrugations front to back
+
+
+### Fumes
+
+The material has to go somewhere, ...
+
+* Exhaust - draws combustible material out. (Machine: Extractor)
+* Assist - injects air at the cutting point. (Machine: Compressor)
+
+If it's not strong enough, that material stays around - Bad news 
+
+Exhaust fumes are very bad news  
+
+Plastic will outgas for a minute after cutting. Leave the lid closed for a minute. Leave the plastic in the machine if you can, or take it to a ventialated place.
+
+### Damaging the machine
+
+Laser optics need to be kept clean, otherwise, heat can build up and break them (so avoid smoke).
+
+You shouldn't see smoke hanging around in laser cutting chamber. Always use the assist and extractor.  
+
+Never cut metal. Be very careful if using a solid sheet bed that you don't overstep the edges of the material.
+
+
 ## Laser cutting
+
+:warning: Before you use the laser cutter, you must have an induction and review the [Standard Operating Procedure](https://docs.google.com/document/d/1a7fPb03Yvj_fLb-xI-ul4tnfYW5J9LlUnCbxTCdIJgU/edit?usp=sharing)
+
+:speech_balloon: Everyone should cut something this morning.
+
 
 What you can do 
 * Raster engraving
@@ -69,6 +123,7 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 * Alignment against the rulers
 * Support to distance the material from the bed
 * Flat surface - consistent z-height
+* Masking tape for light materials or to protect surface
 
 ### Set origins and focus
 
@@ -82,7 +137,7 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 ![laser-printer-driver-dialog.jpg]({{ "/assets/laser-printer-driver-dialog.jpg" | relative_url }})
 
 * Power - too much melts, too little doesn't cut. Use multiple passes. 
-* Speed - too slow can cause combustion, too slow doesn't cut
+* Speed - too slow can cause combustion, too fast doesn't cut
 * Pulse rate/Frequency - too close can melt, too far apart can leave gaps
 * Coordinate system, origin is top left
 * Vector mode for cutting, raster mode for engraving (but interesting grey areas for experimentation)
@@ -97,7 +152,7 @@ See Fab Academy docs here: <https://docs.google.com/document/d/1kDd0A60eJdmJgIRt
 
 ### After the cut
 * Leave the lid closed with the extractor on for 30 seconds
-* Clean the bed - take it to the sink and carefully clean it without bending the sheet
+* Clean the bed - If using the metal sheet, take it to the sink and carefully clean it without bending the sheet
 
 ## Advanced laser cutter use
 
@@ -105,55 +160,6 @@ See [next week's notes](2d-software)
 
 
 
-<!-- fa notes -->
-
-
-<!-- 
-
-## Computer Aided Manufacturing ([CAM](https://en.wikipedia.org/wiki/Computer-aided_manufacturing))
-
-CAD is design, CAM translates a design file into a format the machine understands and communicates with the machine.
-
-Typically through printer driver (accessible in Print dialog on your 2D CAD software)  
-But we can also talk to the machine at a lower level using [Fab Modules](http://fabmodules.org) or [Mods](http://mods.cba.mit.edu) -->
-
-
-
-
-
-<!-- 
-### Lasers (_Light Amplification by Stimulated Emission of Radiation_)
-
-See Neil's lecture (@ 45 mins) for technical details  
-CO<sub>2</sub> laser: good for wood, card, acrylic, etc. Need a fiber laser to cut metal.
-
-### Cutting mechanisms
-* burning
-* melting
-* evaporation
-* ablation -->
-
-
-
-
-### Safety
-[All laser cutters want to catch on fire](http://academy.cba.mit.edu/classes/computer_cutting/fire.jpg)   
-Card, MDF, plywood and acrylic are all really close to combusting when cutting.  
-Don't step away from the machine. Always supervise.  
-Initial combustion: open the lid. Otherwise, smother or use the fire extinguisher.  
-Laser optics need to be kept clean, otherwise, heat can build up (so avoid smoke)
-
-### Airflow
-
-The material has to go somewhere, ...
-
-* Exhaust - draws combustible material out. (Machine: Extractor)
-* Assist - injects air at the cutting point. (Machine: Compressor)
-
-If it's not strong enough, that material stays around - Bad news  
-You shouldn't see smoke hanging around in laser cutting chamber  
-Exhaust fumes are very bad news  
-Plastic will outgas for a minute after cutting. Leave the lid closed for a minute
 
 
 
@@ -169,16 +175,6 @@ Plastic will outgas for a minute after cutting. Leave the lid closed for a minut
 * Never put a material into the cutter unless you know where it came from - no random plastic.
 * Never put anything shiny (e.g. metal) into a CO<sub>2</sub> laser 
 
-
-
-
-
-
-<!-- end of FA notes -->
-
-<!-- ## 3D assembly and forming shapes
-
-Maybe go into this in more detail next week? -->
 
 
 ## Assignment
@@ -203,6 +199,10 @@ Document all your work on your student blog, with photos and videos to show what
 
 
 ### What do I need to do to pass? (40%)
+
+Review the [Standard Operating Procedure](https://docs.google.com/document/d/1a7fPb03Yvj_fLb-xI-ul4tnfYW5J9LlUnCbxTCdIJgU/edit?usp=sharing)
+
+Demonstrate safe use of the laser cutter. 
 
 * Make some samples of one or more cutting techniques using cardboard
 * Photograph them
@@ -230,11 +230,3 @@ Watch some tutorial videos:
 * <https://www.linkedin.com/learning/laser-cutting-design-for-fabrication>
 
 Bring some materials you'd like to try on the laser cutter (they must be checked for safety first, you must know what they're made from, and should have a data sheet or be able to show a manufacturer or retailer webpage for that material).
-
-<!-- ## Materials we need this week
-
-* Card
-* MDF
-* Acrylic -->
-
-
