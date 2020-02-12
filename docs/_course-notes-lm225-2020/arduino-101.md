@@ -35,9 +35,8 @@ Has lots of ‘peripherals’ inside - see block diagram
 Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
 
 ## What’s inside a microcontroller?
-See [Megaprocessor](http://www.megaprocessor.com)
 
-Or look at a datasheet:
+ATtiny Block Diagram:
 
 ![ATtiny-Block-Diagram.png]({{ "/assets/ATtiny-Block-Diagram.png" | relative_url }})
 
@@ -51,7 +50,18 @@ Capabilities:
 
 ## How can we access these capabilities?
 
+Through the pins. 
+
+Pinout diagrams are your friend.
+
+Pinout for ATtiny (as above)
+
 ![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }})
+
+Pinout for ATmega 328p (as used in Arduino Uno): <https://www.circuito.io/blog/arduino-uno-pinout/>
+
+![Pinout_of_ARDUINO_Board_and_ATMega328PU.png]({{ "/assets/Pinout_of_ARDUINO_Board_and_ATMega328PU.png" | relative_url }})
+
 
 
 ## "Arduino"
