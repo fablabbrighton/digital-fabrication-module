@@ -213,7 +213,8 @@ From <https://randomnerdtutorials.com/25-arduino-shields/>
 
 ## Learn more
 
-[How Arduino is open-sourcing imagination – Massimo Banzi](https://www.youtube.com/watch?v=UoBUXOOdLXY)
+[How Arduino is open-sourcing imagination – Massimo Banzi](https://www.youtube.com/watch?v=UoBUXOOdLXY)  
+
 [Getting Acquainted with Arduino](https://www.youtube.com/watch?v=fCxzA9_kg6s) – good video series
 
 [Ladyada's Learn Arduino - Lesson #0](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0) – good tutorial series
