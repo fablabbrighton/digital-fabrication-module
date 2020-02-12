@@ -146,8 +146,45 @@ void loop() {
 }
 ```
 
+### Open the sketch
+
+Examples > 01. Basics > Blink
+
+### Install drivers if you need to 
+
+(often for clone boards with a CP210x USB chip): <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all#install-drivers-if-not-using-arduino-uno-16-9>
+
+### Plug board into computer with USB cable
+
+### Select the Board and Port in Arduino IDE
+
+Tools > Board > (for most of you, "Arduino/Genuino Uno")
+Tools > Port > (varies by platform)
+
+e.g. 
+* Mac: `/dev/cu.usbmodemxxxx`
+* Windows: `Arduino UNO (COMxx)`
+
+See: <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all#find-your-serial-com-port-15-26>
+
+### Upload!
+
+Sketch > Upload  
+Or right arrow on toolbar
+
+### It will often go wrong!
+
+* Look at the messages in the console
+* Check everything is connected
+* Check you have the right board and port selected
+* Try a different USB port, dongle or cable
+
+See: <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1?view=all#things-that-can-go-wrong-dot-dot-dot-3-31>
 
 
+## Going further...
+
+See <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-2>
 
 ## Power
 
@@ -156,11 +193,22 @@ void loop() {
 * Via 12V barrel jack
 * Via LiPo battery, or portable USB battery pack
 
-## Connecting other things: breadboards and jumper wires
+## Connecting other things
 
+### Breadboards and jumper wires
 
 ![]({{ "/assets/IMG_0745.jpeg" | relative_url }})
 
+
+### Headers
+
+See <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all#header-sections-11-12>
+
+### Shields
+
+From <https://randomnerdtutorials.com/25-arduino-shields/>
+
+![]({{ "/assets/List-Arduino-Shields-Thumbnail.jpg" | relative_url }})
 
 
 ## Learn more
