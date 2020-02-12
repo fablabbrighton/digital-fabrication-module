@@ -64,12 +64,19 @@ Pinout for ATmega 328p (as used in Arduino Uno): <https://www.circuito.io/blog/a
 
 
 
-## "Arduino"
+## What is "Arduino"?
 
 
-1. A board (or family of boards)
+### 1. A board (or family of boards)
 
-2. An IDE (desktop or web)
+From: <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all> 
+
+![]({{ "/assets/arduino_uno.jpg" | relative_url }})
+
+Yours might look different (e.g. SMD chip)
+
+
+### 2. An IDE (desktop or web)
 
 ![]({{ "/assets/arduino-ide.png" | relative_url }})
 
@@ -79,7 +86,7 @@ Pinout for ATmega 328p (as used in Arduino Uno): <https://www.circuito.io/blog/a
 * Bundled tools for compiling code and uploading it to the Arduino (avr-gcc)
 * Bundled examples, board definitions etc.
 
-3. A library for C/C++
+### 3. A library for C/C++
 
 You're writing C code, and taking advantage of *libraries* written to make controlling an Arduino easier:
 
@@ -92,7 +99,7 @@ void loop() {                       // Defining a function in C
 }
 ```
 
-4. An open source community
+### 4. An open source community
 
 * Designed for artists and other non-engineers. Newbie-friendly.
 * Open Source (Eg Creality printer)
@@ -138,6 +145,22 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+
+
+
+
+## Power
+
+* Via USB from computer
+* Via USB from 5V wall adapter / phone charger
+* Via 12V barrel jack
+* Via LiPo battery, or portable USB battery pack
+
+## Connecting other things: breadboards and jumper wires
+
+
+![]({{ "/assets/IMG_0745.jpeg" | relative_url }})
+
 
 
 ## Learn more
