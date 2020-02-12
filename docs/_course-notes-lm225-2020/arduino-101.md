@@ -69,7 +69,10 @@ Pinout for ATmega 328p (as used in Arduino Uno): <https://www.circuito.io/blog/a
 
 1. A board (or family of boards)
 
-2. An IDE
+2. An IDE (desktop or web)
+
+![]({{ "/assets/arduino-ide.png" | relative_url }})
+
 
 * Text editor
 * Console and serial port monitor
@@ -91,12 +94,12 @@ void loop() {                       // Defining a function in C
 
 4. An open source community
 
-Designed for artists and other non-engineers. Newbie-friendly.
-Open Source (Eg Creality printer)
-Tutorials, answers online: Google first!
-Clone boards and compatible tech, e.g. add-on ‘shields’
-Variants - eg micro sew-on boards, DIY boards
-Pathways to other platforms: ESP8266, Arm, Bela, Pi, Processing
+* Designed for artists and other non-engineers. Newbie-friendly.
+* Open Source (Eg Creality printer)
+* Tutorials, answers online: Google first!
+* Clone boards and compatible tech, e.g. add-on ‘shields’
+* Variants - eg micro sew-on boards, DIY boards
+* Pathways to other platforms: ESP8266, Arm, Bela, Pi, Processing
 
 
 ## Getting started
