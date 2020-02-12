@@ -113,11 +113,11 @@ If you want to use the web editor, you must create an account and install the pl
 ## Hacking code
 
 
-You don't need to start from scratch!
-Everyone learns by hacking other people's code – but credit your sources.
-Arduino comes with simple examples for many common tasks (File > Examples)
-There are libraries for many more (reading an SD card, playing MP3s, controlling stepper motors)
-There are code examples everywhere on the web
+* You don't need to start from scratch!
+* Everyone learns by hacking other people's code – but credit your sources.
+* Arduino comes with simple examples for many common tasks (File > Examples)
+* There are libraries for many more (reading an SD card, playing MP3s, controlling stepper motors)
+* There are code examples everywhere on the web
 
 
 
