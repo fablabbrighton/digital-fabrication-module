@@ -86,7 +86,7 @@ Yours might look different (e.g. SMD chip)
 * Bundled tools for compiling code and uploading it to the Arduino (avr-gcc)
 * Bundled examples, board definitions etc.
 
-### 3. A library for C/C++
+### 3. A library for C/C++
 
 You're writing C code, and taking advantage of *libraries* written to make controlling an Arduino easier:
 
@@ -167,7 +167,7 @@ e.g.
 
 See: <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0?view=all#find-your-serial-com-port-15-26>
 
-### Upload!
+### Upload!
 
 Sketch > Upload  
 Or right arrow on toolbar
@@ -182,7 +182,7 @@ Or right arrow on toolbar
 See: <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1?view=all#things-that-can-go-wrong-dot-dot-dot-3-31>
 
 
-## Going further...
+## Going further...
 
 See <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-2>
 
@@ -193,12 +193,14 @@ See <https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-2>
 * Via 12V barrel jack
 * Via LiPo battery, or portable USB battery pack
 
-## Connecting other things
+## Connecting other things
 
 ### Breadboards and jumper wires
 
-![]({{ "/assets/IMG_0745.jpeg" | relative_url }})
+![]({{ "/assets/breadboard.jpg" | relative_url }})
 
+![]({{ "/assets/breadboards_side_by_side.jpg" | relative_url }})
+(From <https://hcie.csail.mit.edu/classes/2018-fall-6810/6810-electronics.html>)
 
 ### Headers
 
