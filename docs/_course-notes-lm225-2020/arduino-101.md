@@ -17,22 +17,22 @@ From zero to blinking LEDs with Arduino
 * If we have time, we’ll look at how we might build some of the prototypes you want to make
 
 
-
+<!-- 
 ## Microcontrollers and embedded programming
 
 Development boards and microcontrollers
 What’s in a microcontroller
 How do we access it
 What are all the bits on an Arduino
-
+ -->
 
 
 ## What is a microcontroller?
 
-Microcontroller vs Microprocessor  
-Simpler computer  
-Has lots of ‘peripherals’ inside - see block diagram  
-Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
+* Microcontroller vs Microprocessor  
+* Simpler computer  
+* Has lots of ‘peripherals’ inside - see block diagram  
+* Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
 
 ## What’s inside a microcontroller?
 
