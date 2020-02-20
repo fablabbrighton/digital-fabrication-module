@@ -11,7 +11,15 @@ Additive manufacturing in plastic.
 
 ## 3D Printer
 
-Materials
+* Process: FDM (Fused Deposition Modelling: i.e. hot, layers)
+* Materials: **PLA**, ABS, TPU, Nylon, PET
+
+## Safety
+
+* Materials: only PLA (no fumes)
+* Heat: Hot end approx 200&deg;C, bed approx 40–70&deg;C
+* Motors: kep your fingers out of the way
+* Unattended prints: prints go wrong; you must be in the room and keep an eye on the printer. 
 
 ## Constraints / Design rules
 
@@ -19,13 +27,12 @@ Materials
 * Resolution
 * Aesthetic limitations
 
-
 Anti-constraints:
 * Pre-assembled parts / mechanisms
 * Programmatic customisation
 * Affordable one-offs (no tooling)
 
-*   [design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)
+* Follow some simple '[design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)'
 
 ## Workflow
 
