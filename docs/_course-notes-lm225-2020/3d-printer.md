@@ -43,15 +43,13 @@ Or download a model as STL (e.g. Thingiverse)
 
 * 'Slice' the model into layers to generate tools paths.
 * Configure settings for your printer and model
+* Inspect the preview and adjust the 'printing strategy' ([Here's a video](https://www.youtube.com/watch?v=gvUmeJ3r58A) showing how to view the layers and toolpath in Cura.)
 * Save file as `.GCODE` onto SD card
 
 Software: 
 * Cura
-
-
-*   good software: [simplify3d](https://www.simplify3d.com/) to slice the stls <span style="font-size: 13px;">and</span> create <span style="font-size: 13px;">the</span> gcode<span style="font-size: 13px;">.</span>
-*  free software to generate toolpath for 3D printers (can animate in layer view): [Ultimaker Cura](https://ultimaker.com/en/resources/51943-installation-ultimaker-cura). And [here's a video](https://www.youtube.com/watch?v=gvUmeJ3r58A) showing how to view the layers and toopath in cura. 
-
+* Slic3r
+* [Simplify3d](https://www.simplify3d.com/)
 
 ### 3. Print
 * Load filament into printer
@@ -67,9 +65,9 @@ Software:
 
 ### 5. Finishing / Assembly
 
-Often much easier to print a model in 2 parts and assemble
-Surface finishing
-Bosdging
+* Often much easier to print a model in 2 parts and assemble
+* Surface finishing
+* Bodging
 
 
 
