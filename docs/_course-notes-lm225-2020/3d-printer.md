@@ -11,8 +11,11 @@ Additive manufacturing in plastic.
 
 ## 3D Printer
 
+* 'Additive manufacturing', like Lego
 * Process: FDM (Fused Deposition Modelling: i.e. hot, layers)
 * Materials: **PLA**, ABS, TPU, Nylon, PET
+* Our machine: [Creality CR-10](https://all3dp.com/1/creality-cr-10-3d-printer-review-worth-the-hype/) (affordable, Arduino-powered, classic Cartesian design)
+
 
 ## Safety
 
@@ -23,16 +26,22 @@ Additive manufacturing in plastic.
 
 ## Constraints / Design rules
 
-* Printing layer by layer / supports, overhangs
+* Print volume: your model must fit!
+* Print time: expect 1 – 60 hours 
+* Printing layer by layer: think about overhangs and support (consider rotating model)
 * Resolution
 * Aesthetic limitations
+* Mechanical weakness
+* Material vulnerabilities (heat, moisture, light)
 
-Anti-constraints:
+Anti-constraints (or new abilities):
 * Pre-assembled parts / mechanisms
 * Programmatic customisation
 * Affordable one-offs (no tooling)
+* Novel modes enable new kinds of making: e.g. vase mode
 
-* Follow some simple '[design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)'
+
+* Follow some simple [design rules](https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing)
 
 ## Workflow
 
@@ -44,7 +53,7 @@ Software:
 * Fusion 360
 * Solidworks
 
-Or download a model as STL (e.g. Thingiverse)
+Or download a model as STL (e.g. [Thingiverse](https://www.thingiverse.com/thing:763622))
 
 ### 2. Slice
 
@@ -54,7 +63,7 @@ Or download a model as STL (e.g. Thingiverse)
 * Save file as `.GCODE` onto SD card
 
 Software: 
-* Cura
+* [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura)
 * Slic3r
 * [Simplify3d](https://www.simplify3d.com/)
 
@@ -64,7 +73,6 @@ Software:
 * Print file from SD card
 * Monitor while printing, especially first few layers. Be careful of tall models with overhangs
 
-
 ### 4. (Repeat)
 
 * What worked, what didn't?
@@ -73,43 +81,45 @@ Software:
 ### 5. Finishing / Assembly
 
 * Often much easier to print a model in 2 parts and assemble
-* Surface finishing
+* Surface finishing (more with ABS)
 * Bodging
 
 
+## Some typical print settings in Cura
 
-[**3D printing**](http://academy.cba.mit.edu/classes/scanning_printing/index.html "3d printing")
+![cura1.png]({{ "/assets/cura1.png" | relative_url }})
 
-*   is an exciting new area [making lots of interesting things](https://www.google.com/search?q=3d+printing+examples&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjfxeWJwf3gAhU0XRUIHVC1BgsQ_AUIDigB&biw=1420&bih=697) but the hype is too much!
-*   is additive manufacturing, like lego!
-*   requires [support material (in most cases)](https://www.google.com/search?biw=1420&bih=697&tbm=isch&sa=1&ei=ah-IXIzqFoPRrgTwx6mwCA&q=3d+printing+support+material&oq=3d+printing+support+material&gs_l=img.3..0j0i24l3.74515.76108..76253...0.0..0.189.1550.13j4......1....1..gws-wiz-img.......0i67j0i8i30j0i30.7EnP8jt2LP4)
-*   creates inherent weaknesses [or variable properties](https://www.ncbi.nlm.nih.gov/pubmed/29904165) between layers of parts
-*   the challenge is creating/using [design tools](http://eprints.brighton.ac.uk/14489/1/template_CGIconf_CameraReadyFINAL.pdf) to support the geometric freedom 3DP affords - there are no straight lines in nature!
-*   our 3DP centre in AEB mostly prints in ABS/PLA/flexible
-*   our machines: <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[raise3d n2 plus](https://technologyoutlet.co.uk/collections/raise-3d/products/raise3d-pro2-plus-3d-printer), </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[bigbuilder](https://www.3dhubs.com/3d-printers/big-builder-dual-feed-extruder), </span>[Fusion3](https://www.fusion3design.com/), <span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Form2,](https://formlabs.com/3d-printers/form-2/) </span><span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">[Fortus 250mc](https://www.3dhubs.com/3d-printers/fortus-250mc), </span>[Wanhao](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU)<span style="color: #1f497d; font-family: Calibri, sans-serif; font-size: 11pt;"> [duplicator 5s](https://www.amazon.co.uk/Wanhao-5S-Duplicator-3D-Printer/dp/B00OUOM9GU), </span>[<span style="font-size: 11.0pt; font-family: 'Calibri',sans-serif; color: #1f497d;">Makerbots replicator 2x</span>](https://www.tritech3d.co.uk/manufacturer/makerbot-3d-printers/?gclid=CjwKCAiAo8jgBRAVEiwAJUXKqMIWVOSolkJdXcF9ep0apS4pJ1p-BghMfgEbxOuL71y4QoMzO1tq3BoCzTIQAvD_BwE)
-*  fablab machine: [creality CR-10](https://all3dp.com/1/creality-cr-10-3d-printer-review-worth-the-hype/)
+Basics: model orientation, print quality preset, temperature, support, adhesion.
 
+![cura2.png]({{ "/assets/cura2.png" | relative_url }})
 
-
-*   [.stl files](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
-*   [finishing 3dp parts](https://www.fictiv.com/hwg/fabricate/ultimate-guide-to-finishing-3d-printed-parts)
-
-
-
-### Software
-
-(Fusion 360)
-Cura
-
-
+Note build plate adhesion and supports for overhangs.
 
 ## Assignment
 
-Print a pre-designed 3D object 
-Consider time to fabricate
+Print a pre-designed 3D object (e.g. from Thingiverse).
+
+
+### What do I need to do to pass? (40%)
+
+* Demonstrate safe use of the 3D printer.
+* Consider how your choice of model affects print time and difficulty
+* Choose appropriate slicing settings that are likely to result in a successful print
+* Document your choices, settings and result and reflact on what you did and how it could be improved
+
+### Extra credit (50-100%)
+
+* Try printing a model you have designed.  
+* Experiment with different slicer settings, and document the effect on the model
+* Try printing a *[torture test](https://www.thingiverse.com/search?q=torture+test&dwh=345e4ec7c03d258)* model
+* Experiment with *vase mode*
+* Try making a model that breaks one or more of the design rules and see how it prints
+* Try printing a model with functional, interacting or mechanical parts
+* Try making a part that interacts with parts made on the laser cutter
+
 
 ## Prep for next week
 
-Install Fusion 360
-Watch tutorials
-Design something
+* Install Fusion 360, or try it out on a university machine
+* Watch some Fusion tutorials: <https://www.linkedin.com/learning/fusion-360-essential-training-2/use-fusion-360-to-turn-your-ideas-into-designs?u=67552674>
+* Design and slice something you can print in next week's session (if you are ready to go when we start, you can set it off at the beginning of the session)
