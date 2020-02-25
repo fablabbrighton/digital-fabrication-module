@@ -97,6 +97,39 @@ Uploading programs via USB or Bluetooth
 Good USB data cable
 
 
+Things you can do
+
+## Onboard I/O: Read an onboard sensor and show a response on the LED matrix
+
+Buttons
+Accelermeter
+...
+
+
+
+## Outboard I/O: Connect a sensor or control and control an output
+
+Environmental sensor
+
+### What you'll need
+
+Microbit
+USB Cable
+Breadboard
+Breadboard adapter
+
+
+
+## Netwoked Microbits
+
+
+## Get input and send it to a phone
+
+
+
+
+
+
 
 ## Assignment
 
