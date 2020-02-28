@@ -24,9 +24,12 @@ If you don't have a laptop, create a user account with Autodesk, and log into Fu
 Familiarise yourself with the interface, or watch some [introductory videos](<https://www.linkedin.com/learning/fusion-360-essential-training-2/use-fusion-360-to-turn-your-ideas-into-designs?u=67552674>)
 
 
-## Fusion 360
+## Baseline 
 
-### Basic principles
+No knowledge of CAD software assumed. However, you will find this session much easier if you have spent some time playing with Fusion or watching some tutorial videos.
+
+
+## Fusion 360 Basic Principles
 
 Interface elements:
 * Projects 
@@ -53,12 +56,9 @@ Almost every operation starts from a specific plane, or face of an existing obje
 
 ![]({{ "/assets/fusion4-planes.png" | relative_url }})
 
-
 **Task 1:** create two cubes (or simple 3D objects):
 * by creating a 3D primitive directly
 * by extruding a 2D sketch
-
-
 
 
 *Bodies* are stored in a hierarchy of objects (including *sketches*, axes, bodies and *components*).
@@ -94,39 +94,80 @@ Use _Combine_ to join bodies together, or cut them away
 ![]({{ "/assets/fusion-combine-result.png" | relative_url }})
 
 
-Working subtractively: punch holes, slice off faces
+As well as adding objects, you can create complex shapes by working subtractively: punch holes, slice off volumes, trim faces, etc.
+
+(Notice the difference between moving faces and trimming them.)
 
 ![]({{ "/assets/fusion-move-face.png" | relative_url }})
 
 ![]({{ "/assets/fusion-cut.png" | relative_url }})
 
+
+You can also create (or import as SVG) complex shapes in 2D, and then extrude them into 3D.
+(Beware, sketches are hidden by default after they're extruded.)
+
+
+![]({{ "/assets/fusion-import-svg.png" | relative_url }})
+
+![]({{ "/assets/fusion-extrude-svg.png" | relative_url }})
+
+
+
+
+**Task 3:** Create or import some interresting 2D geometry and create a 3D shape (e.g. a pendant design)
+
+Sometimes you ask Fusion to calculate impossible geometries, or imported artwork contains errors (such as unenclosed spaces), or objects look misleading (e.g. not quite touching).
+
+![]({{ "/assets/fusion-error.png" | relative_url }})
+
+Almost all designed products include fillets or chamfers somewhere.
+
+![]({{ "/assets/fusion-chamfer.png" | relative_url }})
+
+![]({{ "/assets/fusion-fillet.png" | relative_url }})
+
+Export your body as STL to open it in Cura for 3D printing or sen to the milling machine.
+
+
+
 ## Other useful tools
 
-View cube
-Visual style selector
-
-Fillets and chamfers
-Download components
-
-
-Design Philosophy
-
-Workflow
-
-Multiple ways to do something
-
-
-Parametric
-
-See Kobble table, or Polish furniture brand...
+* View cube
+* Visual style selector
+* Other ways of creating volumes: mirror, pattern, revolve, 
+* Download components to use in your model (e.g. standard hardware (M5 bolt, potentiometer) or Arduinos)
+* Parametric tools (see <https://tylko.com>)
 
 ## Assignment
 
-Model an existing object
-e.g. 6-sided die, simple table
+Model an existing object (e.g. 6-sided die, simple table)
 
-Extra credit:
-Make it parametric and show how it varies
-3D print or cast it (or a model of it)
+### What do I need to do to pass? (40%)
+
+Successfully model a simple 3D object, and show in your documentation how you got there. 
+
+Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.
+
+Use the screenshot tool on the computer to include images of each stage.
+
+Reflect on your proces and how you could have achived the same reult differently.
 
 
+
+
+### Extra credit (50-100%)
+
+
+Play with the tools to see how you can create complex 3D geometries. Can you reverse engineer a shape you'd like to make, and see how many ways you could make it: 
+
+* Additively
+* Subtractively
+* By extruding a 2D shape
+* By revolving a 2D shape
+* By mirroring or patterning a 2D or 3D geometry
+
+Make a parametric model and show how it varies
+
+Design a new model to 3D print or mill from wax
+
+Design and print a model that also has laser-cut parts, e.g. a box with a clear acylic lid, or a form wrapped in laser-cut felt.
