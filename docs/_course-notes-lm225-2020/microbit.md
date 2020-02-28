@@ -105,6 +105,13 @@ Buttons
 Accelermeter
 ...
 
+## Coding 
+
+Environmet
+Phone option
+
+DOwnloading programs - stat withdrawgin on matrix
+Then do buttons
 
 
 ## Outboard I/O: Connect a sensor or control and control an output
@@ -118,6 +125,87 @@ USB Cable
 Breadboard
 Breadboard adapter
 
+External input: sensor, potentiometer, button
+External output: LED, OLED screen, LCD Screen, motor, buzzer, relay, servo
+
+
+Concepts:
+
+Understanding what's significant and what isn't on the breadboard
+Internal wiring
+
+Maybe start with just a breadboard circuit...
+
+How to plug parts in
+esp microbt header - over midle secion - so pins aren't connected
+Demo with multimeter
+
+Puting values into variables so you can use them elsewhere
+
+Analog vs digital iputs and outputs
+Possible values
+Calibrating sensor - e.g. for wearables
+
+Logic loops
+Simple if else
+Adding more tests - how tests can fail
+
+
+
+The forever loop vs on start
+
+sending digital value 1 = 3V to LED
+
+Basic LED circuit: Light an LED with just 3V and GND pins!
+
+
+Note pinout diagram (of Microbit and ofBreadboad connector)
+* Note some pins interfere with LED Matrix
+* back pins of connector do not go sequentially!
+
+https://microbit.org/guide/hardware/pins/
+> pin 3 is shared with some of the LEDs on the screen of the BBC micro:bit, so if you are using the screen to scroll messages, you can’t use this pin as well.
+
+
+## Ideas
+
+### Potentiometer
+
+http://www.multiwingspan.co.uk/micro.php?page=pot
+
+> The potentiometer will give you a reading from 0 - 1023. If you divide that number by 4, you can use the reading to set the brightness of the LED matrix.
+You could draw a series of images. Turning the potentiometer could then allow the user to select or scroll through the images displayed on the LED matrix.
+Use some IF statements or the MAP block to convert your potentiometer reading into a number that you can use to move a sprite across one axis of the matrix. Add a second potentiometer and you have both directions.
+A potentiometer and buzzer can be used. Convert the potentiometer reading into a number that you can use to play a tone on the buzzer. Mix in some button action if you want to be able stop and start the buzzing freely
+
+### Motors
+
+Can't seem to drive one from the pins
+PWM is available on several pins: https://tech.microbit.org/hardware/edgeconnector/
+
+Doesn't work withthe motors I have - but does work with LEDs!
+Could try this with an RGB LED...?
+
+### Connecting Microbits together
+http://www.multiwingspan.co.uk/micro.php?page=bit2bit
+
+## Debugging: sending data to the serial console
+
+https://makecode.microbit.org/device/serial
+
+
+Find out the port your Microbit is on (on Mac):
+`ls /dev/cu.*`
+
+Result, something like this:
+`/dev/cu.Bluetooth-Incoming-Port  /dev/cu.usbmodem14202`
+
+Pick one that looks likely - not the Bluetooth port in this case.
+
+Start a serial connection on that port, with a specified baud rate
+`screen /dev/cu.usbmodem14202 115200`
+
+To exit `Ctrl-A` then `Ctrl-D`
 
 
 ## Netwoked Microbits
