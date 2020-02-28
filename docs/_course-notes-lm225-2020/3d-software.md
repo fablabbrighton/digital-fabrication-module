@@ -28,9 +28,6 @@ Familiarise yourself with the interface, or watch some [introductory videos](<ht
 
 ### Basic principles
 
-
-![]({{ "/assets/fusion1-interface2.png" | relative_url }})
-
 Interface elements:
 * Projects 
 * Modelling area
@@ -39,21 +36,22 @@ Interface elements:
 * Browser
 * History
 
+![]({{ "/assets/fusion1-interface2.png" | relative_url }})
+
+Modelling by combining and adjusting solid forms: create complex shapes from primitive parts
+
 ![]({{ "/assets/fusion2-3d-primitive.png" | relative_url }})
 
-Modelling by combining and adjusting olid forms: create complex shapes from primitive parts
+You can start by drawing 3D forms or *extruding* 2D sketches
 
 ![]({{ "/assets/fusion3-2d-sketch.png" | relative_url }})
 
 ![]({{ "/assets/fusion5-extrude.png" | relative_url }})
 
-You can start by drawing 3D forms or *extruding* 2D sketches
-
-![]({{ "/assets/fusion4-planes.png" | relative_url }})
 
 Almost every operation starts from a specific plane, or face of an existing object.
 
-
+![]({{ "/assets/fusion4-planes.png" | relative_url }})
 
 
 **Task 1:** create two cubes (or simple 3D objects):
@@ -62,9 +60,53 @@ Almost every operation starts from a specific plane, or face of an existing obje
 
 
 
-*Bodies* are stored in a hierarchy of objects (including *sketches*, axes, bodies and *components*)
 
-Operations are recorded in a project history and can be *suppressed*, deleted or modified at any time 
+*Bodies* are stored in a hierarchy of objects (including *sketches*, axes, bodies and *components*).
+
+![]({{ "/assets/fusion-browser.png" | relative_url }})
+
+Operations are recorded in a project history and can be *suppressed*, deleted or modified at any time. 
+
+![]({{ "/assets/fusion-timeline.png" | relative_url }})
+
+**Task 2:** remove a body from the browser, and edit another from the timeline
+
+Bodies are independent and editable seperately until they are _joined_. (Don't join your bodies until you need to.)
+
+![]({{ "/assets/fusion-create-new-body.png" | relative_url }})
+
+Many things can be _moved_, including bodies, _faces_ and sketches. 
+
+![]({{ "/assets/fusion-move.png" | relative_url }})
+
+You can create patterns by copying instead of moving objects
+There is also a pattern tool to quickly make complex repeaing patterns
+(This can generate a lot of new objects!)
+
+
+![]({{ "/assets/fusion-pattern.png" | relative_url }})
+
+
+Use _Combine_ to join bodies together, or cut them away
+
+![]({{ "/assets/fusion-combine.png" | relative_url }})
+
+![]({{ "/assets/fusion-combine-result.png" | relative_url }})
+
+
+Working subtractively: punch holes, slice off faces
+
+![]({{ "/assets/fusion-move-face.png" | relative_url }})
+
+![]({{ "/assets/fusion-cut.png" | relative_url }})
+
+## Other useful tools
+
+View cube
+Visual style selector
+
+Fillets and chamfers
+Download components
 
 
 Design Philosophy
