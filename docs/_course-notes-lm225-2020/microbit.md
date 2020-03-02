@@ -169,6 +169,13 @@ https://microbit.org/guide/hardware/pins/
 
 ## Ideas
 
+
+### Onboard IO
+
+Compass to PWM - not very good!
+https://makecode.microbit.org/_hAdVJ7he4fHA
+
+
 ### Potentiometer
 
 http://www.multiwingspan.co.uk/micro.php?page=pot
@@ -177,6 +184,35 @@ http://www.multiwingspan.co.uk/micro.php?page=pot
 You could draw a series of images. Turning the potentiometer could then allow the user to select or scroll through the images displayed on the LED matrix.
 Use some IF statements or the MAP block to convert your potentiometer reading into a number that you can use to move a sprite across one axis of the matrix. Add a second potentiometer and you have both directions.
 A potentiometer and buzzer can be used. Convert the potentiometer reading into a number that you can use to play a tone on the buzzer. Mix in some button action if you want to be able stop and start the buzzing freely
+
+Write pot reading to console and to screen
+https://makecode.microbit.org/_7Ar65X3woDih
+Should change brightness instead!
+
+Switch LED on or off at threshold
+https://makecode.microbit.org/_dHrJxy14mYLy
+
+Control 3 LED trafic lights with pot
+https://makecode.microbit.org/_4LUCadhhsc79
+
+
+### Flex sensor
+
+Only has 2 pins!
+Need to make a voltage divider.
+
+Basic serial reading:
+https://makecode.microbit.org/_6KY8EF7CvV1D
+
+Shows how to clean up data into useful range
+But boring!
+
+
+What do you do with the output
+ - log to console...
+  - send to app - get app?
+   - control device - RGB LED...? 
+    - neopixels: https://makecode.microbit.org/_CAWipEfxqb5m
 
 ### Motors
 

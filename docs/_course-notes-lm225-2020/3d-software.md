@@ -9,10 +9,6 @@ An introduction to Fusion 360 CAD (Computer Aided Design) software.
 
 <!--more-->
 
-
-:construction:
-
-
 ## Prep for this week's class
 
 If you have a laptop, download and install Fusion 360, and create an Autodesk account to save your work in the cloud (you will then be able to use Fusion on any computer on which it's installed):
