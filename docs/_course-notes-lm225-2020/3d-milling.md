@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "3D Fabrication: Milling Machine"
+title:  "3D Fabrication: Milling, Moulding and Casting"
 date:   2020-01-02
 author: Andrew Sleigh
 ---
@@ -12,8 +12,8 @@ Part 2: Introducing moulding and casting
 
 
  
-## Computer-controlled machining
-[**computer-controlled machining**](http://academy.cba.mit.edu/classes/computer_machining/index.html "computer controlled machining")
+## 1. Computer-controlled machining
+
 
 ## Hardware and software
 
@@ -145,7 +145,7 @@ See also <https://docs.google.com/document/d/14R-S-bQIisVIhJUZ70ZwEbi74LaQbHa-e2
 <hr />
 
 
-## [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
+## 2. [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
 - [injection moulding: sprue, gate, runner, vent, parting line, flashing](http://custom-injection-molding.net/wp-content/uploads/2014/03/D1-03.gif)
 
 
@@ -173,9 +173,35 @@ See also, [flexible parts](http://fab.cba.mit.edu/classes/863.13/people/crreed/w
 - curing: polymerization, cross-linking, hydration, endothermic, exothermic
 - demolding: draft angle, release agents (dilute dish soap, vaseline, talc, other), deformation
 
-### other notes
-- storage and shelf life
-- safety: read the SDS!, ventilation, personal protective equipment (PPE), disposal
+## Materials
+
+### Making flexible moulds
+
+Food safe silicon: [Polycraft Food Safe Addition Cure Silicone Moulding Making Rubber](https://www.mbfg.co.uk/food_safe_silicone.html)
+
+* Safety (MSDS ([base](http://www.mbfgfiles.co.uk/datasheets/foodgrade_base_sds.pdf), [curing agent](http://www.mbfgfiles.co.uk/datasheets/foodgrade_curing_sds.pdf)))
+    * Skin
+    * Eyes
+    * Respiratory
+* Technical properties ([TDS](http://mbfgfiles.co.uk/datasheets/foodgrade_tech.pdf))
+    Pot time
+    Cure time
+    Endo- / exo-thermic (note: plaster of paris, resin)
+* Protective gear
+    * Personal: gloves, eye protection, lab coat
+    * The space: trays, newspaper, bin bags
+* Safe disposal
+* Storage and shelf life
+
+Take your time, focus, and prepare the space before you start.
+
+### Casting solid objects
+
+* 2-Part resin
+* Plaster of Paris
+* Cement
+* Ice
+* Chocolate
 
 
 ## Assignment
