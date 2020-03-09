@@ -5,60 +5,30 @@ date:   2020-01-02
 author: Andrew Sleigh
 ---
 
-Part 1: Introducing computer-controlled machining
+Part 1: Introducing computer-controlled machining.  
 Part 2: Introducing moulding and casting
 
 <!--more-->
 
-
-## Prep for this week's class
-
-Watch the corresponding Fab Academy lectures. We'll be covering part of this content. 
+## Resources (computer-controlled machining)
 
 * Fab Academy lecture notes (computer-controlled machining): <http://academy.cba.mit.edu/classes/computer_machining/index.html>  
 * Fab Academy lecture notes (moulding&casting): <http://academy.cba.mit.edu/classes/molding_casting/index.html>  
 * [Lecture from 2018 - computer-controlled machining](http://fab.academany.org/2018/lectures/fab-20180307.html)
 * [Lecture from 2018 - moulding&casting](http://fab.academany.org/2018/lectures/fab-20180321.html)
 
-## Baseline 
-
-Who has:
-
-* done any workshop machining or CNC machining?
-* made a mould?
-* done any casting?
-
-## Resources (computer-controlled machining)
-- [guide to CNC machining a mould tool using the 1610 mini CNC machine](https://fablabbrighton.github.io/digital-fabrication-module/guides/guide-milling-mould-tool.html)
-- [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
-- [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
+* [guide to CNC machining a mould tool using the 1610 mini CNC machine](https://fablabbrighton.github.io/digital-fabrication-module/guides/guide-milling-mould-tool.html)
+* [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
+* [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
 
 ## Computer-controlled machining
 [**computer-controlled machining**](http://academy.cba.mit.edu/classes/computer_machining/index.html "computer controlled machining")
 
-*   our machines
-    *   office (Des): [1610 3-axis router](https://www.ebay.co.uk/itm/CNC-Wood-Router-1610-Mini-Milling-Carving-Engraving-Machine-GRBL-Control-3-Axis/162556175066?epid=10003409492&hash=item25d91a62da:g:TDwAAOSwHUhZ~~zy), 160x100x45mm (XYZ)
-    *   E28 (Gary/Jon): [Imes-Icore M40 3-axis](https://www.imes-icore.de/eng/flatcom-cnc-milling-machine-series.html) router, 1000x900x250mm (XYZ)
-    *   EM13 (Des/Andrew): [Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
-    *   E19 (Adam Cable): [Herco VM10UI 5-axis](http://www.hurco.com/en-gb/machine-tools/machining-centres/5-axis-vertical/pages/trunnion-table.aspx) milling machine, 400x400x400mm (XYZ)
-*   software
-    *   [Solidworks CAM](https://www.youtube.com/watch?v=pPxH-JGTCK4)
-    *   [SolidCAM](https://www.solidcam.com/professor/solidcam-modules-overview/) , [demo](https://youtu.be/di-VxpxAUGQ) , [tutorials](https://www.solidcam.com/professor/solidcam-jumpstart/),  [machine building](https://youtu.be/R3pW8RenKZk) (see simulation below)
-    *   [Fusion 360](https://www.autodesk.com/products/fusion-360/blog/getting-started-introduction-to-cam-and-toolpaths/)
-*   SRP player (Roland MX-50)
-*   [fabmodules](http://fabmodules.org), and [here's the documentation](https://github.com/FabModules/fabmodules-html5)
-*   [fabmods](http://mods.cba.mit.edu/), and [here's the documentation](https://gitlab.cba.mit.edu/pub/mods)
+## Hardware
 
-### software to run CNC machines
-- [GRBL (standard)](https://github.com/gnea/grbl)
-- [GRBLcontrol - PC/linux only (runs the small 1610 machine in fablab)](https://github.com/trasz/grblControl)
-- ??? (Imes-Icore M40 in E28)
-- [swift cut (plasma cutter)](https://swift-cut.com/)
-- [VPanel (Roland MX-50 in fablab)](http://support.rolanddga.com/Docs/Documents/departments/Technical%20Services/Downloads/MDX-50_INS_EN_R2.pdf)
-- [Winmax (Herco VM10UI in Adam's workshop)](http://www.hurco.com/en-us/cnc-machine-tools/our-control/pages/winmax.aspx)
-- [VCarvePro (AXYZ at Grand Parade)](https://www.vectric.com/products/vcarve-pro)
-- [Marlin](http://marlinfw.org/)
-- [Mach3](https://www.machsupport.com/software/mach3/)
+
+[Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
+
 
 ### tooling
 
@@ -75,8 +45,41 @@ Who has:
 - cut depth: ~ tool diameter
 - step-over: ~ tool diameter/2
 
-### process for CNC machining
+
+## Software
+
+### CAM tools
+
+*   SRP player (Roland MX-50)
+*   [Solidworks CAM](https://www.youtube.com/watch?v=pPxH-JGTCK4)
+*   [SolidCAM](https://www.solidcam.com/professor/solidcam-modules-overview/) , [demo](https://youtu.be/di-VxpxAUGQ) , [tutorials](https://www.solidcam.com/professor/solidcam-jumpstart/),  [machine building](https://youtu.be/R3pW8RenKZk) (see simulation below)
+*   [Fusion 360](https://www.autodesk.com/products/fusion-360/blog/getting-started-introduction-to-cam-and-toolpaths/)
+*   [fabmodules](http://fabmodules.org), and [here's the documentation](https://github.com/FabModules/fabmodules-html5)
+*   [fabmods](http://mods.cba.mit.edu/), and [here's the documentation](https://gitlab.cba.mit.edu/pub/mods)
+
+### Software to run CNC machines
+
+- [GRBL (standard)](https://github.com/gnea/grbl)
+- [GRBLcontrol - PC/linux only (runs the small 1610 machine in fablab)](https://github.com/trasz/grblControl)
+- ??? (Imes-Icore M40 in E28)
+- [swift cut (plasma cutter)](https://swift-cut.com/)
+- [VPanel (Roland MX-50 in fablab)](http://support.rolanddga.com/Docs/Documents/departments/Technical%20Services/Downloads/MDX-50_INS_EN_R2.pdf)
+- [Winmax (Herco VM10UI in Adam's workshop)](http://www.hurco.com/en-us/cnc-machine-tools/our-control/pages/winmax.aspx)
+- [VCarvePro (AXYZ at Grand Parade)](https://www.vectric.com/products/vcarve-pro)
+- [Marlin](http://marlinfw.org/)
+- [Mach3](https://www.machsupport.com/software/mach3/)
+
+
+## Workflow for CNC machining
 - CAD > CAM: generate toolpath + export G-code > load into machine software > set XYZ0 values > run machine (cut fresh air) > run machine (with stock)
+
+## Design rules and considerations
+
+Axes
+Bit size and shape
+Material qualities
+
+
 
 ### [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
 - [injection moulding: sprue, gate, runner, vent, parting line, flashing](http://custom-injection-molding.net/wp-content/uploads/2014/03/D1-03.gif)
