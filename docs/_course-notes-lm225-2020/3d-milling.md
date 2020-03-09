@@ -155,6 +155,7 @@ Positive solid tool > Negative flexible tool > Positive solid part:
 Negative solid tool > Positive flexible part:
 
 ![]({{ "/assets/pu-copper-ducks-out-mould.jpg | relative_url }})
+
 ![]({{ "/assets/pu-copper-ducks-in-mould.jpg | relative_url }})
 
 <!-- 
@@ -182,9 +183,9 @@ Food safe silicon: [Polycraft Food Safe Addition Cure Silicone Moulding Making R
     * Eyes
     * Respiratory
 * Technical properties ([TDS](http://mbfgfiles.co.uk/datasheets/foodgrade_tech.pdf))
-    Pot time
-    Cure time
-    Endo- / exo-thermic (note: plaster of paris, resin)
+    * Pot time
+    * Cure time
+    * Endo- / exo-thermic (note: plaster of paris, resin)
 * Protective gear
     * Personal: gloves, eye protection, lab coat
     * The space: trays, newspaper, bin bags
