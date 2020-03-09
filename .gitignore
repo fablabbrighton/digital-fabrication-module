@@ -2,3 +2,5 @@
 /docs/_site-ascom/
 **/.DS_Store
 /.git/
+docs/.vscode/arduino.json
+docs/.vscode/c_cpp_properties.json
