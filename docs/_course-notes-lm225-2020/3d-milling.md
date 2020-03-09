@@ -10,7 +10,35 @@ Part 2: Introducing moulding and casting
 
 <!--more-->
 
-## Resources (computer-controlled machining)
+
+NOtes
+
+Tool constarints - look at some tools
+Undercuts, tool shoulder and cutting shapes
+size of wax block - confirm how margins work - try switching them off entirely
+Minimum feature size
+
+
+SRP Player
+
+
+Check tools in magazine 
+
+Set machine origin first
+
+Use Fablab manual as guide - dont need to write all this stuff
+
+
+Cut air first!!!
+
+UNderstandig margins - the job will be centered in the workpiece
+
+So a 4x4cm job in a workpiece of 5x5cm will have an extra 0.5cm boder all round
+
+
+## Prep for this week's class
+
+Watch the corresponding Fab Academy lectures. We'll be covering part of this content. 
 
 * Fab Academy lecture notes (computer-controlled machining): <http://academy.cba.mit.edu/classes/computer_machining/index.html>  
 * Fab Academy lecture notes (moulding&casting): <http://academy.cba.mit.edu/classes/molding_casting/index.html>  

@@ -20,8 +20,8 @@ Additive manufacturing in plastic.
 ## Safety
 
 * Materials: only PLA (no fumes)
-* Heat: Hot end approx 200&deg;C, bed approx 40–70&deg;C
-* Motors: kep your fingers out of the way
+* Heat: *hot end* approx 200&deg;C, bed approx 40–70&deg;C
+* Motors: keep your fingers out of the way
 * Unattended prints: prints go wrong; you must be in the room and keep an eye on the printer. 
 
 ## Constraints / Design rules
