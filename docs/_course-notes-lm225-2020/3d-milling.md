@@ -145,19 +145,17 @@ See also <https://docs.google.com/document/d/14R-S-bQIisVIhJUZ70ZwEbi74LaQbHa-e2
 <hr />
 
 
-## 2. [Introducing moulding and tools](https://en.wikipedia.org/wiki/Injection_moulding)
-- [injection moulding: sprue, gate, runner, vent, parting line, flashing](http://custom-injection-molding.net/wp-content/uploads/2014/03/D1-03.gif)
-
+## 2. Introducing moulding and tools
 
 Positive solid tool > Negative flexible tool > Positive solid part:
 
-({{ "/assets/positive-negative-positive-moulding.JPG" | relative_url }})
+![]({{ "/assets/positive-negative-positive-moulding.JPG" | relative_url }})
 
 
 Negative solid tool > Positive flexible part:
 
-({{ "/assets/pu-copper-ducks-out-mould.jpg | relative_url }})
-({{ "/assets/pu-copper-ducks-in-mould.jpg | relative_url }})
+![]({{ "/assets/pu-copper-ducks-out-mould.jpg | relative_url }})
+![]({{ "/assets/pu-copper-ducks-in-mould.jpg | relative_url }})
 
 <!-- 
 
