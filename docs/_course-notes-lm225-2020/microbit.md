@@ -207,6 +207,12 @@ https://makecode.microbit.org/_6KY8EF7CvV1D
 Shows how to clean up data into useful range
 But boring!
 
+Neopixels and Flex sensor:
+https://makecode.microbit.org/_Kcog2V9WgEA3
+
+
+Lessons: need to map values to a useful range 
+This is where a serial monitor is useful
 
 What do you do with the output
  - log to console...
