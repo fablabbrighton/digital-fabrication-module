@@ -11,67 +11,26 @@ Part 2: Introducing moulding and casting
 <!--more-->
 
 
-NOtes
-
-Tool constarints - look at some tools
-Undercuts, tool shoulder and cutting shapes
-size of wax block - confirm how margins work - try switching them off entirely
-Minimum feature size
-
-
-SRP Player
-
-
-Check tools in magazine 
-
-Set machine origin first
-
-Use Fablab manual as guide - dont need to write all this stuff
-
-
-Cut air first!!!
-
-UNderstandig margins - the job will be centered in the workpiece
-
-So a 4x4cm job in a workpiece of 5x5cm will have an extra 0.5cm boder all round
-
-
-## Prep for this week's class
-
-Watch the corresponding Fab Academy lectures. We'll be covering part of this content. 
-
-* Fab Academy lecture notes (computer-controlled machining): <http://academy.cba.mit.edu/classes/computer_machining/index.html>  
-* Fab Academy lecture notes (moulding&casting): <http://academy.cba.mit.edu/classes/molding_casting/index.html>  
-* [Lecture from 2018 - computer-controlled machining](http://fab.academany.org/2018/lectures/fab-20180307.html)
-* [Lecture from 2018 - moulding&casting](http://fab.academany.org/2018/lectures/fab-20180321.html)
-
-* [guide to CNC machining a mould tool using the 1610 mini CNC machine](https://fablabbrighton.github.io/digital-fabrication-module/guides/guide-milling-mould-tool.html)
-* [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
-* [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
 
 ## Computer-controlled machining
 [**computer-controlled machining**](http://academy.cba.mit.edu/classes/computer_machining/index.html "computer controlled machining")
 
 ## Hardware
 
-
 [Roland MX-50](https://www.rolanddga.com/products/3d/mdx-50-benchtop-cnc-mill) milling machine, 400x350x150mm (XYZ)
 
+:thought_balloon: Explore the machine
 
-### tooling
+### Tooling
+
+:thought_balloon: Look at some bits
 
 - [milling bit types](http://mindworks.shoutwiki.com/wiki/Cutter_Types_(Mill)): ball-nose, flat-end mills
 - [number of flutes](http://www.cs.cmu.edu/~rapidproto/students.03/zdb/project2/CNCflutes.htm)
 - [coatings, centre-cutting and general cutter guide](https://www.cnccookbook.com/cnc-end-mill-guide/)
 - [up/down cut](https://www.guhdo.com/blog/up-vs-down-shear-router-bits/)
 
-### speeds n feeds
 
-- [speeds n feeds](https://en.wikipedia.org/wiki/Speeds_and_feeds)
-- [chip load: ~ 0.001-0.010"](https://www.cutter-shop.com/information/chip-load-chart.html)
-- feed rate (inches per minute) / (RPM x number of flutes) 
-- cut depth: ~ tool diameter
-- step-over: ~ tool diameter/2
 
 
 ## Software
@@ -88,8 +47,7 @@ Watch the corresponding Fab Academy lectures. We'll be covering part of this con
 ### Software to run CNC machines
 
 - [GRBL (standard)](https://github.com/gnea/grbl)
-- [GRBLcontrol - PC/linux only (runs the small 1610 machine in fablab)](https://github.com/trasz/grblControl)
-- ??? (Imes-Icore M40 in E28)
+- [GRBLcontrol - PC/linux only (runs the small 1610 machine)](https://github.com/trasz/grblControl)
 - [swift cut (plasma cutter)](https://swift-cut.com/)
 - [VPanel (Roland MX-50 in fablab)](http://support.rolanddga.com/Docs/Documents/departments/Technical%20Services/Downloads/MDX-50_INS_EN_R2.pdf)
 - [Winmax (Herco VM10UI in Adam's workshop)](http://www.hurco.com/en-us/cnc-machine-tools/our-control/pages/winmax.aspx)
@@ -99,13 +57,82 @@ Watch the corresponding Fab Academy lectures. We'll be covering part of this con
 
 
 ## Workflow for CNC machining
-- CAD > CAM: generate toolpath + export G-code > load into machine software > set XYZ0 values > run machine (cut fresh air) > run machine (with stock)
+
+* CAD: Design model, export as STL
+* CAM: Generate toolpath + export G-code 
+* Load into machine software 
+* Set Machine origin (XYZ0) values and verify bits
+* Run job (cut fresh air)
+* Run job (with stock)
+
+
+## Terminology
+
+### Milling
+
+
+- [speeds n feeds](https://en.wikipedia.org/wiki/Speeds_and_feeds)
+
+    * Spindle speed (speed of rotation)
+    * Feed rate (movement of bit acros the workpiece)
+
+- [chip load: ~ 0.001-0.010"](https://www.cutter-shop.com/information/chip-load-chart.html)
+- feed rate (inches per minute) / (RPM x number of flutes) 
+- cut depth: ~ tool diameter
+- step-over: ~ tool diameter/2
+
+### Molding and casting
+
+* 'Pattern' or 'Model' or 'Mould Tool' https://en.wikipedia.org/wiki/Pattern_(casting)
+* 'Mould' https://en.wikipedia.org/wiki/Molding_(process)
+* 'Casting' from the mould https://en.wikipedia.org/wiki/Casting
 
 ## Design rules and considerations
 
 Axes
-Bit size and shape
-Material qualities
+
+## rules for making simple mould tools
+1. Vertical walls should have [draft angles](https://www.dynacast.com/stuff/contentmgr/files/0/97f5240f1f1a61eac4d6f431cbd0b2d4/files/diecasting_design_tips_01.jpg)
+2. There should be no [undercuts](http://www.acomold.com/image/molding-undercuts.jpg), you should be able to cut it all from above.
+
+
+Bit size and shape: Diameter, spindle length, shoulder
+
+Material qualities: Fast or slow spindle speed, feedrate, fragility 
+
+Strategies
+Model placement
+Draft angles
+Minimum feature size
+Adding fragile parts manually (e.g. using straws, bolts, sheets)
+
+
+
+Pour holes 
+Time - quicker to make a ox on the laser cutter, than to mill it from wax
+
+
+Size of wax block - confirm how margins work - try switching them off entirely
+
+
+
+Check tools in magazine 
+
+Set machine origin first
+
+Use Fablab manual as guide - dont need to write all this stuff
+
+
+Cut air first!!!
+
+Understandig margins - the job will be centered in the workpiece
+
+So a 4x4cm job in a workpiece of 5x5cm will have an extra 0.5cm boder all round
+
+
+https://docs.google.com/document/d/14R-S-bQIisVIhJUZ70ZwEbi74LaQbHa-e2ixB39OMN8/edit#heading=h.9uukav7e0zv2
+
+
 
 
 
@@ -127,21 +154,36 @@ Material qualities
 - storage and shelf life
 - safety: read the SDS!, ventilation, personal protective equipment (PPE), disposal
 
-## rules for making simple mould tools
-1. Vertical walls should have [draft angles](https://www.dynacast.com/stuff/contentmgr/files/0/97f5240f1f1a61eac4d6f431cbd0b2d4/files/diecasting_design_tips_01.jpg)
-2. There should be no [undercuts](http://www.acomold.com/image/molding-undercuts.jpg), you should be able to cut it all from above.
 
 ## Assignment
-- create a 30x30x5 mini tile part in Fusion 360 and generate the toolpath to cut it out of a solid block (50x50x10mm) using a 3mm flat or ball-nose end mill (ideally include 3deg of draft angle on all vertical surfaces). It's best to be oriented with the front view being the top of your part. All stepdowns should be 1mm and stepovers should be 1.5mm. Document all this on your blog. Set up your stock as indicated below.
-![stock-dimensions]({{ site.baseurl }}/assets/30x30x5-Part-from50x50x10-stock.jpg)
-- [here's a full guide](https://fablabbrighton.github.io/digital-fabrication-module/guides/guide-milling-mould-tool.html) showing how to setup the CAM for this. The guide also shows how to setup the machine, cut out the stock material and then to cast silicone into it also, although these steps are not required for this assignment - they're optional - see below). 
 
-## Extra credit
-- cut the tile from the solid block of 50x50x10mm foam or wax using a CNC milling machine
-- cast an elastic material (e.g. silicone or jelly) into the cavity and wait for this to set
-- remove the new elastic mould tool
-- cast a molten liquid (e.g. resin or chocolate) into your mould tool to create a solid part
+Create a 40 x 40 x 5 mini tile model in Fusion 360.
+Mill it out of a block of wax.
+
+
+
 
 ### What do I need to do to pass?
 - create the cad model of your tile and generate the toolpath and document this on your blog, ideally including an animation of the toolpath (like the one provided on the guide). 
 
+Demonstrate safe and tidy use of the CNC mill, and moulding and casting materials.
+
+Document all your work on your student blog, with photos and videos to show what you did, what went wrong, and how you fixed it. Cite external sources where you have used someone else's work.
+
+
+## Extra credit
+
+Create a silicon mould and cast the finished part from chocolate or plaster of paris.
+
+Try milling form another material, or experiment with adding parts to your mould tool manually. 
+
+## Resources / find out more
+
+* Fab Academy lecture notes (computer-controlled machining): <http://academy.cba.mit.edu/classes/computer_machining/index.html>  
+* Fab Academy lecture notes (moulding&casting): <http://academy.cba.mit.edu/classes/molding_casting/index.html>  
+* [Lecture from 2018 - computer-controlled machining](http://fab.academany.org/2018/lectures/fab-20180307.html)
+* [Lecture from 2018 - moulding&casting](http://fab.academany.org/2018/lectures/fab-20180321.html)
+
+* [guide to CNC machining a mould tool using the 1610 mini CNC machine](https://fablabbrighton.github.io/digital-fabrication-module/guides/guide-milling-mould-tool.html)
+* [CNC design guide](https://www.3dhubs.com/knowledge-base/how-design-parts-cnc-machining) 
+* [Make: Design for CNC book](https://www.amazon.co.uk/Make-Practical-Techniques-CNC-routed-Furniture/dp/1457187426)
