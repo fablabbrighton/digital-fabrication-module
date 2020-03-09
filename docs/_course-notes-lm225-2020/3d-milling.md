@@ -154,9 +154,9 @@ Positive solid tool > Negative flexible tool > Positive solid part:
 
 Negative solid tool > Positive flexible part:
 
-![]({{ "/assets/pu-copper-ducks-out-mould.jpg | relative_url }})
+![]({{ "/assets/pu-copper-ducks-out-mould.jpg" | relative_url }})
 
-![]({{ "/assets/pu-copper-ducks-in-mould.jpg | relative_url }})
+![]({{ "/assets/pu-copper-ducks-in-mould.jpg" | relative_url }})
 
 <!-- 
 
