@@ -79,13 +79,9 @@ Different kinds of microcontroller used at each stage, but many of the principle
 
 #### What’s inside a microcontroller?
 
-Look at a datasheet:
+Look at a datasheet, e.g. the [Nordic nRF51822-QFAA-R](https://www.nordicsemi.com/-/media/Software-and-other-downloads/Product-Briefs/nRF51822-product-brief.pdf?la=en&hash=A4B5A9AA6675A58F7B779AF81C860CD69EB867FD) on the [Microbit](https://tech.microbit.org/hardware/)
 
-<!-- ![ATtiny-Block-Diagram.png]({{ "/assets/ATtiny-Block-Diagram.png" | relative_url }}) -->
-
-https://tech.microbit.org/hardware/
-
-[Nordic nRF51822-QFAA-R](https://www.nordicsemi.com/-/media/Software-and-other-downloads/Product-Briefs/nRF51822-product-brief.pdf?la=en&hash=A4B5A9AA6675A58F7B779AF81C860CD69EB867FD)
+![]({{ "/assets/Nordic-nRF51822-diagram.png" | relative_url }})
 
 
 Capabilities:
@@ -100,39 +96,35 @@ Microbit actually has several microcontrollers onboard:
 
 ![]({{ "/assets/microcontrollers_microbit_back_gray_labels.jpg" | relative_url }})
 
-
 From <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0/take-a-tour>
 
 ### How can we access these capabilities? Through the Pins!
 
 <!-- ![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }}) -->
 
-Pinouts are your friend
+Pinouts are your friend. Here's one for the Microbit: 
 
 ![]({{ "/assets/microbit_platform_image_2.png" | relative_url }})
 
-Or for the Arduino Uno (from https://store.arduino.cc/arduino-uno-rev3)
-
+Or for the Arduino Uno (from https://store.arduino.cc/arduino-uno-rev3):
 
 ![]({{ "/assets/Pinout-UNOrev3_latest.png" | relative_url }})
 
 
 ## The Microbit
 
-Tour of the hardware:<https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#take-a-tour>
+Tour of the hardware: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#take-a-tour>
 
 
-
-## "Embedded programming" and microcontrollers
-
-## Writing programs for the Microbit
-
+## Writing programs for the Microbit aka "Embedded programming" 
 
 
 [online programming environment](https://makecode.microbit.org).
 https://python.microbit.org/v/2.0
 
 Tour of the interface
+
+
 
 Basic blocks
 
