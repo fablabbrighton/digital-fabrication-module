@@ -110,69 +110,121 @@ Or for the Arduino Uno (from https://store.arduino.cc/arduino-uno-rev3):
 
 ![]({{ "/assets/Pinout-UNOrev3_latest.png" | relative_url }})
 
-
+<!-- 
 ## The Microbit
 
 Tour of the hardware: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#take-a-tour>
-
+ -->
 
 ## Writing programs for the Microbit aka "Embedded programming" 
 
 
-[online programming environment](https://makecode.microbit.org).
+[Online programming environment](https://makecode.microbit.org).
 https://python.microbit.org/v/2.0
 
-Tour of the interface
-
-
-
-Basic blocks
-
-`on start`
-`forever`
-
-My buton test: https://makecode.microbit.org/_RL0igj2Hiivk
-
+### Tour of the interface
 
 Intro: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#lets-code>
 
 [Mobile or Tablet](https://microbit.org/guide/mobile/)
 
-Uploading programs via USB or Bluetooth
-
-Good USB data cable
 
 
-Things you can do
+### Getting a program onto the Microbit
 
-## Onboard I/O: Read an onboard sensor and show a response on the LED matrix
+What you'll need
+* Microbit
+* USB cable (a **good** USB data cable - many are bad and won't work)
+* Computer running makecode website
 
-Buttons
-Accelermeter
-...
+Other options:
+* Use the phone app
+* Use the simulator on the website
 
-## Coding 
+Process
 
-Environmet
-Phone option
+Sample program
 
-DOwnloading programs - stat withdrawgin on matrix
-Then do buttons
+My button test: https://makecode.microbit.org/_RL0igj2Hiivk
 
 
-## Outboard I/O: Connect a sensor or control and control an output
 
-Environmental sensor
+### Simple example
+
+Onboard I/O: Read an onboard sensor and show a response on the LED matrix
+
+
+### Basic coding blocks
+
+`on start`  
+
+`forever`
+
+
+### Variables ("remember this number so we can do ssomething with it later")
+
+
+
+### Logic ("if this happens, then do that")
+
+### Debugging ("tell me what happens at each step")
+
+Strategies: 
+
+* Simplify
+* Save often
+* Use the serial monitor
+* Step through your code - what is it really doing?
+
+Gotchas:
+
+* Is it plugged in?
+* Did you actually upload the program?
+* Are you testing for an impossible condition?
+* Did the thing actually happen, just too fast to see?
+
+
+### Go further
+
+make a name badge, make a driving game, make an earthquake alarm
+
+
+## More advanced coding
+
+
+
+### Pins and external IO
+
+### Serial monitor
+
+<hr/>
+
+### Second week perhaps??
+
+<hr/>
+
+## Using External Inputs and Outputs ("IO")
+
+### Simple example
+
+Outboard I/O: Connect a sensor or control and control an output
 
 ### What you'll need
 
-Microbit
-USB Cable
-Breadboard
-Breadboard adapter
+* Microbit
+* USB Cable
+* Breadboard
+* Breadboard adapter
 
-External input: sensor, potentiometer, button
-External output: LED, OLED screen, LCD Screen, motor, buzzer, relay, servo
+* External input: sensor, potentiometer, button
+* External output: LED, OLED screen, LCD Screen, motor, buzzer, relay, servo
+
+
+
+### Go further
+
+Environmental sensor, flex sensor
+
 
 
 Concepts:
