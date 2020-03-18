@@ -17,39 +17,76 @@ An introduction to making interactive devices
 
 ## Baseline 
 
-We assume no prior knowledge of microconroller, the MIcrobit, or programming. However, you will find it **much** easier if you have looked at the materials in the Prep section, and played around with the [online programming environment](https://makecode.microbit.org).
+We assume no prior knowledge of microcontrollers, the Microbit, or programming. However, you will find it **much** easier if you have looked at the materials in the Prep section, and played around with the [online programming environment](https://makecode.microbit.org).
 
 
-## Making interactive devices
+## Teams
 
-"Making stuff do stuff"
+Our first session with Teams, so some principles:
 
-Should go into big picture stuff here, cos assignment is simple
+### Setup
+
+Instructions on how to join Teams: <https://mediastream.brighton.ac.uk/Play/28377>
+
+The Team code for this module is: `hfde6an`
+
+A getting started guide is here: <https://staff.brighton.ac.uk/is/computing/Pages/Teams.aspx>
+
+If you have any questions, please email me.
+
+If you are having a technical issue, please post it in the chat, or contact the Service Desk on 01273 644444 / servicedesk@brighton.ac.uk 
+
+### How we'll use it
+
+* Video meeting for full 3 hour session
+* I'll talk with video and share my screen 
+* Recording the session
+* Exercises: I'l keep my video open, you can speak up or share questions in chat while you're working on a project
+* This afternoon: Kyle can support (also with previous assignments, esp CAD). Format TBC.
+
+
+### Etiquette
+* Mute if you're not talking
+* If you have a question, please post it in the chat
+* Use headphones if there is feedback
+* Prepare in advance so we don't waste the session dealing with technical teething problems
+* Let me know if you can't hear me or don't understand – I can't rely on visual clues 
+
+
+## Making interactive devices _aka_ "Making things do stuff"
+
 
 Spectrum:
-Learning - Prototyping – Small-scale manufacturing – Large scale
+* Learning
+* Prototyping
+* Small-scale batch manufacturing
+* Large scale manufacturing
 
-Microbit
-Arduino
-AVRs
-Commercial ICs
-Blob ICs
+Different kinds of microcontroller used at each stage, but many of the principles are the same
 
-## "Embedded programming" and microcontrollers
+* Microbit
+* Arduino
+* AVRs
+* Commercial ICs
+* Blob ICs
 
-### What is a microcontroller?
+## What is a microcontroller?
 
-Microcontroller vs Microprocessor  
-Simpler computer  
-Has lots of ‘peripherals’ inside - see block diagram  
-Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
+* Microcontroller vs Microprocessor  
+* Microprocessor is what’s inside your computer - needs lots of external parts to make it work: RAM, GPU, disk, etc.
+* Microcontroller is a simpler computer  
+* Has lots of ‘peripherals’ inside - see block diagram  
 
 #### What’s inside a microcontroller?
-See [Megaprocessor](http://www.megaprocessor.com)
 
-Or look at a datasheet:
+Look at a datasheet:
 
-![ATtiny-Block-Diagram.png]({{ "/assets/ATtiny-Block-Diagram.png" | relative_url }})
+<!-- ![ATtiny-Block-Diagram.png]({{ "/assets/ATtiny-Block-Diagram.png" | relative_url }}) -->
+
+https://tech.microbit.org/hardware/
+
+[Nordic nRF51822-QFAA-R](https://www.nordicsemi.com/-/media/Software-and-other-downloads/Product-Briefs/nRF51822-product-brief.pdf?la=en&hash=A4B5A9AA6675A58F7B779AF81C860CD69EB867FD)
+
 
 Capabilities:
 * Tell time / keep time
@@ -59,10 +96,25 @@ Capabilities:
 * Send and control power out to other devices
 
 
-### How can we access these capabilities?
+Microbit actually has several microcontrollers onboard:
 
-![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }})
+![]({{ "/assets/microcontrollers_microbit_back_gray_labels.jpg" | relative_url }})
 
+
+From <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0/take-a-tour>
+
+### How can we access these capabilities? Through the Pins!
+
+<!-- ![attiny-pinout.png]({{ "/assets/attiny-pinout.png" | relative_url }}) -->
+
+Pinouts are your friend
+
+![]({{ "/assets/microbit_platform_image_2.png" | relative_url }})
+
+Or for the Arduino Uno (from https://store.arduino.cc/arduino-uno-rev3)
+
+
+![]({{ "/assets/Pinout-UNOrev3_latest.png" | relative_url }})
 
 
 ## The Microbit
@@ -70,6 +122,8 @@ Capabilities:
 Tour of the hardware:<https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#take-a-tour>
 
 
+
+## "Embedded programming" and microcontrollers
 
 ## Writing programs for the Microbit
 
