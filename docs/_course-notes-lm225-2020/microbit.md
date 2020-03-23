@@ -53,10 +53,17 @@ If you are having a technical issue, please post it in the chat, or contact the 
 * Let me know if you can't hear me or don't understand – I can't rely on visual clues 
 
 
+### Plan for the session
+
+* Lecture - 45 mins
+* Exercises with help - 2 hours
+* Kyle available this afternoon on this Team
+
+
 ## Making interactive devices _aka_ "Making things do stuff"
 
 
-Spectrum:
+Spectrum of making (informal, exploratory, small <—> efficient, mass-produced, resolved):
 * Learning
 * Prototyping
 * Small-scale batch manufacturing
@@ -68,7 +75,7 @@ Different kinds of microcontroller used at each stage, but many of the principle
 * Arduino
 * AVRs
 * Commercial ICs
-* Blob ICs
+* [Blob ICs](https://electronics.stackexchange.com/questions/9137/what-kind-of-components-are-black-blobs-on-a-pcb)
 
 ## What is a microcontroller?
 
@@ -135,37 +142,56 @@ Intro: <https://learn.adafruit.com/bbc-micro-bit-lesson-number-0?view=all#lets-c
 What you'll need
 * Microbit
 * USB cable (a **good** USB data cable - many are bad and won't work)
-* Computer running makecode website
+* Computer running makecode website: <https://makecode.microbit.org>
 
-Other options:
-* Use the phone app
+Other options
+* Use the phone app with Bluetoth connection (download Android or iOS app, pair yor phone with Microbit over BLuetooth (Microbit will need power))
 * Use the simulator on the website
 
-Process
+Process (using website)
+* Create your program
+* Download .hex file
+* Connct Microbit to computer (appears as external disk)
+* Copy .hex file onto Microbit 'disk' (overwriting previous program)
+* Microbit restarts itself and runs program 
 
-Sample program
 
-My button test: https://makecode.microbit.org/_RL0igj2Hiivk
 
+### Basic coding blocks
+
+:thought_bubble: Show interface.
+
+Write code by assembling blocks. Instructions run in sequence, top to bottom, within the two main blocks:
+
+`on start` – Runs once when your Microbit starts up.   
+
+`forever` – Runs contiously after `on start` for as long as your Microbit has power. Can run instructions thousands of times every second.
+
+
+
+### :wrench: Exercise: Make a name badge
+
+Make your Microbit show your name when it powers up.
+
+<!-- 
 
 
 ### Simple example
 
 Onboard I/O: Read an onboard sensor and show a response on the LED matrix
+ -->
 
 
-### Basic coding blocks
-
-`on start`  
-
-`forever`
-
+## More core concepts
 
 ### Variables ("remember this number so we can do ssomething with it later")
 
+![]({{ "/assets/microbit-variables.png" | relative_url }})
 
 
 ### Logic ("if this happens, then do that")
+
+![]({{ "/assets/microbit-logic.png" | relative_url }})
 
 ### Debugging ("tell me what happens at each step")
 
@@ -186,16 +212,46 @@ Gotchas:
 
 ### Go further
 
-make a name badge, make a driving game, make an earthquake alarm
+* Make the LED matrix repond to the two buttons on the front of the Microbit 
+* Use some of the other onboard sensors: compass, accelerometer (shaking, orientation)
+* Assemble some blocks to respond to more than one input
 
+e.g. 
 
-## More advanced coding
+* Driving game
+* Reaction time game
+* Earthquake alarm
 
-
-
-### Pins and external IO
 
 ### Serial monitor
+
+![]({{ "/assets/microbit-serial.png" | relative_url }})
+
+Useful for debugging, and to get data back to your computer, (e.g. if you're logging data, or controlling an animation on-screen withan external controller)
+
+Setting up a serial monitor: <https://makecode.microbit.org/device/serial>
+
+* Mac: Terminal app
+* Linux: screen app
+* Windows: complex, see instructions jere: <https://makecode.microbit.org/device/serial>
+
+Instructions for Mac (commands to run in Terminal): 
+
+Find out the port your Microbit is on:
+`ls /dev/cu.*`
+
+Result, something like this:
+`/dev/cu.Bluetooth-Incoming-Port  /dev/cu.usbmodem14202`
+
+Pick one that looks likely - not the Bluetooth port in this case.
+
+Start a serial connection on that port, with a specified baud rate
+`screen /dev/cu.usbmodem14202 115200`
+
+To exit `Ctrl-A` then `Ctrl-D`
+
+![]({{ "/assets/terminal.png" | relative_url }})
+
 
 <hr/>
 
@@ -205,9 +261,10 @@ make a name badge, make a driving game, make an earthquake alarm
 
 ## Using External Inputs and Outputs ("IO")
 
-### Simple example
 
-Outboard I/O: Connect a sensor or control and control an output
+![]({{ "/assets/microbit-pins.png" | relative_url }})
+
+### :wrench: Exercise: Connect a sensor or control and control an output
 
 ### What you'll need
 
@@ -329,23 +386,6 @@ Could try this with an RGB LED...?
 ### Connecting Microbits together
 http://www.multiwingspan.co.uk/micro.php?page=bit2bit
 
-## Debugging: sending data to the serial console
-
-https://makecode.microbit.org/device/serial
-
-
-Find out the port your Microbit is on (on Mac):
-`ls /dev/cu.*`
-
-Result, something like this:
-`/dev/cu.Bluetooth-Incoming-Port  /dev/cu.usbmodem14202`
-
-Pick one that looks likely - not the Bluetooth port in this case.
-
-Start a serial connection on that port, with a specified baud rate
-`screen /dev/cu.usbmodem14202 115200`
-
-To exit `Ctrl-A` then `Ctrl-D`
 
 
 ## Netwoked Microbits
