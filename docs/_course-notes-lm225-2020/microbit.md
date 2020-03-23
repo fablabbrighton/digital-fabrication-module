@@ -192,6 +192,7 @@ Onboard I/O: Read an onboard sensor and show a response on the LED matrix
 Put values into variables so you can use them elsewhere – e.g. in logic test, or loops:
 
 `set variable "temperature" = reading from temperature sensor on pin 4`
+
 `if (temperature < 20) turn on heater`
 
 
@@ -201,13 +202,13 @@ Put values into variables so you can use them elsewhere – e.g. in logic test, 
 
 ![]({{ "/assets/microbit-logic.png" | relative_url }})
 
-### Debugging ("tell me what happens at each step")
+### Debugging – what to do when it doesn't work
 
 Strategies: 
 
 * Simplify
 * Save often
-* Use the serial monitor
+* Use the serial monitor ("tell me what happens at each step")
 * Step through your code - what is it really doing?
 
 Gotchas:
