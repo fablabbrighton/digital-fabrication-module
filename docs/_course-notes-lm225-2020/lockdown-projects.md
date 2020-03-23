@@ -10,16 +10,19 @@ What kinds of things can you make when the fablab is closed?
 <!--more-->
 
 
-## Project Ideas
+## Project Ideas and inspiration
 
 Search the Fab Academy project archive: <http://fabacademy.org/2019/>  
 Use the Google custom search at the bottom of the page.
 
-Instructables - loads of great project ideas: <https://www.instructables.com/>
+Instructables - loads of great project ideas: <https://www.instructables.com/> and classes: <https://www.instructables.com/classes/>
 
 A collaborative list of "Making and Prototyping Resources for Designers" here: <https://docs.google.com/document/d/1z9LTUSnsCzg3ukG-GRQVC3w-OHYxJg1u88qn6yv2NTU/edit#heading=h.m6m64wyno28o>
 
 > How can design students make their work without access to university facilities such as workshops, fablabs, simulation suites, computer labs and technical support.
+
+Book: The Art of Tinkering <https://www.amazon.co.uk/Art-Tinkering-Working-Intersection-Technology/dp/1616286091>
+> an unprecedented celebration of what it means to tinker: to take things apart, explore tools and materials, and build wondrous, wild art that's part science and part technology.
 
 
 ## Basic materials and suppliers
@@ -76,6 +79,28 @@ You may not be able to print your model, but you can model it in 3D, and create 
 
 ### Capacitative touch sensing with pencil and paper
 Using simple materials to enable remarkably sophisticated interactions:  <https://www.instructables.com/id/Turn-a-pencil-drawing-into-a-capacitive-sensor-for/>
+
+### Tin foil membrane switch
+<https://www.instructables.com/id/Foil-Capability-Switch/>
+
+### Toy hacking
+With legendary Simone Giertz: 
+<https://makezine.com/2017/02/06/toy-hacking-simone-giertz/>
+
+
+Exploratorium workshop – intended for kids, but same principle work for adults:
+
+<https://www.exploratorium.edu/sites/default/files/tinkering/files/Instructions/toy_take_apart_0.pdf> (PDF)
+
+> Discover what makes your toys move, make noise, and light up by taking them apart! Use tools such as screwdrivers, scissors, and saws to explore the inner circuitry and mechanisms. Take apart more than one toy to hack them together to make something new!
+
+
+### Moulding and casting
+
+Mould tool doesn't have to be made on the milling machine, and there are plenty of moulding materials other than silicon. e.g. soap:
+
+<https://www.instructables.com/id/5-Minute-Homemade-Soap/>
+
 
 ### Cardboard prototyping
 You should be doing this anyway! Before making a 3D printed enclosure for your project, make a prototype out of carboard. Some fine techniques here: <http://www.judepullen.com/designmodelling/>
