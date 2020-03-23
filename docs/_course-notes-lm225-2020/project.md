@@ -21,6 +21,11 @@ Develop, plan and execute a final project that integrates skills, tools and proc
 
 Document all your work on your student blog, showing your progress each week (1 week per page for 4 weeks minumum).
 
+## Coronavirus update: 2020-03-23
+
+I've started to collect some project ideas and approaches better suited to a lockdown situation here:
+
+[Lockdown Projects](lockdown-projects)
 
 ### What do I need to do to pass? (40%) :construction:
 
