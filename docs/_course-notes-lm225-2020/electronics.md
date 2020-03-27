@@ -57,7 +57,7 @@ Essentially some short wires pre-set in a convenient configuration
 
 ![]({{ site.baseurl }}/assets/breadboards_side_by_side.jpg)  
 
-* Also, headers (mechanical convenience)
+<!-- * Also, headers (mechanical convenience) -->
 
 ### Buttons and Switches
 
@@ -253,29 +253,28 @@ Control 3 LED trafic lights with pot
 Code: https://makecode.microbit.org/_4LUCadhhsc79
 Circuit: https://www.tinkercad.com/things/j3oedMc3CuT-microbit-io-pot-and-3-x-led
 
+## Other more advanced Microbit ideas
+
+Once you can read an input and control and output you've got the basics of an interactive device. Most other projects are a variation of this.
+
 ### Flex sensor
 
 Only has 2 pins so you need to make a voltage divider.
 
-Basic serial reading:
-https://makecode.microbit.org/_6KY8EF7CvV1D
+Basic serial reading: <https://makecode.microbit.org/_6KY8EF7CvV1D>
 
-Shows how to clean up data into useful range.
+Shows how to clean up data into useful range. But boring!
 
-But boring!
+Neopixels and Flex sensor: <https://makecode.microbit.org/_Kcog2V9WgEA3>
 
-Neopixels and Flex sensor:
-https://makecode.microbit.org/_Kcog2V9WgEA3
-
-
-Lessons: need to map values to a useful range 
-This is where a serial monitor is useful
+<!-- 
+Lessons: need to map values to a useful range. This is where a serial monitor is useful
 
 What do you do with the output
  - log to console...
   - send to app - get app?
    - control device - RGB LED...? 
-    - neopixels: https://makecode.microbit.org/_CAWipEfxqb5m
+    - neopixels: https://makecode.microbit.org/_CAWipEfxqb5m -->
 
 <!-- ### Motors
 
@@ -285,7 +284,7 @@ PWM is available on several pins: https://tech.microbit.org/hardware/edgeconnect
 Doesn't work withthe motors I have - but does work with LEDs!
 Could try this with an RGB LED...? -->
 
-## Other more advanced Microbit ideas
+
 
 ### Connect Microbits together
 http://www.multiwingspan.co.uk/micro.php?page=bit2bit
