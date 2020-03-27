@@ -83,8 +83,8 @@ Also check out Blender, a free high-end tool for creating rendered 3 D objects, 
 ### Biomaterials
 Lots of room for experimentatin here. Might need to buy some suppplies online. Maybe also good to collect some instuctions/guides:
 
-* https://issuu.com/nat_arc/docs/bioplastic_cook_book_3
-* https://materiom.org
+* <https://issuu.com/nat_arc/docs/bioplastic_cook_book_3>
+* <https://materiom.org>
 
 
 ### Capacitative touch sensing with pencil and paper
