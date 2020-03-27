@@ -74,7 +74,17 @@ Arduino
 
 You may not be able to print your model, but you can model it in 3D, and create toolpaths or beautiful renders in Fusion 360.
 
+Also check out Blender, a free high-end tool for creating rendered 3 D objects, scenes with lighting and materials, and animations. <https://www.blender.org>
+
+
 ## Project examples
+
+
+### Biomaterials
+Lots of room for experimentatin here. Might need to buy some suppplies online. Maybe also good to collect some instuctions/guides:
+
+* https://issuu.com/nat_arc/docs/bioplastic_cook_book_3
+* https://materiom.org
 
 
 ### Capacitative touch sensing with pencil and paper
@@ -109,6 +119,8 @@ You should be doing this anyway! Before making a 3D printed enclosure for your p
 Huge collection of great electronics + textiles projects here, including many inspiring technique explorations. 100% recommended! 
 
 <https://www.kobakant.at/DIY/>
+
+Also https://www.instructables.com/class/Wearable-Electronics-Class/?utm_source=newsletter&utm_medium=email
 
 
 ### Hi-lo tech
