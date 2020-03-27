@@ -33,7 +33,7 @@ Who has:
 
 ## Electronics basics
 
-![Daniele Ingrassia presentation]({{ site.baseurl }}/assets/file/Electronics-Design.pdf)
+[Daniele Ingrassia presentation]({{ site.baseurl }}/assets/file/Electronics-Design.pdf)
 
 ## Components
 <!-- ### Wire
