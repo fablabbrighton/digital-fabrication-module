@@ -23,6 +23,12 @@ Who has:
 * Used an Arduino, Microbit or other microcontroller?
 * Written any code? -->
 
+## Formative assessment and project ideas
+
+* Present your work so far and offer help to others. [More info](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment)
+
+* Suggest some project ideas, to inform content after Easter. Final 4 weeks will be self-directed. [Lockdown ideas](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/lockdown-projects)
+
 ## This week:
 
 * Tour of some basic components
@@ -158,20 +164,19 @@ Most work by dividing a voltage by a variable amount (e.g. potentiometer). In so
 
 ## Using External Inputs and Outputs ("IO") with Microbit
 
-
+:thought_balloon: May need to split the class here. Some exercises could be done with onboard sensors in the simulator (focus on the coding).
 
 ### :wrench: Exercise: Light an LED with just 3V and GND pins
 
 No coding required.
 
-Consult the pinout to see which pins are  
+Consult the pinout to see which pins are 3V and GND.
 
 ### :wrench: Exercise: Light an LED with signal and GND pins
 
 Write some code to send a digital high signal to one of the pins, and connect the LED between this pin and GND.
 
 Digital value 1 = "high" = 3V
-
 
 ![]({{ "/assets/microbit-pins.png" | relative_url }})
 
@@ -184,7 +189,33 @@ https://microbit.org/guide/hardware/pins/
 > pin 3 is shared with some of the LEDs on the screen of the BBC micro:bit, so if you are using the screen to scroll messages, you can’t use this pin as well.
 
 
+
+
+
+### :wrench: Exercise: Make your LED flash
+
+Can you change your code to switch the LED on and off?
+
+Think of it as an animation that loops forever. You just need to control the timing.
+
+
+
+### :wrench: Exercise: Read an external input
+
+:thought_balloon: Possible in simulator by dragging over pins with your cursor.
+
+Connect an external sensor (or potentiometer) and read the value as it changes. Try:
+
+* Displaying the value as a number on the LED matrix
+* Printing it to the serial monitor
+* Displaying a bar chart on the LED matrix
+* Mapping the values to a 1-10 scale. What numbers can you get out of the sensor?
+* Creating a threshold. Make the Microbit do something when the sensor goes beyond a set value.
+
+
 ### :wrench: Exercise: Connect a sensor or control and control an output
+
+Combine inputs and outputs! e.g. change the speed your LED flashes by turning a knob
 
 ### What you'll need
 
@@ -194,16 +225,16 @@ https://microbit.org/guide/hardware/pins/
 * Breadboard adapter
 
 * External input: sensor, potentiometer, button
-* External output: LED, OLED screen, LCD Screen, motor, buzzer, relay, servo
+* External output: e.g. LED, OLED screen, LCD Screen, motor, buzzer, relay, servo
 
-
+Only if you get stuck: [my circuit diagram](https://www.tinkercad.com/things/j8ElfG8xuLP-microbit-io-pot-and-led)
 
 ### :wrench: Exercise: Go further
 
 Try other sensors, e.g. environmental sensor, flex sensor
 
 
-### Potentiometer
+### Some Potentiometer ideas and sketches
 
 http://www.multiwingspan.co.uk/micro.php?page=pot
 
@@ -214,19 +245,17 @@ A potentiometer and buzzer can be used. Convert the potentiometer reading into a
 
 Write pot reading to console and to screen
 https://makecode.microbit.org/_7Ar65X3woDih
-Should change brightness instead!
 
 Switch LED on or off at threshold
 https://makecode.microbit.org/_dHrJxy14mYLy
 
 Control 3 LED trafic lights with pot
-https://makecode.microbit.org/_4LUCadhhsc79
-
+Code: https://makecode.microbit.org/_4LUCadhhsc79
+Circuit: https://www.tinkercad.com/things/j3oedMc3CuT-microbit-io-pot-and-3-x-led
 
 ### Flex sensor
 
-Only has 2 pins!
-Need to make a voltage divider.
+Only has 2 pins so you need to make a voltage divider.
 
 Basic serial reading:
 https://makecode.microbit.org/_6KY8EF7CvV1D
@@ -256,10 +285,12 @@ PWM is available on several pins: https://tech.microbit.org/hardware/edgeconnect
 Doesn't work withthe motors I have - but does work with LEDs!
 Could try this with an RGB LED...? -->
 
-### Connecting Microbits together
+## Other more advanced Microbit ideas
+
+### Connect Microbits together
 http://www.multiwingspan.co.uk/micro.php?page=bit2bit
 
-## Get input and send it to a phone
+### Get input and send it to a phone
 
 Bitty Datalogger app: <https://www.bittysoftware.com/apps/bitty_data_logger.html>
 
@@ -277,11 +308,17 @@ Good hobbyist starting point: [Charles Platt’s Electronics Pages: Books Availa
 
 ## Assignment
 
-Use a breadboard, jumper wires and input and output devices to build an interactive device based around a Microbit.
-Program your Microbit to respond to input and produce an off-device output.
+Use a breadboard, jumper wires and input and output devices to build an interactive device based around a Microbit. Program your Microbit to respond to input and produce an off-device output. If you find this easy, do something more ambitious!
 
-If you find this easy, do something more ambitious!
+If you only have access to the simulator, try some more advanced interactive examples using the onboard inputs and outputs.
 
+**Stuck for ideas of what do (how how to make it work)?**
+
+There are lots of tutorials. Try:
+
+* [SparkFun for electronics](https://learn.sparkfun.com/tutorials)
+* [Adafruit for Microbit](https://learn.adafruit.com/category/micro-bit)
+* [Microbit.org projects](https://microbit.org/projects/)
 
 ### What do I need to do to pass? (40%)
 
@@ -302,3 +339,14 @@ Show your research and include reflection on the process, and other resources yo
 
 The deadline for formative assessment is: 10am, Monday 30 March
 [Formative assessment details](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/formative-assessment) -->
+
+## For next week
+
+Over Easter, research your final project:
+
+* How could you make it?
+* Sketch out ideas, look for inspiration from other projects, compile a mood board or list of references 
+* Do you need any special materials or parts that you need to source in advance?
+* Are there any skills you need to start learning now? 
+
+You should be ready to start making (or have already started) by the time you come back after Easter.
