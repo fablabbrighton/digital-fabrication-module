@@ -5,7 +5,7 @@ date:   2018-12-07
 author: Andrew Sleigh
 ---
 
-Inputs and outputs on a breadboard. Connecting IO to a Microbit.
+Inputs and outputs on a breadboard. Connecting inputs and outputs to a Microbit.
 
 <!--more-->
 
@@ -15,35 +15,43 @@ Inputs and outputs on a breadboard. Connecting IO to a Microbit.
 	* [SparkFun have great tutorials](https://learn.sparkfun.com/tutorials)
 	* Lots on YouTube, e.g. [Beginner Electronics - YouTube](https://www.youtube.com/playlist?list=PLah6faXAgguOeMUIxS22ZU4w5nDvCl5gs)
 
+<!-- 
 ## Baseline 
 
 Who has:
 * Made something with electronics?
 * Used an Arduino, Microbit or other microcontroller?
-* Written any code?
+* Written any code? -->
 
 ## This week:
 
 * Tour of some basic components
-* Breadboards and jumpers
 * Circuit basics
 * Connecting a circuit to a microcontroller
 * Programming a microontroller to respond to input and do something with it
 
 
+## Electronics basics
+
+![Daniele Ingrassia presentation]({{ site.baseurl }}/assets/file/Electronics-Design.pdf)
+
 ## Components
-### Wire
+<!-- ### Wire
 Ribbon cable used for ISP headers - and post-milling board edits – [picture]({{ site.baseurl }}/assets/ribbon-wire.jpg)  
 
-Also, headers (mechanical convenience)
 
-And breadboards:
+ -->
+
+### Breadboards
+
+Essentially some short wires pre-set in a convenient configuration
+
 * What's significant and what isn't on the breadboard
 * Internal wiring
 
 ![]({{ site.baseurl }}/assets/breadboards_side_by_side.jpg)  
 
-
+* Also, headers (mechanical convenience)
 
 ### Buttons and Switches
 
@@ -63,11 +71,11 @@ You might want to use [cool buttons](http://blog.presentandcorrect.com/27986-2) 
 Uses often include:
 * Regulate current to LEDs – [picture]({{ site.baseurl }}/assets/resistor-circuit.PNG)
 * Keep pins high or low (pull-up/pull-down) without current flowing
-
+<!-- 
 Sizes: 
 * We use 1206 (0.**12**”× 0.**06**”) 
 * Hand solderable
-* You can get a trace between the two ends
+* You can get a trace between the two ends -->
 
 More: [Resistors - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/resistors/all)
 
@@ -83,9 +91,9 @@ Uses:
 * Filtering high-frequency noise from ICs (“decoupling” or “bypass” capacitors)
 * Supplying current to IC pins very quickly (e.g. when you ask it to switch on and off in your program)
 * Create pulses at specific time intervals (with resistors)
-
+<!-- 
 Sizes:
-* 1206 SMD 
+* 1206 SMD  -->
 * Bigger capacitors often polarised
 
 More: <https://learn.sparkfun.com/tutorials/capacitors>
@@ -124,13 +132,20 @@ So use a current-limiting resistor (e.g. 100 Ohm, 1K Ohm) - very common with LED
 ### Analog sensors
 
 e.g. 
-* Tilt switches, Hall effect sensors, bend sensors, ...
+* Tilt switches 
+* [Hall effect sensors](https://www.electronics-tutorials.ws/electromagnetism/hall-effect.html)
+* Bend sensors
 * Accelerometers
 * Capacitive sensors
 * Temperature sensors
 * Potentiometers
 
-Most work by dividing a voltage by a variable amount (e.g. potentiometer). In some cases, you have to provide 0V and VCC (e.g. 3V or 5V) to build your own voltage divider (e.g. flex sensor)
+
+When you're detecting something using an analog sensor and a Microbit (or Arduino) what you're actually measuring is the voltage at the pin where you plug the sensor in. 
+
+The sensor itself usually changes resistance in response to some condition (heat, flex, humidity, magnetic force, etc.)
+
+Most work by dividing a voltage by a variable amount (e.g. potentiometer). In some cases, you have to provide 0V and VCC (e.g. 3V or 5V) across the sensor to build your own [voltage divider](https://electronics.stackexchange.com/questions/417036/why-is-a-voltage-divider-used-when-reading-analog-sensors) (e.g. for a flex sensor)
 
 * Analog vs digital iputs and outputs
 * Possible values
@@ -149,7 +164,7 @@ Most work by dividing a voltage by a variable amount (e.g. potentiometer). In so
 
 No coding required.
 
-Consult the pinout to se which ppins are 
+Consult the pinout to see which pins are  
 
 ### :wrench: Exercise: Light an LED with signal and GND pins
 
