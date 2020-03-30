@@ -76,6 +76,26 @@ You may not be able to print your model, but you can model it in 3D, and create 
 
 Also check out Blender, a free high-end tool for creating rendered 3 D objects, scenes with lighting and materials, and animations. <https://www.blender.org>
 
+I'm starting to learn Blender. I got from nothing to this delicious doughnut in one day with the help of this excellent video series: <https://www.youtube.com/playlist?list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U>
+
+
+![]({{ site.baseurl }}/assets/doughnut.png)
+
+## Creative coding
+
+Lots of tools for computer-based making, designed for non-technical users:
+
+* Processing
+* P5.js (Processing, but in a web browser)
+
+
+Watch the _amazing_ Coding Train tutorials to get started, e.g.:
+
+* [Processing intro](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZYJC7L-r6rX6utt6wwJCyi)
+* [Simulating Natural forms and processes in P5](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM)
+
+
+Intersted in visualising epidemics, infections and viral behaviour? Try D3: <https://d3js.org>
 
 ## Project examples
 
@@ -122,6 +142,14 @@ Huge collection of great electronics + textiles projects here, including many in
 
 Also https://www.instructables.com/class/Wearable-Electronics-Class/?utm_source=newsletter&utm_medium=email
 
+<!-- 
+## Machine/tool  design
+
+How far can you get designing tools for your practice. From a knitting machine to a .... -->
+
+## Embroidery, weaving and other meanings of "digital"
+
+![]({{ site.baseurl }}/assets/embroidery.jpg)
 
 ### Hi-lo tech
 > High-Low Tech was a research group at the MIT Media Lab from 2009-2014. HLT's work integrates high and low technological materials, processes, and cultures. Our primary aim is to engage diverse audiences in designing and building their own technologies by situating computation in new cultural and material contexts, and by developing tools that democratize engineering. 
