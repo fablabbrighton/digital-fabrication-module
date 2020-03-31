@@ -9,10 +9,10 @@ Bringing everything together into a final project
 
 <!--more-->
 
-## Prep for this week's class
+<!-- ## Prep for this week's class
 
 You should have attended all previous lessons and completed all assignments. 
-You can use time in these weeks to complete assignments, but you will also need this time to work on your project – you will have to find extra time to work independently.
+You can use time in these weeks to complete assignments, but you will also need this time to work on your project – you will have to find extra time to work independently. -->
 
 
 ## Assignment
@@ -27,7 +27,7 @@ I've started to collect some project ideas and approaches better suited to a loc
 
 [Lockdown Projects](lockdown-projects)
 
-### What do I need to do to pass? (40%) :construction:
+### What do I need to do to pass? (40%) 
 
 2020-03-31 Updated for Coronavirus:
 
@@ -37,7 +37,7 @@ You can also augment a non-digital project with a digital element, e.g. building
 
 As with the other assignments, the assesment is based on the quality of your documentation, so try to:
 
-* Set yourself a 'hypotheseis' to test: "Can I make this thing using this process". State this hypothesis
+* Set yourself – and state – a hypothesis to test: "Can I make this thing using this process?"
 * Document what you did to test it
 * Show your results and a plan for how to improve the next version
 * Iterate
@@ -62,9 +62,9 @@ with photos and videos to show what you did, what went wrong, and how you fixed 
 
 Cite external sources where you have used someone else's work. 
 
-### Extra credit (50-100%) :construction:
+### Extra credit (50-100%)
 
-Write up your project as a project that someone else could replicate. Publish it on Instructables, or ther appropriate platform
+Write up your project as a project that someone else could replicate. Publish it on Instructables, or other appropriate platform
 
 Integrate more technologies to a greater degree of sophistication.
 
