@@ -27,10 +27,27 @@ Book: The Art of Tinkering <https://www.amazon.co.uk/Art-Tinkering-Working-Inter
 
 ## COVID19 Projects
 
-Can we help?
+### Can we help? 
+
+Lots of co-ordinating resources online:
+
+* <https://www.helpfulengineering.org>
+* <https://makezine.com/2020/03/22/whats-plan-c-for-covid-19/?mc_cid=dca2dc5958&mc_eid=036572ef54>
+* <https://www.3dcrowd.uk>
+* <https://community.andmirrors.co.uk/t/covid-19-laser-cut-face-shield/168>
+* <https://gitlab.fabcloud.org/pub/project/coronavirus/tracking>
+* <https://covidbase.com/7d1a6f8ef0b9434b87e68cbe05d8a9d6?v=1d23e01e433147edb0ee7b49474734eb>
+
+I haven't found any organising site (like those above) for machine-sewable masks, but I have seen various individual projects, e.g. <https://www.instagram.com/p/B-ZbzykDEeY/?igshid=j5moq8alr80j>
 
 
-## Basic materials and suppliers
+### Clothing for social distancing
+
+* <https://www.dezeen.com/2014/05/31/diy-dress-expands-to-protect-womens-personal-space-kathleen-mcdermott/>
+* <https://laughingsquid.com/spike-away-a-vest-that-helps-protect-your-personal-space-in-public/>
+* <https://www.vice.com/en_uk/article/akw3wg/protect-personal-space-london-big-city-suit>
+
+## Basic electronics/Microbit materials and suppliers
 
 If you can spend a little money, it's easy to get electronics prototyping materials online:
 
@@ -135,6 +152,11 @@ Exploratorium workshop – intended for kids, but same principle work for adults
 Mould tool doesn't have to be made on the milling machine, and there are plenty of moulding materials other than silicon. e.g. soap:
 
 <https://www.instructables.com/id/5-Minute-Homemade-Soap/>
+
+ALso, for scuplting your own pattersna to make mold tools:
+
+* [Fimo](https://www.staedtler.com/uk/en/discover/what-is-fimo-actually-everything-you-need-to-know-about-the-popular-colourful-modelling-clay-from/)
+* [Sculpey](https://www.sculpey.com/super-sculpey/6-super-sculpey)
 
 
 ### Cardboard prototyping
