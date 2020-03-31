@@ -25,6 +25,11 @@ Book: The Art of Tinkering <https://www.amazon.co.uk/Art-Tinkering-Working-Inter
 > an unprecedented celebration of what it means to tinker: to take things apart, explore tools and materials, and build wondrous, wild art that's part science and part technology.
 
 
+## COVID19 Projects
+
+Can we help?
+
+
 ## Basic materials and suppliers
 
 If you can spend a little money, it's easy to get electronics prototyping materials online:
