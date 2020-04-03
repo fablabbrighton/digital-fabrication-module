@@ -74,7 +74,7 @@ Use your browser's "Print to PDF" or "Export as PDF" function to save a copy of 
 :arrow_right: Turnitin Assignments: "Reflective Statement (500 words)"
 
 
-## Submission deadline: 20 May, 4pm
+## Submission deadline: ~~20 May, 4pm~~ Update: 27 May, 4pm
 
 It is your job to ensure you are able to submit before the deadline. 
 

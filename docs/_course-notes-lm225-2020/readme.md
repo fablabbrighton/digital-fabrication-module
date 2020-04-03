@@ -117,7 +117,7 @@ Teaching in these weeks will be tailored to yur interests and projects. Subjects
 
 ### Week 14: [Summative Assessment](https://fablabbrighton.github.io/digital-fabrication-module/course-notes-lm225-2020/assessment)
 
-Submission deadline: Wednesday 20th May, 4pm.
+Submission deadline:  ~~20 May, 4pm~~ Update: 27 May, 4pm
 
 :pencil2: [`assessment.md`](https://github.com/fablabbrighton/digital-fabrication-module/tree/master/docs/_course-notes-lm225-2020/assessment.md)
 

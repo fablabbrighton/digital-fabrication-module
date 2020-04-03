@@ -138,7 +138,7 @@ We'll be reviewing your progress each week, so you should aim to keep up with th
 
 The deadline for formative assessment is: 10am, Monday 30 March.
  
-The deadline for summative assessment is: 4pm, Wednesday 20th May.
+The deadline for summative assessment is:  ~~20 May, 4pm~~ Update: 27 May, 4pm
 
  
 Late Submission: Students may submit work up to 10 days after the submission date. In such instances the assessment is capped at the pass mark of 40%.  If you think you need to submit late, please contact your tutor. 
