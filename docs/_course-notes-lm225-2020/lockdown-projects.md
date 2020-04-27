@@ -92,6 +92,18 @@ Arduino
 * <https://www.programmingelectronics.com/arduino-simulator-tinkercad/>
 
 
+## Focus on sharing and distribution
+
+Part of the ethic of a fablab is about machines and tools, but it's also about the sharing of knowledge; making something useful that can be replicated by others; building a community around a project or idea. (See the covid19 face shields above for great examples)
+
+Can you make something and share the instructions? Can you refine a design to make it easily replicable by others? Can you produce great documentation that inspires people to try it themselves? Think:
+
+* [Distributed Design](https://distributeddesign.eu)
+* [Open Source(https://opensource.com/tags/diy-and-maker-culture)]
+* <Instructables.com> 
+
+
+
 ## CAD, rendering and CAM
 
 You may not be able to print your model, but you can model it in 3D, and create toolpaths or beautiful renders in Fusion 360.
