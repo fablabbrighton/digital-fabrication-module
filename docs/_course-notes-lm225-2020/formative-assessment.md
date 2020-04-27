@@ -13,7 +13,7 @@ Reviewing progress so far.
 
 **The deadline for formative assessment is: 10am, Monday 30 March**
 
-Ensure your assigments for prior weeks are complete and published to your blog
+Ensure your assigments for prior weeks are complete and published to your blog.
 Come prepared to present your work to the class
 
 Make an initial plan for a project you'd like to work on, that you can share with the class:
